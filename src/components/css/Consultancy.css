@@ -1,0 +1,155 @@
+.img-phone{
+    display: none;
+}
+.img-dashboard{
+    width: 350px;
+}
+.personimage {
+    width: 340px;
+    margin-top: 27px;
+    float: left;
+}
+
+.flowxs
+{display: none;}
+.whitediv1 {
+    border-radius: 18px;
+    margin-top: 38px;
+    background-color: white;
+    box-shadow: 3px 3px 20px #0000001A;
+    padding: 2% 10.9% 4.55% 10.9%;
+}
+
+.getconheading {
+    font-family: 'Roboto';
+    font-weight: 900;
+    letter-spacing: -0.3px;
+    font-size:38px;
+    color: #000000;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+.getsolheading {
+    font-family: 'Roboto';
+    font-weight: 900;
+    margin-top: 5px;
+    letter-spacing: -0.3px;
+    font-size: 27px;
+    color: #01355D;
+    font-style: italic;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.consformdiv {
+    padding: 0 21%;
+}
+
+.constselect {
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 47px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: rgba(1, 53, 93, 0.4);
+    font-size: 16px;
+    padding: 0 9px;
+    margin-top: 5px;
+}
+
+.conlabel1 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-top: 5px;
+    letter-spacing: -0.3px;
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.2;
+    margin-left: 7px;
+}
+
+.conlabel2
+{
+    font-family: 'Roboto';
+font-weight: 500;margin-top:23px;
+letter-spacing: -0.3px;
+font-size:14px;color:#000000;
+line-height:1.2;margin-left: 7px;
+}
+
+.inputcon{
+    background-color:#F2F2F2;width:100%;height:47px;border-radius:5px;border: 1px solid #F2F2F2;font-family: 'Roboto';
+    font-weight: 700;color: #01355D;font-size:16px;padding:0 9px;margin-top:5px;
+    }
+
+    .congetstarted
+    {width:200px;height:47px;border: 3px solid #f8951d;border-radius:30px;margin-top: 24px;background-color: #fff;font-size:19px;color:#01355D;font-family: 'Gotham';line-height:2.2;}
+
+   .flowmd
+{width:86%;}
+
+@media(max-width:1200px) {
+    .getconheading {
+        font-size: 30px;
+    }
+
+    .getsolheading {
+        font-size: 23px;
+    }
+}
+
+@media(max-width:992px) {
+    .flowmd
+    {display: none;}
+    .flowxs
+{display: block;}
+    .getsolheading {
+        margin-top: 21px;
+    }
+
+    .personimage {
+        float: none;
+    }
+
+    .whitediv1 {
+        border-radius: 18px;
+        margin-top: 22px;
+        background-color: white;
+        box-shadow: 3px 3px 20px #0000001A;
+        padding: 20px 10.9% 20px 10.9%;
+    }
+}
+
+@media(max-width:582px) {
+    .consformdiv {
+        padding: 0 6%;
+    }
+
+    .getconheading {
+        font-size: 24px;
+    }
+
+    .getsolheading {
+        font-size: 19px;
+    }
+    .flowxs
+    {width:55%;margin-left:3%;}
+}
+
+@media(max-width:768px){
+    .hidden-xs{
+        display: none;
+    }
+    .img-laptop{
+    display: none;
+    }
+    .img-phone{
+        display: block;
+    }
+}
+
+

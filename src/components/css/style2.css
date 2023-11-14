@@ -1,0 +1,2760 @@
+.contactusinput::placeholder {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8vw;
+    color: rgba(45, 45, 45, 0.6);
+  }
+
+  .succesfullmessages {
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75vw;
+    line-height: 2;
+    margin-top: 10px;
+    color: #f8951d;
+  }
+
+  .contactusinput {
+    background-repeat: no-repeat;
+    background-position: right 0.2vw bottom 0.1vw;
+    background-size: 1vw;
+    padding-right: 1.2vw !important;
+  }
+
+  .howtogetconststep {
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5vw;
+    line-height: 1;
+    color: #01355D;
+    text-align: center;
+    letter-spacing: 0px;
+    width: 16vw;
+    margin-top: -6vh;
+    background-color: white;
+  }
+
+  .howtogetconststeptext {
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vw;
+    line-height: 1;
+    color: #01355D;
+    text-align: center;
+    letter-spacing: 0px;
+    margin-top: 0.8vw;
+  }
+
+  .hidden-md{
+    display: none;
+  }
+
+  .howtogetconstcardpointinfoimg
+  {width:0.8vw;margin-top:-0.2vw}
+
+  .howtogetconststep2heading {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vw;
+    line-height: 1;
+    color: #01355D;
+    text-align: center;
+    letter-spacing: 0px;
+    margin-top: 3vw;
+  }
+
+  .justcallonheading {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vw;
+    line-height: 1;
+    color: #01355D;
+    text-align: left;
+    letter-spacing: 0px;
+    margin-top: 3vw;
+    margin-left: 1.8vw;
+  }
+
+  .onlinespan {
+    text-decoration: underline;
+    font-weight: 800;
+  }
+
+
+
+
+  .howtogetconststep3text {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4vw;
+    line-height: 1;
+    color: #01355D;
+    text-align: center;
+    letter-spacing: 0px;
+    margin-top: 3vw;
+  }
+
+  .howtogetconststep2or {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6vw;
+    line-height: 1;
+    color: #01355D;
+    text-align: center;
+    letter-spacing: 0px;
+    margin-top: 14vw;
+  }
+
+
+  .howtogetconstcardheading {
+    font-size: 1.80vw;
+    color: #f8951d;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .howtogetconstcardrow {
+    padding: 0 16vw;
+    margin: 0px;
+    margin-top: 3vw;
+  }
+
+  .howtogetconstcardcol {
+    padding: 0 1.6vw;
+  }
+
+  .howtogetconstcard1 {
+    background-color: #ECECEC;
+    height: 27.2vw;
+    border-radius: 0.6vw;
+    margin-top: 2vw;
+    box-Shadow: 6px 6px 6px #00000010;
+    padding: 0.3vw;
+  }
+
+
+  .howtogetconstcard2 {
+    background-color: #ECECEC;
+    height: 29.2vw;
+    border-radius: 0.6vw;
+    margin-top: 1vw;
+    box-Shadow: 6px 6px 6px #00000010;
+    padding: 0.4vw;
+  }
+
+
+  .howtogetconstcard3 {
+    background-color: #ECECEC;
+    height: 31.2vw;
+    border-radius: 0.6vw;
+    box-Shadow: 6px 6px 6px #00000010;
+    padding: 0.4vw;
+  }
+
+  .howtogetconststephr {
+    border: none;
+    border-top: 0.07vw solid rgba(45, 45, 45, 0.25);
+    width: 48vw;
+    margin-top: 10vw;
+  }
+
+
+
+  .emailspan {
+    padding-left: 0.3vw
+  }
+
+  .flowcardpadding {
+    padding: 0px 0 0 2.6vw;
+  }
+
+  /* Start howwework */
+  .howweworklanding {
+    padding-left: 8vw;
+    padding-top: 3.3vw;
+  }
+
+  .howweworklandingtext {
+    margin-top: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2;
+    font-style: italic;
+    font-size: 5.3vw;
+    line-height: 1.2;
+    color: #2D2D2D;
+  }
+
+  .howweworklandingtextdetail {
+    letter-spacing: -0.5px;
+    display: block;
+    width: 113%;
+    margin-top: 1.2vw;
+    color: #01355D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.55vw;
+    line-height: 1.2;
+  }
+
+  .howweworkilustration {
+    width: 36vw;
+  }
+
+  .HowtogetConsultancyilustration {
+    width: 32vw;
+  }
+
+  .flowheading {
+    vertical-align: middle;
+    margin-top: 2.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2;
+    font-style: italic;
+    font-size: 3.7vw;
+    line-height: 1.2;
+    color: #01355D;
+  }
+
+  .flowicon {
+    width: 3.8vw;
+    margin-Top: -0.8vw;
+  }
+
+  .flowimage {
+    width: 100%;
+    margin-top: 3vw;
+  }
+
+  .flowcardmaindiv {
+    padding: 0vw 7.2vw;
+  }
+
+  .flowcardmaindivcol1 {
+    padding: 0px 2.6vw 0 0;
+  }
+
+  .flowcardmaindivcard {
+    height: 36.09vw;
+    background-color: #ECECEC;
+    border-radius: 0.58vw;
+    box-Shadow: 6px 6px 6px #00000009;
+    padding: 0vw 0.5vw 0 0.5vw;
+  }
+
+  .flowcardmaindivcardheading {
+    font-size: 1.80vw;
+    color: #f8951d;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .flowcardmaindivinsidecard {
+    height: 32.79vw;
+    background-color: white;
+    border-radius: 0.73vw;
+    margin-Top: 0.8vw;
+    padding: 1.3vw 0.8vw;
+  }
+
+  .flowinsidecardheadingicon {
+    width: 0.65vw;
+    margin-top: -0.25vw;
+  }
+
+  .flowinsidecarddivpadding {
+    padding-left: 1.3vw;
+  }
+
+  .flowinsidecardheading2 {
+    vertical-align: middle;
+    margin-top: 1.7vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.1vw;
+    line-height: 1.4;
+    color: #01355D;
+    letter-spacing: -0.8px;
+  }
+
+  .flowinsidecarddivtext {
+    vertical-align: middle;
+    margin-top: 0.14vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.75vw;
+    line-height: 1.3;
+    color: #01355D;
+    letter-spacing: -0.5px;
+  }
+
+  .flowcardmaindivcardheadingtext {
+    line-height: 1;
+    font-size: 0.87vw;
+    color: #404040;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.5px;
+  }
+
+  .flowcardmaindiv {
+    vertical-align: middle;
+    margin-top: 0vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.1vw;
+    line-height: 1.4;
+    color: #01355D;
+    letter-spacing: -0.8px;
+  }
+
+  .flowinsidecard {
+    height: 30vw;
+    background-color: white;
+    border-radius: 0.73vw;
+    margin-Top: 0.8vw;
+    padding: 1.3vw 0.8vw;
+  }
+
+  /* end howwework */
+  .labelcontainer {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    font-size: 0.75vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 4.5vw;
+    padding-left: 0.585vw;
+  }
+
+  /* Hide the browser's default radio button */
+  .labelcontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.09vw;
+    width: 1.09vw;
+    background-color: white;
+    border: 0.073vw solid #f8951d;
+    border-radius: 50%;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .labelcontainer:hover input~.checkmark {
+    background-color: white;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  .labelcontainer input:checked~.checkmark {
+    background-color: white;
+    border: 0.073vw solid #f8951d;
+  }
+
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the indicator (dot/circle) when checked */
+  .labelcontainer input:checked~.checkmark:after {
+    display: block;
+  }
+
+  /* Style the indicator (dot/circle) */
+  .labelcontainer .checkmark:after {
+    top: 0.14vw;
+    left: 0.14vw;
+    width: 0.658vw;
+    height: 0.658vw;
+    border-radius: 50%;
+    background: #f8951d;
+  }
+
+  /* contactus Start */
+  .landingcontactcol2 {
+    width: 43%;
+    padding: 0px;
+  }
+
+  .landingcontactcolinside1 {
+    width: 8%;
+    padding: 0px;
+  }
+
+  .landingcontactcolinside2 {
+    width: 51%;
+    padding: 0px;
+  }
+
+  .landingcontactcolinside3 {
+    width: 41%;
+    padding: 0px;
+  }
+
+  .contactusilustration {
+    width: 39.5vw;
+    margin-top: 6.49vw;
+  }
+
+  .contactusnameinput {
+    margin-top: 1.4vw;
+    border: none;
+    border-bottom: 0.073vw solid rgba(45, 45, 45, 0.5);
+    width: 100%;
+    height: 1.14vw;
+    padding: 0px;
+    padding-left: 0.75vw
+  }
+
+  .contactusemailinput {
+    margin-top: 1.4vw;
+    border: none;
+    border-bottom: 0.073vw solid rgba(45, 45, 45, 0.5);
+    width: 100%;
+    height: 1.14vw;
+    padding: 0px;
+    padding-left: 0.75vw;
+  }
+
+  .checkboxdiv {
+    margin-top: 0.5vw;
+    display: block;
+  }
+
+  .contactusmessageinput {
+    margin-top: 2.4vw;
+    border: none;
+    border-bottom: 0.073vw solid rgba(45, 45, 45, 0.5);
+    width: 100%;
+    height: 1.14vw;
+    padding: 0px;
+    padding-left: 0.75vw;
+  }
+
+  .sendmessagebutton {
+    margin-top: 2vw;
+    box-shadow: 4px 9px 24px #00000016;
+    border-radius: 0.4vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.8vw;
+    line-height: 1.2;
+    color: white;
+    padding: 0px;
+    background-color: #f8951d;
+    border: none;
+    width: 10.5vw;
+    height: 2.2vw;
+  }
+
+  .sendmessagebuttonicon {
+    width: 1.3vw;
+  }
+
+  .contactaddress {
+    text-align: left;
+    margin-top: 14.4vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -2;
+    font-size: 0.9vw;
+    line-height: 1.2;
+    color: #2d2d2d;
+  }
+
+  .contactusmemail {
+    text-decoration: underline;
+    text-align: left;
+    margin-top: 1.2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -2;
+    font-size: 0.9vw;
+    line-height: 1.2;
+    color: #2d2d2d;
+  }
+
+.contactdivflex
+{
+  display: flex;
+}
+  
+  .contactusaddressicon {
+    margin-top: 14.4vw;
+    width: 3.18vw;
+    margin-right: 10px;
+  }
+
+  .contactusmemailicon {
+    width: 3.18vw;
+    margin-right: 10px;
+    margin-top: 0.9vw;
+  }
+
+  .contactusphonenoicon {
+    width: 3.18vw;
+    margin-right: 10px;
+    margin-top: 1.4vw;
+  }
+
+  .contactFollowushr {
+    color: #2d2d2d;
+    border: none;
+    border-bottom: 0.14vw solid #2d2d2d;
+    width: 65vw;
+    z-index: 1;
+    height: 0.14vw;
+    margin: 0px;
+    margin-top: 8vw;
+  }
+
+  .contactFollowusheading {
+    margin-top: -1.9vw;
+    width: 42vw;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: -2;
+    font-size: 2.8vw;
+    line-height: 1.2;
+    color: #2D2D2D;
+  }
+
+  .contactFollowusicondiv {
+    margin-top: 3.5vw;
+  }
+
+  .contactustwitter {
+    width: 3.7vw;
+    margin-left: 1.9vw;
+  }
+
+  .contactuslink {
+    width: 3.7vw;
+    margin-right: 1.9vw;
+  }
+
+  .contactusfb {
+    width: 3.7vw;
+    margin-left: 1.9vw;
+    margin-right: 1.9vw;
+  }
+
+  .contactusinsta {
+    width: 3.7vw;
+    margin-right: 1.9vw;
+    margin-left: 1.9vw;
+  }
+
+  .Followusshapeicon {
+    width: 28vw;
+    margin-top: 0.5vw;
+  }
+
+  .Followuslegal251 {
+    margin-top: 0.8vw;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: -2;
+    font-size: 2.8vw;
+    line-height: 1.2;
+    color: #2D2D2D;
+  }
+
+  .contactusphoneno {
+    text-align: left;
+    margin-top: 1.2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -2;
+    font-size: 0.9vw;
+    line-height: 1.5;
+    color: #2d2d2d;
+  }
+
+  .Prefferedmethodtext {
+    margin-top: 2vw;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -2;
+    font-size: 0.7vw;
+    line-height: 1.2;
+    color: #2d2d2d;
+    padding-left: 0.95vw;
+  }
+
+  .sendmessageheading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: -2;
+    font-size: 1.12vw;
+    line-height: 1.2;
+    color: #f8951d;
+  }
+
+  .contactusform {
+    margin-top: 2.9vw;
+    background-color: white;
+    width: 23.865vw;
+    height: 100%;
+    box-shadow: 4px 9px 24px #00000016;
+    border-radius: 0.5856vw;
+    padding: 2vw 2.8vw 1.2vw 2.8vw;
+  }
+
+.contactcontinuetext
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.8vw;
+  margin-top: 0.5vw;
+}
+
+
+
+  .contactusbackground {
+    width: 100%;
+    position: absolute;
+    margin-Top: 91.522px;
+  }
+
+  .contactlanding {
+    padding-left: 8vw;
+    padding-top: 3.3vw;
+  }
+
+  .landingcontactcol1 {
+    width: 57% !important;
+  }
+
+  .contactusheading {
+    margin-top: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2;
+    font-style: italic;
+    font-size: 5.3vw;
+    line-height: 1.2;
+    color: #2D2D2D;
+  }
+
+  /* aboutus Start */
+  .hexagon {
+    position: relative;
+    width: 7.90vw;
+    height: 4.56vw;
+    margin: 2.28vw 0;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 64%, #DEDEDE 100%) 0% 0% no-repeat padding-box;
+    background-size: auto 9.12vw;
+    background-position: center;
+    -webkit-box-shadow: 5px 6px 10px #00000016;
+    -moz-box-shadow: 5px 6px 10px #00000016;
+    box-shadow: 5px 6px 10px #00000016;
+  }
+
+  .hexTop,
+  .hexBottom {
+    position: absolute;
+    z-index: 1;
+    width: 5.590vw;
+    height: 5.590vw;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 1.158vw;
+    -webkit-box-shadow: 5px 6px 10px #00000016;
+    -moz-box-shadow: 5px 6px 10px #00000016;
+    box-shadow: 5px 6px 10px #00000016;
+  }
+
+  /*counter transform the bg image on the caps*/
+  .hexTop:after,
+  .hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 7.90vw;
+    height: 4.56vw;
+    -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-2.28vw);
+    -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-2.28vw);
+    transform: rotate(45deg) scaleY(1.7321) translateY(-2.28vw);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+  }
+
+  .hexTop {
+    top: -2.795vw;
+  }
+
+  .hexTop:after {
+    background-position: center top;
+  }
+
+  .hexBottom {
+    bottom: -2.795vw;
+  }
+
+  .hexBottom:after {
+    background-position: center bottom;
+  }
+
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    top: 0.0000px;
+    left: 0;
+    width: 7.90vw;
+    height: 4.564vw;
+    z-index: 2;
+    background: inherit;
+  }
+
+  .hexagonrow1 {
+    left: 50%;
+    margin-left: -17.5vw;
+    position: relative;
+    width: 35vw;
+  }
+
+  .hexagonrow2 {
+    margin-top: -1.55vw;
+    position: relative;
+    left: 50%;
+    margin-left: -21.75vw;
+    width: 43.5vw;
+  }
+
+  .hexagonrow3 {
+    margin-top: -1.65vw;
+    left: 50%;
+    margin-left: -17.5vw;
+    position: relative;
+    width: 35vw;
+  }
+
+  .clientslogo {
+    margin-top: 1.4vw;
+    width: 5vw;
+    height: 2.19vw;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    margin-left: -2.5vw;
+  }
+
+  .aboutuslandingheading {
+    margin-top: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2;
+    font-style: italic;
+    font-size: 5.3vw;
+    line-height: 1.2;
+    color: #2D2D2D;
+  }
+
+  .aboutuslandingrow {
+    padding-left: 8vw;
+    padding-top: 3.3vw;
+  }
+
+  .aboutuslandingtext {
+    letter-spacing: -0.5px;
+    display: block;
+    width: 113%;
+    margin-top: 1.2vw;
+    color: #01355D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.55vw;
+    line-height: 1.2;
+  }
+
+  .aboutuslandingheadingquestion {
+    font-size: 15vw;
+    position: absolute;
+    margin-top: -9.7vw;
+  }
+
+  .aboutuslandingilustration {
+    width: 35vw;
+  }
+
+  .aboutusHighlights {
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2;
+    font-style: italic;
+    font-size: 3.7vw;
+    line-height: 1.2;
+    color: #01355D;
+  }
+
+  .aboutusHighlightsicon {
+    width: 3.8vw;
+    margin-Top: -0.8vw;
+  }
+
+  .Highlightsdiv {
+    padding-left: 4vw;
+  }
+
+  .HighlightsExperience {
+    margin-top: 1vw;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2;
+    font-style: italic;
+    font-size: 2.5vw;
+    line-height: 3;
+    color: #01355D;
+  }
+
+  .HighlightsClients {
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2;
+    font-style: italic;
+    font-size: 2.5vw;
+    line-height: 3;
+    color: #01355D;
+  }
+
+  .HighlightsClientsicon {
+    width: 4.8vw;
+    margin-Top: -0.8vw;
+  }
+
+  .Highlightscities {
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2;
+    font-style: italic;
+    font-size: 2.5vw;
+    line-height: 3;
+    color: #01355D;
+  }
+
+  .Highlightscitiesicon {
+    width: 4.8vw;
+    margin-Top: -0.8vw;
+  }
+
+  .aboutusDetailrow {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5vw;
+  }
+
+  .aboutusDetailcol1 {
+    width: 47.5%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .aboutusDetailcol2 {
+    width: 52.5%;
+    padding: 0px;
+    margin: 0px;
+    padding-right: 4.8vw;
+  }
+
+  .aboutusDetailimage {
+    width: 38.8vw;
+  }
+
+  .theytrustusheading {
+    padding-left: 5.6vw;
+    vertical-align: middle;
+    margin-top: 7vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2;
+    font-style: italic;
+    font-size: 3.7vw;
+    line-height: 1.2;
+    color: #01355D
+  }
+
+  .theytrustusheadingicon {
+    width: 3.8vw;
+    margin-Top: -0.8vw;
+  }
+
+  .aboutusDetailtext {
+    letter-spacing: -0.5px;
+    display: block;
+    margin-top: 1.2vw;
+    color: #01355D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.55vw;
+    line-height: 1.2;
+    text-indent: 3vw
+  }
+
+  .clientscardrow {
+    padding: 0px 10vw;
+    margin-top: 7vw;
+  }
+
+  .clientscardcol {
+    padding: 0px 2vw 0 3vw;
+    margin: 0px;
+  }
+
+  .clientscard {
+    height: 27.23vw;
+    background-image: url('../images/about/Intersection%202.svg');
+    background-size: cover;
+    border: 0.14vw solid #f8951d;
+    border-radius: 7px;
+    box-shadow: 9px 9px 21px #00000010
+
+  }
+
+  .clientscardimage {
+    margin-top: -4.3vw;
+    width: 8.5vw !important;
+    height:  8.5vw !important;
+    /* box-shadow: 7px 7px 15px #00000010; */
+    border-radius: 100%;
+    padding: 0px;
+    vertical-align:auto;
+    outline: none;
+    position: relative;
+    border: 2px solid #f8951d;
+  }
+
+  .clientscardname {
+    margin-top: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    color: #01355D;
+    font-weight: 800;
+  }
+
+  .clientscardDesignation {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7vw;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    color: #01355D;
+    font-weight: 800;
+  }
+
+  .clientscardstardiv {
+    margin-Top: 0vw;
+    display: block;
+  }
+
+  .staricon {
+    width: 0.65vw !important;
+    display: inline-block !important;
+  }
+
+  /* .clientscardtextdiv {
+    padding: 0 3.4vw;
+    margin-top: 1.5vw;
+  } */
+  .clientscardtextdiv {
+    padding: 0 2.6vw;
+    margin-top: 1.5vw;
+  }
+
+  .clientscardtext {
+    margin-top: 0.8vw;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.82vw;
+    letter-spacing: -0.5px;
+    line-height: 1.25;
+    color: #01355D;
+    font-weight: 700;
+  }
+
+  .quoteimage1 {
+    width: 3vw !important;
+    margin-top: -1.4vw;
+    margin-left: -0.4vw;
+    position: absolute;
+    display: inline-block !important;
+  }
+
+  .quoteimage2 {
+    position: absolute;
+    width: 2.5vw !important;
+    margin-left: 0.4vw;
+    margin-top: 0.5vw;
+    display: inline-block !important;
+  }
+
+  .imageflowrow {
+    display: none;
+  }
+
+  .Journeyheading {
+    padding-left: 8vw;
+    vertical-align: middle;
+    margin-top: 9vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2;
+    font-style: italic;
+    font-size: 3.7vw;
+    line-height: 1.2;
+    color: #01355D;
+  }
+
+  .Journeyicon {
+    width: 3.8vw;
+    margin-Top: -0.8vw;
+  }
+
+  .Journeyimagedes {
+    width: 100%;
+    margin-top: 3vw;
+  }
+
+  .Journeyimagemob {
+    display: none;
+  }
+
+  .HighlightsExperienceicon {
+    width: 4.8vw;
+    margin-Top: -0.8vw;
+  }
+
+  .Consultancymobileimage {
+    height: 440px;
+    float: left;
+    position: relative
+  }
+
+  .Consultancymobileimagediv {
+    padding-left: 45px;
+  }
+
+  .Mainstreamobileimagediv {
+    padding-right: 45px;
+  }
+
+  .flowmobileheading1 {
+    position: relative;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 6.9;
+    color: #01355D;
+    letter-spacing: -0.5px;
+  }
+
+  .flowmobileheading2 {
+    vertical-align: middle;
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    color: #01355D;
+    letter-spacing: -0.5px;
+  }
+
+  .flowmobileheading3 {
+    vertical-align: middle;
+    margin-top: 47px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #01355D;
+    letter-spacing: -0.5px;
+  }
+
+  .flowmobileheading4 {
+    margin-top: 45px;
+    vertical-align: middle;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #01355D;
+    letter-spacing: -0.5px;
+  }
+
+  .flowmobileheading5 {
+    vertical-align: middle;
+    margin-top: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #01355D;
+    letter-spacing: -0.5px;
+  }
+
+  .flowmobileheading6 {
+    vertical-align: middle;
+    margin-top: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #01355D;
+    letter-spacing: -0.5px;
+  }
+
+  .flowmobileheading8 {
+    position: relative;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 8;
+    color: #01355D;
+    letter-spacing: -0.5px;
+  }
+
+  .flowmobileheading9 {
+    vertical-align: middle;
+    margin-top: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    color: #01355D;
+    letter-spacing: -0.5px;
+  }
+
+  .flowmobileheading10 {
+    vertical-align: middle;
+    margin-top: 57px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #01355D;
+    letter-spacing: -0.5px;
+  }
+
+  .flowmobileheading11 {
+    margin-top: 55px;
+    vertical-align: middle;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #01355D;
+    letter-spacing: -0.5px;
+  }
+
+  .flowmobileheading12 {
+    vertical-align: middle;
+    margin-top: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #01355D;
+    letter-spacing: -0.5px;
+  }
+
+  .Mainstreamobileimage {
+    height: 440px;
+    float: right;
+    position: relative;
+  }
+
+  .bestoptionheading {
+    text-align: left;
+    margin-top: 0.6vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.78vw;
+    line-height: 1.3;
+    color: #404040;
+    letter-spacing: -0.5px;
+  }
+
+  .howtogetconstcardpoint1 {
+    text-align: left;
+    margin-top: 0.3vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.93vw;
+    line-height: 1.3;
+    color: #404040;
+    letter-spacing: -0.5px;
+    padding-left: 0.8vw;
+  }
+
+  .howtogetconstcardpoint2 {
+    text-align: left;
+    margin-top: 1.1vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.93vw;
+    line-height: 1.3;
+    color: #404040;
+    letter-spacing: -0.5px;
+    padding-left: 0.8vw;
+  }
+
+  .howtogetconststepformimage {
+    width: 27vw;
+    float: right;
+    margin-top: 1vw;
+  }
+
+  .howtogetconststepformimage2 {
+    width: 22vw;
+    float: left;
+    margin-top: 1vw;
+  }
+
+  .step4image {
+    width: 28vw;
+    margin-top: 2.5vw
+  }
+
+  .step3image {
+    width: 34vw;
+    margin-top: 2.5vw
+  }
+
+  .howtogetconstcardpointarrowimg {
+    width: 0.6vw;
+    margin-top: 0.32vw;
+    position: absolute;
+    margin-left: -0.9vw
+  }
+
+  .cardprice {
+    text-align: center;
+    margin-top: 0.3vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.9vw;
+    color: #F8951D;
+    line-height: 1.2;
+  }
+
+
+  .rupeesign {
+    font-size: 1.6vw;
+    top: -1vw
+  }
+
+  .insidecardinside1 {
+    background-color: #fff;
+    border-radius: 0.7vw;
+    height: 18.6vw;
+    margin-top: 0.8vw;
+    padding: 1vw 0.8vw;
+  }
+
+  .insidecardinside2 {
+    background-color: #fff;
+    border-radius: 0.7vw;
+    height: 20.6vw;
+    margin-top: 0.8vw;
+    padding: 1vw 0.8vw;
+  }
+
+  .insidecardinside3 {
+    background-color: #fff;
+    border-radius: 0.7vw;
+    height: 22.7vw;
+    margin-top: 0.8vw;
+    padding: 1vw 0.8vw;
+  }
+
+  /* aboutus end */
+  @media (max-width:1200px) {
+    .contactusbackground {
+      width: 100%;
+      position: absolute;
+      margin-Top: 89px;
+    }
+
+    .flowinsidecard {
+      height: 29vw;
+    }
+  }
+
+  @media(max-width:992px) {
+    .howtogetconstcardpointinfoimg
+  {width:11px;margin-top:-2px}
+    .insidecardinside1 {
+      background-color: #fff;
+      border-radius: 8px;
+      height: 293px;
+      margin-top: 0.8vw;
+      padding:10px 8px;
+    }
+
+    .insidecardinside2 {
+      background-color: #fff;
+      border-radius: 8px;
+      height:354px;
+      margin-top: 20px;
+      padding:10px 8px;
+    }
+
+    .insidecardinside3 {
+      background-color: #fff;
+      border-radius: 8px;
+      height:394px;
+      margin-top: 20px;
+      padding:10px 8px;
+    }
+    .howtogetconstcard1 {
+      background-color: #ECECEC;
+      height: 411px;
+      border-radius: 8px;
+      margin-top: 49px;
+      box-Shadow: 6px 6px 6px #00000010;
+      padding: 3px;
+    }
+
+
+    .howtogetconstcard2 {
+      background-color: #ECECEC;
+      height: 489px;
+      border-radius: 8px;
+      margin-top: 25px;
+      box-Shadow: 6px 6px 6px #00000010;
+      padding: 3px;
+    }
+
+
+    .howtogetconstcard3 {
+      background-color: #ECECEC;
+      height: 538px;
+      border-radius: 8px;
+      box-Shadow: 6px 6px 6px #00000010;
+      padding: 3px;
+      margin-top: 25px;
+    }
+
+
+
+
+
+
+
+
+
+    .rupeesign {
+      font-size: 20px;
+      top: -1vw
+    }
+
+    .cardprice {
+      text-align: center;
+      margin-top: 0.3vw;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      color: #F8951D;
+      line-height: 1.2;
+    }
+
+    .howtogetconstcardpoint1 {
+      text-align: left;
+      margin-top: 5px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.3;
+      color: #404040;
+      letter-spacing: -0.5px;
+      padding-left: 13px;
+    }
+
+    .howtogetconstcardpoint2 {
+      text-align: left;
+      margin-top: 10px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.3;
+      color: #404040;
+      letter-spacing: -0.5px;
+      padding-left:13px;
+    }
+
+    .howtogetconstcardrow {
+      padding: 0 10vw;
+      margin: 0px;
+      margin-top: 30px;
+    }
+
+    .howtogetconstcardpointarrowimg {
+      width: 10px;
+      margin-top: 4.5px;
+      position: absolute;
+      margin-left: -13px;
+    }
+
+    .bestoptionheading {
+      text-align: left;
+      margin-top: 0.6vw;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 1.3;
+      color: #404040;
+      letter-spacing: -0.5px;
+    }
+
+    .howtogetconstcardheading {
+      font-size: 20px;
+      color: #f8951d;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.8;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .step4image {
+      width: 65%;
+      margin-top: 30px
+    }
+
+    .step3image {
+      width: 65%;
+      margin-top: 30px
+    }
+
+    .howtogetconststep3text {
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      line-height: 1;
+      color: #01355D;
+      text-align: center;
+      letter-spacing: 0px;
+      margin-top: 30px;
+      padding:0 15px;
+    }
+
+    .justcallonheading {
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      line-height: 1;
+      color: #01355D;
+      text-align: center;
+      letter-spacing: 0px;
+      margin-top: 30px;
+      margin-left: 0px;
+    }
+
+    .howtogetconststep2heading {
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      line-height: 1;
+      color: #01355D;
+      text-align: center;
+      letter-spacing: 0px;
+      margin-top: 30px
+    }
+
+    .howtogetconststep2or {
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      line-height: 1;
+      color: #01355D;
+      text-align: center;
+      letter-spacing: 0px;
+      margin-top: 15vw;
+    }
+
+
+    .howtogetconststepformimage {
+      width: 100%;
+      float: left;
+      margin-top: 20px;
+    }
+
+    .howtogetconststepformimage2 {
+      width: 100%;
+      float: left;
+      margin-top: 20px;
+    }
+
+    .howtogetconststeptext {
+      font-weight: 800;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      line-height: 1;
+      color: #01355D;
+      text-align: center;
+      letter-spacing: 0px;
+      margin-top: 10px;
+      padding:0 15px;
+    }
+
+    .howtogetconststep {
+      font-weight: 800;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+      line-height: 1;
+      color: #01355D;
+      text-align: center;
+      letter-spacing: 0px;
+      width: 200px;
+      margin-top: -45px;
+      background-color: white;
+    }
+
+    .howtogetconststephr {
+      border: none;
+      border-top: 0.07vw solid rgba(45, 45, 45, 0.25);
+      width: 80%;
+      margin-top: 80px;
+    }
+
+    .flowcardmaindivcardheadingtext {
+      line-height: 1;
+      font-size: 12px;
+      color: #404040;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: -0.5px;
+    }
+
+    .aboutusDetailrow {
+      padding: 0px;
+      margin: 0px;
+      margin-top: 60px;
+    }
+
+    .imageflowrow {
+      display: block;
+    }
+
+    .flowimage {
+      display: none;
+    }
+
+    .flowicon {
+      width: 30px;
+      margin-Top: -7px;
+    }
+
+    .flowheading {
+      vertical-align: middle;
+      margin-top: 0vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 35px;
+      line-height: 1.2;
+      color: #01355D;
+    }
+
+    .howweworkilustration {
+      margin-top: 5vw;
+    }
+
+    .flowinsidecardheadingicon {
+      width: 15px;
+      margin-top: -4px;
+    }
+
+    .flowinsidecarddivpadding {
+      padding-left: 25px;
+    }
+
+    .flowinsidecardheading2 {
+      vertical-align: middle;
+      margin-top: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 1.4;
+      color: #01355D;
+      letter-spacing: -0.8px;
+    }
+
+    .flowinsidecarddivtext {
+      vertical-align: middle;
+      margin-top: 0.14vw;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 1.3;
+      color: #01355D;
+      letter-spacing: -0.5px;
+    }
+
+    .flowcardmaindiv {
+      vertical-align: middle;
+      margin-top: 0vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 1.4;
+      color: #01355D;
+      letter-spacing: -0.8px;
+    }
+
+    .flowinsidecard {
+      height: 100%;
+      background-color: white;
+      border-radius: 16px;
+      margin-Top: 14px;
+      padding: 10px 10px;
+    }
+
+    .flowcardmaindivcard {
+      height: 100%;
+      background-color: #ECECEC;
+      border-radius: 12px;
+      box-Shadow: 6px 6px 6px #00000009;
+      padding: 0vw 10px 10px 10px;
+    }
+
+    .flowcardmaindivcardheading {
+      font-size: 20px;
+      color: #f8951d;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 2.2;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .flowcardpadding {
+      padding: 0px 20px 0 20px;
+      margin-top: 45px
+    }
+
+    .flowcardmaindivcol1 {
+      padding: 0px 20px 0 20px;
+    }
+
+    .howweworklandingtext {
+      margin-top: 1.5vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 7vw;
+      line-height: 1.2;
+      width: 125%;
+      color: #2D2D2D;
+    }
+
+    .howweworklandingtextdetail {
+      letter-spacing: -0.5px;
+      display: block;
+      width: 113%;
+      margin-top: 1.2vw;
+      color: #01355D;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 3vw;
+      line-height: 1.2;
+    }
+
+    .howweworklanding {
+      padding-left: 4vw;
+      padding-top: 3.3vw;
+    }
+
+    /* end howwework */
+    .labelcontainer {
+      position: relative;
+      padding: 0px;
+      margin: 0px;
+      cursor: pointer;
+      font-size: 0.75vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      line-height: 1.5;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      width: 5.5vw;
+      padding-left: 0.585vw;
+    }
+
+    .Prefferedmethodtext {
+      margin-top: 2vw;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      letter-spacing: -2;
+      font-size: 0.8vw;
+      line-height: 1.2;
+      color: #2d2d2d;
+      padding-left: 0vw;
+    }
+
+    .sendmessageheading {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      letter-spacing: -2;
+      font-size: 1.4vw;
+      line-height: 1.2;
+      color: #f8951d;
+    }
+
+    .contactlanding {
+      padding-left: 5vw;
+      padding-top: 3.3vw;
+    }
+
+    .contactusform {
+      margin-top: 2.9vw;
+      background-color: white;
+      width: 25vw;
+      height: 100%;
+      box-shadow: 4px 9px 24px #00000016;
+      border-radius: 8px;
+      padding: 2vw 2.8vw;
+    }
+
+    .Journeyheading {
+      padding-left: 20px;
+      vertical-align: middle;
+      margin-top: 70px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 35px;
+      line-height: 1.2;
+      color: #01355D;
+    }
+
+    .Journeyicon {
+      margin-top: -7px;
+      width: 30px;
+    }
+
+    .quoteimage1 {
+      width: 30px !important;
+      margin-top: -10px;
+      margin-left: -0.4vw;
+      position: absolute;
+    }
+
+    .quoteimage2 {
+      position: absolute;
+      width: 24px !important;
+      margin-left: 0.4vw;
+      margin-top: 0.5vw;
+    }
+
+    .clientscardtext {
+      margin-top: 0.8vw;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11.5px;
+      letter-spacing: -0.5px;
+      line-height: 1.25;
+      color: #01355D;
+      font-weight: 700;
+    }
+
+    .staricon {
+      width: 8px !important;
+    }
+
+    .clientscardstardiv {
+      margin-Top: -4px
+    }
+
+    .clientscardname {
+      margin-top: 1vw;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      letter-spacing: -0.5px;
+      line-height: 1;
+      color: #01355D;
+      font-weight: 800;
+    }
+
+    .clientscardDesignation {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+      letter-spacing: 0px;
+      line-height: 1.2;
+      color: #01355D;
+      font-weight: 800;
+    }
+
+    .clientscard {
+      height: 300px;
+      background-image: url('../images/about/Intersection%202.svg');
+      background-size: cover;
+      border: 0.14vw solid #f8951d;
+      border-radius: 7px;
+      box-shadow: 9px 9px 21px #00000010;
+      margin-bottom: 50px
+    }
+
+    .clientscardrow {
+      padding: 0px 10vw;
+      margin-top: 91px;
+    }
+
+    .theytrustusheading {
+      padding-left: 5.6vw;
+      vertical-align: middle;
+      margin-top: 125px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 35px;
+      line-height: 1.2;
+      color: #01355D
+    }
+
+    .theytrustusheadingicon {
+      width: 30px;
+      margin-Top: -7px;
+    }
+
+    .aboutusDetailcol1 {
+      width: 50%;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .aboutusDetailcol2 {
+      width: 50%;
+      padding: 0px;
+      margin: 0px;
+      padding-right: 20px;
+    }
+
+    .aboutusDetailtext {
+      letter-spacing: -0.5px;
+      display: block;
+      margin-top: 1.2vw;
+      color: #01355D;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 1.2;
+      text-indent: 3vw
+    }
+
+    .aboutusHighlights {
+      vertical-align: middle;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 35px;
+      line-height: 1.2;
+      color: #01355D;
+      margin-top: 75px;
+      padding-left: 20px;
+    }
+
+    .aboutusHighlightsicon {
+      width: 30px;
+      margin-Top: -7px;
+    }
+
+    .Highlightsdiv {
+      padding-left: 55px;
+    }
+
+    .HighlightsExperience {
+      margin-top: 1vw;
+      vertical-align: middle;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 20px;
+      line-height: 3;
+      color: #01355D;
+    }
+
+    .HighlightsExperienceicon {
+      width: 35px;
+      margin-Top: -4px;
+    }
+
+    .HighlightsClients {
+      vertical-align: middle;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 20px;
+      line-height: 3;
+      color: #01355D;
+    }
+
+    .HighlightsClientsicon {
+      width: 35px;
+      margin-Top: -4px;
+    }
+
+    .Highlightscities {
+      vertical-align: middle;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 20px;
+      line-height: 3;
+      color: #01355D;
+    }
+
+    .Highlightscitiesicon {
+      width: 35px;
+      margin-Top: -4px;
+    }
+
+    .aboutuslandingtext {
+      letter-spacing: -0.5px;
+      display: block;
+      width: 130%;
+      margin-top: 1.2vw;
+      color: #01355D;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 3vw;
+      line-height: 1.2;
+    }
+
+    .aboutuslandingheadingquestion {
+      font-size: 23vw;
+      position: absolute;
+      margin-top: -15vw;
+    }
+
+    .aboutuslandingheading {
+      margin-top: 1.5vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 9vw;
+      line-height: 1.2;
+      color: #2D2D2D;
+    }
+
+    .aboutuslandingrow {
+      padding-left: 4vw;
+      padding-top: 3.3vw;
+    }
+
+    .Journeyimagedes {
+      display: none;
+    }
+
+    .Journeyimagemob {
+      margin-top: 41px;
+      width: 100%;
+      display: block;
+    }
+
+    .hexagonspacing {
+      margin-right: 0vw
+    }
+
+    .clientslogo {
+      margin-top: 3.60vw;
+      width: 14vw;
+      height: 4vw;
+      position: absolute;
+      z-index: 3;
+      left: 50%;
+      margin-left: -7vw;
+    }
+
+    .hexagonrow1 {
+      left: 50%;
+      margin-left: -39vw;
+      position: relative;
+      width: 78vw;
+    }
+
+    .hexagonrow2 {
+      margin-top: -3vw;
+      position: relative;
+      left: 50%;
+      margin-left: -48vw;
+      width: 96vw;
+    }
+
+    .hexagonrow3 {
+      margin-top: -3vw;
+      left: 50%;
+      margin-left: -39vw;
+      position: relative;
+      width: 78vw;
+    }
+
+    .hexagon {
+      position: relative;
+      position: relative;
+      width: 17.56vw;
+      height: 10.53vw;
+      margin: 5.07vw 0;
+      background: transparent linear-gradient(152deg, #FFFFFF 0%, #FAFAFA 64%, #DEDEDE 100%) 0% 0% no-repeat padding-box;
+      background-size: auto 20.28vw;
+      background-position: center;
+      -webkit-box-shadow: 5px 10px 16px -6px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 5px 10px 16px -6px rgba(0, 0, 0, 0.2);
+      box-shadow: 5px 10px 16px -6px rgba(0, 0, 0, 0.2);
+    }
+
+    .hexTop,
+    .hexBottom {
+      position: absolute;
+      z-index: 1;
+      width: 12.42vw;
+      height: 12.42vw;
+      overflow: hidden;
+      -webkit-transform: scaleY(0.5774) rotate(-45deg);
+      -ms-transform: scaleY(0.5774) rotate(-45deg);
+      transform: scaleY(0.5774) rotate(-45deg);
+      background: inherit;
+      left: 2.57vw;
+      -webkit-box-shadow: 5px 10px 16px -6px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 5px 10px 16px -6px rgba(0, 0, 0, 0.2);
+      box-shadow: 5px 10px 16px -6px rgba(0, 0, 0, 0.2);
+    }
+
+    .hexTop:after,
+    .hexBottom:after {
+      content: "";
+      position: absolute;
+      width: 17.56vw;
+      height: 10.53vw;
+      -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-5.07vw);
+      -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-5.07vw);
+      transform: rotate(45deg) scaleY(1.7321) translateY(-5.07vw);
+      -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+      transform-origin: 0 0;
+      background: inherit;
+    }
+
+    .hexTop {
+      top: -6.19vw;
+    }
+
+    .hexTop:after {
+      background-position: center top;
+    }
+
+    .hexBottom {
+      bottom: -6.19vw;
+    }
+
+    .hexBottom:after {
+      background-position: center bottom;
+    }
+
+    .hexagon:after {
+      content: "";
+      position: absolute;
+      top: 0.0000px;
+      left: 0;
+      width: 17.56vw;
+      height: 10.53vw;
+      z-index: 2;
+      background: inherit;
+    }
+  }
+
+  @media(max-width:766px) {
+    .hidden-md{
+        display: block;
+      }
+    .removebr
+    {display: none;}
+    .insidecardinside1 {
+      background-color: #fff;
+      border-radius: 8px;
+      height:100%;
+      margin-top: 0.8vw;
+      padding:10px 8px;
+    }
+
+    .insidecardinside2 {
+      background-color: #fff;
+      border-radius: 8px;
+      height:100%;
+      margin-top: 20px;
+      padding:10px 8px;
+    }
+
+    .insidecardinside3 {
+      background-color: #fff;
+      border-radius: 8px;
+      height:100%;
+      margin-top: 20px;
+      padding:10px 8px;
+    }
+    .howtogetconstcard1 {
+      background-color: #ECECEC;
+      height:100%;
+      border-radius: 8px;
+      margin-top: 49px;
+      box-Shadow: 6px 6px 6px #00000010;
+      padding: 4px;
+    }
+
+
+    .howtogetconstcard2 {
+      background-color: #ECECEC;
+      height:100%;
+      border-radius: 8px;
+      margin-top: 25px;
+      box-Shadow: 6px 6px 6px #00000010;
+      padding: 4px;
+    }
+
+
+    .howtogetconstcard3 {
+      background-color: #ECECEC;
+      height:100%;
+      border-radius: 8px;
+      box-Shadow: 6px 6px 6px #00000010;
+      padding: 4px;
+      margin-top: 25px;
+    }
+
+
+    .contactcontinuetext
+    {
+      font-size: 10px;
+    }
+
+
+
+
+
+
+    .rupeesign {
+      font-size: 20px;
+      top: -10px
+    }
+
+    .cardprice {
+      text-align: center;
+      margin-top: 0.3vw;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      color: #F8951D;
+      line-height: 1.2;
+    }
+
+    .howtogetconstcardpoint1 {
+      text-align: left;
+      margin-top: 5px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.3;
+      color: #404040;
+      letter-spacing: -0.5px;
+      padding-left: 13px;
+    }
+
+    .howtogetconstcardpoint2 {
+      text-align: left;
+      margin-top: 10px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.3;
+      color: #404040;
+      letter-spacing: -0.5px;
+      padding-left:13px;
+    }
+
+    .Mainstreamobileimagedivalign {
+      margin-top: 100px;
+    }
+
+    .succesfullmessages {
+      font-weight: 800;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px;
+      line-height: 4;
+      color: #f8951d;
+    }
+
+    .contactusinput {
+      background-repeat: no-repeat;
+      background-position: right 2px bottom 6px;
+      background-size: 15px;
+      padding-right: 20px !important;
+    }
+
+    .emailspan {
+      padding-left: 6px;
+    }
+
+    .contactaddress {
+      text-align: center;
+      margin-top: 35px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      letter-spacing: -2;
+      font-size: 15px;
+      line-height: 1.2;
+      color: #2d2d2d;
+      text-align: left;
+    }
+
+    .contactusmemail {
+      text-decoration: underline;
+      text-align: center;
+      margin-top: 12px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      letter-spacing: -2;
+      font-size: 18px;
+      line-height: 1.2;
+      color: #2d2d2d;
+    }
+
+    .contactusaddressicon {
+      width: 42px;
+    }
+
+    .contactusmemailicon {
+      width: 42px;
+      margin-top: 13.5px;
+    }
+
+    .contactusphonenoicon {
+      width: 42px;
+      margin-top: 19px;
+    }
+
+    .contactFollowushr {
+      color: #2d2d2d;
+      border: none;
+      border-bottom: 2px solid #2d2d2d;
+      width: 100%;
+      z-index: 1;
+      height: 2px;
+      margin-top: 50px;
+    }
+
+    .contactFollowusheading {
+      margin-top: -13.5px;
+      width: 300px;
+      background-color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      letter-spacing: -2;
+      font-size: 20px;
+      line-height: 1.2;
+      color: #2D2D2D;
+    }
+
+    .contactFollowusicondiv {
+      margin-top: 3.5vw;
+    }
+
+    .contactustwitter {
+      width: 30px;
+      margin-left: 10px;
+    }
+
+    .contactuslink {
+      width: 30px;
+      margin-right: 10px;
+    }
+
+    .contactusfb {
+      width: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .contactusinsta {
+      width: 30px;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+    .Followusshapeicon {
+      width: 200px;
+      margin-top: 0.5vw;
+    }
+
+    .Followuslegal251 {
+      margin-top: 10px;
+      background-color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      letter-spacing: -2;
+      font-size: 30px;
+      line-height: 1.2;
+      color: #2D2D2D;
+    }
+
+    .contactusphoneno {
+      text-align: left;
+      margin-top: 12px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      letter-spacing: -2;
+      font-size: 15px;
+      line-height: 1.5;
+      color: #2d2d2d;
+    }
+
+    .checkboxdiv {
+      margin-top: 10px;
+      display: block;
+    }
+
+    .contactusmessageinput {
+      margin-top: 2.4vw;
+      border: none;
+      border-bottom: 0.073vw solid rgba(45, 45, 45, 0.5);
+      width: 100%;
+      height: 30px;
+      padding: 0px;
+      padding: 0 0.75vw;
+    }
+
+    .sendmessagebutton {
+      margin-top: 16px;
+      box-shadow: 4px 9px 24px #00000016;
+      border-radius: 6px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 2.3 !important;
+      color: white;
+      padding: 0px;
+      background-color: #f8951d;
+      border: none;
+      width: 144px;
+      padding-top: 4px;
+      height: 30.05px;
+    }
+
+    .sendmessagebuttonicon {
+      width: 17.758px;
+    }
+
+    .contactusinput::placeholder {
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      color: rgba(45, 45, 45, 0.6);
+    }
+
+    .Prefferedmethodtext {
+      margin-top: 20px;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      letter-spacing: -2;
+      font-size: 12px;
+      line-height: 1.2;
+      color: #2d2d2d;
+      padding-left: 0vw;
+    }
+
+    .contactusnameinput {
+      margin-top: 1.4vw;
+      border: none;
+      border-bottom: 0.073vw solid rgba(45, 45, 45, 0.5);
+      width: 100%;
+      height: 30px;
+      padding: 0px;
+      padding: 0 0.75vw;
+    }
+
+    .contactusemailinput {
+      margin-top: 2.4vw;
+      border: none;
+      border-bottom: 0.073vw solid rgba(45, 45, 45, 0.5);
+      width: 100%;
+      height: 30px;
+      padding: 0px;
+      padding: 0 0.75vw;
+    }
+
+    .sendmessageheading {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      letter-spacing: -2;
+      font-size: 18px;
+      line-height: 1.2;
+      color: #f8951d;
+    }
+
+    .contactusheading {
+      margin-top: 1.5vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 35px;
+      line-height: 1.2;
+      color: #2D2D2D;
+    }
+
+    .contactlanding {
+      padding-left: 12vw;
+      padding-right: 12vw;
+      padding-top: 3.3vw;
+    }
+
+    .contactusform {
+      margin-top: 2.9vw;
+      background-color: white;
+      width: 100%;
+      height: 100%;
+      box-shadow: 4px 9px 24px #00000016;
+      border-radius: 8px;
+      padding: 20px 32px;
+    }
+
+    .landingcontactcol2 {
+      width: 100%;
+      padding: 0px;
+    }
+
+    .landingcontactcolinside1 {
+      width: 100%;
+      padding: 0px;
+    }
+
+    .landingcontactcolinside2 {
+      width: 100%;
+      padding: 0px;
+    }
+
+    .landingcontactcolinside3 {
+      width: 100%;
+      padding: 0px;
+    }
+
+    .contactusilustration {
+      width: 70vw;
+      margin-top: 110px;
+    }
+
+    .landingcontactcol1 {
+      width: 100% !important;
+    }
+
+    .labelcontainer {
+      position: relative;
+      padding: 0px;
+      margin: 0px;
+      cursor: pointer;
+      font-size: 12px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      line-height: 1.3;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      width: 80px;
+      padding-left: 0;
+    }
+
+    /* Hide the browser's default radio button */
+    .labelcontainer input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    /* Create a custom radio button */
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 15px;
+      width: 15px;
+      background-color: white;
+      border: 1px solid #f8951d;
+      border-radius: 50%;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .labelcontainer:hover input~.checkmark {
+      background-color: white;
+    }
+
+    /* When the radio button is checked, add a blue background */
+    .labelcontainer input:checked~.checkmark {
+      background-color: white;
+      border: 1px solid #f8951d;
+    }
+
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+
+    /* Show the indicator (dot/circle) when checked */
+    .labelcontainer input:checked~.checkmark:after {
+      display: block;
+    }
+
+    /* Style the indicator (dot/circle) */
+    .labelcontainer .checkmark:after {
+      top: 2px;
+      left: 2px;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #f8951d;
+    }
+
+    .clientscardimage {
+      margin-top: -40px;
+      width: 80px !important;
+      height:  80px !important;
+      box-shadow: 7px 7px 15px #00000010;
+      border-radius: 100%;
+      border: 2px solid #f8951d;
+    }
+
+    .aboutusDetailimage {
+      width: 64vw;
+      margin-left: 6vw;
+    }
+
+    .aboutusDetailcol1 {
+      width: auto;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .aboutusDetailcol2 {
+      width: auto;
+      padding: 0px;
+      margin: 0px;
+      padding: 0 20px;
+    }
+
+    .clientscardtext {
+      margin-top: 0.8vw;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      letter-spacing: -0.5px;
+      line-height: 1.25;
+      color: #01355D;
+      font-weight: 700;
+    }
+  }
+
+  @media(max-width:580px) {
+    .clientscardtext {
+      font-size: 11.5px;
+    }
+
+  }
+
+  @media(max-width:355px) {
+    .flowcardmaindiv {
+      vertical-align: middle;
+      margin-top: 0vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.4;
+      color: #01355D;
+      letter-spacing: -0.8px;
+    }
+
+    .flowinsidecardheading2 {
+      vertical-align: middle;
+      margin-top: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.4;
+      color: #01355D;
+      letter-spacing: -0.8px;
+    }
+
+    .contactaddress {
+      text-align: center;
+      margin-top: 35px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      letter-spacing: -2;
+      font-size: 15px;
+      line-height: 1.2;
+      color: #2d2d2d;
+      text-align: left;
+    }
+
+    .contactusmemail {
+      text-decoration: underline;
+      text-align: center;
+      margin-top: 12px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      letter-spacing: -2;
+      font-size: 14px;
+      line-height: 1.2;
+      color: #2d2d2d;
+    }
+
+    .contactusphoneno {
+      padding-left: 0px;
+      text-align: center;
+      margin-top: 12px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      letter-spacing: -2;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #2d2d2d;
+    }
+
+    .contactusphonenoicon {
+      width: 52px;
+      margin-top: 1.5px;
+    }
+
+    .HighlightsExperience {
+      margin-top: 1vw;
+      vertical-align: middle;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 16px;
+      line-height: 3;
+      color: #01355D;
+    }
+
+    .HighlightsExperienceicon {
+      width: 26px;
+      margin-Top: -5px;
+    }
+
+    .HighlightsClients {
+      vertical-align: middle;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 16px;
+      line-height: 3;
+      color: #01355D;
+    }
+
+    .HighlightsClientsicon {
+      width: 26px;
+      margin-Top: -px;
+    }
+
+    .Highlightscities {
+      vertical-align: middle;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 16px;
+      line-height: 3;
+      color: #01355D;
+    }
+
+    .Highlightscitiesicon {
+      width: 26px;
+      margin-Top: -5px;
+    }
+
+    .aboutusHighlights {
+      vertical-align: middle;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 30px;
+      line-height: 1.2;
+      color: #01355D;
+      margin-top: 75px;
+      padding-left: 20px;
+    }
+
+    .aboutusHighlightsicon {
+      width: 25px;
+      margin-Top: -5px;
+    }
+
+    .theytrustusheading {
+      padding-left: 5.6vw;
+      vertical-align: middle;
+      margin-top: 125px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 30px;
+      line-height: 1.2;
+      color: #01355D
+    }
+
+    .theytrustusheadingicon {
+      width: 25px;
+      margin-Top: -5px;
+    }
+  }

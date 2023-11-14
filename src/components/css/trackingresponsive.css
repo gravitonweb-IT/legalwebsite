@@ -1,0 +1,3075 @@
+.textcenter{
+  text-align: center !important;
+}
+
+.vermob{
+  margin-bottom: 15px !important;
+}
+
+ .desanleinpfield, .verifymob, .subbmitemail, .password, .submitpassword{
+  display: none;
+}
+
+.closeservicenumber_modal img{
+  margin-top: -44px;
+  margin-right: 6px;
+}
+
+.contactotp{
+  padding-top: 25px;
+}
+
+.err{
+  padding-bottom: 10px;
+  /* display: none !important; */
+  width: 100% !important;
+  text-align: center !important;
+  color: #fe0c0c !important;
+  margin-top: 0.65vw !important;
+  /* font-family: 'Montserrat'!important; */
+  font-size: 15px !important;
+  font-weight: 700 !important;
+}
+
+.resendo{
+  margin-top: 10px;
+}
+
+.inputclass1 {
+  border-top: 0px;
+  width: 100% !important;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 5px 0px;
+}
+
+.inputclass1::placeholder{
+    font: 15px !important;
+}
+
+.Problemtitlpopup1{
+  margin-top: 10%;
+  left: 50%;
+  margin-left: -186px;
+  width: 400px;
+    position: absolute;
+    position: fixed;
+    min-height: 283px;
+    height: auto;
+    z-index: 20;
+    /* font-weight: bolder; */
+	background-color: #F8F8F8;
+    border: 2px solid #f8951d;
+    border-radius: 15px;
+    box-shadow: 6px 4px 7px 2px #d4d4d4;
+    padding: 4px;
+    display: none;
+}
+
+
+
+
+@media (max-width:1025px) {
+  .pistopimage {
+    width: 260px;
+  }
+
+  .pistopimage2 {
+    width: 260px;
+  }
+
+  .pitstopinside1 {
+    z-index: 1;
+    position: absolute;
+    padding: 20px 0px 20px 85px;
+  }
+
+  .pitstopinside {
+    z-index: 1;
+    position: absolute;
+    padding: 20px 0px 20px 20px;
+  }
+.middle
+{height:95px;}
+  .circle {
+    width: 45px;}
+  @keyframes pitstopaminationstart2 {
+    0% {
+      -webkit-transform: translate3d(0, -122px, 0);
+      transform: translate3d(0, -122px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -122px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopaminationstart4 {
+    -webkit-animation-name: pitstopaminationstart4;
+    animation-name: pitstopaminationstart4;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 4;
+    position: relative;
+  }
+
+  @keyframes pitstopaminationstart4 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0,-363px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -363px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopaminationstart6 {
+    -webkit-animation-name: pitstopaminationstart6;
+    animation-name: pitstopaminationstart6;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 2;
+    position: relative;
+  }
+
+  @keyframes pitstopaminationstart6 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -607px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -607px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopaminationstart1 {
+    z-index: 8;
+    position: relative;
+  }
+
+  .pitstopaminationstart3 {
+    -webkit-animation-name: pitstopaminationstart3;
+    animation-name: pitstopaminationstart3;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 6;
+    position: relative;
+  }
+
+  @keyframes pitstopaminationstart3 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -245px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -245px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopaminationstart5 {
+    -webkit-animation-name: pitstopaminationstart5;
+    animation-name: pitstopaminationstart5;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 2;
+    position: relative;
+  }
+
+  @keyframes pitstopaminationstart5 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -490px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -490px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopaminationstart7 {
+    -webkit-animation-name: pitstopaminationstart7;
+    animation-name: pitstopaminationstart7;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 1;
+    position: relative;
+  }
+
+  @keyframes pitstopaminationstart7 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -737px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -737px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopcircleamination1 {
+    z-index: 10;
+    position: relative;
+  }
+
+  .pitstopcircleamination2 {
+    -webkit-animation-name: pitstopcircleamination2;
+    animation-name: pitstopcircleamination2;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopcircleamination2 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -55px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -55px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopcircleamination3 {
+    -webkit-animation-name: pitstopcircleamination3;
+    animation-name: pitstopcircleamination3;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopcircleamination3 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -114px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -114px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopcircleamination4 {
+    -webkit-animation-name: pitstopcircleamination4;
+    animation-name: pitstopcircleamination4;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopcircleamination4 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -177px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -177px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopcircleamination5 {
+    -webkit-animation-name: pitstopcircleamination5;
+    animation-name: pitstopcircleamination5;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopcircleamination5 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -240px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -240px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopcircleamination6 {
+    -webkit-animation-name: pitstopcircleamination6;
+    animation-name: pitstopcircleamination6;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopcircleamination6 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -302px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -302px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopcircleamination7 {
+    -webkit-animation-name: pitstopcircleamination7;
+    animation-name: pitstopcircleamination7;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopcircleamination7 {
+    0% {
+      -webkit-transform: translate3d(0, -390px, 0);
+      transform: translate3d(0, -362px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -390px, 0);
+      transform: translate3d(0, -362px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopmiddleamination1 {
+    -webkit-animation-name: pitstopmiddleamination1;
+    animation-name: pitstopmiddleamination1;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopmiddleamination1 {
+    0% {
+      height: 0px;
+    }
+
+    70% {
+      height: 0px;
+    }
+
+    100% {
+      height: 95.5px;
+    }
+  }
+
+  .pitstopmiddleamination2 {
+    -webkit-animation-name: pitstopmiddleamination2;
+    animation-name: pitstopmiddleamination2;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopmiddleamination2 {
+    0% {
+      height: 0px;
+    }
+
+    70% {
+      height: 0px;
+    }
+
+    100% {
+      height: 95.5px;
+    }
+  }
+
+  .pitstopmiddleamination3 {
+    -webkit-animation-name: pitstopmiddleamination3;
+    animation-name: pitstopmiddleamination3;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopmiddleamination3 {
+    0% {
+      height: 0px;
+    }
+
+    70% {
+      height: 0px;
+    }
+
+    to {
+      height: 95.5px;
+    }
+  }
+
+  .pitstopmiddleamination4 {
+    -webkit-animation-name: pitstopmiddleamination1;
+    animation-name: pitstopmiddleamination1;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopmiddleamination4 {
+    0% {
+      height: 0px;
+    }
+
+    70% {
+      height: 0px;
+    }
+
+    100% {
+      height: 95.5px;
+    }
+  }
+
+  .pitstopmiddleamination5 {
+    -webkit-animation-name: pitstopmiddleamination5;
+    animation-name: pitstopmiddleamination5;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopmiddleamination5 {
+    0% {
+      height: 0px;
+    }
+
+    70% {
+      height: 0px;
+    }
+
+    100% {
+      height: 95.5px;
+    }
+  }
+
+  .pitstopmiddleamination6 {
+    -webkit-animation-name: pitstopmiddleamination6;
+    animation-name: pitstopmiddleamination6;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+  @keyframes pitstopmiddleamination6 {
+    0% {
+      height: 0px;
+    }
+
+    70% {
+      height: 0px;
+    }
+
+    100% {
+      height: 95.5px;
+    }
+  }
+}
+@media (max-width:769px) {
+  .captchadiv
+{transform:scale(0.77);-webkit-transform:scale(0.77);}
+.Problemtitlpopup
+{width:90%;
+height:100%;
+margin-top:100px;
+position: relative;
+}
+.Problemtitlpopup1
+{width:90%;
+  left: 0%;
+height:100%;
+margin-top:100px;
+position: relative;
+  margin-left: 0%;
+}
+.problemdescri
+{text-align:left;}
+  .paymentpopup
+  {width:96%;
+position: relative;
+ }
+ .loginpopdiv
+ {padding-left:10px;
+ padding-right:10px;}
+.sidetracking
+{position: relative;}
+.trackinglogoutbutton
+  {margin-top:-51px; }
+    .trackingbox1
+    {width:150px;
+    background-color: #E5E5E5;
+    height: 30px;
+    text-align: left;
+    padding:5px 0px 5px 0px;
+    border-radius: 0px 50px 50px 0;
+    box-shadow: 4px 0px 7px 4px #D4D4D4;
+    z-index: 10;
+    position: relative;
+    }
+    .trackingbox2
+    {width:150px;
+      z-index: 5;
+      position: relative;
+    background-color: #E5E5E5;
+    height: 30px;
+    text-align: center;
+    padding:5px 0px 5px 0px;
+    }
+        .problemcol
+    {padding:20px;
+    text-align: center;}
+    .problemcol1
+    {padding:0px !important;}
+    .trackingbox3
+    {width:130px;
+    background-color: #E5E5E5;
+    height: 30px;
+    z-index: 5;
+    position: relative;
+    margin-top:-110px;
+    margin-left:140px;
+    text-align: center;
+    padding:5px 0px 5px 0px;
+    border-radius: 0px 50px 50px 0;
+    box-shadow: 4px 0px 7px 4px #D4D4D4;
+    }
+    .trackingbox4
+    {width:150px;
+    background-color: #E5E5E5;
+    height: 30px;
+    z-index: 3;
+    position: relative;
+    margin-left: 129px;
+    padding:3px 0px 3px 0px;
+    border-radius: 0px 50px 50px 0;
+  }
+    .trackingbox5
+    {width:150px;
+    background-color: #E5E5E5;
+    height: 30px;
+    margin-top:-110px;
+    margin-left:230px;
+    text-align:right;
+    padding:3px 3px 3px 0px;
+    border-radius: 0px 50px 50px 0;
+    box-shadow: 4px 0px 7px 4px #D4D4D4;
+    }
+    .trackingtext
+    {font-family:'Nexa';
+      font-size:10px;}
+    .trackingtext1
+    {font-family:'Nexa';
+      font-size:14px;}
+      .trackingtext2
+      {font-family:'Nexa';
+        font-size:10px;}
+      .trackinghead
+        {
+      font-size:12px;
+      letter-spacing:-3.5px;
+        }
+        .trackinghead1
+          {
+        font-size:16px;
+        letter-spacing:-4px;
+          }
+          .trackinglogin
+          {width: 100%;}
+          .trackinglogintopdiv
+          {margin-top:-60px;
+           background-position:bottom;
+         height: 620px;
+       padding:15px;}
+       .inputclass1 {
+        width: 60% !important;
+    }
+     }
+@media (max-width:320px){
+    .trackinglogintopdiv{
+        background: none;
+    }
+}
+@media (max-width:601px) {
+  .problemtitle
+  {font-size:20px;
+  text-align:center;}
+  .problemtitlpopupclose
+{margin-top:0px; }
+  .problemcolum
+  {
+  width:105px;
+  line-height:1;
+  text-align:right;
+  }
+  .problemcoluminside
+  {font-size: 20px;}
+  .trackingbox1
+  {width:150px;
+  background-color: #E5E5E5;
+  height: 30px;
+  text-align: left;
+  padding:5px 0px 5px 0px;
+  border-radius: 0px 50px 50px 0;
+  box-shadow: 4px 0px 7px 4px #D4D4D4;
+  z-index: 10;
+  position: relative;
+  }
+  .trackingbox2
+  {width:150px;
+    z-index: 5;
+    position: relative;
+  background-color: #E5E5E5;
+  height: 30px;
+  text-align: left;
+  padding:5px 0px 5px 0px;
+  }
+  .trackingbox3
+  {width:120px;
+  background-color: #E5E5E5;
+  height: 30px;
+  z-index: 5;
+  position: relative;
+  margin-top:-110px;
+  margin-left:140px;
+  text-align: center;
+  padding:5px 0px 5px 0px;
+  border-radius: 0px 50px 50px 0;
+  box-shadow: 4px 0px 7px 4px #D4D4D4;
+  }
+  .trackingbox4
+  {width:140px;
+  background-color: #E5E5E5;
+  height: 30px;
+  z-index: 3;
+  position: relative;
+  margin-left: 129px;
+  padding:3px 0px 3px 0px;
+  border-radius: 0px 50px 50px 0;
+  }
+  .trackingbox5
+  {width:110px;
+  background-color: #E5E5E5;
+  height: 30px;
+  margin-top:-110px;
+  margin-left:240px;
+  position: relative;
+  text-align:right;
+  padding:3px 3px 3px 0px;
+  border-radius: 0px 50px 50px 0;
+  box-shadow: 4px 0px 7px 4px #D4D4D4;
+  }
+  .trackingtext
+  {font-family:'Nexa';
+    font-size:10px;}
+  .trackingtext1
+  {font-family:'Nexa';
+    font-size:12px;}
+    .trackingtext2
+    {font-family:'Nexa';
+      font-size:10px;}
+.pitstopaminationleft4
+{margin-top: 9px;}
+.pitstopaminationleft6
+{margin-top:16px;}
+.pitstopaminationright1
+{margin-top:6px;}
+.pitstopaminationright3
+{margin-top:14px;}
+.pitstopaminationright5
+{margin-top:15px;}
+.pitstopaminationright7
+{margin-top:15px;}
+  .pitstoprow
+  {margin-top:80px}
+    .pistopimage
+    {width:155px;
+    }
+    .pistopimage2
+    {width:155px;
+    }
+    .pitstopinside1
+    {z-index:1;
+    position:absolute;
+    padding:7px 0px 5px 49px;
+    }
+    .pitstopinside
+    {z-index:1;
+    position:absolute;
+    padding:7px 0px 5px 5px;
+  }
+
+  .circle
+  {width:29px;
+  margin-top:-2px;}
+  .middle
+  {height:95.5px;
+  width:10px;
+  margin-top:-10px;}
+  .pitstoptext1 {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: bolder;
+    text-align: left;
+  }
+  .newpitstoptext1{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: bolder;
+    text-align: left;
+  }
+
+  .pitstoptext
+  {font-size:12px;
+  line-height:1.3;}
+  @keyframes pitstopaminationstart2 {
+    0% {
+      -webkit-transform: translate3d(0, -122px, 0);
+      transform: translate3d(0, -122px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -122px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopaminationstart4 {
+    -webkit-animation-name: pitstopaminationstart4;
+    animation-name: pitstopaminationstart4;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 4;
+    position: relative;
+  }
+
+  @keyframes pitstopaminationstart4 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0,-328px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -328px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0,0px, 0);
+    }
+  }
+
+  .pitstopaminationstart6 {
+    -webkit-animation-name: pitstopaminationstart6;
+    animation-name: pitstopaminationstart6;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 2;
+    position: relative;
+  }
+
+  @keyframes pitstopaminationstart6 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -533px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -533px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopaminationstart1 {
+    z-index: 8;
+    position: relative;
+  }
+
+  .pitstopaminationstart3 {
+    -webkit-animation-name: pitstopaminationstart3;
+    animation-name: pitstopaminationstart3;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 6;
+    position: relative;
+  }
+
+  @keyframes pitstopaminationstart3 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -206px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -206px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopaminationstart5 {
+    -webkit-animation-name: pitstopaminationstart5;
+    animation-name: pitstopaminationstart5;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 2;
+    position: relative;
+  }
+
+  @keyframes pitstopaminationstart5 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -410px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -410px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopaminationstart7 {
+    -webkit-animation-name: pitstopaminationstart7;
+    animation-name: pitstopaminationstart7;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 1;
+    position: relative;
+  }
+
+  @keyframes pitstopaminationstart7 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -620px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -620px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopcircleamination1 {
+    z-index: 10;
+    position: relative;
+  }
+
+  .pitstopcircleamination2 {
+    -webkit-animation-name: pitstopcircleamination2;
+    animation-name: pitstopcircleamination2;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopcircleamination2 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -50px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -50px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopcircleamination3 {
+    -webkit-animation-name: pitstopcircleamination3;
+    animation-name: pitstopcircleamination3;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopcircleamination3 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -100px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -100px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopcircleamination4 {
+    -webkit-animation-name: pitstopcircleamination4;
+    animation-name: pitstopcircleamination4;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopcircleamination4 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -150px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -150px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopcircleamination5 {
+    -webkit-animation-name: pitstopcircleamination5;
+    animation-name: pitstopcircleamination5;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopcircleamination5 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -200px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -200px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopcircleamination6 {
+    -webkit-animation-name: pitstopcircleamination6;
+    animation-name: pitstopcircleamination6;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopcircleamination6 {
+    0% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -250px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -110px, 0);
+      transform: translate3d(0, -250px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopcircleamination7 {
+    -webkit-animation-name: pitstopcircleamination7;
+    animation-name: pitstopcircleamination7;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopcircleamination7 {
+    0% {
+      -webkit-transform: translate3d(0, -390px, 0);
+      transform: translate3d(0, -300px, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -390px, 0);
+      transform: translate3d(0, -300px, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0px, 0);
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  .pitstopmiddleamination1 {
+    -webkit-animation-name: pitstopmiddleamination1;
+    animation-name: pitstopmiddleamination1;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopmiddleamination1 {
+    0% {
+      height: 0px;
+    }
+
+    70% {
+      height: 0px;
+    }
+
+    100% {
+      height: 95.5px;
+    }
+  }
+
+  .pitstopmiddleamination2 {
+    -webkit-animation-name: pitstopmiddleamination2;
+    animation-name: pitstopmiddleamination2;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopmiddleamination2 {
+    0% {
+      height: 0px;
+    }
+
+    70% {
+      height: 0px;
+    }
+
+    100% {
+      height: 95.5px;
+    }
+  }
+
+  .pitstopmiddleamination3 {
+    -webkit-animation-name: pitstopmiddleamination3;
+    animation-name: pitstopmiddleamination3;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopmiddleamination3 {
+    0% {
+      height: 0px;
+    }
+
+    70% {
+      height: 0px;
+    }
+
+    to {
+      height: 95.5px;
+    }
+  }
+
+  .pitstopmiddleamination4 {
+    -webkit-animation-name: pitstopmiddleamination1;
+    animation-name: pitstopmiddleamination1;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopmiddleamination4 {
+    0% {
+      height: 0px;
+    }
+
+    70% {
+      height: 0px;
+    }
+
+    100% {
+      height: 95.5px;
+    }
+  }
+
+  .pitstopmiddleamination5 {
+    -webkit-animation-name: pitstopmiddleamination5;
+    animation-name: pitstopmiddleamination5;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+
+  @keyframes pitstopmiddleamination5 {
+    0% {
+      height: 0px;
+    }
+
+    70% {
+      height: 0px;
+    }
+
+    100% {
+      height: 95.5px;
+    }
+  }
+
+  .pitstopmiddleamination6 {
+    -webkit-animation-name: pitstopmiddleamination6;
+    animation-name: pitstopmiddleamination6;
+    animation-duration: 1.20s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    z-index: 8;
+    position: relative;
+  }
+  @keyframes pitstopmiddleamination6 {
+    0% {
+      height: 0px;
+    }
+
+    70% {
+      height: 0px;
+    }
+
+    100% {
+      height: 95.5px;
+    }
+  }
+
+  .closeservicenumber_modal img {
+    margin-top: -20px;
+    margin-right: 6px;
+  }
+}
+@media (max-width:480px) {
+  .pitstopaminationleft4
+  {margin-top: 11px;}
+  .pitstopaminationleft6
+  {margin-top:17px;}
+  .pitstopaminationright1
+  {margin-top:7px;}
+  .pitstopaminationright3
+  {margin-top:16px;}
+  .pitstopaminationright5
+  {margin-top:17px;}
+  .pitstopaminationright7
+  {margin-top:18px;}
+.pistopimage
+{width:158px;
+  height: 55px;
+}
+.pistopimage2
+{width:158px;
+    height: 55px;
+}
+.pitstopinside1
+{z-index:1;
+position:absolute;
+padding:7px 0px 5px 49px;
+}
+.pitstopinside
+{z-index:1;
+position:absolute;
+padding:7px 0px 5px 5px;
+}
+.circle
+{width:31px;}
+.middle
+{height:90px;
+width:10px;
+margin-top:-10px;}
+@keyframes pitstopaminationstart2 {
+  0% {
+    -webkit-transform: translate3d(0, -122px, 0);
+    transform: translate3d(0, -122px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -122px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopaminationstart4 {
+  -webkit-animation-name: pitstopaminationstart4;
+  animation-name: pitstopaminationstart4;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 4;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart4 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0,-328px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -328px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0,0px, 0);
+  }
+}
+
+.pitstopaminationstart6 {
+  -webkit-animation-name: pitstopaminationstart6;
+  animation-name: pitstopaminationstart6;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 2;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart6 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -533px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -533px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopaminationstart1 {
+  z-index: 8;
+  position: relative;
+}
+
+.pitstopaminationstart3 {
+  -webkit-animation-name: pitstopaminationstart3;
+  animation-name: pitstopaminationstart3;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 6;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart3 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -206px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -206px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopaminationstart5 {
+  -webkit-animation-name: pitstopaminationstart5;
+  animation-name: pitstopaminationstart5;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 2;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart5 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -410px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -410px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopaminationstart7 {
+  -webkit-animation-name: pitstopaminationstart7;
+  animation-name: pitstopaminationstart7;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 1;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart7 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -613px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -613px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination1 {
+  z-index: 10;
+  position: relative;
+}
+
+.pitstopcircleamination2 {
+  -webkit-animation-name: pitstopcircleamination2;
+  animation-name: pitstopcircleamination2;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination2 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -50px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -50px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination3 {
+  -webkit-animation-name: pitstopcircleamination3;
+  animation-name: pitstopcircleamination3;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination3 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -100px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -100px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination4 {
+  -webkit-animation-name: pitstopcircleamination4;
+  animation-name: pitstopcircleamination4;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination4 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -150px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -150px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination5 {
+  -webkit-animation-name: pitstopcircleamination5;
+  animation-name: pitstopcircleamination5;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination5 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -200px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -200px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination6 {
+  -webkit-animation-name: pitstopcircleamination6;
+  animation-name: pitstopcircleamination6;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination6 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -250px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -250px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination7 {
+  -webkit-animation-name: pitstopcircleamination7;
+  animation-name: pitstopcircleamination7;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination7 {
+  0% {
+    -webkit-transform: translate3d(0, -390px, 0);
+    transform: translate3d(0, -300px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -390px, 0);
+    transform: translate3d(0, -300px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopmiddleamination1 {
+  -webkit-animation-name: pitstopmiddleamination1;
+  animation-name: pitstopmiddleamination1;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination1 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination2 {
+  -webkit-animation-name: pitstopmiddleamination2;
+  animation-name: pitstopmiddleamination2;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination2 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination3 {
+  -webkit-animation-name: pitstopmiddleamination3;
+  animation-name: pitstopmiddleamination3;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination3 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  to {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination4 {
+  -webkit-animation-name: pitstopmiddleamination1;
+  animation-name: pitstopmiddleamination1;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination4 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination5 {
+  -webkit-animation-name: pitstopmiddleamination5;
+  animation-name: pitstopmiddleamination5;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination5 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination6 {
+  -webkit-animation-name: pitstopmiddleamination6;
+  animation-name: pitstopmiddleamination6;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+@keyframes pitstopmiddleamination6 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+
+.problemdescri {
+  font-size: 25px;
+}
+
+.inputclass1 {
+  width: 60% !important;
+}
+
+}
+@media (max-width:361px) {
+  .pitstopaminationleft4
+  {margin-top: 11px;}
+  .pitstopaminationleft6
+  {margin-top:17px;}
+  .pitstopaminationright1
+  {margin-top:7px;}
+  .pitstopaminationright3
+  {margin-top:16px;}
+  .pitstopaminationright5
+  {margin-top:17px;}
+  .pitstopaminationright7
+  {margin-top:18px;}
+  .pitstoptext1 {
+    font-size: 10px;
+  }
+  .newpitstoptext1{
+    font-size: 10px;
+  }
+  .pitstoptext
+  {font-size:10px;
+  line-height:1.3;}
+.pistopimage
+{width:150px;
+  height: auto;
+}
+.pistopimage2
+{width:150px;
+  height: auto;
+}
+.pitstopinside1
+{z-index:1;
+position:absolute;
+padding:7px 0px 5px 49px;
+}
+.pitstopinside
+{z-index:1;
+position:absolute;
+padding:7px 0px 5px 5px;
+}
+.circle
+{width:31px;}
+.middle
+{height:90px;
+width:10px;
+margin-top:-10px;}
+@keyframes pitstopaminationstart2 {
+  0% {
+    -webkit-transform: translate3d(0, -122px, 0);
+    transform: translate3d(0, -122px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -122px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopaminationstart4 {
+  -webkit-animation-name: pitstopaminationstart4;
+  animation-name: pitstopaminationstart4;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 4;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart4 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0,-326px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -326px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0,0px, 0);
+  }
+}
+
+.pitstopaminationstart6 {
+  -webkit-animation-name: pitstopaminationstart6;
+  animation-name: pitstopaminationstart6;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 2;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart6 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -527px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -527px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopaminationstart1 {
+  z-index: 8;
+  position: relative;
+}
+
+.pitstopaminationstart3 {
+  -webkit-animation-name: pitstopaminationstart3;
+  animation-name: pitstopaminationstart3;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 6;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart3 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -206px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -206px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopaminationstart5 {
+  -webkit-animation-name: pitstopaminationstart5;
+  animation-name: pitstopaminationstart5;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 2;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart5 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -410px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -410px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopaminationstart7 {
+  -webkit-animation-name: pitstopaminationstart7;
+  animation-name: pitstopaminationstart7;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 1;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart7 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -613px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -613px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination1 {
+  z-index: 10;
+  position: relative;
+}
+
+.pitstopcircleamination2 {
+  -webkit-animation-name: pitstopcircleamination2;
+  animation-name: pitstopcircleamination2;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination2 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -50px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -50px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination3 {
+  -webkit-animation-name: pitstopcircleamination3;
+  animation-name: pitstopcircleamination3;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination3 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -100px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -100px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination4 {
+  -webkit-animation-name: pitstopcircleamination4;
+  animation-name: pitstopcircleamination4;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination4 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -150px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -150px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination5 {
+  -webkit-animation-name: pitstopcircleamination5;
+  animation-name: pitstopcircleamination5;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination5 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -200px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -200px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination6 {
+  -webkit-animation-name: pitstopcircleamination6;
+  animation-name: pitstopcircleamination6;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination6 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -250px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -250px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination7 {
+  -webkit-animation-name: pitstopcircleamination7;
+  animation-name: pitstopcircleamination7;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination7 {
+  0% {
+    -webkit-transform: translate3d(0, -390px, 0);
+    transform: translate3d(0, -300px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -390px, 0);
+    transform: translate3d(0, -300px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopmiddleamination1 {
+  -webkit-animation-name: pitstopmiddleamination1;
+  animation-name: pitstopmiddleamination1;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination1 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination2 {
+  -webkit-animation-name: pitstopmiddleamination2;
+  animation-name: pitstopmiddleamination2;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination2 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination3 {
+  -webkit-animation-name: pitstopmiddleamination3;
+  animation-name: pitstopmiddleamination3;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination3 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  to {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination4 {
+  -webkit-animation-name: pitstopmiddleamination1;
+  animation-name: pitstopmiddleamination1;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination4 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination5 {
+  -webkit-animation-name: pitstopmiddleamination5;
+  animation-name: pitstopmiddleamination5;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination5 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination6 {
+  -webkit-animation-name: pitstopmiddleamination6;
+  animation-name: pitstopmiddleamination6;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+@keyframes pitstopmiddleamination6 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+.problemdescri {
+  font-size: 23px;
+}
+.inputclass1 {
+  width: 70% !important;
+}
+}
+@media (max-width:321px) {
+
+      .trackingbox1
+      {width:130px;
+      background-color: #E5E5E5;
+      height: 30px;
+      text-align: left;
+      padding:5px 0px 5px 0px;
+      border-radius: 0px 50px 50px 0;
+      box-shadow: 4px 0px 7px 4px #D4D4D4;
+    z-index: 10;
+      position: relative;
+      }
+      .trackingbox2
+      {width:140px;
+        z-index: 5;
+        position: relative;
+      background-color: #E5E5E5;
+      height: 30px;
+      text-align: left;
+      padding:5px 0px 5px 0px;
+      }
+      .trackingbox3
+      {width:110px;
+      background-color: #E5E5E5;
+      height: 30px;
+      z-index: 5;
+      position: relative;
+      margin-top:-110px;
+      margin-left:120px;
+      text-align: center;
+      padding:5px 0px 5px 0px;
+      border-radius: 0px 50px 50px 0;
+      box-shadow: 4px 0px 7px 4px #D4D4D4;
+      }
+      .trackingbox4
+      {width:140px;
+      background-color: #E5E5E5;
+      height: 30px;
+      z-index: 3;
+      position: relative;
+      margin-left: 129px;
+      padding:3px 0px 3px 0px;
+      border-radius: 0px 50px 50px 0;
+    }
+      .trackingbox5
+      {width:110px;
+      background-color: #E5E5E5;
+      height: 30px;
+      margin-top:-110px;
+      margin-left:200px;
+      position: relative;
+      text-align:right;
+      padding:3px 3px 3px 0px;
+      border-radius: 0px 50px 50px 0;
+      box-shadow: 4px 0px 7px 4px #D4D4D4;
+      }
+      
+      .trackingtext
+      {font-family:'Nexa';
+        font-size:8px;}
+      .trackingtext1
+      {font-family:'Nexa';
+        font-size:10px;}
+        .trackingtext2
+        {font-family:'Nexa';
+          font-size:8px;}
+  .pitstopaminationleft4
+  {margin-top: 21px;}
+  .pitstopaminationleft6
+  {margin-top:21px;}
+  .pitstopaminationright1
+  {margin-top:7px;}
+  .pitstopaminationright3
+  {margin-top:25px;}
+  .pitstopaminationright5
+  {margin-top:24px;}
+  .pitstopaminationright7
+  {margin-top:24px;}
+  .pitstoptext1 {
+    font-size: 8px;
+  }
+  .newpitstoptext1{
+    font-size: 8px;
+  }
+  .pitstoptext
+  {font-size:8px;
+  line-height:1.3;}
+.pistopimage
+{width:130px;
+  height: auto;
+}
+.pistopimage2
+{width:130px;
+  height: auto;
+}
+.pitstopinside1
+{z-index:1;
+position:absolute;
+padding:7px 0px 5px 49px;
+}
+.pitstopinside
+{z-index:1;
+position:absolute;
+padding:7px 0px 5px 5px;
+}
+.circle
+{width:31px;}
+.middle
+{height:90px;
+width:10px;
+margin-top:-10px;}
+@keyframes pitstopaminationstart2 {
+  0% {
+    -webkit-transform: translate3d(0, -122px, 0);
+    transform: translate3d(0, -122px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -122px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopaminationstart4 {
+  -webkit-animation-name: pitstopaminationstart4;
+  animation-name: pitstopaminationstart4;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 4;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart4 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0,-317px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -317px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0,0px, 0);
+  }
+}
+
+.pitstopaminationstart6 {
+  -webkit-animation-name: pitstopaminationstart6;
+  animation-name: pitstopaminationstart6;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 2;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart6 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -517px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -517px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopaminationstart1 {
+  z-index: 8;
+  position: relative;
+}
+
+.pitstopaminationstart3 {
+  -webkit-animation-name: pitstopaminationstart3;
+  animation-name: pitstopaminationstart3;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 6;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart3 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -198px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -198px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopaminationstart5 {
+  -webkit-animation-name: pitstopaminationstart5;
+  animation-name: pitstopaminationstart5;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 2;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart5 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -398px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -398px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopaminationstart7 {
+  -webkit-animation-name: pitstopaminationstart7;
+  animation-name: pitstopaminationstart7;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 1;
+  position: relative;
+}
+
+@keyframes pitstopaminationstart7 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -595px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -595px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination1 {
+  z-index: 10;
+  position: relative;
+}
+
+.pitstopcircleamination2 {
+  -webkit-animation-name: pitstopcircleamination2;
+  animation-name: pitstopcircleamination2;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination2 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -50px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -50px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination3 {
+  -webkit-animation-name: pitstopcircleamination3;
+  animation-name: pitstopcircleamination3;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination3 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -100px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -100px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination4 {
+  -webkit-animation-name: pitstopcircleamination4;
+  animation-name: pitstopcircleamination4;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination4 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -150px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -150px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination5 {
+  -webkit-animation-name: pitstopcircleamination5;
+  animation-name: pitstopcircleamination5;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination5 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -200px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -200px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination6 {
+  -webkit-animation-name: pitstopcircleamination6;
+  animation-name: pitstopcircleamination6;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination6 {
+  0% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -250px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -110px, 0);
+    transform: translate3d(0, -250px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopcircleamination7 {
+  -webkit-animation-name: pitstopcircleamination7;
+  animation-name: pitstopcircleamination7;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopcircleamination7 {
+  0% {
+    -webkit-transform: translate3d(0, -390px, 0);
+    transform: translate3d(0, -300px, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0, -390px, 0);
+    transform: translate3d(0, -300px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.pitstopmiddleamination1 {
+  -webkit-animation-name: pitstopmiddleamination1;
+  animation-name: pitstopmiddleamination1;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination1 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination2 {
+  -webkit-animation-name: pitstopmiddleamination2;
+  animation-name: pitstopmiddleamination2;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination2 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination3 {
+  -webkit-animation-name: pitstopmiddleamination3;
+  animation-name: pitstopmiddleamination3;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination3 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  to {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination4 {
+  -webkit-animation-name: pitstopmiddleamination1;
+  animation-name: pitstopmiddleamination1;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination4 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination5 {
+  -webkit-animation-name: pitstopmiddleamination5;
+  animation-name: pitstopmiddleamination5;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+
+@keyframes pitstopmiddleamination5 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+
+.pitstopmiddleamination6 {
+  -webkit-animation-name: pitstopmiddleamination6;
+  animation-name: pitstopmiddleamination6;
+  animation-duration: 1.20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  z-index: 8;
+  position: relative;
+}
+@keyframes pitstopmiddleamination6 {
+  0% {
+    height: 0px;
+  }
+
+  70% {
+    height: 0px;
+  }
+
+  100% {
+    height: 95.5px;
+  }
+}
+}

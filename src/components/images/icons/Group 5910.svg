@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <g id="Group_5910" data-name="Group 5910" transform="translate(7467 -9127)">
+    <rect id="Rectangle_3946" data-name="Rectangle 3946" width="72" height="72" rx="10" transform="translate(-7467 9127)" fill="#fff"/>
+    <g id="Group_5909" data-name="Group 5909" transform="translate(2 86.773)">
+      <g id="Group_5907" data-name="Group 5907" transform="translate(-1.323 -3.314)">
+        <path id="Path_24479" data-name="Path 24479" d="M-7436.98,9094.393l.336-31.122,13.236,6.492v18.723Z" transform="translate(0.743 0.009)" fill="#fb9b35"/>
+        <path id="Path_24481" data-name="Path 24481" d="M-7436.98,9085.8l.244-22.53,9.581,4.7v13.556Z" transform="translate(3.011 4.239)" fill="#fff"/>
+        <path id="Path_24480" data-name="Path 24480" d="M-7435.961,9063.227l-4.717,2.1v27.478l4.413,1.515Z" transform="translate(0)" fill="#148706"/>
+      </g>
+      <text id="Ice" transform="translate(-7462 9081)" fill="#042246" font-size="14" font-family="Gotham-Book, Gotham"><tspan x="0" y="0">Ice</tspan></text>
+      <text id="gate" transform="translate(-7435 9081)" fill="#1e91c4" font-size="14" font-family="Gotham-Book, Gotham"><tspan x="0" y="0">gate</tspan></text>
+    </g>
+  </g>
+</svg>

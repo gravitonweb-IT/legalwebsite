@@ -1,0 +1,1285 @@
+.policyheading {
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2;
+    font-style: italic;
+    font-size: 3.7vw;
+    line-height: 1.2;
+    color: #01355D;
+    padding-top: 2.1vw;
+    padding-bottom: 1.65vw;
+    margin-left: 2.7vw;
+    z-index: 2;
+  }
+
+  .mainfooter
+  {z-index: 9 !important;
+
+  display: block;
+  position: relative;}
+
+  .policyicon {
+    width: 3.8vw;
+    margin-Top: -0.8vw;
+    z-index: 2;
+  }
+
+  .panel,
+  .panel-body {
+    box-shadow: none;
+    border: none !important;
+    padding: 0px;
+  }
+
+  .panel {
+    border-bottom: 0.14vw solid rgba(45, 45, 45, 0.2) !important;
+    padding-bottom: 0.7vw;
+    border-radius: 0px !important;
+  }
+
+  .panel-body {
+    padding-left: 1.5vw;
+    padding-top: 1vw;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #2d2d2d;
+    font-size: 0.85vw;
+    font-weight: 500;
+    line-height: 1.3;
+    padding-right: 3.5vw;
+  }
+
+  .panel-group {
+    width: 58vw;
+    margin-top: 1.8vw
+  }
+
+  .panel-group .panel-heading {
+    padding: 0;
+    border: none;
+  }
+
+  .panel-group .panel-heading a {
+    display: block;
+    padding: 0px;
+    text-decoration: none;
+    position: relative;
+    background-color: white;
+    outline: none;
+    border: none;
+  }
+
+  .panel-group .panel-heading a:after {
+    content: '-';
+    margin-top: 0.2vw;
+    float: right;
+    border: none;
+  }
+
+  .panel-group .panel-heading a.collapsed:after {
+    content: '+';
+    margin-top: 0.2vw;
+  }
+
+  .faqsearchbar::placeholder {
+    color: rgba(45, 45, 45, 0.4);
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7vw;
+  }
+
+  .rotate {
+    transform: rotate(0deg) !important;
+  }
+
+  .rotated {
+    transform: rotate(90deg);
+  }
+
+
+  .rotate1 {
+    transform: rotate(0deg);
+  }
+
+
+  .rotated1 {
+    transform: rotate(90deg) !important;
+  }
+
+  .policywelcomeheading {
+    font-weight: 700;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8vw;
+    line-height: 1.2;
+    padding-left: 7.6vw;
+    padding-right: 7.6vw;
+    margin-top: 1.5vw;
+  }
+
+  .policywelcometext {
+    font-weight: 700;
+    color: #2D2D2D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    line-height: 1.2;
+    margin-left: 7.6vw;
+    margin-right: 7.6vw;
+    margin-top: 1.6vw;
+  }
+
+  .policywelcometext1{
+    font-weight: 700;
+    color: #2D2D2D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    line-height: 1.2;
+    margin-left: 7.6vw;
+    margin-right: 7.6vw;
+    margin-top: 1.6vw;
+  }
+
+  .policywelcomesubtext {
+    font-weight: 500;
+    color: #2D2D2D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    line-height: 1.2;
+    margin-left: 7.6vw;
+    margin-right: 7.6vw;
+    margin-top: 1.6vw;
+  }
+
+  .Licenseheading {
+    font-weight: 700;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8vw;
+    line-height: 1.2;
+    padding-left: 7.6vw;
+    padding-right: 7.6vw;
+    margin-top: 3vw;
+  }
+
+  .policyrow {
+    top: 0px;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .policysubheadingicon {
+    width: 0.86vw;
+    margin-top: -0.09vw;
+    padding-right:0.2vw;
+  }
+
+  .policysubheading {
+    font-weight: 700;
+    color: #2D2D2D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    line-height: 1.4;
+    padding-left: 9vw;
+    padding-right: 7.6vw;
+    margin-top: 0vw;
+  }
+  .policysubmenu
+  { margin-top: 1.6vw;}
+
+  .Youmustnotheading {
+    font-weight: 700;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8vw;
+    line-height: 1.2;
+    padding-left: 7.6vw;
+    padding-right: 7.6vw;
+    margin-top: 3vw;
+  }
+
+  .Licensetext {
+    font-weight: 700;
+    color: #2D2D2D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    line-height: 1.2;
+    padding-left: 7.6vw;
+    padding-right: 7.6vw;
+    margin-top: 1.6vw;
+  }
+
+
+  .sidebarcol {
+    top: 92px;
+    transition:0.3s ease-in-out;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: 16.6%;
+  }
+  .sidebarcolinside
+  {
+    background-color: #F2F2F2;
+    top: 0px;
+    height:49vw;
+    position: absolute;
+    position: fixed;
+    width: 16.6%;
+    border-top:92px solid #ffffff;
+    transition:border 0.3s ease-in-out;
+    border-radius: 0px 0px 0.73vw 0px;
+  }
+
+
+  .sidebarlink {
+    display: block;
+    font-weight: 700;
+    color: #2d2d2d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.97vw;
+    letter-spacing: -0.01vw;
+    line-height: 1.2;
+    margin-top: 2vw;
+    padding-left: 1.05vw;
+  }
+
+  .sidebarlink1 {
+    display: block;
+    font-weight: 700;
+    color: #2d2d2d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.97vw;
+    letter-spacing: -0.01vw;
+    line-height: 1.2;
+    margin-top: 0.6vw;
+    padding-left: 1.05vw;
+  }
+
+  .sidebaricon {
+    width: 0.9vw;
+    margin-top: -0.18vw
+  }
+
+  .policymaincontentcol {
+    top: 92px;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: 83.4%;
+  }
+
+  .policybackgrounddiv {
+    z-index: 2;
+    background-image: url('../images/Intersection6.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hellofaqheading {
+    font-weight: 700;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8vw;
+    line-height: 1.2;
+    margin-top: 1.5vw;
+    text-align: center;
+  }
+
+  .faqsearchbardiv {
+    margin-top: 1.5vw;
+    width: 43vw;
+    box-shadow: 3px 3px 6px #00000011;
+    height: 2.2vw;
+    background-color: #FBFDFF;
+    padding: 0.2vw;
+    border-radius: 0.3vw;
+  }
+
+  .faqsearchbar {
+    padding-left: 1.7vw;
+    width: 100%;
+    height: 1.8vw;
+    background-color: #FBFDFF;
+    border: none;
+    outline: none;
+    background-image: url('../images/faqsearchicon.svg');
+    background-repeat: no-repeat;
+    background-size: 0.75vw;
+    background-position-x: 0.6vw;
+    background-position-y: center;
+  }
+
+  .faqsearchbarbtndiv {
+    width: 4.35vw;
+    background-color: #FBFDFF;
+  }
+
+  .faqsearchbarbtn {
+    font-weight: 600;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.72vw;
+    margin-top: 0.05vw;
+    width: 4.05vw;
+    height: 1.65vw;
+    border-radius: 0px;
+    background-color: #f8951d;
+    border-radius: 0.3vw !important;
+    border:none;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .ortext {
+    font-weight: 700;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95vw;
+    line-height: 1.2;
+    margin-top: 1.65vw;
+    text-align: center;
+  }
+
+  .faqcardrow {
+    padding: 0 7vw;
+    margin-top: 1.7vw;
+    cursor: pointer;
+  }
+
+  .faqcardcol {
+    padding: 0px 1.5vw;
+    margin-top: 30px;
+  }
+
+
+  .faqcard {
+    height: 9vw;
+    background-color: #FBFDFF;
+    box-shadow: 3px 3px 6px #00000011;
+    border-radius: 0.35vw;
+  }
+
+  .faqcardimg1 {
+    width: 2.2vw;
+    margin-top: 2.3vw;
+  }
+
+  .faqcardimg2 {
+    width: 3.55vw;
+    margin-top: 2.5vw;
+  }
+
+  .faqcardimg3 {
+    width: 3vw;
+    margin-top: 2.3vw;
+  }
+
+  .faqcardimg4 {
+    width: 3vw;
+    margin-top: 2.3vw;
+  }
+
+  .faqcardimg5 {
+    width: 2.2vw;
+    margin-top: 2.3vw;
+  }
+
+  .faqcardimg6 {
+    width: 3vw;
+    margin-top: 2.3vw;
+  }
+  .faqcardimg7 {
+    width: 3vw;
+    margin-top: 2.3vw;
+  }
+  .faqcardimg8 {
+    width: 3vw;
+    margin-top: 2.3vw;
+  }
+  .faqcardimg9 {
+    width: 3vw;
+    margin-top: 2.3vw;
+  }
+  .faqcardtext1 {
+    font-weight: 600;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75vw;
+    line-height: 1.2;
+    margin-top: 1.7vw;
+    text-align: center;
+    letter-spacing: -0.1px;
+  }
+
+  .faqcardtext2 {
+    font-weight: 600;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75vw;
+    line-height: 1.2;
+    margin-top: 1.8vw;
+    text-align: center;
+    letter-spacing: -0.1px;
+  }
+
+  .faqcardtext3 {
+    font-weight: 600;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75vw;
+    line-height: 1.2;
+    margin-top: 1.35vw;
+    text-align: center;
+    letter-spacing: -0.1px;
+  }
+
+  .faqcardtext4 {
+    font-weight: 600;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75vw;
+    line-height: 1.2;
+    margin-top: 1.6vw;
+    text-align: center;
+    letter-spacing: -0.1px;
+  }
+
+  .faqcardtext5 {
+    font-weight: 600;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75vw;
+    line-height: 1.2;
+    margin-top: 1.7vw;
+    text-align: center;
+    letter-spacing: -0.1px;
+  }
+
+  .faqcardtext6 {
+    font-weight: 600;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75vw;
+    line-height: 1.2;
+    margin-top: 1.35vw;
+    text-align: center;
+    letter-spacing: -0.1px;
+  }
+  .faqcardtext7 {
+    font-weight: 600;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75vw;
+    line-height: 1.2;
+    margin-top: 1.35vw;
+    text-align: center;
+    letter-spacing: -0.1px;
+  }
+  .faqcardtext8 {
+    font-weight: 600;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75vw;
+    line-height: 1.2;
+    margin-top: 1.35vw;
+    text-align: center;
+    letter-spacing: -0.1px;
+  }
+  .faqcardtext9 {
+    font-weight: 600;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75vw;
+    line-height: 1.2;
+    margin-top: 1.35vw;
+    text-align: center;
+    letter-spacing: -0.1px;
+  }
+  .faqaccordianheading {
+    font-weight: 700;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.55vw;
+    line-height: 1.2;
+    margin-top: 5.25vw;
+    text-align: center;
+  }
+
+  .faqaccordiantext {
+    font-weight: 400;
+    color: #2d2d2d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    line-height: 1.2;
+    margin-top: 1.25vw;
+    text-align: center;
+  }
+
+
+
+  .accordianlink {
+    font-weight: 500;
+    color: #2D2d2d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.85vw;
+    line-height: 1;
+    text-align: left;
+    padding-right: 0.8vw;
+    letter-spacing: 0px;
+  }
+
+  .accordianicon {
+    width: 1.1vw;
+    margin-top: 0vw;
+  }
+
+  .accordianspan {
+    font-weight: 700;
+    color: #01355D;
+    font-size: 1.1vw;
+  }
+
+  .faqyoustillheading {
+    font-weight: 700;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8vw;
+    line-height: 1.2;
+    margin-top: 5vw;
+    text-align: center;
+  }
+
+  .faqyoustilltext {
+    font-weight: 400;
+    color: #2d2d2d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    line-height: 1.2;
+    margin-top: 1.25vw;
+    text-align: center;
+  }
+
+  .faqcontactrow {
+    margin: 0px;
+    padding: 0px 14.5vw;
+    margin-top: 3.2vw;
+  }
+
+  .faqcontactcol {
+    padding: 0px 1.5vw;
+  }
+
+  .faqcontactcard {
+    height: 10vw;
+    border-radius: 0.5vw;
+    border: 0.07vw solid #f8951d;
+  }
+
+  .faqemmailtext {
+    text-decoration: underline;
+
+    margin-top: 1.2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -2;
+    font-size: 0.9vw;
+    line-height: 1.2;
+    color: #2d2d2d;
+  }
+
+  .contactusviaematext {
+    margin-top: 1.6vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: -2;
+    font-size: 0.75vw;
+    line-height: 1.2;
+    color: rgba(45, 45, 45, 0.4);
+  }
+
+  .faqemailimg {
+    width: 3.3vw;
+    margin-top: 1vw;
+  }
+
+
+  .faqmobileno {
+    margin-top: 1.2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -2;
+    font-size: 0.9vw;
+    line-height: 1.2;
+    color: #2d2d2d;
+  }
+
+
+  .faqbetweenline {
+    border-left: 0.07vw solid rgba(45, 45, 45, 0.4);
+  }
+
+
+  .contactusviacall {
+    margin-top: 1.6vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: -2;
+    font-size: 0.75vw;
+    line-height: 1.2;
+    color: rgba(45, 45, 45, 0.4);
+  }
+
+  .faqcallimg {
+    width: 3.5vw;
+    margin-top: 1.8vw;
+  }
+
+  @media(max-width:992px) {
+
+  .policysubheadingicon {
+    width: 10px;
+    margin-top:6px;
+    padding: 0px;
+    position: absolute;
+    margin-left:-14px;
+  }
+
+  .policysubheading {
+    font-weight: 700;
+    color: #2D2D2D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    padding-left: 14vw;
+    padding-right: 7vw;
+    margin-top: 0vw;
+
+  }
+  .policysubmenu
+  { margin-top: 1.6vw;}
+
+  .Youmustnotheading {
+    font-weight: 700;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    line-height: 1.2;
+    padding-left: 7.6vw;
+    padding-right: 7.6vw;
+    margin-top: 50px;
+  }
+
+    .Licensetext {
+      font-weight: 700;
+      color: #2D2D2D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      line-height: 1.2;
+      padding-left: 7.6vw;
+      padding-right: 7.6vw;
+      margin-top: 1.6vw;
+    }
+
+  .policywelcometext {
+    font-weight: 700;
+    color: #2D2D2D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.2;
+    padding-left: 7.6vw;
+    padding-right: 7.6vw;
+    margin-top: 1.6vw;
+  }
+
+  .policywelcometext1 {
+    font-weight: 700;
+    color: #2D2D2D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.2;
+    margin-top: 1.6vw;
+  }
+
+  .policywelcomesubtext {
+    font-weight: 500;
+    color: #2D2D2D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.2;
+    padding-left: 7.6vw;
+    padding-right: 7.6vw;
+    margin-top: 1.6vw;
+  }
+
+  .Licenseheading {
+    font-weight: 700;
+    color: #01355D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    line-height: 1.2;
+    padding-left: 7.6vw;
+    padding-right: 7.6vw;
+    margin-top: 50px;
+  }
+    .policywelcomeheading {
+      font-weight: 700;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 22px;
+      line-height: 1.2;
+      padding-left: 7.6vw;
+      padding-right: 7.6vw;
+      margin-top: 25px;
+    }
+    .faqcallimg {
+      width: 30px;
+      margin-top: 1.8vw;
+    }
+
+    .contactusviaematext {
+      margin-top: 1vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      letter-spacing: -2;
+      font-size: 12px;
+      line-height: 1.2;
+      color: rgba(45, 45, 45, 0.4);
+    }
+
+    .contactusviacall {
+      margin-top: 1.2vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      letter-spacing: -2;
+      font-size: 12px;
+      line-height: 1.2;
+      color: rgba(45, 45, 45, 0.4);
+    }
+
+    .faqmobileno {
+      margin-top: 17.5px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      letter-spacing: -2;
+      font-size: 10px;
+      line-height: 1.2;
+      color: #2d2d2d;
+    }
+
+    .faqemailimg {
+      width: 30px;
+      margin-top: 1vw;
+    }
+
+    .faqcontactcard {
+      height: 12vw;
+      border-radius: 0.5vw;
+      border: 0.07vw solid #f8951d;
+    }
+
+    .faqemmailtext {
+      text-decoration: underline;
+
+      margin-top: 1.2vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      letter-spacing: -2;
+      font-size: 14px;
+      line-height: 1.2;
+      color: #2d2d2d;
+    }
+
+    .faqcardtext1 {
+      font-weight: 600;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px;
+      line-height: 1.2;
+      margin-top: 1.7vw;
+      text-align: center;
+      letter-spacing: -0.1px;
+    }
+
+    .faqcardtext2 {
+      font-weight: 600;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      line-height: 1.2;
+      margin-top: 1.8vw;
+      text-align: center;
+      letter-spacing: -0.1px;
+    }
+
+    .faqcardtext3 {
+      font-weight: 600;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      line-height: 1.2;
+      margin-top: 1.35vw;
+      text-align: center;
+      letter-spacing: -0.1px;
+    }
+
+    .faqcardtext4 {
+      font-weight: 600;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      line-height: 1.2;
+      margin-top: 1.6vw;
+      text-align: center;
+      letter-spacing: -0.1px;
+    }
+
+    .faqcardtext5 {
+      font-weight: 600;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      line-height: 1.2;
+      margin-top: 1.7vw;
+      text-align: center;
+      letter-spacing: -0.1px;
+    }
+
+    .faqcardtext6 {
+      font-weight: 600;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      line-height: 1.2;
+      margin-top: 1.35vw;
+      text-align: center;
+      letter-spacing: -0.1px;
+    }
+
+    .accordianlink {
+      font-weight: 500;
+      color: #2D2d2d;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      line-height: 1;
+      text-align: left;
+      padding-right: 0.8vw;
+      letter-spacing: 0px;
+    }
+
+    .panel {
+      border-bottom: 2px solid rgba(45, 45, 45, 0.2) !important;
+      padding-bottom: 10px;
+      border-radius: 0px !important;
+    }
+
+    .panel-body {
+      padding-left: 20px;
+      padding-top: 1vw;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      color: #2d2d2d;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.3;
+      padding-right: 30px;
+    }
+
+    .accordianicon {
+      width: 15px;
+      margin-top: -3px;
+    }
+
+    .accordianspan {
+      font-weight: 700;
+      color: #01355D;
+      font-size: 18px;
+    }
+
+    .panel-group {
+      width: 80%;
+      margin-top: 22px;
+    }
+
+    .faqyoustillheading {
+      font-weight: 700;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 22px;
+      line-height: 1.2;
+      margin-top: 70px;
+      text-align: center;
+    }
+
+    .faqyoustilltext {
+      font-weight: 400;
+      color: #2d2d2d;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      line-height: 1.2;
+      margin-top: 1.25vw;
+      text-align: center;
+      padding:0px 15px;
+    }
+
+    .faqaccordianheading {
+      font-weight: 700;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 22px;
+      line-height: 1.2;
+      margin-top: 70px;
+      text-align: center;
+    }
+
+    .faqaccordiantext {
+      font-weight: 400;
+      color: #2d2d2d;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      line-height: 1.2;
+      margin-top: 1.25vw;
+      text-align: center;
+      padding: 0px 15px;
+    }
+
+    .sidebarcol {
+      display: none;
+    }
+
+    .policymaincontentcol {
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+    }
+
+    .policyheading {
+      vertical-align: middle;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: -2;
+      font-style: italic;
+      font-size: 7vw;
+      line-height: 1.2;
+      color: #01355D;
+      padding-top: 2.1vw;
+      padding-bottom: 2.65vw;
+      margin-left: 2.7vw;
+      z-index: 2;
+    }
+
+    .policyicon {
+      width: 7vw;
+      margin-Top: -0.8vw;
+      z-index: 2;
+    }
+
+    .hellofaqheading {
+      font-weight: 700;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 22px;
+      line-height: 1.2;
+      margin-top: 1.5vw;
+      text-align: center;
+    }
+
+    .faqsearchbardiv {
+      margin-top: 20px;
+      width: 80%;
+      box-shadow: 3px 3px 6px #00000011;
+      height: 29px;
+      background-color: #FBFDFF;
+      padding: 2px;
+      border-radius: 6px;
+    }
+
+    .faqsearchbar {
+      padding-left: 30px;
+      width: 100%;
+      height: 27px;
+      background-color: #FBFDFF;
+      border: none;
+      outline: none;
+      font-size: 14px;
+      background-image: url('../images/faqsearchicon.svg');
+      background-repeat: no-repeat;
+      background-size: 16px;
+      background-position-x: 5px;
+      background-position-y: center;
+    }
+
+    .faqsearchbarbtndiv {
+      width: 62px;
+      background-color: #FBFDFF;
+    }
+
+    .faqsearchbarbtn {
+      font-weight: 600;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+      margin-top: 1px;
+      width: 55.323px;
+      height: 22.539px;
+      border-radius: 0px;
+      background-color: #f8951d;
+      border-radius: 4px !important;
+      text-align: center;
+      padding: 0px;
+      line-height: 1.3;
+      margin-left: 1px;
+    }
+
+    .faqsearchbar::placeholder {
+      color: rgba(45, 45, 45, 0.4);
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+    }
+  }
+
+  @media(max-width:766px) {
+    .faqemmailtext {
+      text-decoration: underline;
+      margin-top: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      letter-spacing: -2;
+      font-size: 13px;
+      line-height: 1.2;
+      color: #2d2d2d;
+    }
+
+    .faqcontactrow {
+      margin: 0px;
+      padding: 0px 12vw;
+      margin-top: 3.2vw;
+    }
+
+    .faqcallimg {
+      width: 45px;
+      margin-top: 2.4vw;
+    }
+
+    .faqemailimg {
+      width: 40px;
+      margin-top: 3vw;
+    }
+
+    .contactusviaematext {
+      margin-top: 1vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      letter-spacing: -2;
+      font-size: 12px;
+      line-height: 1.2;
+      color: rgba(45, 45, 45, 0.4);
+    }
+
+    .contactusviacall {
+      margin-top: 1.2vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      letter-spacing: -2;
+      font-size: 12px;
+      line-height: 1.2;
+      color: rgba(45, 45, 45, 0.4);
+    }
+
+    .faqmobileno {
+      margin-top: 18px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      letter-spacing: -2;
+      font-size: 11px;
+      line-height: 1.2;
+      color: #2d2d2d;
+    }
+
+
+
+    .faqcontactcard {
+      height: 100%;
+      padding-bottom: 4px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      border: 0.07vw solid #f8951d;
+    }
+
+
+
+    .faqcardtext1 {
+      font-weight: 600;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      line-height: 1.2;
+      margin-top: 16px;
+      text-align: center;
+      letter-spacing: -0.1px;
+    }
+
+    .faqcardtext2 {
+      font-weight: 600;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      line-height: 1.2;
+      margin-top: 19px;
+      text-align: center;
+      letter-spacing: -0.1px;
+    }
+
+    .faqcardtext3 {
+      font-weight: 600;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      line-height: 1.2;
+      margin-top: 16px;
+      text-align: center;
+      letter-spacing: -0.1px;
+    }
+
+    .faqcardtext4 {
+      font-weight: 600;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      line-height: 1.2;
+      margin-top: 26px;
+      text-align: center;
+      letter-spacing: -0.1px;
+    }
+
+    .faqcardtext5 {
+      font-weight: 600;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      line-height: 1.2;
+      margin-top: 16px;
+      text-align: center;
+      letter-spacing: -0.1px;
+    }
+
+    .faqcardtext6 {
+      font-weight: 600;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      line-height: 1.2;
+      margin-top: 16px;
+      text-align: center;
+      letter-spacing: -0.1px;
+    }
+
+    .ortext {
+      font-weight: 700;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      line-height: 1.2;
+      margin-top: 25px;
+      text-align: center;
+    }
+
+    .faqcardcol {
+      padding: 0px 30px;
+    }
+
+    .faqcardrow {
+      padding: 0 7vw;
+      margin-top: 25px;
+    }
+
+
+    .faqcard {
+      height: 90px;
+      background-color: #FBFDFF;
+      box-shadow: 3px 3px 6px #00000011;
+      border-radius: 7px;
+      margin-bottom: 20px;
+    }
+
+    .faqcardimg1 {
+      width: 23px;
+      margin-top: 18px;
+    }
+
+    .faqcardimg2 {
+      width: 36px;
+      margin-top: 20px;
+    }
+
+    .faqcardimg3 {
+      width: 31px;
+      margin-top: 17px;
+    }
+
+    .faqcardimg4 {
+      width: 30px;
+      margin-top: 2.3vw;
+    }
+
+    .faqcardimg5 {
+      width: 23px;
+      margin-top: 18px;
+    }
+
+    .faqcardimg6 {
+      width: 31px;
+      margin-top: 17px;
+    }
+
+  }
+
+  @media(max-width:573px) {
+    .faqsearchbar {
+      font-size: 3vw;
+
+    }
+    .hellofaqheading {
+      font-weight: 700;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      line-height: 1.2;
+      margin-top: 1.5vw;
+      text-align: center;
+    }
+    .faqaccordianheading {
+      font-weight: 700;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      line-height: 1.2;
+      margin-top: 70px;
+      text-align: center;
+    }
+    .faqyoustillheading {
+      font-weight: 700;
+      color: #01355D;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      line-height: 1.2;
+      margin-top: 70px;
+      text-align: center;
+    }
+    .accordianspan {
+      font-weight: 700;
+      color: #01355D;
+      font-size: 16px;
+    }
+  }
+  @media(max-width:350px){
+    .faqcard {
+        height: 110px;
+        background-color: #FBFDFF;
+        box-shadow: 3px 3px 6px #00000011;
+        border-radius: 7px;
+        margin-bottom: 20px;
+      }
+  }
