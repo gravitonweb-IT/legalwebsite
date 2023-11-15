@@ -2825,7 +2825,7 @@ export default function Home() {
                 data-out=""
               >
                 <li className="dropdown megamenu-fw ">
-                  <a href="#" className="dropdown-toggle mytext m_togle">
+                  <a href="" className="dropdown-toggle mytext m_togle">
                     Start Business
                     <i
                       className="fa fa-angle-down down_arrow_hide"
@@ -2856,6 +2856,7 @@ export default function Home() {
                             </div>
                             <hr className="headinghr" />
                           </div>
+
                           <div className="content">
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
@@ -2936,6 +2937,7 @@ export default function Home() {
                               </li>
                             </ul>
                           </div>
+                          
                         </div>
                         <div className="col-menu col-md-5">
                           <div className="megamenu_heading">
