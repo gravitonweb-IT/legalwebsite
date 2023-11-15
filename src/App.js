@@ -21,6 +21,9 @@ import AddDirector from './components/ChangeInBusiness/AddDirector';
 import AddPartner from './components/ChangeInBusiness/AddPartner';
 import IncreaseCapitalLlp from './components/ChangeInBusiness/IncreaseCapitalLlp';
 import ChangeInNameLlp from './components/ChangeInBusiness/ChangeInNameLlp';
+import AnnualComplianceCompancy from './components/Compliance/AnnualComplianceCompancy';
+import AnnualComplianceLlp from './components/Compliance/AnnualComplianceLlp';
+import CmaReport from './components/Compliance/CmaReport';
 // import Navbar from './common/Navbar';
 
 function App() {
@@ -46,6 +49,15 @@ function App() {
        <Route path="/AddPartner" element={<AddPartner/>}/>
        <Route path="/IncreaseCapitalLlp" element={<IncreaseCapitalLlp/>}/>
        <Route path="/ChangeInNameLlp" element={<ChangeInNameLlp/>}/>
+
+
+{/* Compliance */}
+
+<Route path="/AnnualComplianceCompancy" element={<AnnualComplianceCompancy/>}/>
+<Route path="/AnnualComplianceLlp" element={<AnnualComplianceLlp/>}/>
+<Route path="/CmaReport" element={<CmaReport/>}/>
+
+
 
 
 

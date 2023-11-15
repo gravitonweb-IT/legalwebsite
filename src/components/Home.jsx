@@ -2956,7 +2956,7 @@ export default function Home() {
                               <li className="incontent">
                                 <Link
                                   className="text"
-                                  to="annual-compliance-llp.html"
+                                  to="/AnnualComplianceLlp"
                                 >
                                   {" "}
                                   <img
@@ -2972,7 +2972,7 @@ export default function Home() {
                               <li className="incontent">
                                 <Link
                                   className="text"
-                                  to="annual-compliance-company.html"
+                                  to="/AnnualComplianceCompancy"
                                 >
                                   {"  "}
                                   <img
@@ -2986,7 +2986,7 @@ export default function Home() {
                                 </Link>
                               </li>
                               <li className="incontent">
-                                <Link className="text" to="cma-report.html">
+                                <Link className="text" to="/CmaReport">
                                   {" "}
                                   <img
                                     className="megamenu_icon"
