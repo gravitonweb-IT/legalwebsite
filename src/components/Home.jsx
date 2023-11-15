@@ -2578,31 +2578,31 @@ export default function Home() {
           <div style={{ paddingLeft: "5.9vh" }}>
             <div className="sidebarmainsection">
               <p className="sidebarmainheading">
-                <a href="how-we-work.html">
+                <Link to="how-we-work.html">
                   <img src={Homework} className="sidebarimage2" />
-                </a>
+                </Link>
               </p>
               <center>
-                <a
+                <Link
                   className="sidebarmainheading"
-                  href="how-we-work.html"
+                  to="how-we-work.html"
                   style={{ textAlign: "center", color: "#fff" }}
                 >
                   {" "}
                   How we work
-                </a>{" "}
+                </Link>{" "}
               </center>
             </div>
             <div className="sidebarmainsection">
               <p className="sidebarmainheading">
-                <a href="how-to-get-consultancy.html">
+                <Link to="how-to-get-consultancy.html">
                   <img src={Hometogetcon} className="sidebarimage1" />
-                </a>
+                </Link>
               </p>
               <center>
-                <a
+                <Link
                   className="sidebarmainheading"
-                  href="how-to-get-consultancy.html"
+                  to="how-to-get-consultancy.html"
                   style={{
                     lineHeight: "1.3",
                     textAlign: "center",
@@ -2611,65 +2611,65 @@ export default function Home() {
                 >
                   How to get <br />
                   Consultancy
-                </a>
+                </Link>
               </center>
-              <a
+              <Link
                 className="sidebarmainheading"
-                href="how-to-get-consultancy.html"
+                to="how-to-get-consultancy.html"
                 style={{
                   lineHeight: "1.3",
                   textAlign: "center",
                   color: "#fff",
                 }}
-              ></a>
+              ></Link>
             </div>
             <div className="sidebarmainsection">
               <p className="sidebarmainheading">
-                <a href="https://blog.legal251.com/">
+                <Link to="https://blog.legal251.com/">
                   <img src={Blog} className="sidebarimage1" />
-                </a>
+                </Link>
               </p>
               <center>
-                <a
+                <Link
                   className="sidebarmainheading"
-                  href="resources/index.html"
+                  to="resources/index.html"
                   style={{ textAlign: "center", color: "#fff" }}
                 >
                   Blog
-                </a>{" "}
+                </Link>{" "}
               </center>
             </div>
             <div className="sidebarmainsection">
               <p className="sidebarmainheading">
-                <a href="about.html">
+                <Link to="about.html">
                   <img src={Aboutus} className="sidebarimage1" />
-                </a>
+                </Link>
               </p>
               <center>
                 {" "}
-                <a
+                <Link
                   className="sidebarmainheading"
-                  href="about.html"
+                  to="about.html"
                   style={{ textAlign: "center", color: "#fff" }}
                 >
                   About Us
-                </a>
+                </Link>
               </center>
             </div>
             <div className="sidebarmainsection">
               <p className="sidebarmainheading">
-                <a href="contact.html">
+                <Link to="contact.html">
                   <img src={Contactus} className="sidebarimage2" />
-                </a>
+                </Link>
               </p>
               <center>
-                <a
+                <Link
                   className="sidebarmainheading"
-                  href="contact.html"
+                  to="contact.html"
                   style={{ textAlign: "center", color: "#fff" }}
                 >
                   Contact Us
-                </a>{" "}
+                </Link>{" "}
               </center>
             </div>
           </div>
@@ -2687,19 +2687,19 @@ export default function Home() {
         >
           <div className="trackserviceheader" id="trackservicediv">
             <div className="phonenoheader">
-              <a
+              <Link
                 target="_blank"
-                href="https://wa.me/917772877729/?text=917772877729&text=Hello%20Team%20Legal251!"
+                to="https://wa.me/917772877729/?text=917772877729&text=Hello%20Team%20Legal251!"
               >
                 {" "}
                 <img className="phonenoheaderwhatsapp" src={Whatsapp} />{" "}
-              </a>
+              </Link>
               &nbsp;&nbsp;{" "}
-              <a style={{ color: "#2d2d2d" }} href="tel:7772877729">
+              <Link style={{ color: "#2d2d2d" }} to="tel:7772877729">
                 {" "}
                 <img src={Phoneno} className="phonenoheaderlogo" />
                 (+91)77728-77729{" "}
-              </a>
+              </Link>
             </div>
             <div
               className="dropdown mydropdownclass"
@@ -2714,20 +2714,20 @@ export default function Home() {
               </button>
               <ul className="dropdown-menu dropdown-menu2   specialdropul2">
                 <li>
-                  <a href="https://user.legal251.com/">
+                  <Link to="https://user.legal251.com/">
                     <img src={Pathimg} className="userlogindropicon" />
                     &nbsp;User Login
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://partners.legal251.com/">
+                  <Link to="https://partners.legal251.com/">
                     <img src={Agentimg} className="userlogindropicon2" />
                     &nbsp;Partner Login
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
-            <a href="track-service.html" style={{ color: "#2d2d2d" }}>
+            <Link to="track-service.html" style={{ color: "#2d2d2d" }}>
               <button className="trackservicebutton">
                 <p style={{ display: "inline-block", top: 0 }}>
                   Track
@@ -2735,7 +2735,7 @@ export default function Home() {
                 </p>
                 <img src={Trackservice} className="trackserviceicon" />
               </button>
-            </a>
+            </Link>
             <div className="trackservicebuttonmobdiv dropdown">
               <button
                 className="trackservicebuttonmob dropdown-toggle"
@@ -2747,22 +2747,22 @@ export default function Home() {
               </button>
               <ul className="dropdown-menu dropdown-menu-right specialdropul">
                 <li>
-                  <a href="https://user.legal251.com/">
+                  <Link to="https://user.legal251.com/">
                     <img src={Pathimg} className="userlogindropicon" />{" "}
                     &nbsp;User Login
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="track-service.html">
+                  <Link to="track-service.html">
                     <img src={Groupimg2} className="userlogindropicon" />{" "}
                     &nbsp;Track Service
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://partners.legal251.com/">
+                  <Link to="https://partners.legal251.com/">
                     <img src={Agentimg} className="userlogindropicon2" />
                     &nbsp;Partner Login
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -2774,23 +2774,23 @@ export default function Home() {
             <div className="attr-nav">
               <ul className="pal">
                 <li className="search">
-                  <a href="#" style={{ marginTop: 2 }}>
+                  <Link to="#" style={{ marginTop: 2 }}>
                     <img
                       src={Sidesearchicon}
                       className="navSearchbaricon"
                       id="show"
                       style={{ width: 20 }}
                     />
-                  </a>
+                  </Link>
                 </li>
                 <li className="menu">
-                  <a style={{ marginTop: 3 }}>
+                  <Link style={{ marginTop: 3 }}>
                     <img
                       src={Star}
                       className="sidemenuicon burger1"
                       style={{ width: 23, cursor: "pointer" }}
                     />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -2808,7 +2808,7 @@ export default function Home() {
                   style={{ fontSize: 25, backgroundColor: "transparent" }}
                 />
               </button>
-              <a className="navbar-brand" href="index.html">
+              <Link className="navbar-brand" to="index.html">
                 <center>
                   <img
                     // src={Lglimg}
@@ -2816,7 +2816,7 @@ export default function Home() {
                     alt=""
                   />
                 </center>
-              </a>
+              </Link>
             </div>
             <div className="collapse navbar-collapse" id="navbar-menu">
               <ul
@@ -2825,14 +2825,14 @@ export default function Home() {
                 data-out=""
               >
                 <li className="dropdown megamenu-fw ">
-                  <a href="" className="dropdown-toggle mytext m_togle">
+                  <Link to="/" className="dropdown-toggle mytext m_togle">
                     Start Business
                     <i
                       className="fa fa-angle-down down_arrow_hide"
                       aria-hidden="true"
                       style={{ display: "inline-block" }}
                     />
-                  </a>
+                  </Link>
                   <ul
                     className="bimage dropdown-menu megamenu-content "
                     role="menu"
@@ -2954,9 +2954,9 @@ export default function Home() {
                           <div className="content">
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
-                                <a
+                                <Link
                                   className="text"
-                                  href="annual-compliance-llp.html"
+                                  to="annual-compliance-llp.html"
                                 >
                                   {" "}
                                   <img
@@ -2967,12 +2967,12 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Annual Compliance LLP
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a
+                                <Link
                                   className="text"
-                                  href="annual-compliance-company.html"
+                                  to="annual-compliance-company.html"
                                 >
                                   {"  "}
                                   <img
@@ -2983,10 +2983,10 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Annual Compliance Pvt. Ltd.
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a className="text" href="cma-report.html">
+                                <Link className="text" to="cma-report.html">
                                   {" "}
                                   <img
                                     className="megamenu_icon"
@@ -2996,7 +2996,7 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     CMA Report
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -3006,14 +3006,14 @@ export default function Home() {
                   </ul>
                 </li>
                 <li className="dropdown megamenu-fw ">
-                  <a href="#" className="dropdown-toggle mytext5 m_togle">
+                  <Link to="#" className="dropdown-toggle mytext5 m_togle">
                     Change in Business
                     <i
                       className="fa fa-angle-down down_arrow_hide"
                       aria-hidden="true"
                       style={{ display: "inline-block" }}
                     />
-                  </a>
+                  </Link>
                   <ul
                     className="bimage dropdown-menu megamenu-content lopadd"
                     role="menu"
@@ -3046,14 +3046,14 @@ export default function Home() {
                                     />
                                   </div>
                                   <div>
-                                    <a
+                                    <Link
                                       className="text"
-                                      href="dissolution-of-deed.html"
+                                      to="/DissolutionOfDeed"
                                     >
                                       <span className="hvr-sweep-to-right textres">
                                         Dissolution of deeds
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </li>
@@ -3067,15 +3067,15 @@ export default function Home() {
                                     />
                                   </div>
                                   <div>
-                                    <a
+                                    <Link
                                       className="text"
-                                      href="address-amendment-within-state-llp.html"
+                                      to="/AddressAmendmentWithInStateLlp"
                                     >
                                       <span className="hvr-sweep-to-right textres">
                                         {" "}
                                         Address Amendment Within state (LLP)
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </li>
@@ -3089,15 +3089,15 @@ export default function Home() {
                                     />
                                   </div>
                                   <div>
-                                    <a
+                                    <Link
                                       className="text"
-                                      href="address-amendment-within-state-company.html"
+                                      to="/AddressAmendmentWithInStateCompany"
                                     >
                                       <span className="hvr-sweep-to-right textres">
                                         {" "}
                                         Address Amendment Within state (Company)
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </li>
@@ -3111,14 +3111,14 @@ export default function Home() {
                                     />
                                   </div>
                                   <div>
-                                    <a
+                                    <Link
                                       className="text"
-                                      href="address-amendment-out-state-llp.html"
+                                      to="/AddressAmendmentOutStateLlp"
                                     >
                                       <span className="hvr-sweep-to-right textres">
                                         Address Amendment out of state (LLP)
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </li>
@@ -3132,15 +3132,15 @@ export default function Home() {
                                     />
                                   </div>
                                   <div>
-                                    <a
+                                    <Link
                                       className="text"
-                                      href="address-amendment-out-state-company.html"
+                                      to="/AddressAmendmentoutStateCompany"
                                     >
                                       <span className="hvr-sweep-to-right textres">
                                         {" "}
                                         Address Amendment out of state (Company)
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </li>
@@ -3151,7 +3151,7 @@ export default function Home() {
                           <div className="content">
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
-                                <a className="text" href="add-director.html">
+                                <Link className="text" to="/AddDirector">
                                   {" "}
                                   <img
                                     className="megamenu_icon"
@@ -3161,10 +3161,10 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Add Director (company)
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a className="text" href="add-partner.html">
+                                <Link className="text" to="/AddPartner">
                                   {" "}
                                   <img
                                     className="megamenu_icon"
@@ -3174,7 +3174,7 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Add Partner (Company)
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
                                 <div style={{ display: "flex" }}>
@@ -3187,22 +3187,22 @@ export default function Home() {
                                     &nbsp;
                                   </div>
                                   <div>
-                                    <a
+                                    <Link
                                       className="text"
-                                      href="increase-capital-llp.html"
+                                      to="/IncreaseCapitalLlp"
                                     >
                                       {" "}
                                       <span className="hvr-sweep-to-right textres">
                                         Increase Capital (LLP)
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </li>
                               <li className="incontent">
-                                <a
+                                <Link
                                   className="text"
-                                  href="change-in-name-llp.html"
+                                  to="/ChangeInNameLlp"
                                 >
                                   {" "}
                                   <img
@@ -3213,7 +3213,7 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right">
                                     Change In Name of LLP
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -3222,7 +3222,7 @@ export default function Home() {
                           <div className="content">
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
-                                <a className="text" href="remove-director.html">
+                                <Link className="text" to="remove-director.html">
                                   {" "}
                                   <img
                                     className="megamenu_icon"
@@ -3232,10 +3232,10 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right">
                                     Remove Director (Company)
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a className="text" href="remove-partner.html">
+                                <Link className="text" to="remove-partner.html">
                                   {" "}
                                   <img
                                     className="megamenu_icon"
@@ -3245,7 +3245,7 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Remove Partner (LLP)
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
                                 <div style={{ display: "flex" }}>
@@ -3258,22 +3258,22 @@ export default function Home() {
                                     &nbsp;
                                   </div>
                                   <div>
-                                    <a
+                                    <Link
                                       className="text"
-                                      href="increase-capital-company.html"
+                                      to="increase-capital-company.html"
                                     >
                                       {" "}
                                       <span className="hvr-sweep-to-right textres">
                                         Increase Capital (Company)
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </li>
                               <li className="incontent">
-                                <a
+                                <Link
                                   className="text"
-                                  href="change-in-name-company.html"
+                                  to="change-in-name-company.html"
                                 >
                                   {" "}
                                   <img
@@ -3284,7 +3284,7 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Change In Name of Company
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -3294,14 +3294,14 @@ export default function Home() {
                   </ul>
                 </li>
                 <li className="dropdown megamenu-fw">
-                  <a href="#" className="dropdown-toggle mytext1 m_togle">
+                  <Link to="#" className="dropdown-toggle mytext1 m_togle">
                     Registrations
                     <i
                       className="fa fa-angle-down down_arrow_hide"
                       aria-hidden="true"
                       style={{ display: "inline-block" }}
                     />
-                  </a>
+                  </Link>
                   <ul
                     className="bimage dropdown-menu megamenu-content rpadd"
                     role="menu"
@@ -3326,9 +3326,9 @@ export default function Home() {
                             <div className="content ">
                               <ul className="menu-col" id="id01">
                                 <li className="incontent">
-                                  <a
+                                  <Link
                                     className="text"
-                                    href="import-export-license.html"
+                                    to="import-export-license.html"
                                   >
                                     <img
                                       className="megamenu_icon"
@@ -3338,12 +3338,12 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       Import Export License (IEC)
                                     </span>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a
+                                  <Link
                                     className="text"
-                                    href="icegate-registration.html"
+                                    to="icegate-registration.html"
                                   >
                                     {" "}
                                     <img
@@ -3354,12 +3354,12 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       ICEGATE Registration
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a
+                                  <Link
                                     className="text"
-                                    href="msme-udhyam-registration.html"
+                                    to="msme-udhyam-registration.html"
                                   >
                                     <img
                                       className="megamenu_icon"
@@ -3369,12 +3369,12 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       MSME Registration
                                     </span>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a
+                                  <Link
                                     className="text"
-                                    href="society-registration.html"
+                                    to="society-registration.html"
                                   >
                                     <img
                                       className="megamenu_icon"
@@ -3384,12 +3384,12 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       Society Registration
                                     </span>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a
+                                  <Link
                                     className="text"
-                                    href="pf-registration.html"
+                                    to="pf-registration.html"
                                   >
                                     <img
                                       className="megamenu_icon"
@@ -3399,7 +3399,7 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       PF Registration
                                     </span>
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -3408,8 +3408,8 @@ export default function Home() {
                             <div className="content">
                               <ul className="menu-col" id="id01">
                                 <li className="incontent">
-                                  <a
-                                    href="professional-tax-registration.html"
+                                  <Link
+                                    to="professional-tax-registration.html"
                                     className="singlemenua"
                                   >
                                     <img
@@ -3420,11 +3420,11 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       Professional Tax Registration
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a
-                                    href="gumasta-licence.html"
+                                  <Link
+                                    to="gumasta-licence.html"
                                     className="singlemenua"
                                   >
                                     <img
@@ -3435,11 +3435,11 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       Gumasta License
                                     </span>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a
-                                    href="trademark-registration.html"
+                                  <Link
+                                    to="trademark-registration.html"
                                     className="singlemenua"
                                   >
                                     <img
@@ -3450,11 +3450,11 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       Trade Mark Registration
                                     </span>{" "}
-                                  </a>{" "}
+                                  </Link>{" "}
                                 </li>
                                 <li className="incontent">
-                                  <a
-                                    href="esic-registration.html"
+                                  <Link
+                                    to="esic-registration.html"
                                     className="singlemenua"
                                   >
                                     <img
@@ -3465,7 +3465,7 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       ESIC Registration
                                     </span>
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -3474,8 +3474,8 @@ export default function Home() {
                             <div className="content">
                               <ul className="menu-col" id="id01">
                                 <li className="incontent">
-                                  <a
-                                    href="gst-registration.html"
+                                  <Link
+                                    to="gst-registration.html"
                                     className="singlemenua"
                                   >
                                     <img
@@ -3486,11 +3486,11 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       GST Registration
                                     </span>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a
-                                    href="food-licence.html"
+                                  <Link
+                                    to="food-licence.html"
                                     className="singlemenua"
                                   >
                                     <img
@@ -3501,11 +3501,11 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       Food Licence
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a
-                                    href="trade-licence.html"
+                                  <Link
+                                    to="trade-licence.html"
                                     className="singlemenua"
                                   >
                                     <img
@@ -3516,7 +3516,7 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       Trade Licence
                                     </span>
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -3527,14 +3527,14 @@ export default function Home() {
                   </ul>
                 </li>
                 <li className="dropdown megamenu-fw ">
-                  <a href="#" className="dropdown-toggle mytext2 m_togle">
+                  <Link to="#" className="dropdown-toggle mytext2 m_togle">
                     Filing &amp; More
                     <i
                       className="fa fa-angle-down down_arrow_hide"
                       aria-hidden="true"
                       style={{ display: "inline-block" }}
                     />
-                  </a>
+                  </Link>
                   <ul
                     className="bimage dropdown-menu megamenu-content"
                     role="menu"
@@ -3557,7 +3557,7 @@ export default function Home() {
                             <div className="content">
                               <ul className="menu-col" id="id01">
                                 <li className="incontent">
-                                  <a href="gst-return-filing.html">
+                                  <Link to="gst-return-filing.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/icons/Group_3506_1.svg"
@@ -3566,10 +3566,10 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       GST Return Filing
                                     </span>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a href="income-tax-return-filing.html">
+                                  <Link to="income-tax-return-filing.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/icons/Group_3507_1.svg"
@@ -3578,10 +3578,10 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       ITR Filing
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a href="tds-return-filing.html">
+                                  <Link to="tds-return-filing.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/icons/newicons/tdsrf.svg"
@@ -3590,7 +3590,7 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       TDS Return Filing
                                     </span>
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -3612,7 +3612,7 @@ export default function Home() {
                             <div className="content">
                               <ul className="menu-col" id="id01">
                                 <li className="incontent li_dview newincontent">
-                                  <a href="online-accounting.html">
+                                  <Link to="online-accounting.html">
                                     <img
                                       className="megamenu_icon megamenu_iconspecial"
                                       src="images/icons/Layer_2_1.svg"
@@ -3621,7 +3621,7 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       Online Accounting
                                     </span>
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -3632,14 +3632,14 @@ export default function Home() {
                   </ul>
                 </li>
                 <li className="dropdown megamenu-fw">
-                  <a href="#" className="dropdown-toggle mytext3 m_togle">
+                  <Link to="#" className="dropdown-toggle mytext3 m_togle">
                     Drafting{" "}
                     <i
                       className="fa fa-angle-down down_arrow_hide"
                       aria-hidden="true"
                       style={{ display: "inline-block" }}
                     />
-                  </a>
+                  </Link>
                   <ul
                     className="bimage dropdown-menu megamenu-content dpadd"
                     role="menu"
@@ -3661,8 +3661,8 @@ export default function Home() {
                           <div className="content">
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
-                                <a
-                                  href="legal-drafting.html"
+                                <Link
+                                  to="legal-drafting.html"
                                   className="singlemenua"
                                 >
                                   <img
@@ -3673,11 +3673,11 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Legal Drafting
                                   </span>{" "}
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a
-                                  href="rent-agreement.html"
+                                <Link
+                                  to="rent-agreement.html"
                                   className="singlemenua"
                                 >
                                   <img
@@ -3688,11 +3688,11 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Rent Agreement
                                   </span>{" "}
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a
-                                  href="noc-no-objection-certificate.html"
+                                <Link
+                                  to="noc-no-objection-certificate.html"
                                   className="singlemenua"
                                 >
                                   <img
@@ -3704,11 +3704,11 @@ export default function Home() {
                                     {" "}
                                     NOC
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a
-                                  href="affidavit.html"
+                                <Link
+                                  to="affidavit.html"
                                   className="singlemenua"
                                 >
                                   <img
@@ -3719,11 +3719,11 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Affidavit
                                   </span>{" "}
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a
-                                  href="power-of-attorney.html"
+                                <Link
+                                  to="power-of-attorney.html"
                                   className="singlemenua"
                                 >
                                   <img
@@ -3734,7 +3734,7 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Power of Attorney
                                   </span>{" "}
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -3743,7 +3743,7 @@ export default function Home() {
                           <div className="content">
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
-                                <a href="will.html" className="singlemenua">
+                                <Link to="will.html" className="singlemenua">
                                   <img
                                     className="megamenu_icon"
                                     src="images/icons/NoPath%20-%20Copy%20(17).svg"
@@ -3752,11 +3752,11 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right">
                                     Will
                                   </span>{" "}
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a
-                                  href="application.html"
+                                <Link
+                                  to="application.html"
                                   className="singlemenua"
                                 >
                                   <img
@@ -3767,10 +3767,10 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Application Form
                                   </span>{" "}
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a href="nda-non-disclosure-agreement-online.html">
+                                <Link to="nda-non-disclosure-agreement-online.html">
                                   <img
                                     className="megamenu_icon"
                                     src="images/icons/nda.png"
@@ -3779,10 +3779,10 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     NDA Drafting
                                   </span>{" "}
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a href="privacy-policy-drafting-online.html">
+                                <Link to="privacy-policy-drafting-online.html">
                                   <img
                                     className="megamenu_icon"
                                     src="images/icons/user-privacy_1.svg"
@@ -3791,10 +3791,10 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Privacy Policy Drafting
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a href="terms-and-conditions-drafting-online.html">
+                                <Link to="terms-and-conditions-drafting-online.html">
                                   <img
                                     className="megamenu_icon"
                                     src="images/icons/tnc.png"
@@ -3803,7 +3803,7 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Terms and Conditions Drafting
                                   </span>{" "}
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -3813,14 +3813,14 @@ export default function Home() {
                   </ul>
                 </li>
                 <li className="dropdown megamenu-fw ">
-                  <a href="#" className="dropdown-toggle mytext4 m_togle">
+                  <Link to="#" className="dropdown-toggle mytext4 m_togle">
                     Legal Issues{" "}
                     <i
                       className="fa fa-angle-down down_arrow_hide"
                       aria-hidden="true"
                       style={{ display: "inline-block" }}
                     />
-                  </a>
+                  </Link>
                   <ul
                     className="bimage dropdown-menu megamenu-content lepadd "
                     role="menu"
@@ -3843,7 +3843,7 @@ export default function Home() {
                           <div className="content le_cpadd">
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
-                                <a href="legal-notice-reply.html">
+                                <Link to="legal-notice-reply.html">
                                   <img
                                     className="megamenu_icon"
                                     src="images/icons/legalreply.svg"
@@ -3852,10 +3852,10 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Legal Notice Reply
                                   </span>{" "}
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a href="legal-claim-help.html">
+                                <Link to="legal-claim-help.html">
                                   <img
                                     className="megamenu_icon"
                                     src="images/icons/baggage-claim.svg"
@@ -3864,7 +3864,7 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Legal Advice
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -3885,7 +3885,7 @@ export default function Home() {
                           <div className="content le_cpadd">
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
-                                <a href="legal-notice.html">
+                                <Link to="legal-notice.html">
                                   <img
                                     className="megamenu_icon"
                                     src="images/icons/help.png"
@@ -3894,7 +3894,7 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Legal Notice Prepration
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -3904,14 +3904,14 @@ export default function Home() {
                   </ul>
                 </li>
                 <li className="dropdown megamenu-fw ">
-                  <a href="#" className="dropdown-toggle mytext6 m_togle">
+                  <Link to="#" className="dropdown-toggle mytext6 m_togle">
                     Other Services
                     <i
                       className="fa fa-angle-down down_arrow_hide"
                       aria-hidden="true"
                       style={{ display: "inline-block" }}
                     />
-                  </a>
+                  </Link>
                   <ul
                     className="bimage dropdown-menu megamenu-content opadd"
                     role="menu"
@@ -3931,7 +3931,7 @@ export default function Home() {
                           <div className="content o_cpadd">
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
-                                <a href="balance-sheet-prepration.html">
+                                <Link to="balance-sheet-prepration.html">
                                   <img
                                     className="megamenu_icon"
                                     src="images/icons/Group%205926.svg"
@@ -3941,10 +3941,10 @@ export default function Home() {
                                     {" "}
                                     Balance Sheet Preparation &amp; P&amp;L
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                               <li className="incontent">
-                                <a href="project-report-prepration.html">
+                                <Link to="project-report-prepration.html">
                                   <img
                                     className="megamenu_icon"
                                     src="images/icons/Group%205927.svg"
@@ -3953,7 +3953,7 @@ export default function Home() {
                                   <span className="hvr-sweep-to-right textres">
                                     Project Report Preparation
                                   </span>{" "}
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -3963,14 +3963,14 @@ export default function Home() {
                   </ul>
                 </li>
                 <li className="dropdown megamenu-fw ">
-                  <a href="#" className="dropdown-toggle mytext7 m_togle">
+                  <Link to="#" className="dropdown-toggle mytext7 m_togle">
                     Utilities
                     <i
                       className="fa fa-angle-down down_arrow_hide"
                       aria-hidden="true"
                       style={{ display: "inline-block" }}
                     />
-                  </a>
+                  </Link>
                   <ul
                     className="bimage dropdown-menu megamenu-content opadd"
                     role="menu"
@@ -3989,7 +3989,7 @@ export default function Home() {
                             <div className="content lo_cpadd">
                               <ul className="menu-col" id="id01">
                                 <li className="incontent">
-                                  <a href="GST-calculator.html">
+                                  <Link to="GST-calculator.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/calculator_icons/gst.svg"
@@ -3998,10 +3998,10 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       GST Calculator
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a href="SIP-calculator.html">
+                                  <Link to="SIP-calculator.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/calculator_icons/sip.svg"
@@ -4010,10 +4010,10 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       SIP Calculator
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a href="EMI-calculator.html">
+                                  <Link to="EMI-calculator.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/calculator_icons/interest.svg"
@@ -4022,10 +4022,10 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       EMI Calculator
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a href="FD-calculator.html">
+                                  <Link to="FD-calculator.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/calculator_icons/fd.svg"
@@ -4034,7 +4034,7 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       FD Calculator
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -4043,7 +4043,7 @@ export default function Home() {
                             <div className="content lo_cpadd">
                               <ul className="menu-col" id="id01">
                                 <li className="incontent">
-                                  <a href="80U-calculator.html">
+                                  <Link to="80U-calculator.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/calculator_icons/Group_6457.svg"
@@ -4052,10 +4052,10 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       80U Calculator
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a href="HRA-calculator.html">
+                                  <Link to="HRA-calculator.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/calculator_icons/hra.svg"
@@ -4064,10 +4064,10 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       HRA Calculator
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a href="simple-interest.html">
+                                  <Link to="simple-interest.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/calculator_icons/interest-rate.svg"
@@ -4076,10 +4076,10 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       Simple Interest Calculator
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a href="capital-gain-calulator.html">
+                                  <Link to="capital-gain-calulator.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/calculator_icons/capital_gain.svg"
@@ -4088,7 +4088,7 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       Capital Gain Calculator
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -4097,7 +4097,7 @@ export default function Home() {
                             <div className="content lo_cpadd">
                               <ul className="menu-col" id="id01">
                                 <li className="incontent">
-                                  <a href="TDS-calculator.html">
+                                  <Link to="TDS-calculator.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/calculator_icons/tds.svg"
@@ -4106,10 +4106,10 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       TDS Calculator
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a href="PPF-calculator.html">
+                                  <Link to="PPF-calculator.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/calculator_icons/ppf.svg"
@@ -4118,10 +4118,10 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       PPF Calculator
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a href="Gratuity-calculator.html">
+                                  <Link to="Gratuity-calculator.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/calculator_icons/gratuaty.svg"
@@ -4130,10 +4130,10 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       Gratuity Calculator
                                     </span>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li className="incontent">
-                                  <a href="RD-calculator.html">
+                                  <Link to="RD-calculator.html">
                                     <img
                                       className="megamenu_icon"
                                       src="images/calculator_icons/rd.svg"
@@ -4142,7 +4142,7 @@ export default function Home() {
                                     <span className="hvr-sweep-to-right textres">
                                       RD Calculator
                                     </span>{" "}
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -4159,18 +4159,18 @@ export default function Home() {
 
 
         <div className="sidesocialicon">
-          <a href="https://www.linkedin.com/company/legal251/" target="_blank">
+          <Link to="https://www.linkedin.com/company/legal251/" target="_blank">
             <img src={Linkedinimg} className="socialicon" />
-          </a>
-          <a href="https://www.facebook.com/legal251" target="_blank">
+          </Link>
+          <Link to="https://www.facebook.com/legal251" target="_blank">
             <img src={Fbimg} className="socialicon" />
-          </a>
-          <a href="https://www.instagram.com/legal251india/" target="_blank">
+          </Link>
+          <Link to="https://www.instagram.com/legal251india/" target="_blank">
             <img src={Instaimg} className="socialicon" />
-          </a>
-          <a href="https://twitter.com/legal251" target="_blank">
+          </Link>
+          <Link to="https://twitter.com/legal251" target="_blank">
             <img src={Twitterimg} className="socialicon" />
-          </a>
+          </Link>
           <img src={Emailimg} className="subscribeemail" />
         </div>
         <div className="subscribeemailpopup">
@@ -4336,18 +4336,18 @@ export default function Home() {
                     <p className="comapnydownloadappline comapnydownloadapplineres">
                       Download Legal251 App Now!
                     </p>
-                    <a
+                    <Link
                       target="_blank"
-                      href="https://play.google.com/store/apps/details?id=com.legal251.in"
+                      to="https://play.google.com/store/apps/details?id=com.legal251.in"
                     >
                       <img src={Group82} className="getitgoogleplayimg" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       target="_blank"
-                      href="https://apps.apple.com/in/app/legal251-legal-service-more/id6443916709"
+                      to="https://apps.apple.com/in/app/legal251-legal-service-more/id6443916709"
                     >
                       <img src={Preferredimg} className="getitplaystoreimg" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -4527,7 +4527,7 @@ export default function Home() {
                           <div className="space space1">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="online-accounting.html">
+                                <Link to="online-accounting.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4541,7 +4541,7 @@ export default function Home() {
                                     {" "}
                                     Online <br /> Accounting
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4552,7 +4552,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="msme-udhyam-registration.html">
+                                <Link to="msme-udhyam-registration.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4574,7 +4574,7 @@ export default function Home() {
                                     <br />
                                     Registration
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4588,7 +4588,7 @@ export default function Home() {
                           <div className="space space1">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="gst-return-filing.html">
+                                <Link to="gst-return-filing.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4603,7 +4603,7 @@ export default function Home() {
                                     GST Return <br />
                                     Filing
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4615,7 +4615,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="professional-tax-registration.html">
+                                <Link to="professional-tax-registration.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4636,7 +4636,7 @@ export default function Home() {
                                     Professional
                                     <br /> Tax Registration
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4649,7 +4649,7 @@ export default function Home() {
                           <div className="space space1">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="gst-registration.html">
+                                <Link to="gst-registration.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4664,7 +4664,7 @@ export default function Home() {
                                     GST
                                     <br /> Registration
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4675,7 +4675,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="icegate-registration.html">
+                                <Link to="icegate-registration.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4697,7 +4697,7 @@ export default function Home() {
                                     <br />
                                     Registration
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4710,7 +4710,7 @@ export default function Home() {
                           <div className="space space1">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="income-tax-return-filing.html">
+                                <Link to="income-tax-return-filing.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4728,7 +4728,7 @@ export default function Home() {
                                     Income Tax <br />
                                     Return Filing
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4739,7 +4739,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="society-registration.html">
+                                <Link to="society-registration.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4761,7 +4761,7 @@ export default function Home() {
                                     <br />
                                     Registration
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4774,7 +4774,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="trademark-registration.html">
+                                <Link to="trademark-registration.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4792,7 +4792,7 @@ export default function Home() {
                                     Trademark <br />
                                     Registration
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4803,7 +4803,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="pf-registration.html">
+                                <Link to="pf-registration.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4824,7 +4824,7 @@ export default function Home() {
                                     PF <br />
                                     Registration
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4837,7 +4837,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="import-export-license.html">
+                                <Link to="import-export-license.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4854,7 +4854,7 @@ export default function Home() {
                                     {" "}
                                     Import Export <br /> License
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4865,7 +4865,7 @@ export default function Home() {
                           <div className="space space1">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="noc-no-objection-certificate.html">
+                                <Link to="noc-no-objection-certificate.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4885,7 +4885,7 @@ export default function Home() {
                                     {" "}
                                     NOC <br />
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4898,7 +4898,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="partnership-deed.html">
+                                <Link to="partnership-deed.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4916,7 +4916,7 @@ export default function Home() {
                                     Partnership <br />
                                     Deed
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4927,7 +4927,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="dissolution-of-deed.html">
+                                <Link to="/DissolutionOfDeed">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4935,7 +4935,7 @@ export default function Home() {
                                         marginTop: 30,
                                         width: "auto !important",
                                       }}
-                                      src="images/icons/Group%205917.svg"
+                                      src="./Draftingimages/icons/Group%205917.svg"
                                       alt=""
                                       loading="lazy"
                                     />
@@ -4948,7 +4948,7 @@ export default function Home() {
                                     Dissolution
                                     <br /> Of Deeds
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4961,7 +4961,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="food-licence.html">
+                                <Link to="food-licence.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -4979,7 +4979,7 @@ export default function Home() {
                                     Food <br />
                                     Licence
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -4990,7 +4990,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="trade-licence.html">
+                                <Link to="trade-licence.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -5011,7 +5011,7 @@ export default function Home() {
                                     Trade <br />
                                     Licence
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -5024,7 +5024,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="food-licence.html">
+                                <Link to="food-licence.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -5042,7 +5042,7 @@ export default function Home() {
                                     Legal <br />
                                     Drafting
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -5053,7 +5053,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="trade-licence.html">
+                                <Link to="trade-licence.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -5074,7 +5074,7 @@ export default function Home() {
                                     Rent <br />
                                     Agreement
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -5087,7 +5087,7 @@ export default function Home() {
                           <div className="space space1">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="affidavit.html">
+                                <Link to="affidavit.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -5101,7 +5101,7 @@ export default function Home() {
                                     />
                                   </div>
                                   <p className="Owl_Para"> Affidavit</p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -5112,7 +5112,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="power-of-attorney.html">
+                                <Link to="power-of-attorney.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -5133,7 +5133,7 @@ export default function Home() {
                                     Power <br />
                                     of Attorney
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -5146,7 +5146,7 @@ export default function Home() {
                           <div className="space space1">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="will.html">
+                                <Link to="will.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -5160,7 +5160,7 @@ export default function Home() {
                                     />
                                   </div>
                                   <p className="Owl_Para"> Will</p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -5171,7 +5171,7 @@ export default function Home() {
                           <div className="space">
                             <div className="owl_data OwLData">
                               <div className="new1">
-                                <a href="power-of-attorney.html">
+                                <Link to="power-of-attorney.html">
                                   <div className="new2">
                                     <img
                                       className="Owl_img"
@@ -5192,7 +5192,7 @@ export default function Home() {
                                     Application <br />
                                     Form
                                   </p>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -5376,7 +5376,7 @@ export default function Home() {
                     >
                       <div className="owl_data OwLData">
                         <div className="new1">
-                          <a href="power-of-attorney.html">
+                          <Link to="power-of-attorney.html">
                             <div className="new2">
                               <img
                                 className="Owl_img"
@@ -5398,7 +5398,7 @@ export default function Home() {
                               <br />
                               Registration
                             </p>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="border border1" />
@@ -5412,7 +5412,7 @@ export default function Home() {
                     >
                       <div className="owl_data OwLData">
                         <div className="new1">
-                          <a href="power-of-attorney.html">
+                          <Link to="power-of-attorney.html">
                             <div className="new2">
                               <img
                                 className="Owl_img"
@@ -5434,7 +5434,7 @@ export default function Home() {
                               <br />
                               Filing
                             </p>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="border border2" />
@@ -5448,7 +5448,7 @@ export default function Home() {
                     >
                       <div className="owl_data OwLData">
                         <div className="new1">
-                          <a href="power-of-attorney.html">
+                          <Link to="power-of-attorney.html">
                             <div className="new2">
                               <img
                                 className="Owl_img"
@@ -5468,7 +5468,7 @@ export default function Home() {
                               ITR <br />
                               Filing
                             </p>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="border border3" />
@@ -5482,7 +5482,7 @@ export default function Home() {
                     >
                       <div className="owl_data OwLData">
                         <div className="new1">
-                          <a href="power-of-attorney.html">
+                          <Link to="power-of-attorney.html">
                             <div className="new2">
                               <img
                                 className="Owl_img"
@@ -5504,7 +5504,7 @@ export default function Home() {
                               <br />
                               Accounting
                             </p>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="border border4" />
@@ -5518,7 +5518,7 @@ export default function Home() {
                     >
                       <div className="owl_data OwLData">
                         <div className="new1">
-                          <a href="power-of-attorney.html">
+                          <Link to="power-of-attorney.html">
                             <div className="new2">
                               <img
                                 className="Owl_img"
@@ -5538,7 +5538,7 @@ export default function Home() {
                               Trademark <br />
                               Registration
                             </p>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="border border5" />
@@ -5552,7 +5552,7 @@ export default function Home() {
                     >
                       <div className="owl_data OwLData">
                         <div className="new1">
-                          <a href="power-of-attorney.html">
+                          <Link to="power-of-attorney.html">
                             <div className="new2">
                               <img
                                 className="Owl_img"
@@ -5572,7 +5572,7 @@ export default function Home() {
                               Gumasta <br />
                               Licence(S &amp; E)
                             </p>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="border border6" />
@@ -5586,7 +5586,7 @@ export default function Home() {
                     >
                       <div className="owl_data OwLData">
                         <div className="new1">
-                          <a href="power-of-attorney.html">
+                          <Link to="power-of-attorney.html">
                             <div className="new2">
                               <img
                                 className="Owl_img"
@@ -5607,7 +5607,7 @@ export default function Home() {
                               <br />
                               Licence
                             </p>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="border border7" />
@@ -5621,7 +5621,7 @@ export default function Home() {
                     >
                       <div className="owl_data OwLData">
                         <div className="new1">
-                          <a href="power-of-attorney.html">
+                          <Link to="power-of-attorney.html">
                             <div className="new2">
                               <img
                                 className="Owl_img"
@@ -5642,7 +5642,7 @@ export default function Home() {
                               <br />
                               Licence
                             </p>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="border border8" />
@@ -5721,14 +5721,14 @@ export default function Home() {
                         style={{ marginLeft: "2vw", height: 45 }}
                         id="submit"
                       >
-                        <a
+                        <Link
                           style={{ color: "#FAFAFA" }}
-                          href="gst-registration.html"
+                          to="gst-registration.html"
                           target="_blank"
                         >
                           {" "}
                           Get Started{" "}
-                        </a>
+                        </Link>
                       </button>
                     </div>
                     <div></div>
@@ -5804,14 +5804,14 @@ export default function Home() {
                         style={{ marginLeft: "2vw", height: 45 }}
                         id="submit"
                       >
-                        <a
+                        <Link
                           style={{ color: "#FAFAFA" }}
-                          href="gst-return-filing.html"
+                          to="gst-return-filing.html"
                           target="_blank"
                         >
                           {" "}
                           Get Started{" "}
-                        </a>
+                        </Link>
                       </button>
                     </div>
                     <div></div>
@@ -5886,14 +5886,14 @@ export default function Home() {
                         style={{ marginLeft: "2vw", height: 45 }}
                         id="submit"
                       >
-                        <a
+                        <Link
                           style={{ color: "#FAFAFA" }}
-                          href="income-tax-return-filing.html"
+                          to="income-tax-return-filing.html"
                           target="_blank"
                         >
                           {" "}
                           Get Started{" "}
-                        </a>
+                        </Link>
                       </button>
                     </div>
                     <div></div>
@@ -5968,14 +5968,14 @@ export default function Home() {
                         style={{ marginLeft: "2vw", height: 45 }}
                         id="submit"
                       >
-                        <a
+                        <Link
                           style={{ color: "#FAFAFA" }}
-                          href="online-accounting.html"
+                          to="online-accounting.html"
                           target="_blank"
                         >
                           {" "}
                           Get Started{" "}
-                        </a>
+                        </Link>
                       </button>
                     </div>
                     <div></div>
@@ -6048,14 +6048,14 @@ export default function Home() {
                         style={{ marginLeft: "2vw", height: 45 }}
                         id="submit"
                       >
-                        <a
+                        <Link
                           style={{ color: "#FAFAFA" }}
-                          href="trademark-registration.html"
+                          to="trademark-registration.html"
                           target="_blank"
                         >
                           {" "}
                           Get Started{" "}
-                        </a>
+                        </Link>
                       </button>
                     </div>
                     <div></div>
@@ -6129,14 +6129,14 @@ export default function Home() {
                         style={{ marginLeft: "2vw", height: 45 }}
                         id="submit"
                       >
-                        <a
+                        <Link
                           style={{ color: "#FAFAFA" }}
-                          href="gumasta-licence.html"
+                          to="gumasta-licence.html"
                           target="_blank"
                         >
                           {" "}
                           Get Started{" "}
-                        </a>
+                        </Link>
                       </button>
                     </div>
                     <div></div>
@@ -6209,14 +6209,14 @@ export default function Home() {
                         style={{ marginLeft: "2vw", height: 45 }}
                         id="submit"
                       >
-                        <a
+                        <Link
                           style={{ color: "#FAFAFA" }}
-                          href="food-licence.html"
+                          to="food-licence.html"
                           target="_blank"
                         >
                           {" "}
                           Get Started{" "}
-                        </a>
+                        </Link>
                       </button>
                     </div>
                     <div></div>
@@ -6288,14 +6288,14 @@ export default function Home() {
                         style={{ marginLeft: "2vw", height: 45 }}
                         id="submit"
                       >
-                        <a
+                        <Link
                           style={{ color: "#FAFAFA" }}
-                          href="trade-licence.html"
+                          to="trade-licence.html"
                           target="_blank"
                         >
                           {" "}
                           Get Started{" "}
-                        </a>
+                        </Link>
                       </button>
                     </div>
                     <div></div>
@@ -6434,8 +6434,8 @@ export default function Home() {
               Manage all your legal works &amp; business with ease!
             </p>
             <div className="flex-container">
-              <a
-                href="https://play.google.com/store/apps/details?id=com.legal251.in"
+              <Link
+                to="https://play.google.com/store/apps/details?id=com.legal251.in"
                 className="googleplaybutton"
               >
                 <p style={{ display: "block" }}>
@@ -6450,9 +6450,9 @@ export default function Home() {
                     Google Play
                   </span>
                 </p>
-              </a>
-              <a
-                href="https://apps.apple.com/in/app/legal251-legal-service-more/id6443916709"
+              </Link>
+              <Link
+                to="https://apps.apple.com/in/app/legal251-legal-service-more/id6443916709"
                 className="googleplaybutton2"
               >
                 <p style={{ display: "block" }}>
@@ -6467,7 +6467,7 @@ export default function Home() {
                     App Store
                   </span>
                 </p>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -7317,9 +7317,9 @@ export default function Home() {
                         satisfaction.
                       </p>
                       <center>
-                        <a className="readmorebutton" href="about.html">
+                        <Link className="readmorebutton" to="about.html">
                           Read more...
-                        </a>
+                        </Link>
                       </center>
                       <br />
                     </div>
@@ -7348,12 +7348,12 @@ export default function Home() {
                           explained below and we will handle the rest.
                         </p>
                         <center>
-                          <a
+                          <Link
                             className="readmorebutton"
-                            href="how-to-get-consultancy.html"
+                            to="how-to-get-consultancy.html"
                           >
                             Read more...
-                          </a>
+                          </Link>
                         </center>
                       </div>
                     </div>
@@ -7378,9 +7378,9 @@ export default function Home() {
                           execute the operations in a flawless manner.
                         </p>
                         <center>
-                          <a className="readmorebutton" href="how-we-work.html">
+                          <Link className="readmorebutton" to="how-we-work.html">
                             Read more...
-                          </a>
+                          </Link>
                         </center>
                       </div>
                     </div>
@@ -7407,12 +7407,12 @@ export default function Home() {
                           companies.
                         </p>
                         <center>
-                          <a
+                          <Link
                             className="readmorebutton"
-                            href="online-accounting.html"
+                            to="online-accounting.html"
                           >
                             Read more...
-                          </a>
+                          </Link>
                         </center>
                       </div>
                     </div>
@@ -7438,12 +7438,12 @@ export default function Home() {
                           accessible to you. <br />
                         </p>
                         <center>
-                          <a
+                          <Link
                             className="readmorebutton"
-                            href="track-service.html"
+                            to="track-service.html"
                           >
                             Read more...
-                          </a>
+                          </Link>
                         </center>
                       </div>
                     </div>
@@ -7610,8 +7610,8 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-4">
                   <p className="footerheading">Contact us</p>
-                  <a
-                    href="cdn-cgi/l/email-protection.html#ee8d81809a8f8d9aae828b898f82dcdbdfc08d8183"
+                  <Link
+                    to="cdn-cgi/l/email-protection.html#ee8d81809a8f8d9aae828b898f82dcdbdfc08d8183"
                     style={{ textDecoration: "underline", color: "#fff" }}
                     className="footertext"
                   >
@@ -7621,92 +7621,92 @@ export default function Home() {
                     >
                       [email&nbsp;protected]
                     </span>
-                  </a>
+                  </Link>
                   <br />
-                  <a
-                    href="tel:7772877729"
+                  <Link
+                    to="tel:7772877729"
                     style={{ textDecoration: "underline", color: "#fff" }}
                     className="footertext"
                   >
                     (+91)77728-77729
-                  </a>
+                  </Link>
                   <br />
                 </div>
                 <div className="col-md-3">
                   <p className="footerheading">Links</p>
-                  <a
-                    href="https://blog.legal251.com/"
+                  <Link
+                    to="https://blog.legal251.com/"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     Latest News
-                  </a>
+                  </Link>
                   <br />
-                  <a
-                    href="how-we-work.html"
+                  <Link
+                    to="how-we-work.html"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     How we work
-                  </a>
+                  </Link>
                   <br />
-                  <a
-                    href="about.html"
+                  <Link
+                    to="about.html"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     About Us
-                  </a>
+                  </Link>
                   <br />
-                  <a
-                    href="resources/index.html"
+                  <Link
+                    to="resources/index.html"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     Blog
-                  </a>
+                  </Link>
                   <br />
-                  <a
-                    href="resources/guides/index.html"
+                  <Link
+                    to="resources/guides/index.html"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     Guides
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-md-5">
                   <p className="footerheading">Legal &amp; Policies</p>
-                  <a
-                    href="terms-and-conditions.html"
+                  <Link
+                    to="terms-and-conditions.html"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     Terms &amp; Condition
-                  </a>
+                  </Link>
                   <br />
-                  <a
-                    href="privacy-policy.html"
+                  <Link
+                    to="privacy-policy.html"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     Privacy Policy
-                  </a>
+                  </Link>
                   <br />
-                  <a
-                    href="cookie-policy.html"
+                  <Link
+                    to="cookie-policy.html"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     Cookie Policy
-                  </a>
+                  </Link>
                   <br />
-                  <a
-                    href="refund-policy.html"
+                  <Link
+                    to="refund-policy.html"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     Refund Policy
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -7714,47 +7714,47 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-3">
                   <p className="footerheading">Support</p>
-                  <a
-                    href="faq.html"
+                  <Link
+                    to="faq.html"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     FAQs
-                  </a>
+                  </Link>
                   <br />
-                  <a
-                    href="contact.html"
+                  <Link
+                    to="contact.html"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     Contact us
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-md-4">
                   <p className="footerheading">Account</p>
-                  <a
-                    href="https://user.legal251.com/"
+                  <Link
+                    to="https://user.legal251.com/"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     User Login
-                  </a>
+                  </Link>
                   <br />
-                  <a
-                    href="https://partners.legal251.com/"
+                  <Link
+                    to="https://partners.legal251.com/"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     Partner Login
-                  </a>
+                  </Link>
                   <br />
-                  <a
-                    href="track-service.html"
+                  <Link
+                    to="track-service.html"
                     style={{ color: "#fff" }}
                     className="footertext"
                   >
                     Service Tracking Dashboard
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-md-5">
                   <center>
@@ -7793,8 +7793,8 @@ export default function Home() {
                     />
                     <br />
                     <p className="Followusheading">Follow us on</p>
-                    <a
-                      href="https://www.instagram.com/legal251india/"
+                    <Link
+                      to="https://www.instagram.com/legal251india/"
                       target="_blank"
                     >
                       {" "}
@@ -7803,17 +7803,17 @@ export default function Home() {
                         className="footersocialicon"
                         loading="lazy"
                       />{" "}
-                    </a>{" "}
-                    <a href="https://twitter.com/legal251" target="_blank">
+                    </Link>{" "}
+                    <Link to="https://twitter.com/legal251" target="_blank">
                       {" "}
                       <img
                         src={FooterTwitter}
                         className="footersocialicon"
                         loading="lazy"
                       />{" "}
-                    </a>{" "}
-                    <a
-                      href="https://www.linkedin.com/company/legal251/"
+                    </Link>{" "}
+                    <Link
+                      to="https://www.linkedin.com/company/legal251/"
                       target="_blank"
                     >
                       {" "}
@@ -7822,15 +7822,15 @@ export default function Home() {
                         className="footersocialicon"
                         loading="lazy"
                       />{" "}
-                    </a>{" "}
-                    <a href="https://www.facebook.com/legal251" target="_blank">
+                    </Link>{" "}
+                    <Link to="https://www.facebook.com/legal251" target="_blank">
                       {" "}
                       <img
                         src={Footerfbimg}
                         className=" footersocialicon"
                         loading="lazy"
                       />{" "}
-                    </a>
+                    </Link>
                   </center>
                 </div>
               </div>
@@ -7973,9 +7973,9 @@ export default function Home() {
                       can submit your query/problem online also.{" "}
                     </p>
                     <center>
-                      <a href="index.html" className="btn Clickherebutton">
+                      <Link to="index.html" className="btn Clickherebutton">
                         Proceed online
-                      </a>
+                      </Link>
                       <p
                         className="choossingno"
                         style={{
@@ -7985,9 +7985,9 @@ export default function Home() {
                         }}
                       >
                         Or call on (+91){" "}
-                        <a
+                        <Link
                           style={{ display: "block", color: "#2d2d2d" }}
-                          href="tel:7772877729"
+                          to="tel:7772877729"
                         >
                           77728-77729{" "}
                           <img
@@ -7995,7 +7995,7 @@ export default function Home() {
                             className="phonecall"
                             loading="lazy"
                           />
-                        </a>
+                        </Link>
                       </p>
                     </center>
                   </div>
