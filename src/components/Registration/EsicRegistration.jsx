@@ -1,13 +1,13 @@
 import React from 'react'
 
-const ProfessionalTaxRegistration = () => {
+const EsicRegistration = () => {
   return (
     <>
- 
     <div className="wrapper">
-    
      <div style={{ position: "relative", overflowX: "hidden" }}>
       
+   
+       
        <div className="servicebrhide">
          <br />
          <br />
@@ -38,7 +38,7 @@ const ProfessionalTaxRegistration = () => {
          <div className="servicemaindiv" style={{ marginTop: 7 }}>
            <div className="row">
              <div className="col-md-6">
-               <p className="serviceamainheading">Professional Tax Registration</p>
+               <p className="serviceamainheading">ESIC Registration</p>
                <p
                  style={{
                    fontFamily: '"Roboto"',
@@ -49,10 +49,9 @@ const ProfessionalTaxRegistration = () => {
                    lineHeight: "1.2"
                  }}
                >
-                 Instituted by the state, Professional Tax is levied on the income
-                 earned by the employees for delivering their services. Legal251
-                 experts will help you get Registered under Professional Tax
-                 online.
+                 Reduce your medical expenses using the ESI scheme. Complete your
+                 ESIC Registration to get the monetary, medical and other benefits
+                 under the ESI Act.
                </p>
                <br />
                <a href="#formpricediv">
@@ -109,7 +108,7 @@ const ProfessionalTaxRegistration = () => {
                            <option
                              className="cities"
                              data-value=""
-                             data-select2-id="select2-data-2-j4ix"
+                             data-select2-id="select2-data-2-9vpx"
                            />
                            <option className="cities" data-value={1}>
                              Adilabad
@@ -2296,7 +2295,7 @@ const ProfessionalTaxRegistration = () => {
                          <span
                            className="select2 select2-container select2-container--default"
                            dir="ltr"
-                           data-select2-id="select2-data-1-4xzw"
+                           data-select2-id="select2-data-1-7cnm"
                            style={{ width: "242.734px" }}
                          >
                            <span className="selection">
@@ -2421,7 +2420,7 @@ const ProfessionalTaxRegistration = () => {
                              lineHeight: "1.2"
                            }}
                          >
-                           <sup style={{ lineHeight: "1.5" }} />₹ 1251
+                           <sup style={{ lineHeight: "1.5" }} />₹ 3251.00
                          </p>
                          <p
                            style={{
@@ -2471,18 +2470,31 @@ const ProfessionalTaxRegistration = () => {
            <br />
            <br />
            <p className="aboutustext">
-             Professional Tax is a State Government imposed tax levied on the
-             employee's income or earnings based on professions such as a lawyer,
-             CAs, or doctors, and is mandatory for almost everyone. Get connected
-             with our experts to register you for professional tax today!
+             Register yourself with the ESI scheme to cut your medical expenses and
+             get monetary benefits under the ESI Act. Our experts are ready to help
+             you with ESIC Registration.
              <br />
-             Professional Tax is imposed on all salaried individuals by the state
-             government and applies to all working professionals. It is levied on
-             the particular individual's trade, profession, or employment. The tax
-             rate differs according to the state. However, the maximum amount
-             levied as professional tax is Rs.2500 per year. To know more about
-             Professional Tax and Professional Tax Registration, contact the
-             professionals of Legal251, and they will help you get your PTR done.
+             Whether you are an employee working on a 9-5 job or an employer with a
+             number of employees at your office, you both need to register under
+             the Employee State Insurance (ESI) Act 1948. ESIC Registration is
+             compulsory for every factory &amp; specified establishments for their
+             employees waging less than Rs. 21,000/- per month.
+             <br />
+             The employer's statutory responsibility under Section 2A of the Act
+             read with Regulation 10-B is to register their Factory/Establishment
+             under the ESI Act within 15 days from the date of its applicability to
+             them.
+             <br />
+             It is a social protection scheme that protects from uncertain events
+             of sickness, maternity, disability, and injury caused by death in the
+             term of employment. The ESIC scheme also focuses on providing medical
+             care facilities to the insured employees and their family members
+             (dependents). Contact us to get help with your ESIC Registration and
+             say goodbye to those expensive medical bills.
+             <br />
+             So, if you are looking for someone to help you with your society
+             registration, your search ends here! Contact Legal251 today, and our
+             legal maestros will complete your society registration.
            </p>
            <br />
            <br />
@@ -2511,7 +2523,7 @@ const ProfessionalTaxRegistration = () => {
          <br />
          <center>
            <img
-             src="https://legal251.com/images/nda/Professional Tax Registration.png"
+             src="https://legal251.com/images/nda/ESIC Registration.png"
              className="gsthowtoapplyimg"
            />
          </center>
@@ -2546,7 +2558,7 @@ const ProfessionalTaxRegistration = () => {
                      src="https://legal251.com/images/faqflag.svg"
                      className="benefitscardimg"
                    />
-                   <p className="benefitscardtext">Avoid Paying Penalties</p>
+                   <p className="benefitscardtext"> Medical Benefits</p>
                  </center>
                </div>
              </div>
@@ -2557,7 +2569,7 @@ const ProfessionalTaxRegistration = () => {
                      src="https://legal251.com/images/faqflag.svg"
                      className="benefitscardimg"
                    />
-                   <p className="benefitscardtext">Judicial Requirement</p>
+                   <p className="benefitscardtext"> Sickness Benefits</p>
                  </center>
                </div>
              </div>
@@ -2568,7 +2580,7 @@ const ProfessionalTaxRegistration = () => {
                      src="https://legal251.com/images/faqflag.svg"
                      className="benefitscardimg"
                    />
-                   <p className="benefitscardtext">Claim Deductions</p>
+                   <p className="benefitscardtext">Disablement Benefits</p>
                  </center>
                </div>
              </div>
@@ -2579,7 +2591,7 @@ const ProfessionalTaxRegistration = () => {
                      src="https://legal251.com/images/faqflag.svg"
                      className="benefitscardimg"
                    />
-                   <p className="benefitscardtext">State Government Tax</p>
+                   <p className="benefitscardtext"> Maternity Benefits</p>
                  </center>
                </div>
              </div>
@@ -2590,7 +2602,7 @@ const ProfessionalTaxRegistration = () => {
                      src="https://legal251.com/images/faqflag.svg"
                      className="benefitscardimg"
                    />
-                   <p className="benefitscardtext"> Easy to Follow</p>
+                   <p className="benefitscardtext">Funeral Expenses</p>
                  </center>
                </div>
              </div>
@@ -2601,7 +2613,7 @@ const ProfessionalTaxRegistration = () => {
                      src="https://legal251.com/images/faqflag.svg"
                      className="benefitscardimg"
                    />
-                   <p className="benefitscardtext"> Impose Minimal Restrictions</p>
+                   <p className="benefitscardtext"> Dependent Benefits</p>
                  </center>
                </div>
              </div>
@@ -2617,9 +2629,31 @@ const ProfessionalTaxRegistration = () => {
                      src="https://legal251.com/images/faqflag.svg"
                      className="benefitscardimg"
                    />
+                   <p className="benefitscardtext"> Unemployment Allowance</p>
+                 </center>
+               </div>
+             </div>
+             <div className="col-md-2 col-xs-4 secondcarddivcol">
+               <div className="servicebenefitscard">
+                 <center>
+                   <img
+                     src="https://legal251.com/images/faqflag.svg"
+                     className="benefitscardimg"
+                   />
+                   <p className="benefitscardtext">Death Benefits</p>
+                 </center>
+               </div>
+             </div>
+             <div className="col-md-2 col-xs-4 secondcarddivcol">
+               <div className="servicebenefitscard">
+                 <center>
+                   <img
+                     src="https://legal251.com/images/faqflag.svg"
+                     className="benefitscardimg"
+                   />
                    <p className="benefitscardtext">
                      {" "}
-                     Enables Smooth Registration Process
+                     Old Age Care Medical Expenses
                    </p>
                  </center>
                </div>
@@ -2631,9 +2665,7 @@ const ProfessionalTaxRegistration = () => {
                      src="https://legal251.com/images/faqflag.svg"
                      className="benefitscardimg"
                    />
-                   <p className="benefitscardtext">
-                     Help in the growth of the country's economy
-                   </p>
+                   <p className="benefitscardtext"> Physical Rehabilitation</p>
                  </center>
                </div>
              </div>
@@ -2644,31 +2676,7 @@ const ProfessionalTaxRegistration = () => {
                      src="https://legal251.com/images/faqflag.svg"
                      className="benefitscardimg"
                    />
-                   <p className="benefitscardtext">
-                     Revenue Source for Welfare Programs
-                   </p>
-                 </center>
-               </div>
-             </div>
-             <div className="col-md-2 col-xs-4 secondcarddivcol">
-               <div className="servicebenefitscard">
-                 <center>
-                   <img
-                     src="https://legal251.com/images/faqflag.svg"
-                     className="benefitscardimg"
-                   />
-                   <p className="benefitscardtext"> Avoid Property Seizure </p>
-                 </center>
-               </div>
-             </div>
-             <div className="col-md-2 col-xs-4 secondcarddivcol">
-               <div className="servicebenefitscard">
-                 <center>
-                   <img
-                     src="https://legal251.com/images/faqflag.svg"
-                     className="benefitscardimg"
-                   />
-                   <p className="benefitscardtext"> Avoid Overall Balance</p>
+                   <p className="benefitscardtext">Confinement Expenses</p>
                  </center>
                </div>
              </div>
@@ -2720,7 +2728,7 @@ const ProfessionalTaxRegistration = () => {
                  <div className="col-md-2 Registrationprocesscol2">
                    <center>
                      <p className="Registrationprocesstext2 gstrtext2">
-                       Our best Professional Tax experts are here to help you with
+                       Our best ESIC professionals are here to help you with
                        document requirements and licensing necessities.
                      </p>
                    </center>
@@ -2729,16 +2737,16 @@ const ProfessionalTaxRegistration = () => {
                    <center>
                      <p className="Registrationprocesstext3 gstrtext3">
                        The respective professional will move further with your
-                       documents to apply for your Professional Tax Registration.
+                       documents to apply for your ESIC Registration.
                      </p>
                    </center>
                  </div>
                  <div className="col-md-2 Registrationprocesscol4">
                    <center>
                      <p className="Registrationprocesstext4 gstrtext4">
-                       Your Professional Tax registration is complete after
-                       accepting the application. We request you to wait until our
-                       expert reaches out to notify you of the same.
+                       Once your Registration Letter is generated by the ESIC
+                       authorities, we will share it with you &amp; will also track
+                       the status of your application.
                      </p>
                    </center>
                  </div>
@@ -2746,8 +2754,8 @@ const ProfessionalTaxRegistration = () => {
                    <center>
                      <p className="Registrationprocesstext5 gstrtext5">
                        You are supposed to wait until our expert reaches out to
-                       notify you of the completion of your Professional Tax
-                       Registration.{" "}
+                       notify you of the generation of your unique ESIC
+                       Identification Number.
                      </p>
                    </center>
                  </div>
@@ -2813,7 +2821,7 @@ const ProfessionalTaxRegistration = () => {
                  border: "none",
                  marginTop: "-20px",
                  borderLeft: "2px solid rgb(1,53,93,0.3)",
-                 height: 430,
+                 height: 300,
                  width: 2
                }}
              />
@@ -2836,8 +2844,8 @@ const ProfessionalTaxRegistration = () => {
                            data-parent="#accordion"
                            href="#collapse1"
                          >
-                           Q1. What is the difference between Income Tax and
-                           Professional Tax?
+                           Q1. How many employees are required for a company to
+                           obtain ESIC registration?
                            <img
                              src="https://legal251.com/images/gstregistration/Path_20192.svg"
                              className="servicefaqimg"
@@ -2850,11 +2858,9 @@ const ProfessionalTaxRegistration = () => {
                        className="panel-collapse collapse in paddingzero"
                      >
                        <div className="panel-body servicefaqbody">
-                         The Central Government directly collects income tax from
-                         all the taxpayers on a specific part of their income.
-                         However, Professional Tax is an indirect tax collected by
-                         the state government based on a tax slab for people
-                         engaged in employment, business, or occupation.
+                         Any company employing more than 20 employees with a
+                         maximum salary of Rs. 21,000 (25,000 in case of a person
+                         with a disability) must obtain ESIC Registration.
                        </div>
                      </div>
                    </div>
@@ -2868,8 +2874,7 @@ const ProfessionalTaxRegistration = () => {
                            data-parent="#accordion"
                            href="#collapse2"
                          >
-                           Q2. Is Professional Tax registration mandatory for
-                           everyone?
+                           Q2. Is it mandatory to obtain ESIC Registration?
                            <img
                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
                              className="servicefaqimg"
@@ -2882,10 +2887,8 @@ const ProfessionalTaxRegistration = () => {
                        className="panel-collapse collapse  paddingzero"
                      >
                        <div className="panel-body servicefaqbody">
-                         Employers in certain states are needed to deduct and
-                         deposit taxes from employees with pay exceeding the
-                         minimum slab limit. However, that entity needs to get a
-                         registration and an enrollment certificate to do so.
+                         Yes, ESIC Registration is mandatory for any company having
+                         a minimum of 20 employees.
                        </div>
                      </div>
                    </div>
@@ -2899,7 +2902,8 @@ const ProfessionalTaxRegistration = () => {
                            data-parent="#accordion"
                            href="#collapse3"
                          >
-                           Q3.How do I know my professional tax is paid?
+                           Q3. Is it mandatory for employers to register under the
+                           ESI Act?
                            <img
                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
                              className="servicefaqimg"
@@ -2912,9 +2916,11 @@ const ProfessionalTaxRegistration = () => {
                        className="panel-collapse collapse paddingzero"
                      >
                        <div className="panel-body servicefaqbody">
-                         Download the payment acknowledgement receipt after making
-                         the payment. In the receipt, you can check that the
-                         payment has been made.
+                         Yes, it is mandatory for all employers who are eligible to
+                         register their establishment/unit/factory. It is a legal
+                         responsibility for the employer to report their business
+                         under ESI Act within 15 days of the Act becoming
+                         applicable to them.
                        </div>
                      </div>
                    </div>
@@ -2928,7 +2934,7 @@ const ProfessionalTaxRegistration = () => {
                            data-parent="#accordion"
                            href="#collapse4"
                          >
-                           Q4.Is it mandatory to pay professional tax?
+                           Q4.What is an ESI Return?
                            <img
                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
                              className="servicefaqimg"
@@ -2941,9 +2947,9 @@ const ProfessionalTaxRegistration = () => {
                        className="panel-collapse collapse paddingzero"
                      >
                        <div className="panel-body servicefaqbody">
-                         Paying Professional Tax is mandatory for every individual,
-                         firm, or company. Else there are penalties in case of
-                         non-compliance.
+                         The term "ESIC Return" refers to a return filed by every
+                         employer registered under the ESIC. An employer needs to
+                         file his return twice a year.
                        </div>
                      </div>
                    </div>
@@ -2957,8 +2963,7 @@ const ProfessionalTaxRegistration = () => {
                            data-parent="#accordion"
                            href="#collapse5"
                          >
-                           Q5. What is the maximum amount of Professional Tax
-                           imposed by a state government?
+                           Q5. How can I claim my ESI?
                            <img
                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
                              className="servicefaqimg"
@@ -2971,8 +2976,8 @@ const ProfessionalTaxRegistration = () => {
                        className="panel-collapse collapse paddingzero"
                      >
                        <div className="panel-body servicefaqbody">
-                         The maximum amount of Professional Tax levied by the state
-                         is Rs. 2500.
+                         You need to acquire Form-9 from your employer to claim
+                         ESI.
                        </div>
                      </div>
                    </div>
@@ -2990,7 +2995,8 @@ const ProfessionalTaxRegistration = () => {
                            data-parent="#accordion2"
                            href="#collapse21"
                          >
-                           Q6. Does Professional Tax differ from state to state?
+                           Q6. Is Employee State Insurance applicable to one's
+                           Parents?
                            <img
                              src="https://legal251.com/images/gstregistration/Path_20192.svg"
                              className="servicefaqimg"
@@ -3003,10 +3009,10 @@ const ProfessionalTaxRegistration = () => {
                        className="panel-collapse collapse in paddingzero"
                      >
                        <div className="panel-body servicefaqbody">
-                         Yes, Professional Tax levied by the state government
-                         differs from state to state. Every state decides its tax
-                         slabs and the professional tax deduction according to
-                         those slabs determined by the authority.
+                         Yes, as per the ESI Act, cash, disability, medical,
+                         maternity, and dependent benefits are included in the
+                         "ESIC Benefits". The definition of "dependents" includes
+                         parents as well.
                        </div>
                      </div>
                    </div>
@@ -3020,8 +3026,7 @@ const ProfessionalTaxRegistration = () => {
                            data-parent="#accordion2"
                            href="#collapse22"
                          >
-                           Q7.Are freelance professionals liable to pay
-                           Professional Tax?
+                           Q7. What is an ESIC code?
                            <img
                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
                              className="servicefaqimg"
@@ -3034,10 +3039,11 @@ const ProfessionalTaxRegistration = () => {
                        className="panel-collapse collapse paddingzero"
                      >
                        <div className="panel-body servicefaqbody">
-                         Yes. The freelance professionals are liable to pay
-                         Professional Tax if their income exceeds the specific slab
-                         limit according to the Professional Tax Laws applicable in
-                         the state where the freelancer lives.
+                         It is a 17-digit unique identification number issued to
+                         every registered establishment, generated when the
+                         employer submits the required details on the ESIC portal
+                         or receives a survey report from the Social Security
+                         Officer.
                        </div>
                      </div>
                    </div>
@@ -3051,7 +3057,7 @@ const ProfessionalTaxRegistration = () => {
                            data-parent="#accordion2"
                            href="#collapse23"
                          >
-                           Q8. Is Professional tax levied in every state in India?
+                           Q8. Who is not considered an employee?
                            <img
                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
                              className="servicefaqimg"
@@ -3064,11 +3070,9 @@ const ProfessionalTaxRegistration = () => {
                        className="panel-collapse collapse paddingzero"
                      >
                        <div className="panel-body servicefaqbody">
-                         No, the Professional Tax is imposed in the following
-                         states of India, including Bihar, Madhya Pradesh, West
-                         Bengal, Telangana, Gujarat, Kerala, Meghalaya, Karnataka,
-                         Maharashtra, Andhra Pradesh, Sikkim, Assam, Tamilnadu,
-                         Odisha, and Tripura.
+                         Apprentices, employees earning a salary of more than
+                         21,000 a month, and members of the Indian Armed Forces are
+                         not considered employees.
                        </div>
                      </div>
                    </div>
@@ -3082,7 +3086,8 @@ const ProfessionalTaxRegistration = () => {
                            data-parent="#accordion2"
                            href="#collapse24"
                          >
-                           Q9.How do I get my Professional Tax Certificate?
+                           Q9.Is overtime included in the wage calculation of an
+                           employee?
                            <img
                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
                              className="servicefaqimg"
@@ -3095,11 +3100,8 @@ const ProfessionalTaxRegistration = () => {
                        className="panel-collapse collapse paddingzero"
                      >
                        <div className="panel-body servicefaqbody">
-                         You can apply directly for the Professional Tax
-                         Registration Certificate from the official website.
-                         However, we suggest that one should seek professional help
-                         for applying for the first time. Contact Legal251 to get
-                         your Professional Tax Certificate in no time.
+                         No, overtime is not included in the wage calculation of an
+                         employee.
                        </div>
                      </div>
                    </div>
@@ -3113,7 +3115,7 @@ const ProfessionalTaxRegistration = () => {
                            data-parent="#accordion2"
                            href="#collapse25"
                          >
-                           Q10. In which states is Professional Tax not applicable?
+                           Q10. What all is included in "Medical Benefits"?
                            <img
                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
                              className="servicefaqimg"
@@ -3126,16 +3128,8 @@ const ProfessionalTaxRegistration = () => {
                        className="panel-collapse collapse paddingzero"
                      >
                        <div className="panel-body servicefaqbody">
-                         States and Union Territories where Professional Tax is not
-                         applicable are: <br />
-                         States: <br />
-                         1) Arunachal Pradesh, Haryana, Himachal Pradesh, Jammu
-                         &amp; Kashmir, Punjab, Rajasthan, Nagaland, Uttaranchal,
-                         Uttar Pradesh
-                         <br />
-                         2) Union Territories: Andaman &amp; Nicobar, Chandigarh,
-                         Delhi, Pondicherry, Dadra &amp; Nagar Haveli, Lakshadweep,
-                         Daman &amp; Diu.
+                         The term "Medical Benefits" includes the complete
+                         treatment of a person.
                        </div>
                      </div>
                    </div>
@@ -3156,7 +3150,7 @@ const ProfessionalTaxRegistration = () => {
                  style={{
                    transition: "all 0.25s ease 0s",
                    width: 8067,
-                   transform: "translate3d(-1613px, 0px, 0px)"
+                   transform: "translate3d(-2419px, 0px, 0px)"
                  }}
                >
                  <div className="owl-item cloned" style={{ width: "806.603px" }}>
@@ -3278,10 +3272,7 @@ const ProfessionalTaxRegistration = () => {
                      </center>
                    </div>
                  </div>
-                 <div
-                   className="owl-item cloned active"
-                   style={{ width: "806.603px" }}
-                 >
+                 <div className="owl-item cloned" style={{ width: "806.603px" }}>
                    <div
                      className="clientscard clientservicemargin"
                      data-position={3}
@@ -3342,10 +3333,7 @@ const ProfessionalTaxRegistration = () => {
                      </center>
                    </div>
                  </div>
-                 <div
-                   className="owl-item active center"
-                   style={{ width: "806.603px" }}
-                 >
+                 <div className="owl-item active" style={{ width: "806.603px" }}>
                    <div
                      className="clientscard clientservicemargin"
                      data-position={0}
@@ -3406,7 +3394,10 @@ const ProfessionalTaxRegistration = () => {
                      </center>
                    </div>
                  </div>
-                 <div className="owl-item active" style={{ width: "806.603px" }}>
+                 <div
+                   className="owl-item active center"
+                   style={{ width: "806.603px" }}
+                 >
                    <div
                      className="clientscard clientservicemargin"
                      data-position={1}
@@ -3465,7 +3456,7 @@ const ProfessionalTaxRegistration = () => {
                      </center>
                    </div>
                  </div>
-                 <div className="owl-item" style={{ width: "806.603px" }}>
+                 <div className="owl-item active" style={{ width: "806.603px" }}>
                    <div
                      className="clientscard clientservicemargin"
                      data-position={2}
@@ -3777,10 +3768,10 @@ const ProfessionalTaxRegistration = () => {
                </button>
              </div>
              <div className="owl-dots">
-               <button role="button" className="owl-dot active">
+               <button role="button" className="owl-dot">
                  <span />
                </button>
-               <button role="button" className="owl-dot">
+               <button role="button" className="owl-dot active">
                  <span />
                </button>
                <button role="button" className="owl-dot">
@@ -4053,14 +4044,15 @@ const ProfessionalTaxRegistration = () => {
              className="whychosseusmainimage"
            />
          </div>
-        
+       
+   
        </div>
      </div>
    </div>
    
-    
+   
     </>
   )
 }
 
-export default ProfessionalTaxRegistration
+export default EsicRegistration

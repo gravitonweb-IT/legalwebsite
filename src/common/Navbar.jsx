@@ -3166,7 +3166,7 @@ const Navbar = () => {
                                 <li className="incontent">
                                   <Link
                                     className="text"
-                                    to="import-export-license.html"
+                                    to="/ImportExportLicense"
                                   >
                                     <img
                                       className="megamenu_icon"
@@ -3181,7 +3181,7 @@ const Navbar = () => {
                                 <li className="incontent">
                                   <Link
                                     className="text"
-                                    to="icegate-registration.html"
+                                    to="/IcegateRegistration"
                                   >
                                     {" "}
                                     <img
@@ -3197,7 +3197,7 @@ const Navbar = () => {
                                 <li className="incontent">
                                   <Link
                                     className="text"
-                                    to="msme-udhyam-registration.html"
+                                    to="/MsmeUdhyanRegistration"
                                   >
                                     <img
                                       className="megamenu_icon"
@@ -3212,7 +3212,7 @@ const Navbar = () => {
                                 <li className="incontent">
                                   <Link
                                     className="text"
-                                    to="society-registration.html"
+                                    to="/SocietyRegistration"
                                   >
                                     <img
                                       className="megamenu_icon"
@@ -3227,7 +3227,7 @@ const Navbar = () => {
                                 <li className="incontent">
                                   <Link
                                     className="text"
-                                    to="pf-registration.html"
+                                    to="PfRegistration"
                                   >
                                     <img
                                       className="megamenu_icon"
@@ -3247,7 +3247,7 @@ const Navbar = () => {
                               <ul className="menu-col" id="id01">
                                 <li className="incontent">
                                   <Link
-                                    to="professional-tax-registration.html"
+                                    to="/ProfessionalTaxRegistration"
                                     className="singlemenua"
                                   >
                                     <img
@@ -3262,7 +3262,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="incontent">
                                   <Link
-                                    to="gumasta-licence.html"
+                                    to="/GumastaLicense"
                                     className="singlemenua"
                                   >
                                     <img
@@ -3277,7 +3277,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="incontent">
                                   <Link
-                                    to="trademark-registration.html"
+                                    to="/TradeMarkRegistration"
                                     className="singlemenua"
                                   >
                                     <img
@@ -3292,7 +3292,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="incontent">
                                   <Link
-                                    to="esic-registration.html"
+                                    to="/EsicRegistration"
                                     className="singlemenua"
                                   >
                                     <img
@@ -3313,7 +3313,7 @@ const Navbar = () => {
                               <ul className="menu-col" id="id01">
                                 <li className="incontent">
                                   <Link
-                                    to="gst-registration.html"
+                                    to="/GstRegistration"
                                     className="singlemenua"
                                   >
                                     <img
@@ -3328,7 +3328,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="incontent">
                                   <Link
-                                    to="food-licence.html"
+                                    to="/FoodRegistration"
                                     className="singlemenua"
                                   >
                                     <img
@@ -3343,7 +3343,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="incontent">
                                   <Link
-                                    to="trade-licence.html"
+                                    to="/TradeLicense"
                                     className="singlemenua"
                                   >
                                     <img
