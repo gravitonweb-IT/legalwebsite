@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NOC = () => {
+const BalanceSheetPraparationAndP = () => {
   return (
    <>
    <div className="wrapper">
@@ -63,7 +63,7 @@ const NOC = () => {
       </div>
     </div>
     <a
-      href="https://legal251.com/noc-no-objection-certificate-hindi"
+      href="https://legal251.com/balance-sheet-prepration-hindi"
       className="languageicon"
       style={{ top: 103 }}
     >
@@ -1760,7 +1760,9 @@ const NOC = () => {
       <div className="servicemaindiv" style={{ marginTop: 7 }}>
         <div className="row">
           <div className="col-md-6">
-            <p className="serviceamainheading">NOC</p>
+            <p className="serviceamainheading">
+              Balance Sheet Preparation &amp; P&amp;L
+            </p>
             <p
               style={{
                 fontFamily: '"Roboto"',
@@ -1771,8 +1773,9 @@ const NOC = () => {
                 lineHeight: "1.2"
               }}
             >
-              Being an individual, a company, a bank, or a landlord, get your No
-              Objection Certificate or NOC ready to avoid legal troubles.
+              Let the dedicated team of Legal251 handle all your Balance Sheet
+              Preparation &amp; P&amp;L records and statements so that you don’t
+              have to worry about the cash flow and can focus on your goals.
             </p>
             <br />
             <a href="#formpricediv">
@@ -1829,7 +1832,7 @@ const NOC = () => {
                         <option
                           className="cities"
                           data-value=""
-                          data-select2-id="select2-data-2-sd3s"
+                          data-select2-id="select2-data-2-tkwf"
                         />
                         <option className="cities" data-value={1}>
                           Adilabad
@@ -4016,7 +4019,7 @@ const NOC = () => {
                       <span
                         className="select2 select2-container select2-container--default"
                         dir="ltr"
-                        data-select2-id="select2-data-1-iypf"
+                        data-select2-id="select2-data-1-ic96"
                         style={{ width: "242.734px" }}
                       >
                         <span className="selection">
@@ -4049,6 +4052,25 @@ const NOC = () => {
                         </span>
                         <span className="dropdown-wrapper" aria-hidden="true" />
                       </span>
+                      <br />
+                      <br />
+                      <select
+                        className="serviceinputselect"
+                        id="applicationtype"
+                      >
+                        <option value="" id="selectOpt" selected="" disabled="">
+                          Select category...
+                        </option>
+                        <option value={1}>
+                          Sole Proprietorship / Individual
+                        </option>
+                        <option value={2}>Partnership / LLP</option>
+                        <option value={3}>
+                          Private limited / Public limited / One person company
+                        </option>
+                        <option value={4}>HUF</option>
+                        <option value={5}>Society / Trust / Club</option>
+                      </select>
                       <div
                         style={{
                           width: "100%",
@@ -4172,20 +4194,26 @@ const NOC = () => {
         <br />
         <br />
         <p className="aboutustext">
-          If you want to avoid future disputes or legal troubles by taking
-          preventive measures in India, then making a NOC is the best way. Our
-          experts are ready to guide you on the easiest way to create it.
+          Maintaining Balance Sheet and Profit &amp; Loss records and statements
+          is vital for a business as it summarizes the business' trading
+          transactions - income, sales, and expenditure, and the resulting
+          profit/loss for a given period. Let us help you keep it managed.
           <br />
-          In our country, an employer, a company, a bank, a landlord, a tenant,
-          or an individual may issue a No Objection Certificate (NOC) to avoid
-          legal troubles. One can use this legal document in a court of law
-          against the other. A NOC comprises basic details of the parties
-          involved and is addressed to whosoever is related.
+          A Balance Sheet gives a quick review of your business assets and
+          liabilities along with tracking owner and shareholder investments
+          (equity). Your Balance Sheet compliments your P&amp;L (Profit &amp;
+          Loss) and Cash Flow statements that tell the whole story of your
+          investment. The Profit &amp; Loss statements or income statement shows
+          your sales and expenses. Similarly, the cash flow statements relate
+          everything about how and where your money is moving into or out of
+          your business.
           <br />
-          NOC is an essential legal document with significant bank processes,
-          immigration, house and vehicle registration, and employment prospects.
-          And one can use the standard NOC format for all purposes. In India, a
-          NOC letter is essential for purchasing or selling a property.
+          One should review their Balance Sheet and P&amp;L statements monthly
+          to check if everything is going in the same direction as planned or if
+          there is any need for a change in strategy. However, due to so many
+          responsibilities and a lack of knowledge and resources, most business
+          owners often forget about it. But don't worry. We will help you with
+          your Balance Sheet Preparation &amp; P&amp;L tasks.
         </p>
         <br />
         <br />
@@ -4214,7 +4242,7 @@ const NOC = () => {
       <br />
       <center>
         <img
-          src="https://legal251.com/images/nda/NOC.png"
+          src="https://legal251.com/images/nda/Balance Sheet Preparation.png"
           className="gsthowtoapplyimg"
         />
       </center>
@@ -4249,7 +4277,7 @@ const NOC = () => {
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <p className="benefitscardtext">Clears Discrepancies</p>
+                <p className="benefitscardtext"> Determine Risk &amp; Return</p>
               </center>
             </div>
           </div>
@@ -4260,7 +4288,7 @@ const NOC = () => {
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <p className="benefitscardtext">Get Easy Loans </p>
+                <p className="benefitscardtext">Increased Productivity</p>
               </center>
             </div>
           </div>
@@ -4271,7 +4299,7 @@ const NOC = () => {
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <p className="benefitscardtext"> Save Time &amp; Efforts</p>
+                <p className="benefitscardtext"> Boost Efficiency</p>
               </center>
             </div>
           </div>
@@ -4282,7 +4310,7 @@ const NOC = () => {
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <p className="benefitscardtext">Eradicates Legal Issues</p>
+                <p className="benefitscardtext">Streamlined Process</p>
               </center>
             </div>
           </div>
@@ -4293,7 +4321,7 @@ const NOC = () => {
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <p className="benefitscardtext"> Boosts Credit Score</p>
+                <p className="benefitscardtext"> Managed Liquidity</p>
               </center>
             </div>
           </div>
@@ -4304,7 +4332,7 @@ const NOC = () => {
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <p className="benefitscardtext"> No Registration Needed</p>
+                <p className="benefitscardtext"> Controlled Solvency</p>
               </center>
             </div>
           </div>
@@ -4320,7 +4348,7 @@ const NOC = () => {
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <p className="benefitscardtext">Avoids Emotional Hassle</p>
+                <p className="benefitscardtext">Secures Finances</p>
               </center>
             </div>
           </div>
@@ -4331,7 +4359,7 @@ const NOC = () => {
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <p className="benefitscardtext"> Right to Resume Work</p>
+                <p className="benefitscardtext"> Control Over Expenses</p>
               </center>
             </div>
           </div>
@@ -4342,7 +4370,7 @@ const NOC = () => {
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <p className="benefitscardtext"> Proof of Repayment </p>
+                <p className="benefitscardtext">Tax Analyzation</p>
               </center>
             </div>
           </div>
@@ -4353,7 +4381,7 @@ const NOC = () => {
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <p className="benefitscardtext">Neutralize Complaints </p>
+                <p className="benefitscardtext">Tracks Business Performance</p>
               </center>
             </div>
           </div>
@@ -4364,7 +4392,7 @@ const NOC = () => {
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <p className="benefitscardtext"> Confirms Ownership</p>
+                <p className="benefitscardtext"> Complete Information</p>
               </center>
             </div>
           </div>
@@ -4407,17 +4435,17 @@ const NOC = () => {
               <div className="col-md-2 Registrationprocesscol1">
                 <center>
                   <p className="Registrationprocesstext1 gstrtext1">
-                    Our legal maestros will review all the documents you submit
-                    to lessen the chances of incorrect or misleading information
-                    to make the process smooth.
+                    Our CAs will review all the documents you submit to lessen
+                    the chances of incorrect or misleading information and
+                    smooth the process.
                   </p>
                 </center>
               </div>
               <div className="col-md-2 Registrationprocesscol2">
                 <center>
                   <p className="Registrationprocesstext2 gstrtext2">
-                    Our professional lawyers are here to help you with document
-                    requirements and registration necessities.
+                    Our best CA professionals are here to help you with document
+                    requirements and licensing necessities.
                   </p>
                 </center>
               </div>
@@ -4425,16 +4453,17 @@ const NOC = () => {
                 <center>
                   <p className="Registrationprocesstext3 gstrtext3">
                     The respective professional will move further with your
-                    documents to apply for your NOC Certificate.
+                    documents to prepare your Balance Sheet Preparation &amp;
+                    P&amp;L.
                   </p>
                 </center>
               </div>
               <div className="col-md-2 Registrationprocesscol4">
                 <center>
                   <p className="Registrationprocesstext4 gstrtext4">
-                    Your NOC will generate after successfully verifying your
-                    application and documents and will be provided to you within
-                    three working days or with some more delay.
+                    Our CAs will prepare your Balance Sheet &amp; P&amp;L after
+                    checking all the related details, assets, and liabilities,
+                    according to the reporting date of your company.
                   </p>
                 </center>
               </div>
@@ -4442,7 +4471,8 @@ const NOC = () => {
                 <center>
                   <p className="Registrationprocesstext5 gstrtext5">
                     It's recommended to wait until one of our experts contacts
-                    you to let you know your license has been issued.
+                    you to let you know your Balance Sheet Preparation &amp;
+                    P&amp;L has been prepared.
                   </p>
                 </center>
               </div>
@@ -4508,7 +4538,7 @@ const NOC = () => {
               border: "none",
               marginTop: "-20px",
               borderLeft: "2px solid rgb(1,53,93,0.3)",
-              height: 300,
+              height: 400,
               width: 2
             }}
           />
@@ -4531,7 +4561,7 @@ const NOC = () => {
                         data-parent="#accordion"
                         href="#collapse1"
                       >
-                        1. What are occasions where NOC is required?
+                        1. What are the attributes of a Balance Sheet?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20192.svg"
                           className="servicefaqimg"
@@ -4544,11 +4574,10 @@ const NOC = () => {
                     className="panel-collapse collapse in paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      Instances where NOC is required are, for property
-                      transfer, a visa, court purposes, job change or leaving a
-                      job, leaving a course of study, a tour, attending an event
-                      or conference, banking requirement, NOC from the landlord,
-                      or NOC of GST.
+                      The attributes of a balance sheet are Current Assets, Long
+                      Term Assets, Current Liabilities, Long Term Liabilities,
+                      Shareholders Equity, Account Balance, and Amortization or
+                      Depreciation Expenses.{" "}
                     </div>
                   </div>
                 </div>
@@ -4562,7 +4591,8 @@ const NOC = () => {
                         data-parent="#accordion"
                         href="#collapse2"
                       >
-                        Q2.What is the validity of NOC?
+                        Q2. What are the reasons a Balance Sheet behind not
+                        truly balanced?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20191.svg"
                           className="servicefaqimg"
@@ -4575,7 +4605,14 @@ const NOC = () => {
                     className="panel-collapse collapse  paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      After obtaining a NOC, it is valid for six months only.
+                      If you find your Balance Sheet is not truly balanced,
+                      there might be some ambiguity due to these reasons: <br />
+                      <li>Errors in currency exchange rates</li>
+                      <li>Errors in inventory</li>
+                      <li>Incomplete or misplaced data</li>
+                      <li>Incorrectly entered transactions</li>
+                      <li>Miscalculated equity calculations</li>
+                      <li>Miscalculated loan amortization or depreciation</li>
                     </div>
                   </div>
                 </div>
@@ -4589,7 +4626,7 @@ const NOC = () => {
                         data-parent="#accordion"
                         href="#collapse3"
                       >
-                        Q3. Why is the NOC letter important?
+                        Q3. What comes under current assets?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20191.svg"
                           className="servicefaqimg"
@@ -4602,11 +4639,9 @@ const NOC = () => {
                     className="panel-collapse collapse paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      A NOC is an essential legal document issued by
-                      individuals, organizations, or agencies stating that
-                      there's no objection to the covenants mentioned in the
-                      certificate. Including general litigation, immigration,
-                      and employment, this document serves many purposes.
+                      Inventory, Cash or Cash Equivalents, Accounts Receivable,
+                      Short-term Marketable Securities, and other comes under
+                      current assets.
                     </div>
                   </div>
                 </div>
@@ -4620,7 +4655,7 @@ const NOC = () => {
                         data-parent="#accordion"
                         href="#collapse4"
                       >
-                        Q4. How can one write a NOC for land?
+                        Q4. What are the Non-Current Assets?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20191.svg"
                           className="servicefaqimg"
@@ -4633,8 +4668,8 @@ const NOC = () => {
                     className="panel-collapse collapse paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      One can indicate that they are willing to rent/sell their
-                      land and then continue to describe the property in detail.
+                      Long-term marketable securities, Property, Goodwill,
+                      Intangible assets, and others are non-current assets.
                     </div>
                   </div>
                 </div>
@@ -4648,7 +4683,7 @@ const NOC = () => {
                         data-parent="#accordion"
                         href="#collapse5"
                       >
-                        Q5. Is NOC required for company registration?
+                        Q5. Where are salaries and wages entered?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20191.svg"
                           className="servicefaqimg"
@@ -4661,11 +4696,12 @@ const NOC = () => {
                     className="panel-collapse collapse paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      When a company takes property in rent/lease for using it
-                      as its registered office, then it must have the NOC letter
-                      from the property owner. While applying for company
-                      registration, you have to submit this letter to the
-                      company registrar.
+                      The Salaries of people with administrative roles are
+                      included as fixed expenses because they are not directly
+                      related to revenue. However, it becomes tricky for people
+                      in manufacturing roles, as the labor is associated with
+                      making a product which is included in the cost of goods
+                      sold section once the product is sold.
                     </div>
                   </div>
                 </div>
@@ -4683,7 +4719,8 @@ const NOC = () => {
                         data-parent="#accordion2"
                         href="#collapse21"
                       >
-                        Q6. Can I sell my property without the NOC certificate?
+                        Q6. What is the difference between a Balance Sheet and a
+                        P&amp;L statement?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20192.svg"
                           className="servicefaqimg"
@@ -4696,8 +4733,10 @@ const NOC = () => {
                     className="panel-collapse collapse in paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      No, in India, selling a property without the NOC is
-                      illegal.
+                      The Balance Sheet shows the assets, liabilities, and
+                      shareholder equity at a given time. In contrast, a P&amp;L
+                      statement summarizes a company's revenues, expenses, and
+                      costs during a particular period.
                     </div>
                   </div>
                 </div>
@@ -4711,7 +4750,8 @@ const NOC = () => {
                         data-parent="#accordion2"
                         href="#collapse22"
                       >
-                        Q7. When is NOC for a Bike required?
+                        Q7. What is the difference between Profit &amp; Loss vs
+                        Income Statement?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20191.svg"
                           className="servicefaqimg"
@@ -4724,9 +4764,12 @@ const NOC = () => {
                     className="panel-collapse collapse paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      If you have to travel from one state to another for more
-                      than 12 months with your bike, you must obtain a NOC from
-                      your Regional Transport Office (RTO).
+                      No, there's no difference between these two terms. An
+                      Income Statement is the same as a Profit &amp; Loss
+                      Statement with two terms and vice versa. A Profit &amp;
+                      Loss Statement shows a company's total income, revenue
+                      generated, and business cost to find the subsequent profit
+                      for a specific period.
                     </div>
                   </div>
                 </div>
@@ -4740,7 +4783,7 @@ const NOC = () => {
                         data-parent="#accordion2"
                         href="#collapse23"
                       >
-                        Q8. Why is NOC required in real estate transactions?
+                        Q8. What is a Year-to-Date Profit &amp; Loss statement?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20191.svg"
                           className="servicefaqimg"
@@ -4753,13 +4796,10 @@ const NOC = () => {
                     className="panel-collapse collapse paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      When buying a property, you will need No Objection
-                      Certificates from several entities such as builders,
-                      development authorities, banks where the seller took a
-                      loan, financial institutions, collectors, and
-                      administrators. And this is vital to ensure that the
-                      property is free from legal hindrance and has no financial
-                      liabilities.
+                      The year-to-date or profit &amp; loss statement is a
+                      company's financial statement referring to the amount of
+                      profit an investment made from the current year's first
+                      day.
                     </div>
                   </div>
                 </div>
@@ -4773,8 +4813,8 @@ const NOC = () => {
                         data-parent="#accordion2"
                         href="#collapse24"
                       >
-                        Q9. Is it compulsory to get a NOC from society for a
-                        gift deed for a property?
+                        Q9. What is the order of creating a balance sheet and
+                        P&amp;L account?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20191.svg"
                           className="servicefaqimg"
@@ -4787,9 +4827,8 @@ const NOC = () => {
                     className="panel-collapse collapse paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      If you have all the required documents to prove the
-                      Ownership of a property, you do not need to obtain a NOC
-                      from society to give a property as a gift to someone.
+                      Before preparing the balance sheet, one must create the
+                      P&amp;L account first.
                     </div>
                   </div>
                 </div>
@@ -4803,7 +4842,8 @@ const NOC = () => {
                         data-parent="#accordion2"
                         href="#collapse25"
                       >
-                        Q10. Which type of loan requires a NOC certificate?
+                        Q10. What are the primary components of a profit &amp;
+                        loss statement for small businesses?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20191.svg"
                           className="servicefaqimg"
@@ -4816,14 +4856,9 @@ const NOC = () => {
                     className="panel-collapse collapse paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      There are various types of loans that require a NOC
-                      certificate, including: <br />
-                      <li>Home Loan</li>
-                      <li>Personal Loan</li>
-                      <li>Car Loan</li>
-                      <li>Business Loan</li>
-                      <li>Loan Against Shares (LAS)</li>
-                      <li>Loan Against Property (LAP)</li>
+                      The critical components of a profit &amp; loss statement
+                      for small businesses are - Costs of Goods Sold, Revenue,
+                      Gross Profit, Expenses, and Net Profit or Loss.
                     </div>
                   </div>
                 </div>
@@ -4844,7 +4879,7 @@ const NOC = () => {
               style={{
                 transition: "all 0.25s ease 0s",
                 width: 8067,
-                transform: "translate3d(-3226px, 0px, 0px)"
+                transform: "translate3d(-4033px, 0px, 0px)"
               }}
             >
               <div className="owl-item cloned" style={{ width: "806.603px" }}>
@@ -5088,7 +5123,7 @@ const NOC = () => {
                   </center>
                 </div>
               </div>
-              <div className="owl-item active" style={{ width: "806.603px" }}>
+              <div className="owl-item" style={{ width: "806.603px" }}>
                 <div
                   className="clientscard clientservicemargin"
                   data-position={1}
@@ -5147,10 +5182,7 @@ const NOC = () => {
                   </center>
                 </div>
               </div>
-              <div
-                className="owl-item active center"
-                style={{ width: "806.603px" }}
-              >
+              <div className="owl-item active" style={{ width: "806.603px" }}>
                 <div
                   className="clientscard clientservicemargin"
                   data-position={2}
@@ -5210,7 +5242,10 @@ const NOC = () => {
                   </center>
                 </div>
               </div>
-              <div className="owl-item active" style={{ width: "806.603px" }}>
+              <div
+                className="owl-item active center"
+                style={{ width: "806.603px" }}
+              >
                 <div
                   className="clientscard clientservicemargin"
                   data-position={3}
@@ -5271,7 +5306,10 @@ const NOC = () => {
                   </center>
                 </div>
               </div>
-              <div className="owl-item cloned" style={{ width: "806.603px" }}>
+              <div
+                className="owl-item cloned active"
+                style={{ width: "806.603px" }}
+              >
                 <div
                   className="clientscard clientservicemargin"
                   data-position={0}
@@ -5468,10 +5506,10 @@ const NOC = () => {
             <button role="button" className="owl-dot">
               <span />
             </button>
-            <button role="button" className="owl-dot active">
+            <button role="button" className="owl-dot">
               <span />
             </button>
-            <button role="button" className="owl-dot">
+            <button role="button" className="owl-dot active">
               <span />
             </button>
           </div>
@@ -6162,10 +6200,8 @@ const NOC = () => {
 </div>
 
    
-   
-   
    </>
   )
 }
 
-export default NOC
+export default BalanceSheetPraparationAndP&L

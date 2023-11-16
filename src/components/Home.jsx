@@ -2892,7 +2892,7 @@ export default function Home() {
                               </li>
                               <li className="incontent">
                                 <Link
-                                to='/Section8CompanyRegistration '
+                                to='/Section8CompanyRegistration'
                                   className="text"
                                 >
                                   <img

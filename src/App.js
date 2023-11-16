@@ -37,7 +37,7 @@ function App() {
         <Route path="/OpcOnePersonCompanyRegistration" element={<OpcOnePersonCompanyRegistration/>} />
         <Route path="/ParternerShip" element={<ParternerShip />} />
         <Route path="/ParternLtdCompanyRegisteration" element={<ParternLtdCompanyRegisteration />} />
-        <Route path="/Section8CompanyRegistration " element={<Section8CompanyRegistration />} />
+        <Route path="/Section8CompanyRegistration" element={<Section8CompanyRegistration />} />
        {/* Changes In Business */}
 
        <Route path="/DissolutionOfDeed" element={<DissolutionOfDeed/>}/>

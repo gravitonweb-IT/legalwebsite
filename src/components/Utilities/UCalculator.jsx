@@ -1,28 +1,28 @@
 import React from 'react'
 
-const RDCalculator = () => {
+const UCalculator = () => {
   return (
    <>
    <div className="wrapper">
   <iframe
     allow="join-ad-interest-group"
     data-tagging-id="AW-367855087/3o2zCK68lbIDEO-LtK8B"
-    data-load-time={1700128908722}
+    data-load-time={1700128058066}
     height={0}
     width={0}
     style={{ display: "none", visibility: "hidden" }}
-    src="https://td.doubleclick.net/td/rul/367855087?random=1700128908708&cv=11&fst=1700128908708&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45He3b81v861892986&gcd=11l1l1l1l1&dma=0&u_w=1366&u_h=768&url=https%3A%2F%2Flegal251.com%2FRD-calculator&ref=https%3A%2F%2Flegal251.com%2FPPF-calculator&label=3o2zCK68lbIDEO-LtK8B&hn=www.googleadservices.com&frm=0&tiba=Legal251.com%20-%20RD%20Calculator&value=0&bttype=purchase&rdp=1&auid=1629897716.1699421317&fledge=1&capi=1&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B119.0.6045.125%7CChromium%3B119.0.6045.125%7CNot%253FA_Brand%3B24.0.0.0&uamb=0&uap=Windows&uapv=15.0.0&uaw=0"
-    gb3gtgeu4=""
+    src="https://td.doubleclick.net/td/rul/367855087?random=1700128058058&cv=11&fst=1700128058058&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45He3b81v861892986&gcd=11l1l1l1l1&dma=0&u_w=1366&u_h=768&url=https%3A%2F%2Flegal251.com%2F80U-calculator&ref=https%3A%2F%2Flegal251.com%2Fproject-report-prepration&label=3o2zCK68lbIDEO-LtK8B&hn=www.googleadservices.com&frm=0&tiba=Legal251.com%20-%2080U%20Calculator&value=0&bttype=purchase&rdp=1&auid=1629897716.1699421317&fledge=1&capi=1&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B119.0.6045.125%7CChromium%3B119.0.6045.125%7CNot%253FA_Brand%3B24.0.0.0&uamb=0&uap=Windows&uapv=15.0.0&uaw=0"
+    d5z7dhuo9=""
   />
   <iframe
     allow="join-ad-interest-group"
     data-tagging-id="AW-11126145977/Remarketing Tag"
-    data-load-time={1700128908734}
+    data-load-time={1700128058079}
     height={0}
     width={0}
     style={{ display: "none", visibility: "hidden" }}
-    src="https://td.doubleclick.net/td/rul/11126145977?random=1700128908732&cv=11&fst=1700128908732&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45He3b81v861892986&gcd=11l1l1l1l1&dma=0&u_w=1366&u_h=768&url=https%3A%2F%2Flegal251.com%2FRD-calculator&ref=https%3A%2F%2Flegal251.com%2FPPF-calculator&label=Remarketing%20Tag&hn=www.googleadservices.com&frm=0&tiba=Legal251.com%20-%20RD%20Calculator&auid=1629897716.1699421317&fledge=1&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B119.0.6045.125%7CChromium%3B119.0.6045.125%7CNot%253FA_Brand%3B24.0.0.0&uamb=0&uap=Windows&uapv=15.0.0&uaw=0"
-    gb3gtgeu4=""
+    src="https://td.doubleclick.net/td/rul/11126145977?random=1700128058076&cv=11&fst=1700128058076&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45He3b81v861892986&gcd=11l1l1l1l1&dma=0&u_w=1366&u_h=768&url=https%3A%2F%2Flegal251.com%2F80U-calculator&ref=https%3A%2F%2Flegal251.com%2Fproject-report-prepration&label=Remarketing%20Tag&hn=www.googleadservices.com&frm=0&tiba=Legal251.com%20-%2080U%20Calculator&auid=1629897716.1699421317&fledge=1&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B119.0.6045.125%7CChromium%3B119.0.6045.125%7CNot%253FA_Brand%3B24.0.0.0&uamb=0&uap=Windows&uapv=15.0.0&uaw=0"
+    d5z7dhuo9=""
   />
   <div>
     <div className="wrapper page-section" id="overview">
@@ -1774,245 +1774,120 @@ const RDCalculator = () => {
         />
       </div>
     </div>
-    <div style={{ marginTop: "-3px" }}>
-      <div className="rd_back_img" />
-      <div className="row rdrow">
-        <div className="col-md-6">
-          <div className="rd_ing_pad">
-            <img
-              className="rd_image"
-              src="https://legal251.com/images/calculator_img/Rd_calculator_img.png"
-            />
-            <div>
-              <p className="cg_p">
-                Plan future finances with utmost clarity using the online RD
-                Calculator. It eliminates the hassles of computing and gives you
-                the accurate estimated return value on your Recurring Deposits
-                in no time.
-              </p>
-            </div>
-            <div className="all_cg_result">
-              <div className="cg_calculate_res-contaner">
-                <div>
-                  <p>
-                    After{" "}
-                    <span className="rd_text_y_m">
+    <div>
+      <div className="container-fluid back_col_80u">
+        <div className="">
+          <div className="row row1">
+            <div className="col-lg-7 col-sm-7">
+              <div id="gratuity ">
+                <h1 className="h11 calculator_80u_text">80U Calculator</h1>
+                <div id="gratuitydata">
+                  <hr className="hr1" />
+                  <h4 className="h44">Seamless 80U Calculator</h4>
+                </div>
+                <ul id="hra_ul">
+                  <li id="hra_li">
+                    {" "}
+                    <span>
+                      This online tool updates the latest 80U rules and
+                      regulations.
+                    </span>
+                  </li>
+                  <li id="hra_li">
+                    <span>
                       {" "}
-                      <span className="rd_y_no">4</span> years,
-                    </span>{" "}
-                    your amount will be
-                  </p>
-                </div>
-                <div className="row">
-                  <div className="col-sm-6 col-md-6 col-lg-6">
-                    <center>
-                      <h6>Deposit Amount</h6>
-                      <h4 className="rd_da">0</h4>
-                    </center>
-                  </div>
-                  <div className="col-sm-6 col-md-6 col-lg-6">
-                    <center>
-                      <h6>Total Interest</h6>
-                      <h4 className="rd_invest">0</h4>
-                    </center>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-6 col-md-6 col-lg-6">
-                    <center>
-                      <h6>Maturity Value</h6>
-                      <h4 className="rd_m_value">0</h4>
-                    </center>
-                  </div>
-                  <div className="col-sm-6 col-md-6 col-lg-6">
-                    <center>
-                      <h6>Maturity Date</h6>
-                      <h4 className="cg_tax_payable rd_maturty_d">
-                        dd/mm/yyyy
-                      </h4>
-                    </center>
-                  </div>
-                </div>
+                      This calculator works perfectly for everyone, especially
+                      those with disabilities.
+                    </span>
+                  </li>
+                  <li id="hra_li">
+                    <span>
+                      You can calculate Income Tax offers tax, benefits, and an
+                      estimate of eligibility for deductions under Section 80U.
+                      Also, now you can know whether you are eligible for
+                      deductions.
+                    </span>
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="col-md-6">
-          <div className="rd_padd">
-            <div className="">
-              <h4>RD Calculator</h4>
-              <div className="deposit_amount fd_deposit_am row display_n">
-                <div className="col-sm-6 col-md-6">
-                  <lable className="depositfd">
-                    Deposit Amount<span>*</span>
-                  </lable>
-                </div>
-                <div className="col-sm-6 col-md-6">
-                  <div className="input-group mb-3 deposit_amount2">
-                    <div className="input-group-prepend">
-                      <span className="input-group-text" id="basic-addon1">
-                        <img src="https://legal251.com/images/calculator_img/Rupeeimg.svg" />
-                      </span>
-                    </div>
-                    <input
-                      type="number"
-                      className="form-control rd_deposit_amount_input rd_deposit_a rangeval"
-                      id="deposit_am"
-                      placeholder="Enter Deposit Amount"
-                      aria-label="Username"
-                      aria-describedby="basic-addon1"
-                    />
-                  </div>
-                  <div className="deposit_am_v rd_deposit_am_v">
-                    <span>
-                      Please enter <span className="rd_d_valid" />
-                      deposit amount
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="">
-                <input
-                  id="myRange"
-                  defaultValue={0}
-                  className="slider styled-slider slider-progress rd_deposit_am_range"
-                  min={0}
-                  max={100000}
-                  type="range"
-                />
-                <div className="smallval">
-                  <p>₹ 1 Lac</p>
-                  <p>₹ 10 Cr</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="intrest_rate_fd fd_intrest_r row display_n">
-                <div className="col-sm-6 col-md-6">
-                  <lable className="intrestfd">
-                    Intrest Rate<span>*</span>
-                  </lable>
-                </div>
-                <div className="col-sm-6 col-md-6">
-                  <div className="input-group mb-3 intrest_rate2">
-                    <div className="input-group-prepend">
-                      <span className="input-group-text" id="basic-addon1">
-                        <img src="https://legal251.com/images/calculator_img/per_icon.svg" />
-                      </span>
-                    </div>
-                    <input
-                      type="number"
-                      className="form-control rd_intrest_rate_input rd_rate_intrest rangeval2"
-                      id="rate_int"
-                      placeholder="Enter Intrest Rate"
-                      aria-label="Username"
-                      aria-describedby="basic-addon1"
-                    />
-                  </div>
-                  <div className="rd_intrest_r_v">
-                    <span>
-                      Please enter
-                      <span className="rd_v_f0_10" /> intrest rate
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="">
-                <input
-                  id="myRange2"
-                  defaultValue={0}
-                  className="slider styled-slider slider-progress rd_intrest_range"
-                  min={1}
-                  max={50}
-                  type="range"
-                />
-                <div className="smallval">
-                  <p>1%</p>
-                  <p>50%</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="time_period fd_time_period row display_n">
-                <div className="col-sm-6 col-md-6">
-                  <lable className="time_p_fd">
-                    Time Period<span>*</span>
-                  </lable>
-                </div>
-                <div className="col-sm-6 col-md-6">
-                  <div className="input-group mb-3 time_period2">
-                    <div className="input-group-prepend">
-                      <span className="input-group-text" id="basic-addon1">
-                        <img src="https://legal251.com/images/calculator_img/Rupeeimg.svg" />
-                      </span>
-                    </div>
-                    <input
-                      type="number"
-                      className="form-control rd_time_period_input rd_time_period rangeval3"
-                      id="time_period"
-                      placeholder="Enter Time Period"
-                      aria-label="Username"
-                      aria-describedby="basic-addon1"
-                    />
-                  </div>
-                  <div className="rd_time_p_v">
-                    <span>
-                      Please enter
-                      <span className="rd_valid_f0_10" /> time period
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="">
-                <input
-                  id="myRange3"
-                  defaultValue={0}
-                  className="slider styled-slider slider-progress rd_time_period_range"
-                  min={1}
-                  max={50}
-                  type="range"
-                />
-                <div className="smallval">
-                  <p className="for_y_m">1 Year</p>
-                  <p className="for_ys_ms">50 Years</p>
-                </div>
-              </div>
-              <div className="btn-container align_r rd_sw_ym">
-                <div className="switches-container">
-                  <input
-                    type="radio"
-                    className="rdtoggle"
-                    id="switchMonthly"
-                    name="switchPlan"
-                    defaultValue="Year"
-                    defaultChecked=""
-                  />
-                  <input
-                    type="radio"
-                    className="rdtoggle"
-                    id="switchYearly"
-                    name="switchPlan"
-                    defaultValue="Month"
-                  />
-                  <label htmlFor="switchMonthly">Year</label>
-                  <label htmlFor="switchYearly">Month</label>
-                  <div className="switch-wrapper">
-                    <div className="switch">
+            <div className="col-lg-4 col-sm-5">
+              <div id="tdscalculator">
+                <form action="">
+                  <h3 className="text-center h33 head_80U">
+                    Calculate ITR deductions for disabled
+                  </h3>
+                  <div className="cont_80u">
+                    <div className="form-group">
+                      <label htmlFor="emptype">Financial year</label>
                       <div>
-                        <img src="https://legal251.com/images/calculator_img/toggleswitchimg.svg" />{" "}
-                        Year
+                        <select
+                          name="employee_type"
+                          id="emptype"
+                          className="tdspan year_80u "
+                        >
+                          <option value="select">Select</option>
+                          <option id="year_80u" value={2023}>
+                            2023 - 2024
+                          </option>
+                        </select>
+                        <div className="financial_ye_80u_v">
+                          <span>Please select the financial year</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="emptype">Status</label>
+                      <div>
+                        <select
+                          name="employee_type"
+                          id="emptype"
+                          className="tdspan resident_80u"
+                        >
+                          <option value="select">Select</option>
+                          <option value="resident">Resident Individual</option>
+                          <option value="resident">Other</option>
+                        </select>
+                        <div className="residential_status_80u_v">
+                          <span>Please select the status</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="emptype">Percentage of disablity</label>
+                      <div>
+                        <select
+                          name="employee_type"
+                          id="emptype"
+                          className="tdspan disability_per_80us"
+                        >
+                          <option value="select">Select</option>
+                          <option value="normal">Normal (40% or more)</option>
+                          <option value="severe">Severe (80% or more)</option>
+                        </select>
+                        <div className="per_disability_80u_v">
+                          <span>Please select the disablity Percentage</span>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      type="submit"
+                      id="calculate_80u"
+                      className="btn btn-default center-block"
+                    >
+                      Calculate
+                    </button>
+                    <div className="cal_80u_input result_80u">
+                      <div className="" id="basicsalary">
+                        Deduction amount
                       </div>
                       <div>
-                        <img src="https://legal251.com/images/calculator_img/toggleswitchimg.svg" />{" "}
-                        Month
+                        <span className="result_80u_amount"> ₹ 0 </span>
                       </div>
                     </div>
                   </div>
-                </div>
+                </form>
               </div>
-            </div>
-            <div className="calculate_rd">
-              <button id="calculate_rd_btn">Calculate</button>
             </div>
           </div>
         </div>
@@ -2022,7 +1897,10 @@ const RDCalculator = () => {
     <br />
     <br />
     <br />
-    <div id="Detailedprocess" className="page-section">
+    <div
+      id="Detailedprocess b_back_col_a"
+      className="page-section all_back_color"
+    >
       <br />
       <br />
       <br />
@@ -2048,47 +1926,49 @@ const RDCalculator = () => {
           <center>
             <h1 className="gst_b_head">Legal251 BENEFITS</h1>
           </center>
-          <div className="col-md-4 col-sm-4   firstcarddivcol ">
+          <div className="col-md-4  firstcarddivcol ">
             <div className="servicebenefitscard e_benifit_b">
               <center>
                 <img
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <h5>Plan with Clarity</h5>
+                <h5>Easy Estimation of Deductions</h5>
                 <p className="benefitscardtext">
-                  Our online RD Calculator helps investors to plan their future
-                  finances with greater clarity without charging you anything.
+                  This online Calculator assesses you and estimates the
+                  deductions you can avail yourself of under 80U based on your
+                  disability.
                 </p>
               </center>
             </div>
           </div>
-          <div className="col-md-4 col-sm-4   firstcarddivcol">
+          <div className="col-md-4 firstcarddivcol">
             <div className="servicebenefitscard e_benifit_b">
               <center>
                 <img
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <h5>Convenient</h5>
+                <h5>Quick &amp; Efficient</h5>
                 <p className="benefitscardtext">
-                  The online RD Calculator is easy and convenient for investors
-                  and saves them time that they can utilize productively.
+                  With the help of this online 80U Calculator, you can get the
+                  desired outcome quickly and accurately in a few seconds.
                 </p>
               </center>
             </div>
           </div>
-          <div className="col-md-4 col-sm-4 firstcarddivcol">
+          <div className="col-md-4   firstcarddivcol">
             <div className="servicebenefitscard e_benifit_b">
               <center>
                 <img
                   src="https://legal251.com/images/faqflag.svg"
                   className="benefitscardimg"
                 />
-                <h5> Accurate</h5>
+                <h5>Helps Finding Eligibility</h5>
                 <p className="benefitscardtext">
-                  This calculator helps you plan your prudent finances
-                  accurately, which is unquestionable.{" "}
+                  The online 80U Calculator helps you compute according to
+                  various deductions and confirms if you are eligible for a
+                  deduction or not.
                 </p>
               </center>
             </div>
@@ -2096,7 +1976,7 @@ const RDCalculator = () => {
         </div>
       </div>
       <br className="mobhidebr" />
-      <div id="FAQs" className="page-section">
+      <div id="FAQs" className="">
         <br />
         <br />
         <br />
@@ -2117,7 +1997,7 @@ const RDCalculator = () => {
         <br />
         <br />
         <br />
-        <p className="frequentlyheading ppf_fq">FREQUENTLY ASKED QUESTIONS</p>
+        <p className="frequentlyheading">FREQUENTLY ASKED QUESTIONS</p>
         <br />
         <br />
         <br />
@@ -2130,7 +2010,7 @@ const RDCalculator = () => {
               border: "none",
               marginTop: "-20px",
               borderLeft: "2px solid rgb(1,53,93,0.3)",
-              height: 300,
+              height: 400,
               width: 2
             }}
           />
@@ -2153,7 +2033,7 @@ const RDCalculator = () => {
                         data-parent="#accordion"
                         href="#collapse1"
                       >
-                        1. What is a Recurring Deposit Calculator?
+                        1. When can I claim a deduction under 80U?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20192.svg"
                           className="servicefaqimg"
@@ -2166,9 +2046,9 @@ const RDCalculator = () => {
                     className="panel-collapse collapse in paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      You can use the Recurring Deposit Calculator to calculate
-                      the interest you will earn at the time of the maturity of
-                      your Recurring Deposit.
+                      Individuals with a prescribed disability between 40% to
+                      80% disability, can claim a deduction under section 80U of
+                      the Income Tax Act.
                     </div>
                   </div>
                 </div>
@@ -2182,8 +2062,7 @@ const RDCalculator = () => {
                         data-parent="#accordion"
                         href="#collapse2"
                       >
-                        Q2. Can I break my RD before the completion of its
-                        tenure?
+                        Q2. Who can claim deductions under section 80U?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20191.svg"
                           className="servicefaqimg"
@@ -2196,9 +2075,16 @@ const RDCalculator = () => {
                     className="panel-collapse collapse  paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      Yes, you can break your RD prematurely at any point and
-                      get the interest till the date of closing. Your bank may
-                      charge a penalty/fee for the same.
+                      Anyone from the below categories with a disability of more
+                      than 40% to 80% can claim deductions under section 80U:
+                      <br />
+                      <li>Low vision</li>
+                      <li>Blindness</li>
+                      <li>Locomotor disability</li>
+                      <li>Mental illness</li>
+                      <li>Hearing impairment</li>
+                      <li>Mental retardation</li>
+                      <li>Leprosy-cured</li>
                     </div>
                   </div>
                 </div>
@@ -2216,7 +2102,7 @@ const RDCalculator = () => {
                         data-parent="#accordion2"
                         href="#collapse21"
                       >
-                        Q3. What are the ranges of RD tenure?
+                        Q3. Is 80U applicable for dependents?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20192.svg"
                           className="servicefaqimg"
@@ -2229,9 +2115,9 @@ const RDCalculator = () => {
                     className="panel-collapse collapse in paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      The tenure of RD starts from 6 months and can extend up to
-                      10 years. You can choose your RD tenure in multiples of 3,
-                      such as 6, 9, 12, 15, and so.
+                      No, one cannot claim a deduction for the disability of any
+                      of your dependents under section 80U. It is available only
+                      for taxpayers who are disabled as per section 80U.
                     </div>
                   </div>
                 </div>
@@ -2245,7 +2131,7 @@ const RDCalculator = () => {
                         data-parent="#accordion2"
                         href="#collapse22"
                       >
-                        Q4. What is the minimum amount to initiate an RD?
+                        Q4. How can I claim deductions under Section 80U?
                         <img
                           src="https://legal251.com/images/gstregistration/Path_20191.svg"
                           className="servicefaqimg"
@@ -2258,11 +2144,9 @@ const RDCalculator = () => {
                     className="panel-collapse collapse paddingzero"
                   >
                     <div className="panel-body servicefaqbody">
-                      There’s no such fixed minimum amount for initiating an RD.
-                      It varies from institution to institution. However, you
-                      can open an RD account by depositing a minimum amount of
-                      Rs. 500, which will remain the same throughout the tenure.
-                      Similarly, there’s no limitation for the maximum amount.
+                      A person with a physical disability can claim the
+                      deductions under section 80U while reporting income in his
+                      Income Tax Return.
                     </div>
                   </div>
                 </div>
@@ -2695,9 +2579,8 @@ const RDCalculator = () => {
 </div>
 
    
-   
    </>
   )
 }
 
-export default RDCalculator
+export default UCalculator
