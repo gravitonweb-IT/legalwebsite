@@ -1,29 +1,5 @@
 import React from "react";
 
-import "../css/navbar.css";
-import "../css/font/CerebriSans-Bold.ttf";
-import "../css/plugins.css";
-import "../css/navbar.css";
-import "../css/style.css";
-import "../css/bootsnav.css";
-// import './css/all_calculator.css';
-import "../css/animation.css";
-import "../css/header.css";
-import "../css/Consultancy.css";
-import "../css/trackingresponsive.css";
-import "../css/tracking.css";
-import "../css/textanimation.css";
-import "../css/tds_calculator.css";
-import "../css/style2.css";
-import "../css/services.css";
-import "../css/services2.css";
-import "../css/select2.css";
-import "../css/select3.css";
-import "../css/policy.css";
-import "../css/owl.theme.default.min.css";
-import "../css/owl.carousel.min.css";
-import "../css/new-hover.css";
-import "../css/lovefromourclient.css";
 import Legalwhitelogo from "../../components/images/legalwhitelogo.svg";
 import Visaimg from "../../components/images/visa.svg";
 import Upiimg from "../../components/images/upi.svg";
@@ -39,30 +15,19 @@ import Lineimages from "../../components/images/companyregimage/Line.png";
 import { Link } from "react-router-dom";
 import Whychooseus from "../images/services/Why choose us.svg";
 import Layer from "../images/services/Layer 2.svg";
-import path from "../images/gstregistration/Path_20192.svg";
-import faq from "../images/services/faq.svg";
+
 import Group_1799 from "../images/services/Group_1799.svg";
 import yellow from "../images/services/yellow.svg";
 import cut from "../images/services/blue_cut.svg";
 import blue from "../images/services/blue.svg";
 import registration from "../images/services/registration.svg";
-import SmoothAudit from "../images/companyregimage/Smooth-Audit.svg";
-import PeaceofMind from "../images/companyregimage/Peace-of-Mind.svg";
-import StatutoryBenefits from "../images/companyregimage/Statutory-Benefits.svg";
-import RiskMitigation from "../images/companyregimage/Risk-Mitigation.svg";
-import accessfunding from "../images/companyregimage/access-funding.svg";
-import EnhancedCredibility from "../images/companyregimage/Enhanced-Credibility.svg";
-import BusinessContinuity from "../images/companyregimage/Business-Continuity.svg";
-import Investorconfidence from "../images/companyregimage/Investor-confidence.svg";
-import goodgovernance from "../images/companyregimage/good-governance.svg";
-import legal from "../images/companyregimage/legal-.svg";
-import Group_5675 from "../images/megamenubimage/Group_5675.png";
+
 import Group20887 from "../images/services/Group 887.svg";
-import Path2019952 from "../images/gstregistration/Path 19952.svg";
+
 import question from "../images/services/question.svg";
 import LimitedLiabilityPartnership from "../images/gstregistration/Limited-Liability-Partnership(LLP)-Registration@2x.png";
 import Group208464 from "../images/companyregimage/Group 8464.png";
-import annualcompliancellp from "../images/icons/newicons/annualcompliancellp.svg";
+
 import featherinfo from "../images/companyregimage/Icon feather-info.svg";
 import employeeexperience from "../images/companyregimage/employee-experience.png";
 import casereport from "../images/companyregimage/case-report.png";
@@ -71,1749 +36,28 @@ import users from "../images/companyregimage/users.png";
 import customer from "../images/companyregimage/customer.png";
 import maskgroup from "../images/companyregimage/Mask Group 5782.png";
 import group from "../images/companyregimage/Group 9174.png";
-import icon from "../images/services/Icon_ionic-ios-arrow-back.svg";
-import closeicon from "../images/closeicon.svg";
-import cancel from "../images/cancel.svg";
-import langicon from "../images/langicon.svg";
-import howwework from "../images/howwework.svg";
-import howtogetcon from "../images/howtogetcon.svg";
-import blog from "../images/blog.svg";
-import aboutus from "../images/aboutus.svg";
-import contactus from "../images/contactus.svg";
-import phoneno from "../images/phoneno.svg";
+
 import badge from "../images/companyregimage/badge-example-preferred.png";
 import Group from "../images/bookdemo/Group_9809.svg";
 import Group9161 from "../images/bookdemo/Group_9161.svg";
 import Group9164 from "../images/bookdemo/Group 9164.svg";
 import Group9159 from "../images/bookdemo/Group_9159.svg";
 import Group91641 from "../images/bookdemo/Group 9164.svg";
-import Group9403 from "../images/companyregimage/Group 9403.png";
+
 import Line2 from "../images/companyregimage/Line2.png";
-import star from "../images/star.svg";
-import Group5675 from "../images/megamenubimage/Group_5675.png";
-import path20191 from "../images/gstregistration/Path_20191.svg";
-import sidesearchicon from "../images/sidesearchicon.svg";
-import XMLID from  "../images/services/XMLID_1249_.svg"
-import  service from "../images/services/customer-service.svg";
-import trackservice from  "../images/trackservice.svg";
-import Groupimage from "../images/common/Group_7.svg";
-import  customerservice from"../images/services/customer-service.svg";
-import success from  "../images/services/success.svg";
-import target from  "../images/services/target.svg";
+
+import XMLID from "../images/services/XMLID_1249_.svg";
+
+import customerservice from "../images/services/customer-service.svg";
+import success from "../images/services/success.svg";
+import target from "../images/services/target.svg";
 import suitcase from "../images/services/suitcase.svg";
-import  sidebarshape from  "../images/sidebarshape.png"
-import login from "../images/common/login.svg";
-import whatsapp from   "../images/whatsapp.svg";
-import agent from "../images/common/agent.svg";
-import value from "../images/services/value.svg"
+
+import value from "../images/services/value.svg";
 const AnnualComplianceCompancy = () => {
   return (
     <>
       <div style={{ position: "relative", "overflow-x": "hidden" }}>
-        <div className="wrapper page-section" id="overview">
-          <div className="row r1 animatable slower fadeInDown"></div>
-        </div>
-        <div className="sidebar-contact">
-          <div className="toggle1" id="freeconsultationBtn">
-            <img
-              src={icon}
-              id="test123"
-              style={{ height: "15px", "margin-top": "8px" }}
-            />
-          </div>
-          <a href="#overview">
-            <p
-              style={{
-                color: "#f8951d",
-                "font-size": "14px",
-                "font-family": "'Gotham'",
-                "line-height": "2.5",
-              }}
-            >
-              Free Consultation
-            </p>
-          </a>
-        </div>
-        <div
-          className="input-group popupsearchbar"
-          style={{ position: "fixed", display: "none" }}
-        >
-          <input
-            type="text"
-            id="pop-input"
-            autoComplete="off"
-            name="search_entered"
-            className="form-control Searchbar1"
-            placeholder="Search..."
-            style={{ "box-shadow": "none", "border-color": "#2d2d2d" }}
-          />
-          <div className="pop-data" style={{ position: "absolute" }}></div>
-          <div className="input-group-btn">
-            <div
-              className="input-group-addon"
-              id="hide"
-              style={{
-                padding: "0px",
-                "background-color": "transparent",
-                border: "none",
-              }}
-            >
-              <div className="popupsearchbaraddon">
-                <img src={closeicon} className="subscribeemailclose" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <a
-          href="gst-registration-hindi.html"
-          className="languageicon"
-          style={{ display: "none" }}
-        >
-          हिंदी <img src={langicon} className="langicon" />
-        </a>
-        <div className="sidebarmain">
-          <img
-            src={sidebarshape}
-            style={{ position: "absolute", height: "100%", "z-index": "-1" }}
-          />
-          <img
-            src={cancel}
-            style={{
-              cursor: "pointer",
-              width: "3.6vh",
-              "margin-top": "1.5vh",
-              "z-index": "100",
-              "margin-left": "1.2vh",
-              position: "absolute",
-            }}
-            onclick="closesidebarmain()"
-          />
-          <div style={{ "padding-left": "5.9vh" }}>
-            <div className="sidebarmainsection">
-              <p className="sidebarmainheading">
-                <a href="how-we-work.html">
-                  <img src={howwework} className="sidebarimage2" />
-                </a>
-              </p>
-              <center>
-                <a
-                  className="sidebarmainheading"
-                  href="how-we-work.html"
-                  style={{
-                    "-webkit-text-align": "center",
-                    "text-align": "center",
-                    color: "#fff",
-                  }}
-                >
-                  {" "}
-                  How we work
-                </a>{" "}
-              </center>
-            </div>
-            <div className="sidebarmainsection">
-              <p className="sidebarmainheading">
-                <a href="how-to-get-consultancy.html">
-                  <img src={howtogetcon} className="sidebarimage1" />
-                </a>
-              </p>
-              <center>
-                <a
-                  className="sidebarmainheading"
-                  href="how-to-get-consultancy.html"
-                  style={{
-                    "line-height": "1.3",
-                    "-webkit-text-align": "center",
-                    "text-align": "center",
-                    color: "#fff",
-                  }}
-                >
-                  How to get <br />
-                  Consultancy
-                </a>
-              </center>
-              <a
-                className="sidebarmainheading"
-                href="how-to-get-consultancy.html"
-                style={{
-                  "line-height": "1.3",
-                  "-webkit-text-align": "center",
-                  "text-align": "center",
-                  color: "#fff",
-                }}
-              ></a>
-            </div>
-            <div className="sidebarmainsection">
-              <p className="sidebarmainheading">
-                <a href="https://blog.legal251.com/">
-                  <img src={blog} className="sidebarimage1" />
-                </a>
-              </p>
-              <center>
-                <a
-                  className="sidebarmainheading"
-                  href="resources/index.html"
-                  style={{
-                    "-webkit-text-align": "center",
-                    "text-align": "center",
-                    color: "#fff",
-                  }}
-                >
-                  Blog
-                </a>{" "}
-              </center>
-            </div>
-            <div className="sidebarmainsection">
-              <p className="sidebarmainheading">
-                <a href="about.html">
-                  <img src={aboutus} className="sidebarimage1" />
-                </a>
-              </p>
-              <center>
-                {" "}
-                <a
-                  className="sidebarmainheading"
-                  href="about.html"
-                  style={{
-                    "-webkit-text-align": "center",
-                    "text-align": "center",
-                    color: "#fff",
-                  }}
-                >
-                  About Us
-                </a>
-              </center>
-            </div>
-            <div className="sidebarmainsection">
-              <p className="sidebarmainheading">
-                <a href="contact.html">
-                  <img src={contactus} className="sidebarimage2" />
-                </a>
-              </p>
-              <center>
-                <a
-                  className="sidebarmainheading"
-                  href="contact.html"
-                  style={{
-                    "-webkit-text-align": "center",
-                    "text-align": "center",
-                    color: "#fff",
-                  }}
-                >
-                  Contact Us
-                </a>{" "}
-              </center>
-            </div>
-          </div>
-        </div>
-        <noscript>
-          &lt;
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-N37QCKM"
-            height="0"
-            width="0"
-            style="display:none;visibility:hidden"
-          >
-            &gt;&lt;
-          </iframe>
-          &gt;
-        </noscript>
-        <nav
-          className="navbar navbar-default bootsnav"
-          id="nav1"
-          style={{ position: "fixed", width: "100%", "z-index": "10" }}
-        >
-          <div className="trackserviceheader" id="trackservicediv">
-            <div className="phonenoheader">
-              <a
-                target="_blank"
-                href="https://wa.me/917772877729/?text=917772877729&text=Hello%20Team%20Legal251!"
-              >
-                {" "}
-                <img
-                  className="phonenoheaderwhatsapp"
-                  src={whatsapp}
-                />{" "}
-              </a>
-              &nbsp;&nbsp;{" "}
-              <a style={{ color: "#2d2d2d" }} href="tel:7772877729">
-                {" "}
-                <img src={phoneno} className="phonenoheaderlogo" />
-                (+91)77728-77729{" "}
-              </a>
-            </div>
-            <div
-              className="dropdown mydropdownclass"
-              style={{ color: "#2d2d2d" }}
-            >
-              <button
-                className="userloginbutton  dropdown-toggle"
-                type="button"
-                data-toggle="dropdown"
-              >
-                Login{" "}
-                <img src={login} className="userloginicon" />
-              </button>
-              <ul className="dropdown-menu dropdown-menu2   specialdropul2">
-                <li>
-                  <a href="https://user.legal251.com/">
-                    <img
-                      src="images/common/Path_1.svg"
-                      className="userlogindropicon"
-                    />
-                    &nbsp;User Login
-                  </a>
-                </li>
-                <li>
-                  <a href="https://partners.legal251.com/">
-                    <img
-                      src={agent}
-                      className="userlogindropicon2"
-                    />
-                    &nbsp;Partner Login
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <a href="track-service.html" style={{ color: "#2d2d2d" }}>
-              <button className="trackservicebutton">
-                <p style={{ display: "inline-block", top: "0px" }}>
-                  Track
-                  <br /> Service
-                </p>
-                <img
-                  src={trackservice}
-                  className="trackserviceicon"
-                />
-              </button>
-            </a>
-            <div className="trackservicebuttonmobdiv dropdown">
-              <button
-                className="trackservicebuttonmob dropdown-toggle"
-                type="button"
-                data-toggle="dropdown"
-              >
-                User Services
-                <img
-                  src={Group}
-                  className="userloginicon"
-                />
-              </button>
-              <ul className="dropdown-menu dropdown-menu-right specialdropul">
-                <li>
-                  <a href="https://user.legal251.com/">
-                    <img
-                      src="images/common/Path_1.svg"
-                      className="userlogindropicon"
-                    />{" "}
-                    &nbsp;User Login
-                  </a>
-                </li>
-                <li>
-                  <a href="track-service.html">
-                    <img
-                      src="images/common/Group_3.svg"
-                      className="userlogindropicon"
-                    />{" "}
-                    &nbsp;Track Service
-                  </a>
-                </li>
-                <li>
-                  <a href="https://partners.legal251.com/">
-                    <img
-                      src="images/common/agent.svg"
-                      className="userlogindropicon2"
-                    />
-                    &nbsp;Partner Login
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div
-            className="container-fluid"
-            style={{ "background-color": "transparent" }}
-          >
-            <div className="attr-nav">
-              <ul className="pal">
-                <li className="search">
-                  <a href="#" style={{ "margin-top": "2px" }}>
-                    <img
-                      src={sidesearchicon}
-                      className="navSearchbaricon"
-                      id="show"
-                      style={{ width: "20px" }}
-                    />
-                  </a>
-                </li>
-                <li className="menu">
-                  <a style={{ "margin-top": "3px" }}>
-                    <img
-                      src={star}
-                      className="sidemenuicon burger1"
-                      style={{ width: "23px", cursor: "pointer" }}
-                    />
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="navbar-header">
-              <button
-                type="button"
-                className="navbar-toggle"
-                data-toggle="collapse"
-                data-target="#navbar-menu"
-                id="testingside"
-                style={{ "background-color": "transparent" }}
-              >
-                <i
-                  className="fa fa-bars"
-                  style={{
-                    "font-size": "25px",
-                    "background-color": "transparent",
-                  }}
-                />
-              </button>
-              <a className="navbar-brand" href="index.html">
-                <center>
-                  <img
-                    src="images/common/legal.svg"
-                    class="logo mainlogo"
-                    alt
-                  />
-                </center>
-              </a>
-            </div>
-            <div className="collapse navbar-collapse" id="navbar-menu">
-              <ul className="nav navbar-nav navbar-right" data-in data-out>
-                <li className="dropdown megamenu-fw ">
-                  <a href="#" className="dropdown-toggle mytext m_togle">
-                    Start Business
-                    <i
-                      className="fa fa-angle-down down_arrow_hide"
-                      aria-hidden="true"
-                      style={{ display: "inline-block" }}
-                    />
-                  </a>
-                  <ul
-                    className="bimage dropdown-menu megamenu-content "
-                    role="menu"
-                  >
-                    <li className="allcontent allcontent12">
-                      <div className="row ">
-                        <div className="col-menu col-md-5">
-                          <div className="megamenu_heading">
-                            <img
-                              className="megamenu_title_img"
-                              src={Group5675}
-                              loading="lazy"
-                            />
-                            <div>
-                              <span
-                                className="title mtitle "
-                                data-toggle="dropdown"
-                              >
-                                Start Business
-                              </span>
-                            </div>
-                            <hr className="headinghr" />
-                          </div>
-                          <div className="content">
-                            <ul className="menu-col" id="id01">
-                              <li className="incontent">
-                                <a
-                                  className="text"
-                                  href="partnership-deed.html"
-                                >
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/partnership-deed.svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    Partnership Deed
-                                  </span>
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a
-                                  className="text"
-                                  href="private-limited-company-registration.html"
-                                >
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/company-reg.svg"
-                                    loading="lazy"
-                                  />{" "}
-                                  <span className="hvr-sweep-to-right textres">
-                                    Pvt. Ltd. Company Registration
-                                  </span>
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a
-                                  className="text"
-                                  href="section-8-company-registration.html"
-                                >
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/section8-reg.svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    Section 8 Company Registration
-                                  </span>
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a
-                                  className="text"
-                                  href="llp-company-registration.html"
-                                >
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/llp.svg"
-                                    loading="lazy"
-                                  />{" "}
-                                  <span className="hvr-sweep-to-right textres">
-                                    LLP Company Registration
-                                  </span>
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a
-                                  className="text"
-                                  href="opc-one-person-company-registration.html"
-                                >
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/opc.svg"
-                                    loading="lazy"
-                                  />{" "}
-                                  <span className="hvr-sweep-to-right textres">
-                                    OPC Company Registration
-                                  </span>
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div className="col-menu col-md-5">
-                          <div className="megamenu_heading">
-                            <img
-                              className="megamenu_title_img"
-                              src="images/megamenubimage/Group_5675.png"
-                              loading="lazy"
-                            />
-                            <div>
-                              <span className="title mtitle">Compliance</span>
-                            </div>
-                            <hr className="headinghr" />
-                          </div>
-                          <div className="content">
-                            <ul className="menu-col" id="id01">
-                              <li className="incontent">
-                                <a
-                                  className="text"
-                                  href="annual-compliance-llp.html"
-                                >
-                                  {" "}
-                                  <img
-                                    className="megamenu_icon"
-                                    src={annualcompliancellp}
-                                    loading="lazy"
-                                  />{" "}
-                                  <span className="hvr-sweep-to-right textres">
-                                    Annual Compliance LLP
-                                  </span>
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a
-                                  className="text"
-                                  href="annual-compliance-company.html"
-                                >
-                                  {" "}
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/newicons/AnnualCompliancePvt.Ltd..svg"
-                                    loading="lazy"
-                                  />{" "}
-                                  <span className="hvr-sweep-to-right textres">
-                                    Annual Compliance Pvt. Ltd.
-                                  </span>
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a className="text" href="cma-report.html">
-                                  {" "}
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/newicons/CMAReport.svg"
-                                    loading="lazy"
-                                  />{" "}
-                                  <span className="hvr-sweep-to-right textres">
-                                    CMA Report
-                                  </span>
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-                <li className="dropdown megamenu-fw ">
-                  <a href="#" className="dropdown-toggle mytext5 m_togle">
-                    Change in Business
-                    <i
-                      className="fa fa-angle-down down_arrow_hide"
-                      aria-hidden="true"
-                      style={{ display: "inline-block" }}
-                    />
-                  </a>
-                  <ul
-                    className="bimage dropdown-menu megamenu-content lopadd"
-                    role="menu"
-                  >
-                    <li className="allcontent newincontent allcontent12">
-                      <div className="row col-menu">
-                        <div className="megamenu_heading">
-                          <img
-                            className="megamenu_title_img"
-                            src={Group_5675}
-                            loading="lazy"
-                          />
-                          <div>
-                            <span className="title mtitle">
-                              Change in Business{" "}
-                            </span>
-                          </div>
-                          <hr className="headinghr" />
-                        </div>
-                        <div className="col-menu col-md-5 dview">
-                          <div className="content">
-                            <ul className="menu-col" id="id01">
-                              <li className="incontent">
-                                <div style={{ display: "flex" }}>
-                                  <div>
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/Group%205917.svg"
-                                      loading="lazy"
-                                    />
-                                  </div>
-                                  <div>
-                                    <a
-                                      className="text"
-                                      href="dissolution-of-deed.html"
-                                    >
-                                      <span className="hvr-sweep-to-right textres">
-                                        Dissolution of deeds
-                                      </span>
-                                    </a>
-                                  </div>
-                                </div>
-                              </li>
-                              <li className="incontent">
-                                <div style={{ display: "flex" }}>
-                                  <div>
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/newicons/AddressAmendmentWithinstate(LLP).svg"
-                                      loading="lazy"
-                                    />
-                                  </div>
-                                  <div>
-                                    <a
-                                      className="text"
-                                      href="address-amendment-within-state-llp.html"
-                                    >
-                                      <span className="hvr-sweep-to-right textres">
-                                        {" "}
-                                        Address Amendment Within state (LLP)
-                                      </span>
-                                    </a>
-                                  </div>
-                                </div>
-                              </li>
-                              <li className="incontent">
-                                <div style={{ display: "flex" }}>
-                                  <div>
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/newicons/AddressAmendmentWithinstate(Company).svg"
-                                      loading="lazy"
-                                    />
-                                  </div>
-                                  <div>
-                                    <a
-                                      className="text"
-                                      href="address-amendment-within-state-company.html"
-                                    >
-                                      <span className="hvr-sweep-to-right textres">
-                                        {" "}
-                                        Address Amendment Within state (Company)
-                                      </span>
-                                    </a>
-                                  </div>
-                                </div>
-                              </li>
-                              <li className="incontent">
-                                <div style={{ display: "flex" }}>
-                                  <div>
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/newicons/AddressAmendmentoutofstate(LLP).svg"
-                                      loading="lazy"
-                                    />
-                                  </div>
-                                  <div>
-                                    <a
-                                      className="text"
-                                      href="address-amendment-out-state-llp.html"
-                                    >
-                                      <span className="hvr-sweep-to-right textres">
-                                        Address Amendment out of state (LLP)
-                                      </span>
-                                    </a>
-                                  </div>
-                                </div>
-                              </li>
-                              <li className="incontent">
-                                <div style={{ display: "flex" }}>
-                                  <div>
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/newicons/AddressAmendmentoutofstate(Company).svg"
-                                      loading="lazy"
-                                    />
-                                  </div>
-                                  <div>
-                                    <a
-                                      className="text"
-                                      href="address-amendment-out-state-company.html"
-                                    >
-                                      <span className="hvr-sweep-to-right textres">
-                                        {" "}
-                                        Address Amendment out of state (Company)
-                                      </span>
-                                    </a>
-                                  </div>
-                                </div>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div className="col-menu col-md-3 dview">
-                          <div className="content">
-                            <ul className="menu-col" id="id01">
-                              <li className="incontent">
-                                <a className="text" href="add-director.html">
-                                  {" "}
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/newicons/AddDirector(company).svg"
-                                    loading="lazy"
-                                  />{" "}
-                                  <span className="hvr-sweep-to-right textres">
-                                    Add Director (company)
-                                  </span>
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a className="text" href="add-partner.html">
-                                  {" "}
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/newicons/AddPartner(LLP).svg"
-                                    loading="lazy"
-                                  />{" "}
-                                  <span className="hvr-sweep-to-right textres">
-                                    Add Partner (Company)
-                                  </span>
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <div style={{ display: "flex" }}>
-                                  <div>
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/newicons/IncreaseCapital(LLP).svg"
-                                      loading="lazy"
-                                    />
-                                    &nbsp;
-                                  </div>
-                                  <div>
-                                    <a
-                                      className="text"
-                                      href="increase-capital-llp.html"
-                                    >
-                                      {" "}
-                                      <span className="hvr-sweep-to-right textres">
-                                        Increase Capital (LLP)
-                                      </span>
-                                    </a>
-                                  </div>
-                                </div>
-                              </li>
-                              <li className="incontent">
-                                <a
-                                  className="text"
-                                  href="change-in-name-llp.html"
-                                >
-                                  {" "}
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/newicons/ChangeInNameofLLP.svg"
-                                    loading="lazy"
-                                  />{" "}
-                                  <span className="hvr-sweep-to-right">
-                                    Change In Name of LLP
-                                  </span>
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div className="col-menu col-md-4 dview">
-                          <div className="content">
-                            <ul className="menu-col" id="id01">
-                              <li className="incontent">
-                                <a className="text" href="remove-director.html">
-                                  {" "}
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/newicons/removeDirector(company).svg"
-                                    loading="lazy"
-                                  />{" "}
-                                  <span className="hvr-sweep-to-right">
-                                    Remove Director (Company)
-                                  </span>
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a className="text" href="remove-partner.html">
-                                  {" "}
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/newicons/RemovePartner(LLP).svg"
-                                    loading="lazy"
-                                  />{" "}
-                                  <span className="hvr-sweep-to-right textres">
-                                    Remove Partner (LLP)
-                                  </span>
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <div style={{ display: "flex" }}>
-                                  <div>
-                                    <img
-                                      className="megamenu_iconspecial"
-                                      src="images/icons/newicons/IncreaseCapital(Company).svg"
-                                      loading="lazy"
-                                    />
-                                    &nbsp;
-                                  </div>
-                                  <div>
-                                    <a
-                                      className="text"
-                                      href="increase-capital-company.html"
-                                    >
-                                      {" "}
-                                      <span className="hvr-sweep-to-right textres">
-                                        Increase Capital (Company)
-                                      </span>
-                                    </a>
-                                  </div>
-                                </div>
-                              </li>
-                              <li className="incontent">
-                                <a
-                                  className="text"
-                                  href="change-in-name-company.html"
-                                >
-                                  {" "}
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/newicons/ChangeInNameofCompany.svg"
-                                    loading="lazy"
-                                  />{" "}
-                                  <span className="hvr-sweep-to-right textres">
-                                    Change In Name of Company
-                                  </span>
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-                <li className="dropdown megamenu-fw">
-                  <a href="#" className="dropdown-toggle mytext1 m_togle">
-                    Registrations
-                    <i
-                      className="fa fa-angle-down down_arrow_hide"
-                      aria-hidden="true"
-                      style={{ display: "inline-block" }}
-                    />
-                  </a>
-                  <ul
-                    className="bimage dropdown-menu megamenu-content rpadd"
-                    role="menu"
-                  >
-                    <li className="allcontent incontentnew allcontent12">
-                      <div className="row">
-                        <div className="row col-menu">
-                          <div className="megamenu_heading">
-                            <img
-                              className="megamenu_title_img"
-                              src="images/megamenubimage/Group_5675.png"
-                              loading="lazy"
-                            />
-                            <div>
-                              <span className="title mtitle">
-                                Registrations{" "}
-                              </span>
-                            </div>
-                            <hr className="reheadinghr" />
-                          </div>
-                          <div className="col-menu col-md-4 dview">
-                            <div className="content ">
-                              <ul className="menu-col" id="id01">
-                                <li className="incontent">
-                                  <a
-                                    className="text"
-                                    href="import-export-license.html"
-                                  >
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/NoPath%20-%20Copy%20(4).svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      Import Export License (IEC)
-                                    </span>
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a
-                                    className="text"
-                                    href="icegate-registration.html"
-                                  >
-                                    {" "}
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/Group%205910.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      ICEGATE Registration
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a
-                                    className="text"
-                                    href="msme-udhyam-registration.html"
-                                  >
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/Group%205911.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      MSME Registration
-                                    </span>
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a
-                                    className="text"
-                                    href="society-registration.html"
-                                  >
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/Group%205912.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      Society Registration
-                                    </span>
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a
-                                    className="text"
-                                    href="pf-registration.html"
-                                  >
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/Group%205913.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      PF Registration
-                                    </span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div className="col-menu col-md-4 dview">
-                            <div className="content">
-                              <ul className="menu-col" id="id01">
-                                <li className="incontent">
-                                  <a
-                                    href="professional-tax-registration.html"
-                                    className="singlemenua"
-                                  >
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/proffessional.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      Professional Tax Registration
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a
-                                    href="gumasta-licence.html"
-                                    className="singlemenua"
-                                  >
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/Group_5632_1.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      Gumasta License
-                                    </span>
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a
-                                    href="trademark-registration.html"
-                                    className="singlemenua"
-                                  >
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/Group_3625_2.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      Trade Mark Registration
-                                    </span>{" "}
-                                  </a>{" "}
-                                </li>
-                                <li className="incontent">
-                                  <a
-                                    href="esic-registration.html"
-                                    className="singlemenua"
-                                  >
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/Group_6897.png"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      ESIC Registration
-                                    </span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div className="col-menu col-md-4 dview">
-                            <div className="content">
-                              <ul className="menu-col" id="id01">
-                                <li className="incontent">
-                                  <a
-                                    href="gst-registration.html"
-                                    className="singlemenua"
-                                  >
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/Group%205915.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      GST Registration
-                                    </span>
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a
-                                    href="food-licence.html"
-                                    className="singlemenua"
-                                  >
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/Group_5645_1.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      Food Licence
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a
-                                    href="trade-licence.html"
-                                    className="singlemenua"
-                                  >
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/Group_5631_1.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      Trade Licence
-                                    </span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-                <li className="dropdown megamenu-fw ">
-                  <a href="#" className="dropdown-toggle mytext2 m_togle">
-                    Filing &amp; More
-                    <i
-                      className="fa fa-angle-down down_arrow_hide"
-                      aria-hidden="true"
-                      style={{ display: "inline-block" }}
-                    />
-                  </a>
-                  <ul
-                    className="bimage dropdown-menu megamenu-content"
-                    role="menu"
-                  >
-                    <li className="allcontent allcontent12">
-                      <div className="row">
-                        <div className="row col-menu m_mar">
-                          <div className="col-menu col-md-4 col-lg-5 pleft fpadd ">
-                            <div className="megamenu_heading">
-                              <img
-                                className="megamenu_title_img"
-                                src="images/megamenubimage/Group_5675.png"
-                                loading="lazy"
-                              />
-                              <div>
-                                <span className="title mtitle">Filings </span>
-                              </div>
-                              <hr className="reheadinghr" />
-                            </div>
-                            <div className="content">
-                              <ul className="menu-col" id="id01">
-                                <li className="incontent">
-                                  <a href="gst-return-filing.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/Group_3506_1.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      GST Return Filing
-                                    </span>
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a href="income-tax-return-filing.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/Group_3507_1.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      ITR Filing
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a href="tds-return-filing.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/icons/newicons/tdsrf.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      TDS Return Filing
-                                    </span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div className="col-menu col-md-3 col-lg-3 pleft ">
-                            <div className="megamenu_heading">
-                              <img
-                                className="megamenu_title_img"
-                                src="images/megamenubimage/Group_5675.png"
-                                loading="lazy"
-                              />
-                              <div>
-                                <span className="title mtitle maxcon">
-                                  Accounting{" "}
-                                </span>
-                              </div>
-                              <hr className="headinghr" />
-                            </div>
-                            <div className="content">
-                              <ul className="menu-col" id="id01">
-                                <li className="incontent li_dview newincontent">
-                                  <a href="online-accounting.html">
-                                    <img
-                                      className="megamenu_icon megamenu_iconspecial"
-                                      src="images/icons/Layer_2_1.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      Online Accounting
-                                    </span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-                <li className="dropdown megamenu-fw">
-                  <a href="#" className="dropdown-toggle mytext3 m_togle">
-                    Drafting{" "}
-                    <i
-                      className="fa fa-angle-down down_arrow_hide"
-                      aria-hidden="true"
-                      style={{ display: "inline-block" }}
-                    />
-                  </a>
-                  <ul
-                    className="bimage dropdown-menu megamenu-content dpadd"
-                    role="menu"
-                  >
-                    <li className="allcontent newincontent allcontent12">
-                      <div className="row col-menu">
-                        <div className="megamenu_heading">
-                          <img
-                            className="megamenu_title_img"
-                            src="images/megamenubimage/Group_5675.png"
-                            loading="lazy"
-                          />
-                          <div>
-                            <span className="title mtitle">Drafting </span>
-                          </div>
-                          <hr className="reheadinghr" />
-                        </div>
-                        <div className="col-menu col-md-4 dcol">
-                          <div className="content">
-                            <ul className="menu-col" id="id01">
-                              <li className="incontent">
-                                <a
-                                  href="legal-drafting.html"
-                                  className="singlemenua"
-                                >
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/movie-copyright_1.svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    Legal Drafting
-                                  </span>{" "}
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a
-                                  href="rent-agreement.html"
-                                  className="singlemenua"
-                                >
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/Group%205918.svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    Rent Agreement
-                                  </span>{" "}
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a
-                                  href="noc-no-objection-certificate.html"
-                                  className="singlemenua"
-                                >
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/Group%205919.svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    {" "}
-                                    NOC
-                                  </span>
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a
-                                  href="affidavit.html"
-                                  className="singlemenua"
-                                >
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/Group%205920.svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    Affidavit
-                                  </span>{" "}
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a
-                                  href="power-of-attorney.html"
-                                  className="singlemenua"
-                                >
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/Group%205921.svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    Power of Attorney
-                                  </span>{" "}
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div className="col-menu col-md-5">
-                          <div className="content">
-                            <ul className="menu-col" id="id01">
-                              <li className="incontent">
-                                <a href="will.html" className="singlemenua">
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/NoPath%20-%20Copy%20(17).svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right">
-                                    Will
-                                  </span>{" "}
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a
-                                  href="application.html"
-                                  className="singlemenua"
-                                >
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/appf.svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    Application Form
-                                  </span>{" "}
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a href="nda-non-disclosure-agreement-online.html">
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/nda.png"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    NDA Drafting
-                                  </span>{" "}
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a href="privacy-policy-drafting-online.html">
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/user-privacy_1.svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    Privacy Policy Drafting
-                                  </span>
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a href="terms-and-conditions-drafting-online.html">
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/tnc.png"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    Terms and Conditions Drafting
-                                  </span>{" "}
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-                <li className="dropdown megamenu-fw ">
-                  <a href="#" className="dropdown-toggle mytext4 m_togle">
-                    Legal Issues{" "}
-                    <i
-                      className="fa fa-angle-down down_arrow_hide"
-                      aria-hidden="true"
-                      style={{ display: "inline-block" }}
-                    />
-                  </a>
-                  <ul
-                    className="bimage dropdown-menu megamenu-content lepadd "
-                    role="menu"
-                  >
-                    <li className="allcontent newincontent allcontent12">
-                      <div className="row">
-                        <div className="col-menu col-md-4">
-                          <div className="megamenu_heading">
-                            <img
-                              src="images/megamenubimage/Group_5675.png"
-                              loading="lazy"
-                            />
-                            <div>
-                              <span className="title mtitle textres">
-                                Legal Reply{" "}
-                              </span>
-                            </div>
-                            <hr className="headinghr" />
-                          </div>
-                          <div className="content le_cpadd">
-                            <ul className="menu-col" id="id01">
-                              <li className="incontent">
-                                <a href="legal-notice-reply.html">
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/legalreply.svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    Legal Notice Reply
-                                  </span>{" "}
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a href="legal-claim-help.html">
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/baggage-claim.svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    Legal Advice
-                                  </span>
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div className="col-menu col-md-4">
-                          <div className="megamenu_heading">
-                            <img
-                              src="images/megamenubimage/Group_5675.png"
-                              loading="lazy"
-                            />
-                            <div>
-                              <span className="title mtitle">
-                                Legal Notice{" "}
-                              </span>
-                            </div>
-                            <hr className="headinghr" />
-                          </div>
-                          <div className="content le_cpadd">
-                            <ul className="menu-col" id="id01">
-                              <li className="incontent">
-                                <a href="legal-notice.html">
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/help.png"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    Legal Notice Prepration
-                                  </span>
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-                <li className="dropdown megamenu-fw ">
-                  <a href="#" className="dropdown-toggle mytext6 m_togle">
-                    Other Services
-                    <i
-                      className="fa fa-angle-down down_arrow_hide"
-                      aria-hidden="true"
-                      style={{ display: "inline-block" }}
-                    />
-                  </a>
-                  <ul
-                    className="bimage dropdown-menu megamenu-content opadd"
-                    role="menu"
-                  >
-                    <li className="allcontent newincontent allcontent12">
-                      <div className="row">
-                        <div className="col-menu col-md-5 pleft">
-                          <div className="megamenu_heading">
-                            <img src="images/megamenubimage/Group_5675.png" />
-                            <div>
-                              <span className="title mtitle">
-                                Other Services
-                              </span>
-                            </div>
-                            <hr className="headinghr" />
-                          </div>
-                          <div className="content o_cpadd">
-                            <ul className="menu-col" id="id01">
-                              <li className="incontent">
-                                <a href="balance-sheet-prepration.html">
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/Group%205926.svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    {" "}
-                                    Balance Sheet Preparation &amp; P&amp;L
-                                  </span>
-                                </a>
-                              </li>
-                              <li className="incontent">
-                                <a href="project-report-prepration.html">
-                                  <img
-                                    className="megamenu_icon"
-                                    src="images/icons/Group%205927.svg"
-                                    loading="lazy"
-                                  />
-                                  <span className="hvr-sweep-to-right textres">
-                                    Project Report Preparation
-                                  </span>{" "}
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-                <li className="dropdown megamenu-fw ">
-                  <a href="#" className="dropdown-toggle mytext7 m_togle">
-                    Utilities
-                    <i
-                      className="fa fa-angle-down down_arrow_hide"
-                      aria-hidden="true"
-                      style={{ display: "inline-block" }}
-                    />
-                  </a>
-                  <ul
-                    className="bimage dropdown-menu megamenu-content opadd"
-                    role="menu"
-                  >
-                    <li className="allcontent newincontent allcontent12">
-                      <div className="row">
-                        <div className="col-menu">
-                          <div className="megamenu_heading">
-                            <img src="images/megamenubimage/Group_5675.png" />
-                            <div>
-                              <span className="title mtitle">Utilities </span>
-                            </div>
-                            <hr className="headinghr" />
-                          </div>
-                          <div className="col-menu col-md-4 dcol">
-                            <div className="content lo_cpadd">
-                              <ul className="menu-col" id="id01">
-                                <li className="incontent">
-                                  <a href="GST-calculator.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/calculator_icons/gst.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      GST Calculator
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a href="SIP-calculator.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/calculator_icons/sip.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      SIP Calculator
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a href="EMI-calculator.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/calculator_icons/interest.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      EMI Calculator
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a href="FD-calculator.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/calculator_icons/fd.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      FD Calculator
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div className="col-menu col-md-4">
-                            <div className="content lo_cpadd">
-                              <ul className="menu-col" id="id01">
-                                <li className="incontent">
-                                  <a href="80U-calculator.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/calculator_icons/Group_6457.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      80U Calculator
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a href="HRA-calculator.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/calculator_icons/hra.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      HRA Calculator
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a href="simple-interest.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/calculator_icons/interest-rate.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      Simple Interest Calculator
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a href="capital-gain-calulator.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/calculator_icons/capital_gain.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      Capital Gain Calculator
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div className="col-menu col-md-4">
-                            <div className="content lo_cpadd">
-                              <ul className="menu-col" id="id01">
-                                <li className="incontent">
-                                  <a href="TDS-calculator.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/calculator_icons/tds.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      TDS Calculator
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a href="PPF-calculator.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/calculator_icons/ppf.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      PPF Calculator
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a href="Gratuity-calculator.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/calculator_icons/gratuaty.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      Gratuity Calculator
-                                    </span>
-                                  </a>
-                                </li>
-                                <li className="incontent">
-                                  <a href="RD-calculator.html">
-                                    <img
-                                      className="megamenu_icon"
-                                      src="images/calculator_icons/rd.svg"
-                                      loading="lazy"
-                                    />
-                                    <span className="hvr-sweep-to-right textres">
-                                      RD Calculator
-                                    </span>{" "}
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
         <div className="servicebrhide">
           <br />
         </div>
@@ -1874,10 +118,10 @@ const AnnualComplianceCompancy = () => {
                     <span>200k+</span> people trust us
                   </p>
                   <p className="companypageheading">
-                  Annual Compliance of Private Limited (Pvt. Ltd.) Company
+                    Annual Compliance of Private Limited (Pvt. Ltd.) Company
                   </p>
                   <p className="companypricetext">
-                  Get Annual Compliance Pvt. Ltd.{" "}
+                    Get Annual Compliance Pvt. Ltd.{" "}
                     <span className="companypricetextspan">
                       @ Rs.7251 only /-
                     </span>
@@ -1957,17 +201,20 @@ const AnnualComplianceCompancy = () => {
                       >
                         <img src={maskgroup} className="getitgoogleplayimg" />
                       </a>
-                      </div>
-                      <div className="col-sm-4 colpaddingzero  cuscolpaddingzero">
+                    </div>
+                    <div className="col-sm-4 colpaddingzero  cuscolpaddingzero">
                       <a
                         target="_blank"
                         href="https://apps.apple.com/in/app/legal251-legal-service-more/id6443916709"
                       >
-                        <img src={badge} className="getitplaystoreimg"  style={{marginTop: "62px"}}/>
+                        <img
+                          src={badge}
+                          className="getitplaystoreimg"
+                          style={{ marginTop: "62px" }}
+                        />
                       </a>
+                    </div>
 
-                      </div>
-                    
                     <div className="col-sm-4 colpaddingzero  cuscolpaddingzero">
                       <br /> <br />
                       <img src={group} className="googlereviewimg" />
@@ -4346,7 +2593,27 @@ const AnnualComplianceCompancy = () => {
               <div className="row">
                 <div className="col-md-7 companycustomcol4">
                   <p className="companyaboutsectiontext">
-                  Are you a Pvt. Ltd. Company struggling with the complexities of annual compliance? Look no further! Legal251 offers comprehensive services tailored specifically for the Annual Compliance of Private Limited Companies. Our expert team ensures that you meet all legal and regulatory obligations seamlessly, allowing you to focus on growing your business. We handle every aspect of your annual compliance requirements, starting with the Annual General Meeting (AGM). Our professionals will assist in organizing the AGM and guide you through crucial decision-making processes. We will prepare and file all necessary documents with the Registrar of Companies (ROC), including financial statements, annual returns, and any required tax filings. Our expertise extends to compliance with income tax regulations, Goods and Services Tax (GST), and other relevant laws, providing peace of mind. By choosing Legal251, you can avoid penalties, legal complications, and reputational damage that may arise from non-compliance. Our reliable and efficient services ensure that your Pvt. Ltd. Company always remains transparent, accountable, and compliant.
+                    Are you a Pvt. Ltd. Company struggling with the complexities
+                    of annual compliance? Look no further! Legal251 offers
+                    comprehensive services tailored specifically for the Annual
+                    Compliance of Private Limited Companies. Our expert team
+                    ensures that you meet all legal and regulatory obligations
+                    seamlessly, allowing you to focus on growing your business.
+                    We handle every aspect of your annual compliance
+                    requirements, starting with the Annual General Meeting
+                    (AGM). Our professionals will assist in organizing the AGM
+                    and guide you through crucial decision-making processes. We
+                    will prepare and file all necessary documents with the
+                    Registrar of Companies (ROC), including financial
+                    statements, annual returns, and any required tax filings.
+                    Our expertise extends to compliance with income tax
+                    regulations, Goods and Services Tax (GST), and other
+                    relevant laws, providing peace of mind. By choosing
+                    Legal251, you can avoid penalties, legal complications, and
+                    reputational damage that may arise from non-compliance. Our
+                    reliable and efficient services ensure that your Pvt. Ltd.
+                    Company always remains transparent, accountable, and
+                    compliant.
                   </p>
                 </div>
                 <div className="col-md-5 companycustomcol3">
@@ -4382,165 +2649,249 @@ const AnnualComplianceCompancy = () => {
             </center>
           </div>
           <div id="Detailedprocess" className="page-section">
-  <br /><br /><br /><br />
-  <p className="servicehrheading">&nbsp; <img src="https://legal251.com/images/gstregistration/Path 19952.svg" className="Detailedprocessimage" /> Benefits&nbsp;</p>
-  <hr className="Detailedprocesshr1" />
-  <hr className="Detailedprocesshr2" />
-  <hr className="Detailedprocesshr3" />
-  <br /><br /><br />
-  <div className="row companybenefitscardrow">
-    <div className="col-md-6">
-      <div className="companybenefitscard companybenefitscard2">
-        <div className="row ">
-          <div className="col-md-8 col-sm-8 col-xs-8 col-12">
-            <p className="companybenefitscardheading">Legal Compliance</p>
-            <p className="companybenefitscardtext">
-              Fulfilling annual compliance requirements ensures that your Pvt. Ltd. Company remains compliant with the laws and regulations of India.
+            <br />
+            <br />
+            <br />
+            <br />
+            <p className="servicehrheading">
+              &nbsp;{" "}
+              <img
+                src="https://legal251.com/images/gstregistration/Path 19952.svg"
+                className="Detailedprocessimage"
+              />{" "}
+              Benefits&nbsp;
             </p>
+            <hr className="Detailedprocesshr1" />
+            <hr className="Detailedprocesshr2" />
+            <hr className="Detailedprocesshr3" />
+            <br />
+            <br />
+            <br />
+            <div className="row companybenefitscardrow">
+              <div className="col-md-6">
+                <div className="companybenefitscard companybenefitscard2">
+                  <div className="row ">
+                    <div className="col-md-8 col-sm-8 col-xs-8 col-12">
+                      <p className="companybenefitscardheading">
+                        Legal Compliance
+                      </p>
+                      <p className="companybenefitscardtext">
+                        Fulfilling annual compliance requirements ensures that
+                        your Pvt. Ltd. Company remains compliant with the laws
+                        and regulations of India.
+                      </p>
+                    </div>
+                    <div className="col-md-4 col-sm-4 col-xs-4 col-12">
+                      <img
+                        src="https://legal251.com/images/companyregimage/legal-.svg"
+                        className="companybenefitscardimg companybenefitscardimgheight1 "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="companybenefitscard companybenefitscard2">
+                  <div className="row ">
+                    <div className="col-md-8 col-sm-8 col-xs-8 col-12">
+                      <p className="companybenefitscardheading companybenefitscardtextmargin2">
+                        Avoid Penalties
+                      </p>
+                      <p className="companybenefitscardtext ">
+                        Meeting annual compliance obligations helps you avoid
+                        penalties and fines that can be imposed for
+                        non-compliance.
+                      </p>
+                    </div>
+                    <div className="col-md-4 col-sm-4 col-xs-4 col-12">
+                      <img
+                        src="https://legal251.com/images/companyregimage/Avoid-Penalties.svg"
+                        className="companybenefitscardimg companybenefitscardimgheight1 "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="companybenefitscard companybenefitscard2">
+                  <div className="row ">
+                    <div className="col-md-8 col-sm-8 col-xs-8 col-12">
+                      <p className="companybenefitscardheading companybenefitscardtextmargin2">
+                        Smooth Operations
+                      </p>
+                      <p className="companybenefitscardtext ">
+                        Annual compliance ensures transparency and
+                        accountability, leading to smoother operations within
+                        the company.
+                      </p>
+                    </div>
+                    <div className="col-md-4 col-sm-4 col-xs-4 col-12">
+                      <img
+                        src="https://legal251.com/images/companyregimage/Smooth-Operations.svg"
+                        className="companybenefitscardimg companybenefitscardimgheight1 "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="companybenefitscard companybenefitscard2">
+                  <div className="row ">
+                    <div className="col-md-8 col-sm-8 col-xs-8 col-12">
+                      <p className="companybenefitscardheading companybenefitscardtextmargin2">
+                        Shareholder Confidence
+                      </p>
+                      <p className="companybenefitscardtext ">
+                        Conducting Annual General Meetings (AGMs) and filing
+                        financial statements instil confidence in shareholders,
+                        enhancing their trust in the company.
+                      </p>
+                    </div>
+                    <div className="col-md-4 col-sm-4 col-xs-4 col-12">
+                      <img
+                        src="https://legal251.com/images/companyregimage/Shareholder-Confidence.svg"
+                        className="companybenefitscardimg companybenefitscardimgheight1 "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="companybenefitscard companybenefitscard2">
+                  <div className="row ">
+                    <div className="col-md-8 col-sm-8 col-xs-8 col-12">
+                      <p className="companybenefitscardheading companybenefitscardtextmargin2">
+                        Good Governance
+                      </p>
+                      <p className="companybenefitscardtext ">
+                        Annual compliance promotes good governance practices,
+                        demonstrating your commitment to ethical business
+                        conduct.
+                      </p>
+                    </div>
+                    <div className="col-md-4 col-sm-4 col-xs-4 col-12">
+                      <img
+                        src="https://legal251.com/images/companyregimage/good-governance.svg"
+                        className="companybenefitscardimg companybenefitscardimgheight1 "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="companybenefitscard companybenefitscard2">
+                  <div className="row ">
+                    <div className="col-md-8 col-sm-8 col-xs-8 col-12">
+                      <p className="companybenefitscardheading companybenefitscardtextmargin2">
+                        Maintaining Reputation
+                      </p>
+                      <p className="companybenefitscardtext ">
+                        Complying with legal and regulatory obligations
+                        safeguards your company's reputation and protects it
+                        from negative consequences.
+                      </p>
+                    </div>
+                    <div className="col-md-4 col-sm-4 col-xs-4 col-12">
+                      <img
+                        src="https://legal251.com/images/companyregimage/maintaining-Reputation.svg"
+                        className="companybenefitscardimg companybenefitscardimgheight1 "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="companybenefitscard companybenefitscard2">
+                  <div className="row ">
+                    <div className="col-md-8 col-sm-8 col-xs-8 col-12">
+                      <p className="companybenefitscardheading companybenefitscardtextmargin2">
+                        Access to Funding
+                      </p>
+                      <p className="companybenefitscardtext ">
+                        Many investors and financial institutions require proof
+                        of annual compliance before providing funding or
+                        investments.
+                      </p>
+                    </div>
+                    <div className="col-md-4 col-sm-4 col-xs-4 col-12">
+                      <img
+                        src="https://legal251.com/images/companyregimage/access-funding.svg"
+                        className="companybenefitscardimg companybenefitscardimgheight1 "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="companybenefitscard companybenefitscard2">
+                  <div className="row ">
+                    <div className="col-md-8 col-sm-8 col-xs-8 col-12">
+                      <p className="companybenefitscardheading companybenefitscardtextmargin2">
+                        Better Financial Management
+                      </p>
+                      <p className="companybenefitscardtext ">
+                        The process of annual compliance involves preparing
+                        financial statements and analysing the company's
+                        financial health, allowing for better financial
+                        management and decision-making.
+                      </p>
+                    </div>
+                    <div className="col-md-4 col-sm-4 col-xs-4 col-12">
+                      <img
+                        src="https://legal251.com/images/companyregimage/financial-management.svg"
+                        className="companybenefitscardimg companybenefitscardimgheight1 "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="companybenefitscard companybenefitscard2">
+                  <div className="row ">
+                    <div className="col-md-8 col-sm-8 col-xs-8 col-12">
+                      <p className="companybenefitscardheading companybenefitscardtextmargin2">
+                        Tax Planning
+                      </p>
+                      <p className="companybenefitscardtext ">
+                        Compliance with tax regulations enables effective tax
+                        planning, maximising savings and minimising tax
+                        liabilities.
+                      </p>
+                    </div>
+                    <div className="col-md-4 col-sm-4 col-xs-4 col-12">
+                      <img
+                        src="https://legal251.com/images/companyregimage/Tax-Planning.svg"
+                        className="companybenefitscardimg companybenefitscardimgheight1 "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="companybenefitscard companybenefitscard2">
+                  <div className="row ">
+                    <div className="col-md-8 col-sm-8 col-xs-8 col-12">
+                      <p className="companybenefitscardheading companybenefitscardtextmargin2">
+                        Stakeholder Communication
+                      </p>
+                      <p className="companybenefitscardtext ">
+                        The annual compliance process involves communicating
+                        with stakeholders, fostering transparency and
+                        maintaining strong relationships with suppliers,
+                        customers, and partners.
+                      </p>
+                    </div>
+                    <div className="col-md-4 col-sm-4 col-xs-4 col-12">
+                      <img
+                        src="https://legal251.com/images/companyregimage/stakeholder-communication.svg"
+                        className="companybenefitscardimg companybenefitscardimgheight1"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="col-md-4 col-sm-4 col-xs-4 col-12">
-            <img src="https://legal251.com/images/companyregimage/legal-.svg" className="companybenefitscardimg companybenefitscardimgheight1 " />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="col-md-6">
-      <div className="companybenefitscard companybenefitscard2">
-        <div className="row ">
-          <div className="col-md-8 col-sm-8 col-xs-8 col-12">
-            <p className="companybenefitscardheading companybenefitscardtextmargin2">Avoid Penalties</p>
-            <p className="companybenefitscardtext ">
-              Meeting annual compliance obligations helps you avoid penalties and fines that can be imposed for non-compliance.
-            </p>
-          </div>
-          <div className="col-md-4 col-sm-4 col-xs-4 col-12">
-            <img src="https://legal251.com/images/companyregimage/Avoid-Penalties.svg" className="companybenefitscardimg companybenefitscardimgheight1 " />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="col-md-6">
-      <div className="companybenefitscard companybenefitscard2">
-        <div className="row ">
-          <div className="col-md-8 col-sm-8 col-xs-8 col-12">
-            <p className="companybenefitscardheading companybenefitscardtextmargin2">Smooth Operations</p>
-            <p className="companybenefitscardtext ">
-              Annual compliance ensures transparency and accountability, leading to smoother operations within the company.
-            </p>
-          </div>
-          <div className="col-md-4 col-sm-4 col-xs-4 col-12">
-            <img src="https://legal251.com/images/companyregimage/Smooth-Operations.svg" className="companybenefitscardimg companybenefitscardimgheight1 " />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="col-md-6">
-      <div className="companybenefitscard companybenefitscard2">
-        <div className="row ">
-          <div className="col-md-8 col-sm-8 col-xs-8 col-12">
-            <p className="companybenefitscardheading companybenefitscardtextmargin2">Shareholder Confidence</p>
-            <p className="companybenefitscardtext ">
-              Conducting Annual General Meetings (AGMs) and filing financial statements instil confidence in shareholders, enhancing their trust in the company.
-            </p>
-          </div>
-          <div className="col-md-4 col-sm-4 col-xs-4 col-12">
-            <img src="https://legal251.com/images/companyregimage/Shareholder-Confidence.svg" className="companybenefitscardimg companybenefitscardimgheight1 " />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="col-md-6">
-      <div className="companybenefitscard companybenefitscard2">
-        <div className="row ">
-          <div className="col-md-8 col-sm-8 col-xs-8 col-12">
-            <p className="companybenefitscardheading companybenefitscardtextmargin2">Good Governance</p>
-            <p className="companybenefitscardtext ">
-              Annual compliance promotes good governance practices, demonstrating your commitment to ethical business conduct.
-            </p>
-          </div>
-          <div className="col-md-4 col-sm-4 col-xs-4 col-12">
-            <img src="https://legal251.com/images/companyregimage/good-governance.svg" className="companybenefitscardimg companybenefitscardimgheight1 " />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="col-md-6">
-      <div className="companybenefitscard companybenefitscard2">
-        <div className="row ">
-          <div className="col-md-8 col-sm-8 col-xs-8 col-12">
-            <p className="companybenefitscardheading companybenefitscardtextmargin2">Maintaining Reputation</p>
-            <p className="companybenefitscardtext ">
-              Complying with legal and regulatory obligations safeguards your company's reputation and protects it from negative consequences.
-            </p>
-          </div>
-          <div className="col-md-4 col-sm-4 col-xs-4 col-12">
-            <img src="https://legal251.com/images/companyregimage/maintaining-Reputation.svg" className="companybenefitscardimg companybenefitscardimgheight1 " />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="col-md-6">
-      <div className="companybenefitscard companybenefitscard2">
-        <div className="row ">
-          <div className="col-md-8 col-sm-8 col-xs-8 col-12">
-            <p className="companybenefitscardheading companybenefitscardtextmargin2">Access to Funding</p>
-            <p className="companybenefitscardtext ">
-              Many investors and financial institutions require proof of annual compliance before providing funding or investments.
-            </p>
-          </div>
-          <div className="col-md-4 col-sm-4 col-xs-4 col-12">
-            <img src="https://legal251.com/images/companyregimage/access-funding.svg" className="companybenefitscardimg companybenefitscardimgheight1 " />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="col-md-6">
-      <div className="companybenefitscard companybenefitscard2">
-        <div className="row ">
-          <div className="col-md-8 col-sm-8 col-xs-8 col-12">
-            <p className="companybenefitscardheading companybenefitscardtextmargin2">Better Financial Management</p>
-            <p className="companybenefitscardtext ">
-              The process of annual compliance involves preparing financial statements and analysing the company's financial health, allowing for better financial management and decision-making.
-            </p>
-          </div>
-          <div className="col-md-4 col-sm-4 col-xs-4 col-12">
-            <img src="https://legal251.com/images/companyregimage/financial-management.svg" className="companybenefitscardimg companybenefitscardimgheight1 " />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="col-md-6">
-      <div className="companybenefitscard companybenefitscard2">
-        <div className="row ">
-          <div className="col-md-8 col-sm-8 col-xs-8 col-12">
-            <p className="companybenefitscardheading companybenefitscardtextmargin2">Tax Planning</p>
-            <p className="companybenefitscardtext ">
-              Compliance with tax regulations enables effective tax planning, maximising savings and minimising tax liabilities.
-            </p>
-          </div>
-          <div className="col-md-4 col-sm-4 col-xs-4 col-12">
-            <img src="https://legal251.com/images/companyregimage/Tax-Planning.svg" className="companybenefitscardimg companybenefitscardimgheight1 " />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="col-md-6">
-      <div className="companybenefitscard companybenefitscard2">
-        <div className="row ">
-          <div className="col-md-8 col-sm-8 col-xs-8 col-12">
-            <p className="companybenefitscardheading companybenefitscardtextmargin2">Stakeholder Communication</p>
-            <p className="companybenefitscardtext ">
-              The annual compliance process involves communicating with stakeholders, fostering transparency and maintaining strong relationships with suppliers, customers, and partners.
-            </p>
-          </div>
-          <div className="col-md-4 col-sm-4 col-xs-4 col-12">
-            <img src="https://legal251.com/images/companyregimage/stakeholder-communication.svg" className="companybenefitscardimg companybenefitscardimgheight1" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
           <div id="Registrationprocess" className="page-section">
             <br />
             <br />
@@ -4629,154 +2980,365 @@ const AnnualComplianceCompancy = () => {
             </div>
           </div>
           <div id="FAQs" className="page-section">
-  <br /><br /><br /><br />
-  <p className="servicehrheading">&nbsp; 
-  <img src="https://legal251.com/images/services/faq.svg" className="FAQsimage" /> FAQs&nbsp;</p>
-  <hr className="FAQshr1" />
-  <hr className="FAQshr2" />
-  <hr className="FAQshr3" />
-  <br /><br /><br /><br /><br />
-  <p className="frequentlyheading">FREQUENTLY ASKED QUESTIONS</p>
-  <br /><br /><br />
-  <div className="mobhidebr" style={{"position":"absolute","width":"100%"}}>
-    <hr className="faqhr" style={{"border":"none","margin-top":"-20px","border-left":"2px solid rgb(1,53,93,0.3)","height":"480px","width":"2px"}} />
-  </div>
-  <div style={{"padding":"0 5%"}}>
-    <div className="row">
-      <div className="col-md-6 servicefaqcol1">
-        <div className="panel-group" id="accordion" style={{"border":"none"}}>
-          <div className="panel panel-default servicefaqmainpanel">
-            <div className="panel-heading servicefaqpanelheading">
-              <h4 className="panel-title">
-                <a data-toggle="collapse" className="servicefaqlink" id="servicefaq1" data-parent="#accordion" href="#collapse1">Q1: What is the deadline for conducting the Annual General Meeting (AGM) for a Pvt. Ltd. Company in India?
-                  <img src="https://legal251.com/images/gstregistration/Path_20192.svg" className="servicefaqimg" />
-                </a>
-              </h4>
+            <br />
+            <br />
+            <br />
+            <br />
+            <p className="servicehrheading">
+              &nbsp;
+              <img
+                src="https://legal251.com/images/services/faq.svg"
+                className="FAQsimage"
+              />{" "}
+              FAQs&nbsp;
+            </p>
+            <hr className="FAQshr1" />
+            <hr className="FAQshr2" />
+            <hr className="FAQshr3" />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <p className="frequentlyheading">FREQUENTLY ASKED QUESTIONS</p>
+            <br />
+            <br />
+            <br />
+            <div
+              className="mobhidebr"
+              style={{ position: "absolute", width: "100%" }}
+            >
+              <hr
+                className="faqhr"
+                style={{
+                  border: "none",
+                  "margin-top": "-20px",
+                  "border-left": "2px solid rgb(1,53,93,0.3)",
+                  height: "480px",
+                  width: "2px",
+                }}
+              />
             </div>
-            <div id="collapse1" className="panel-collapse collapse in paddingzero">
-              <div className="panel-body servicefaqbody">The AGM must be held within six months from the end of the financial year.</div>
-            </div>
-          </div>
-          <div className="panel panel-default servicefaqmainpanel">
-            <div className="panel-heading servicefaqpanelheading">
-              <h4 className="panel-title">
-                <a data-toggle="collapse" className="servicefaqlink" id="servicefaq2" data-parent="#accordion" href="#collapse2">Q2: What documents are required to be filed with the Registrar of Companies for annual compliance?
-                  <img src="https://legal251.com/images/gstregistration/Path_20191.svg" className="servicefaqimg" />
-                </a>
-              </h4>
-            </div>
-            <div id="collapse2" className="panel-collapse collapse  paddingzero">
-              <div className="panel-body servicefaqbody"> The company must file its financial statements, including the balance sheet, profit and loss account, and cash flow statement. Additionally, an annual return containing details about directors, shareholders, and share capital must be filed.</div>
-            </div>
-          </div>
-          <div className="panel panel-default servicefaqmainpanel">
-            <div className="panel-heading servicefaqpanelheading">
-              <h4 className="panel-title">
-                <a data-toggle="collapse" className="servicefaqlink" id="servicefaq3" data-parent="#accordion" href="#collapse3">Q3: What happens if the AGM is not conducted within the specified time frame?
-                  <img src="https://legal251.com/images/gstregistration/Path_20191.svg" className="servicefaqimg" />
-                </a>
-              </h4>
-            </div>
-            <div id="collapse3" className="panel-collapse collapse paddingzero">
-              <div className="panel-body servicefaqbody">Failure to conduct the AGM within the prescribed time can result in penalties and legal consequences, impacting the company's compliance status.</div>
-            </div>
-          </div>
-          <div className="panel panel-default servicefaqmainpanel">
-            <div className="panel-heading servicefaqpanelheading">
-              <h4 className="panel-title">
-                <a data-toggle="collapse" className="servicefaqlink" id="servicefaq4" data-parent="#accordion" href="#collapse4">Q4: Are there any specific requirements for appointing or reappointing auditors during the AGM?
-                  <img src="https://legal251.com/images/gstregistration/Path_20191.svg" className="servicefaqimg" />
-                </a>
-              </h4>
-            </div>
-            <div id="collapse4" className="panel-collapse collapse paddingzero">
-              <div className="panel-body servicefaqbody">Yes, the appointment or reappointment of auditors must be approved by shareholders during the AGM.</div>
-            </div>
-          </div>
-          <div className="panel panel-default servicefaqmainpanel">
-            <div className="panel-heading servicefaqpanelheading">
-              <h4 className="panel-title">
-                <a data-toggle="collapse" className="servicefaqlink" id="servicefaq5" data-parent="#accordion" href="#collapse5">Q5: What are the consequences of non-compliance with annual compliance requirements?
-                  <img src="https://legal251.com/images/gstregistration/Path_20191.svg" className="servicefaqimg" />
-                </a>
-              </h4>
-            </div>
-            <div id="collapse5" className="panel-collapse collapse paddingzero">
-              <div className="panel-body servicefaqbody">Non-compliance can lead to penalties, fines, legal complications, and reputational damage for the Pvt. Ltd. Company.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="col-md-6 servicefaqcol2">
-        <div className="panel-group" id="accordion2">
-          <div className="panel panel-default servicefaqmainpanel">
-            <div className="panel-heading servicefaqpanelheading">
-              <h4 className="panel-title">
-                <a data-toggle="collapse" className="servicefaqlink" id="servicefaq6" data-parent="#accordion2" href="#collapse21">Q6: Are there any tax-related compliance obligations for Pvt. Ltd. Companies?
-                  <img src="https://legal251.com/images/gstregistration/Path_20192.svg" className="servicefaqimg" />
-                </a>
-              </h4>
-            </div>
-            <div id="collapse21" className="panel-collapse collapse in paddingzero">
-              <div className="panel-body servicefaqbody">Yes, Pvt. Ltd. Companies must comply with income tax regulations, including filing tax returns and paying taxes on time.</div>
-            </div>
-          </div>
-          <div className="panel panel-default servicefaqmainpanel">
-            <div className="panel-heading servicefaqpanelheading">
-              <h4 className="panel-title">
-                <a data-toggle="collapse" className="servicefaqlink" id="servicefaq7" data-parent="#accordion2" href="#collapse22">Q7: Is compliance with Goods and Services Tax (GST) mandatory for Pvt. Ltd. Companies?
-                  <img src="https://legal251.com/images/gstregistration/Path_20191.svg" className="servicefaqimg" />
-                </a>
-              </h4>
-            </div>
-            <div id="collapse22" className="panel-collapse collapse paddingzero">
-              <div className="panel-body servicefaqbody">Yes, Pvt. Ltd. Companies must comply with GST regulations if their annual turnover exceeds the prescribed threshold. </div>
-            </div>
-          </div>
-          <div className="panel panel-default servicefaqmainpanel">
-            <div className="panel-heading servicefaqpanelheading">
-              <h4 className="panel-title">
-                <a data-toggle="collapse" className="servicefaqlink" id="servicefaq8" data-parent="#accordion2" href="#collapse23">Q8: Can annual compliance be outsourced to a professional service provider?
-                  <img src="https://legal251.com/images/gstregistration/Path_20191.svg" className="servicefaqimg" />
-                </a>
-              </h4>
-            </div>
-            <div id="collapse23" className="panel-collapse collapse paddingzero">
-              <div className="panel-body servicefaqbody">Yes, many companies choose to outsource their annual compliance to specialised service providers to ensure accurate and timely compliance.
+            <div style={{ padding: "0 5%" }}>
+              <div className="row">
+                <div className="col-md-6 servicefaqcol1">
+                  <div
+                    className="panel-group"
+                    id="accordion"
+                    style={{ border: "none" }}
+                  >
+                    <div className="panel panel-default servicefaqmainpanel">
+                      <div className="panel-heading servicefaqpanelheading">
+                        <h4 className="panel-title">
+                          <a
+                            data-toggle="collapse"
+                            className="servicefaqlink"
+                            id="servicefaq1"
+                            data-parent="#accordion"
+                            href="#collapse1"
+                          >
+                            Q1: What is the deadline for conducting the Annual
+                            General Meeting (AGM) for a Pvt. Ltd. Company in
+                            India?
+                            <img
+                              src="https://legal251.com/images/gstregistration/Path_20192.svg"
+                              className="servicefaqimg"
+                            />
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapse1"
+                        className="panel-collapse collapse in paddingzero"
+                      >
+                        <div className="panel-body servicefaqbody">
+                          The AGM must be held within six months from the end of
+                          the financial year.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="panel panel-default servicefaqmainpanel">
+                      <div className="panel-heading servicefaqpanelheading">
+                        <h4 className="panel-title">
+                          <a
+                            data-toggle="collapse"
+                            className="servicefaqlink"
+                            id="servicefaq2"
+                            data-parent="#accordion"
+                            href="#collapse2"
+                          >
+                            Q2: What documents are required to be filed with the
+                            Registrar of Companies for annual compliance?
+                            <img
+                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
+                              className="servicefaqimg"
+                            />
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapse2"
+                        className="panel-collapse collapse  paddingzero"
+                      >
+                        <div className="panel-body servicefaqbody">
+                          {" "}
+                          The company must file its financial statements,
+                          including the balance sheet, profit and loss account,
+                          and cash flow statement. Additionally, an annual
+                          return containing details about directors,
+                          shareholders, and share capital must be filed.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="panel panel-default servicefaqmainpanel">
+                      <div className="panel-heading servicefaqpanelheading">
+                        <h4 className="panel-title">
+                          <a
+                            data-toggle="collapse"
+                            className="servicefaqlink"
+                            id="servicefaq3"
+                            data-parent="#accordion"
+                            href="#collapse3"
+                          >
+                            Q3: What happens if the AGM is not conducted within
+                            the specified time frame?
+                            <img
+                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
+                              className="servicefaqimg"
+                            />
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapse3"
+                        className="panel-collapse collapse paddingzero"
+                      >
+                        <div className="panel-body servicefaqbody">
+                          Failure to conduct the AGM within the prescribed time
+                          can result in penalties and legal consequences,
+                          impacting the company's compliance status.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="panel panel-default servicefaqmainpanel">
+                      <div className="panel-heading servicefaqpanelheading">
+                        <h4 className="panel-title">
+                          <a
+                            data-toggle="collapse"
+                            className="servicefaqlink"
+                            id="servicefaq4"
+                            data-parent="#accordion"
+                            href="#collapse4"
+                          >
+                            Q4: Are there any specific requirements for
+                            appointing or reappointing auditors during the AGM?
+                            <img
+                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
+                              className="servicefaqimg"
+                            />
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapse4"
+                        className="panel-collapse collapse paddingzero"
+                      >
+                        <div className="panel-body servicefaqbody">
+                          Yes, the appointment or reappointment of auditors must
+                          be approved by shareholders during the AGM.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="panel panel-default servicefaqmainpanel">
+                      <div className="panel-heading servicefaqpanelheading">
+                        <h4 className="panel-title">
+                          <a
+                            data-toggle="collapse"
+                            className="servicefaqlink"
+                            id="servicefaq5"
+                            data-parent="#accordion"
+                            href="#collapse5"
+                          >
+                            Q5: What are the consequences of non-compliance with
+                            annual compliance requirements?
+                            <img
+                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
+                              className="servicefaqimg"
+                            />
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapse5"
+                        className="panel-collapse collapse paddingzero"
+                      >
+                        <div className="panel-body servicefaqbody">
+                          Non-compliance can lead to penalties, fines, legal
+                          complications, and reputational damage for the Pvt.
+                          Ltd. Company.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 servicefaqcol2">
+                  <div className="panel-group" id="accordion2">
+                    <div className="panel panel-default servicefaqmainpanel">
+                      <div className="panel-heading servicefaqpanelheading">
+                        <h4 className="panel-title">
+                          <a
+                            data-toggle="collapse"
+                            className="servicefaqlink"
+                            id="servicefaq6"
+                            data-parent="#accordion2"
+                            href="#collapse21"
+                          >
+                            Q6: Are there any tax-related compliance obligations
+                            for Pvt. Ltd. Companies?
+                            <img
+                              src="https://legal251.com/images/gstregistration/Path_20192.svg"
+                              className="servicefaqimg"
+                            />
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapse21"
+                        className="panel-collapse collapse in paddingzero"
+                      >
+                        <div className="panel-body servicefaqbody">
+                          Yes, Pvt. Ltd. Companies must comply with income tax
+                          regulations, including filing tax returns and paying
+                          taxes on time.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="panel panel-default servicefaqmainpanel">
+                      <div className="panel-heading servicefaqpanelheading">
+                        <h4 className="panel-title">
+                          <a
+                            data-toggle="collapse"
+                            className="servicefaqlink"
+                            id="servicefaq7"
+                            data-parent="#accordion2"
+                            href="#collapse22"
+                          >
+                            Q7: Is compliance with Goods and Services Tax (GST)
+                            mandatory for Pvt. Ltd. Companies?
+                            <img
+                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
+                              className="servicefaqimg"
+                            />
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapse22"
+                        className="panel-collapse collapse paddingzero"
+                      >
+                        <div className="panel-body servicefaqbody">
+                          Yes, Pvt. Ltd. Companies must comply with GST
+                          regulations if their annual turnover exceeds the
+                          prescribed threshold.{" "}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="panel panel-default servicefaqmainpanel">
+                      <div className="panel-heading servicefaqpanelheading">
+                        <h4 className="panel-title">
+                          <a
+                            data-toggle="collapse"
+                            className="servicefaqlink"
+                            id="servicefaq8"
+                            data-parent="#accordion2"
+                            href="#collapse23"
+                          >
+                            Q8: Can annual compliance be outsourced to a
+                            professional service provider?
+                            <img
+                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
+                              className="servicefaqimg"
+                            />
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapse23"
+                        className="panel-collapse collapse paddingzero"
+                      >
+                        <div className="panel-body servicefaqbody">
+                          Yes, many companies choose to outsource their annual
+                          compliance to specialised service providers to ensure
+                          accurate and timely compliance.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="panel panel-default servicefaqmainpanel">
+                      <div className="panel-heading servicefaqpanelheading">
+                        <h4 className="panel-title">
+                          <a
+                            data-toggle="collapse"
+                            className="servicefaqlink"
+                            id="servicefaq9"
+                            data-parent="#accordion2"
+                            href="#collapse24"
+                          >
+                            Q9: How does annual compliance contribute to good
+                            corporate governance?
+                            <img
+                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
+                              className="servicefaqimg"
+                            />
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapse24"
+                        className="panel-collapse collapse paddingzero"
+                      >
+                        <div className="panel-body servicefaqbody">
+                          Annual compliance promotes transparency,
+                          accountability, and ethical business practices, which
+                          are key elements of good corporate governance
+                        </div>
+                      </div>
+                    </div>
+                    <div className="panel panel-default servicefaqmainpanel">
+                      <div className="panel-heading servicefaqpanelheading">
+                        <h4 className="panel-title">
+                          <a
+                            data-toggle="collapse"
+                            className="servicefaqlink"
+                            id="servicefaq10"
+                            data-parent="#accordion2"
+                            href="#collapse25"
+                          >
+                            Q10: Can annual compliance requirements vary based
+                            on the industry or company size?
+                            <img
+                              src="https://legal251.com/images/gstregistration/Path_20191.svg"
+                              className="servicefaqimg"
+                            />
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapse25"
+                        className="panel-collapse collapse paddingzero"
+                      >
+                        <div className="panel-body servicefaqbody">
+                          While some specific industry regulations may apply,
+                          the general annual compliance requirements remain the
+                          same for Pvt. Ltd. Companies across different sectors
+                          and sizes.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div className="panel panel-default servicefaqmainpanel">
-            <div className="panel-heading servicefaqpanelheading">
-              <h4 className="panel-title">
-                <a data-toggle="collapse" className="servicefaqlink" id="servicefaq9" data-parent="#accordion2" href="#collapse24">Q9: How does annual compliance contribute to good corporate governance?
-                  <img src="https://legal251.com/images/gstregistration/Path_20191.svg" className="servicefaqimg" />
-                </a>
-              </h4>
-            </div>
-            <div id="collapse24" className="panel-collapse collapse paddingzero">
-              <div className="panel-body servicefaqbody">Annual compliance promotes transparency, accountability, and ethical business practices, which are key elements of good corporate governance</div>
-            </div>
-          </div>
-          <div className="panel panel-default servicefaqmainpanel">
-            <div className="panel-heading servicefaqpanelheading">
-              <h4 className="panel-title">
-                <a data-toggle="collapse" className="servicefaqlink" id="servicefaq10" data-parent="#accordion2" href="#collapse25">Q10: Can annual compliance requirements vary based on the industry or company size?
-                  <img src="https://legal251.com/images/gstregistration/Path_20191.svg" className="servicefaqimg" />
-                </a>
-              </h4>
-            </div>
-            <div id="collapse25" className="panel-collapse collapse paddingzero">
-              <div className="panel-body servicefaqbody">
-                While some specific industry regulations may apply, the general annual compliance requirements remain the same for Pvt. Ltd. Companies across different sectors and sizes.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
           <div id="Whychooseus?" className="page-section">
             <br />
             <br />
@@ -4846,7 +3408,7 @@ const AnnualComplianceCompancy = () => {
                     <div>
                       <img
                         src={customerservice}
-                        style={{ width: "9vw", color: "black", }}
+                        style={{ width: "9vw", color: "black" }}
                       />
                       <p
                         style={{
@@ -4884,7 +3446,11 @@ const AnnualComplianceCompancy = () => {
                     <div>
                       <img
                         src={success}
-                        style={{ width: "8vw", "background-size": "cover" ,color: "black",}}
+                        style={{
+                          width: "8vw",
+                          "background-size": "cover",
+                          color: "black",
+                        }}
                       />
                       <p
                         style={{
@@ -4924,7 +3490,11 @@ const AnnualComplianceCompancy = () => {
                     <div>
                       <img
                         src={target}
-                        style={{ width: "8vw", "background-size": "cover",color: "black", }}
+                        style={{
+                          width: "8vw",
+                          "background-size": "cover",
+                          color: "black",
+                        }}
                       />
                       <p
                         style={{
@@ -4961,7 +3531,11 @@ const AnnualComplianceCompancy = () => {
                     <div>
                       <img
                         src={suitcase}
-                        style={{ width: "8vw", "background-size": "cover",color: "black", }}
+                        style={{
+                          width: "8vw",
+                          "background-size": "cover",
+                          color: "black",
+                        }}
                       />
                       <p
                         style={{
@@ -4998,7 +3572,11 @@ const AnnualComplianceCompancy = () => {
                     <div>
                       <img
                         src={value}
-                        style={{ width: "8vw", "background-size": "cover",color: "black", }}
+                        style={{
+                          width: "8vw",
+                          "background-size": "cover",
+                          color: "black",
+                        }}
                       />
                       <p
                         style={{
@@ -5012,7 +3590,8 @@ const AnnualComplianceCompancy = () => {
                       >
                         Care &amp; Regards
                       </p>
-                      <p className="believe"
+                      <p
+                        className="believe"
                         style={{
                           "margin-top": "5px",
                           "font-family": "'Roboto'",

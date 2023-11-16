@@ -24,12 +24,12 @@ import ChangeInNameLlp from './components/ChangeInBusiness/ChangeInNameLlp';
 import AnnualComplianceCompancy from './components/Compliance/AnnualComplianceCompancy';
 import AnnualComplianceLlp from './components/Compliance/AnnualComplianceLlp';
 import CmaReport from './components/Compliance/CmaReport';
-// import Navbar from './common/Navbar';
+import Navbar from './common/Navbar';
 
 function App() {
   return (
     <>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         {/* Start Business */}
