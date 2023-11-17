@@ -143,6 +143,10 @@ export default function Home() {
 
   return (
     <>
+    <div style={{ position: "relative", overflowX: "hidden" }}>
+      
+
+
       <div className="sidesocialicon">
         <Link to="https://www.linkedin.com/company/legal251/" target="_blank">
           <img src={Linkedinimg} className="socialicon" />
@@ -162,7 +166,8 @@ export default function Home() {
         <img src={CloseImg} className="subscribeemailpopupclose" />
         <p className="subscribeemailpopuptext">
           <img className="emailicon" src={Email2img} />
-          Subscribe to Legal updates from Legal251
+          Subscribe to Legal <br />
+          updates from Legal251
         </p>
         <div className="popupinside">
           <input
@@ -186,6 +191,12 @@ export default function Home() {
       </div>
       <div className="row landingpagerow" style={{ marginTop: 74 }}>
         <div className="col-12 col-sm-12 col-md-7 col-lg-7">
+          <br />
+          {/* <p className="legalmainheading legalmainheadingres autotype">
+          Lorem ipsum, dolor sit Lorem 
+          ipsum, dolor
+          </p> */}
+
           <div className="typeitheading">
             <Typewriter
               options={{
@@ -200,7 +211,9 @@ export default function Home() {
               }}
             />
           </div>
+          <br />
 
+          <br />
           <center>
             <div className="row experiencecustomcolrow expsecmobres " id="">
               <div id="reviews-exp" className="">
@@ -215,15 +228,28 @@ export default function Home() {
                     </div>
 
                     <div className="experiencedisplaycol2 experiencedisplaycolres">
-                      <p className="experienceheading2">Years Of Experience</p>
+                      <p className="experienceheading2">
+                        Years Of Experience
+                      </p>
                     </div>
                   </div>
 
                   <div className="experiencedisplay ourexp">
                     <div className="expimg">
-                      <img src={Caseimg} className="experienceimghome" alt="" />
+                      <img
+                        src={Caseimg}
+                        className="experienceimghome"
+                        alt=""
+                      />
                     </div>
                     <div className="experiencedisplaycol2 experiencedisplaycolres">
+                      {/* <p
+                        className="experienceheading"
+                        style={{ width: 90 }}
+                      ></p> */}
+                      {/* <p className="experienceheading experience1" />
+                      <span className="experienceheading">+</span>
+                      <p /> */}
                       <p className="experienceheading2">Cases Solved</p>
                     </div>
                   </div>
@@ -237,15 +263,34 @@ export default function Home() {
                       />
                     </div>
                     <div className="experiencedisplaycol2 experiencedisplaycolres">
+                      {/* <p
+                        className="experienceheading"
+                        style={{ width: 90 }}
+                      ></p> */}
+                      {/* <p className="experienceheading experience2" />
+                      <span className="experienceheading">+</span>
+                      <p /> */}
                       <p className="experienceheading2">Awards Gained</p>
                     </div>
                   </div>
 
                   <div className="experiencedisplay ourexp">
                     <div className="expimg">
-                      <img src={Userimg} className="experienceimghome" alt="" />
+                      <img
+                        src={Userimg}
+                        className="experienceimghome"
+                        alt=""
+                      />
                     </div>
                     <div className="experiencedisplaycol2 experiencedisplaycolres">
+                      {/* <p
+                        className="experienceheading"
+                        style={{ width: 90 }}
+                      ></p>
+                      <p className="experienceheading experience3" />
+                      <span className="experienceheading"> k+</span>
+                      <p />
+                      <p /> */}
                       <p className="experienceheading2">Trusted Clients</p>
                     </div>
                   </div>
@@ -259,13 +304,21 @@ export default function Home() {
                       />
                     </div>
                     <div className="experiencedisplaycol2 experiencedisplaycolres">
+                      {/* <p
+                        className="experienceheading"
+                        style={{ width: 90 }}
+                      ></p>
+                      <p className="experienceheading experience4" />
+                      <span className="experienceheading"> k+</span>
+                      <p />
+                      <p /> */}
                       <p className="experienceheading2">Queries Solved</p>
                     </div>
                   </div>
                 </Slider>
               </div>
             </div>
-
+{/* 
             <div className="quotesdiv quotesdivres">
               <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-12 colpaddingzero2">
@@ -286,7 +339,7 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </center>
         </div>
 
@@ -311,9 +364,12 @@ export default function Home() {
                   className="cd-headline push getConsultancyformheading"
                   style={{ lineHeight: "1.3" }}
                 >
-                  <span>Get your queries solved by</span>
+                  <span>
+                    Get your queries solved by
+                    <br />
+                  </span>
                   <span className="cd-words-wrapper">
-                    <b className="is-visible" style={{ color: "#f8951d" }}>
+                    <b className="is-visible" style={{ color: "#0080ff" }}>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Consultant
                     </b>
                     <b style={{ color: "#f8951d" }}>
@@ -384,7 +440,9 @@ export default function Home() {
                     Not sure
                   </option>
                 </select>
-                <div style={{ width: "100%", margin: 0, padding: 0, left: 0 }}>
+                <div
+                  style={{ width: "100%", margin: 0, padding: 0, left: 0 }}
+                >
                   <p className="errormessage">
                     <img src={GroupEmail} className="errormessageimg" />
                   </p>
@@ -413,23 +471,28 @@ export default function Home() {
             </div>
           </div>
 
-          <div style={{ paddingRight: "3.3vw" }}>
+          {/* <div style={{ paddingRight: "3.3vw" }}>
             <center>
               <button
                 className="getstartedbutton getstartbtnres"
                 style={{ marginTop: 50 }}
               >
-                <span style={{ textDecoration: "underline" }}>Get Started</span>{" "}
+                <span style={{ textDecoration: "underline" }}>
+                  Get Started
+                </span>{" "}
                 <span className="getstartedbuttondiv">
                   <img src={GetStartArrow} className="getstartedbuttonicon" />
                 </span>
               </button>
             </center>
-          </div>
+          </div> */}
         </div>
       </div>
       <section className="section4">
-        <div className="row allcontent allcontent1" style={{ paddingTop: 85 }}>
+        <div
+          className="row allcontent allcontent1"
+          style={{ paddingTop: 85 }}
+        >
           <div className="dourser">
             <h4 className="dislegalser">
               <img className="dlstar" src={Polygonimg} />
@@ -439,651 +502,695 @@ export default function Home() {
             </h4>
 
             {/* Legal Services Carousel  part start */}
+       
 
-            <div className="servicecardanimationpadd">
+           <div className="servicecardanimationpadd">
               <div
                 id="owl-carousel1"
                 className="owl-carousel servicecaroselpadding"
               >
-                <div className="row marlr1">
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space space1">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="online-accounting.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{}}
-                                  src={Layerimg}
-                                  loading="lazy"
-                                  alt=""
-                                />
-                              </div>
-                              <p className="Owl_Para"> Online Accounting</p>
-                            </Link>
+              
+                  <div className="row marlr1">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space space1">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="online-accounting.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{}}
+                                    src={Layerimg}
+                                    loading="lazy"
+                                    alt=""
+                                  />
+                                </div>
+                                <p className="Owl_Para">
+                                  {" "}
+                                  Online <br /> Accounting
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
-                  </div>
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="msme-udhyam-registration.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src={Group5911img}
-                                  loading="lazy"
-                                  alt=""
-                                />
-                              </div>
-                              <p
-                                className="Owl_Para"
-                                style={{ marginBottom: 10 }}
-                              >
-                                {" "}
-                                MSME Registration
-                              </p>
-                            </Link>
+                      </center>
+                    </div>
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="msme-udhyam-registration.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src={Group5911img}
+                                    loading="lazy"
+                                    alt=""
+                                  />
+                                </div>
+                                <p
+                                  className="Owl_Para"
+                                  style={{ marginBottom: 10 }}
+                                >
+                                  {" "}
+                                  MSME
+                                  <br />
+                                  Registration
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-
-                <div className="row marlr1">
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space space1">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="gst-return-filing.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{}}
-                                  src={GroupA}
-                                  loading="lazy"
-                                  alt=""
-                                />
-                              </div>
-                              <p className="Owl_Para"> GST Return Filing</p>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </center>
+                      </center>
+                    </div>
                   </div>
 
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="professional-tax-registration.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src={Professonial}
-                                  loading="lazy"
-                                  alt=""
-                                />
-                              </div>
-                              <p
-                                className="Owl_Para"
-                                style={{ marginBottom: 10 }}
-                              >
-                                {" "}
-                                Professional Tax Registration
-                              </p>
-                            </Link>
+                  <div className="row marlr1">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space space1">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="gst-return-filing.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{}}
+                                    src={GroupA}
+                                    loading="lazy"
+                                    alt=""
+                                  />
+                                </div>
+                                <p className="Owl_Para">
+                                  {" "}
+                                  GST Return <br />
+                                  Filing
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-                <div className="row marlr1">
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space space1">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="gst-registration.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{}}
-                                  src={Group3505}
-                                  loading="lazy"
-                                  alt=""
-                                />
-                              </div>
-                              <p className="Owl_Para"> GST Registration</p>
-                            </Link>
+                      </center>
+                    </div>
+
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="professional-tax-registration.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src={Professonial}
+                                    loading="lazy"
+                                    alt=""
+                                  />
+                                </div>
+                                <p
+                                  className="Owl_Para"
+                                  style={{ marginBottom: 10 }}
+                                >
+                                  {" "}
+                                  Professional
+                                  <br /> Tax Registration
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
+                      </center>
+                    </div>
                   </div>
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="icegate-registration.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src={Group5909}
-                                  loading="lazy"
-                                  alt=""
-                                />
-                              </div>
-                              <p
-                                className="Owl_Para"
-                                style={{ marginBottom: 10 }}
-                              >
-                                {" "}
-                                ICEGATE Registration
-                              </p>
-                            </Link>
+                  <div className="row marlr1">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space space1">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="gst-registration.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{}}
+                                    src={Group3505}
+                                    loading="lazy"
+                                    alt=""
+                                  />
+                                </div>
+                                <p className="Owl_Para">
+                                  {" "}
+                                  GST
+                                  <br /> Registration
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-                <div className="row marlr1">
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space space1">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="income-tax-return-filing.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 24,
-                                    width: "auto !important",
-                                  }}
-                                  src={Group3507}
-                                  loading="lazy"
-                                  alt=""
-                                />
-                              </div>
-                              <p className="Owl_Para">
-                                {" "}
-                                Income Tax Return Filing
-                              </p>
-                            </Link>
+                      </center>
+                    </div>
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="icegate-registration.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src={Group5909}
+                                    loading="lazy"
+                                    alt=""
+                                  />
+                                </div>
+                                <p
+                                  className="Owl_Para"
+                                  style={{ marginBottom: 10 }}
+                                >
+                                  {" "}
+                                  ICEGATE
+                                  <br />
+                                  Registration
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
+                      </center>
+                    </div>
                   </div>
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="society-registration.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src={Group5912}
-                                  loading="lazy"
-                                  alt=""
-                                />
-                              </div>
-                              <p
-                                className="Owl_Para"
-                                style={{ marginBottom: 10 }}
-                              >
-                                {" "}
-                                Society Registration
-                              </p>
-                            </Link>
+                  <div className="row marlr1">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space space1">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="income-tax-return-filing.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 24,
+                                      width: "auto !important",
+                                    }}
+                                    src={Group3507}
+                                    loading="lazy"
+                                    alt=""
+                                  />
+                                </div>
+                                <p className="Owl_Para">
+                                  {" "}
+                                  Income Tax <br />
+                                  Return Filing
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-                <div className="row marlr1">
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="trademark-registration.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src={Group9704}
-                                  loading="lazy"
-                                  alt=""
-                                />
-                              </div>
-                              <p className="Owl_Para">
-                                {" "}
-                                Trademark Registration
-                              </p>
-                            </Link>
+                      </center>
+                    </div>
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="society-registration.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src={Group5912}
+                                    loading="lazy"
+                                    alt=""
+                                  />
+                                </div>
+                                <p
+                                  className="Owl_Para"
+                                  style={{ marginBottom: 10 }}
+                                >
+                                  {" "}
+                                  Society
+                                  <br />
+                                  Registration
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
+                      </center>
+                    </div>
                   </div>
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="pf-registration.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src={Group5913img}
-                                  loading="lazy"
-                                  alt=""
-                                />
-                              </div>
-                              <p
-                                className="Owl_Para"
-                                style={{ marginBottom: 10 }}
-                              >
-                                {" "}
-                                PF Registration
-                              </p>
-                            </Link>
+                  <div className="row marlr1">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="trademark-registration.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src={Group9704}
+                                    loading="lazy"
+                                    alt=""
+                                  />
+                                </div>
+                                <p className="Owl_Para">
+                                  {" "}
+                                  Trademark <br />
+                                  Registration
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-                <div className="row marlr1">
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="import-export-license.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src={NOpathimg}
-                                  alt=""
-                                  loading="lazy"
-                                />
-                              </div>
-                              <p className="Owl_Para"> Import Export License</p>
-                            </Link>
+                      </center>
+                    </div>
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="pf-registration.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src={Group5913img}
+                                    loading="lazy"
+                                    alt=""
+                                  />
+                                </div>
+                                <p
+                                  className="Owl_Para"
+                                  style={{ marginBottom: 10 }}
+                                >
+                                  {" "}
+                                  PF <br />
+                                  Registration
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
+                      </center>
+                    </div>
                   </div>
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space space1">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="noc-no-objection-certificate.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src={Group59519}
-                                  alt=""
-                                  loading="lazy"
-                                />
-                              </div>
-                              <p
-                                className="Owl_Para"
-                                style={{ marginBottom: 10 }}
-                              >
-                                {" "}
-                                NOC
-                              </p>
-                            </Link>
+                  <div className="row marlr1">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="import-export-license.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src={NOpathimg}
+                                    alt=""
+                                    loading="lazy"
+                                  />
+                                </div>
+                                <p className="Owl_Para">
+                                  {" "}
+                                  Import Export <br /> License
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-                <div className="row marlr1">
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="partnership-deed.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src={Group5916img}
-                                  alt=""
-                                  loading="lazy"
-                                />
-                              </div>
-                              <p className="Owl_Para"> Partnership Deed</p>
-                            </Link>
+                      </center>
+                    </div>
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space space1">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="noc-no-objection-certificate.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src={Group59519}
+                                    alt=""
+                                    loading="lazy"
+                                  />
+                                </div>
+                                <p
+                                  className="Owl_Para"
+                                  style={{ marginBottom: 10 }}
+                                >
+                                  {" "}
+                                  NOC <br />
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
+                      </center>
+                    </div>
                   </div>
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="/DissolutionOfDeed">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src="./Draftingimages/icons/Group%205917.svg"
-                                  alt=""
-                                  loading="lazy"
-                                />
-                              </div>
-                              <p
-                                className="Owl_Para"
-                                style={{ marginBottom: 10 }}
-                              >
-                                {" "}
-                                Dissolution Of Deeds
-                              </p>
-                            </Link>
+                  <div className="row marlr1">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="partnership-deed.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src={Group5916img}
+                                    alt=""
+                                    loading="lazy"
+                                  />
+                                </div>
+                                <p className="Owl_Para">
+                                  {" "}
+                                  Partnership <br />
+                                  Deed
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-                <div className="row marlr1">
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="food-licence.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src={Group5645img}
-                                  alt=""
-                                  loading="lazy"
-                                />
-                              </div>
-                              <p className="Owl_Para"> Food Licence</p>
-                            </Link>
+                      </center>
+                    </div>
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="/DissolutionOfDeed">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src="./Draftingimages/icons/Group%205917.svg"
+                                    alt=""
+                                    loading="lazy"
+                                  />
+                                </div>
+                                <p
+                                  className="Owl_Para"
+                                  style={{ marginBottom: 10 }}
+                                >
+                                  {" "}
+                                  Dissolution
+                                  <br /> Of Deeds
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
+                      </center>
+                    </div>
                   </div>
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="trade-licence.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src={Group5631img}
-                                  alt=""
-                                  loading="lazy"
-                                />
-                              </div>
-                              <p
-                                className="Owl_Para"
-                                style={{ marginBottom: 10 }}
-                              >
-                                {" "}
-                                Trade Licence
-                              </p>
-                            </Link>
+                  <div className="row marlr1">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="food-licence.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src={Group5645img}
+                                    alt=""
+                                    loading="lazy"
+                                  />
+                                </div>
+                                <p className="Owl_Para">
+                                  {" "}
+                                  Food <br />
+                                  Licence
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-                <div className="row marlr1">
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="food-licence.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src={Moviesimg}
-                                  alt=""
-                                  loading="lazy"
-                                />
-                              </div>
-                              <p className="Owl_Para"> Legal Drafting</p>
-                            </Link>
+                      </center>
+                    </div>
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="trade-licence.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src={Group5631img}
+                                    alt=""
+                                    loading="lazy"
+                                  />
+                                </div>
+                                <p
+                                  className="Owl_Para"
+                                  style={{ marginBottom: 10 }}
+                                >
+                                  {" "}
+                                  Trade <br />
+                                  Licence
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
+                      </center>
+                    </div>
                   </div>
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="trade-licence.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  // src={Group5918img}
-                                  alt=""
-                                  loading="lazy"
-                                />
-                              </div>
-                              <p
-                                className="Owl_Para"
-                                style={{ marginBottom: 10 }}
-                              >
-                                {" "}
-                                Rent Agreement
-                              </p>
-                            </Link>
+                  <div className="row marlr1">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="food-licence.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src={Moviesimg}
+                                    alt=""
+                                    loading="lazy"
+                                  />
+                                </div>
+                                <p className="Owl_Para">
+                                  {" "}
+                                  Legal <br />
+                                  Drafting
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-                <div className="row marlr1">
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space space1">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="affidavit.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src={Group5920img}
-                                  alt=""
-                                  loading="lazy"
-                                />
-                              </div>
-                              <p className="Owl_Para"> Affidavit</p>
-                            </Link>
+                      </center>
+                    </div>
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="trade-licence.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    // src={Group5918img}
+                                    alt=""
+                                    loading="lazy"
+                                  />
+                                </div>
+                                <p
+                                  className="Owl_Para"
+                                  style={{ marginBottom: 10 }}
+                                >
+                                  {" "}
+                                  Rent <br />
+                                  Agreement
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
+                      </center>
+                    </div>
                   </div>
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="power-of-attorney.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src="images/icons/Group%205921.svg"
-                                  alt=""
-                                  loading="lazy"
-                                />
-                              </div>
-                              <p
-                                className="Owl_Para"
-                                style={{ marginBottom: 10 }}
-                              >
-                                {" "}
-                                Power of Attorney
-                              </p>
-                            </Link>
+                  <div className="row marlr1">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space space1">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="affidavit.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src={Group5920img}
+                                    alt=""
+                                    loading="lazy"
+                                  />
+                                </div>
+                                <p className="Owl_Para"> Affidavit</p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-                <div className="row marlr1">
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space space1">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="will.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src="images/icons/NoPath%20-%20Copy%20(17).svg"
-                                  alt=""
-                                  loading="lazy"
-                                />
-                              </div>
-                              <p className="Owl_Para"> Will</p>
-                            </Link>
+                      </center>
+                    </div>
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="power-of-attorney.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src="images/icons/Group%205921.svg"
+                                    alt=""
+                                    loading="lazy"
+                                  />
+                                </div>
+                                <p
+                                  className="Owl_Para"
+                                  style={{ marginBottom: 10 }}
+                                >
+                                  {" "}
+                                  Power <br />
+                                  of Attorney
+                                </p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
+                      </center>
+                    </div>
                   </div>
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
-                    <center>
-                      <div className="space">
-                        <div className="owl_data OwLData">
-                          <div className="new1">
-                            <Link to="power-of-attorney.html">
-                              <div className="new2">
-                                <img
-                                  className="Owl_img"
-                                  style={{
-                                    marginTop: 30,
-                                    width: "auto !important",
-                                  }}
-                                  src="images/icons/appf.png"
-                                  alt=""
-                                  loading="lazy"
-                                />
-                              </div>
-                              <p
-                                className="Owl_Para"
-                                style={{ marginBottom: 10 }}
-                              >
-                                {" "}
-                                Application Form
-                              </p>
-                            </Link>
+                  <div className="row marlr1">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space space1">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="will.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src="images/icons/NoPath%20-%20Copy%20(17).svg"
+                                    alt=""
+                                    loading="lazy"
+                                  />
+                                </div>
+                                <p className="Owl_Para"> Will</p>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </center>
+                      </center>
+                    </div>
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 padlr">
+                      <center>
+                        <div className="space">
+                          <div className="owl_data OwLData">
+                            <div className="new1">
+                              <Link to="power-of-attorney.html">
+                                <div className="new2">
+                                  <img
+                                    className="Owl_img"
+                                    style={{
+                                      marginTop: 30,
+                                      width: "auto !important",
+                                    }}
+                                    src="images/icons/appf.png"
+                                    alt=""
+                                    loading="lazy"
+                                  />
+                                </div>
+                                <p
+                                  className="Owl_Para"
+                                  style={{ marginBottom: 10 }}
+                                >
+                                  {" "}
+                                  Application <br />
+                                  Form
+                                </p>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </center>
+                    </div>
                   </div>
-                </div>
+              
               </div>
-            </div>
+            </div> 
 
             <hr className="reviewhr" style={{ color: "#F8951D" }} />
             <div className="disbottom">
@@ -1119,10 +1226,10 @@ export default function Home() {
                         <p className="ptext ptext1">
                           I recently had the opportunity to utilize the online
                           legal services provided by Legal251, and I must say
-                          that I am thoroughly impressed. As someone who needed
-                          legal assistance but couldn't spare the time for
-                          in-person consultations, their online platform proved
-                          to be a convenient and efficient solution.
+                          that I am thoroughly impressed. As someone who
+                          needed legal assistance but couldn't spare the time
+                          for in-person consultations, their online platform
+                          proved to be a convenient and efficient solution.
                         </p>
                       </div>
                     </div>
@@ -1148,16 +1255,18 @@ export default function Home() {
                               </div>
                             </div>
                           </div>
-                          <p className="conp">Founder &amp; CEO Bharatmat.co</p>
+                          <p className="conp">
+                            Founder &amp; CEO Bharatmat.co
+                          </p>
                         </div>
                       </div>
                       <div>
                         <p className="ptext ptext1">
                           Right from the start, the website was user-friendly
-                          and intuitive, making it easy to navigate and find the
-                          information I needed. The process of submitting my
-                          legal request was straightforward, and I appreciated
-                          the option to provide relevant documents
+                          and intuitive, making it easy to navigate and find
+                          the information I needed. The process of submitting
+                          my legal request was straightforward, and I
+                          appreciated the option to provide relevant documents
                           electronically, saving me the hassle of scanning or
                           mailing physical copies.
                         </p>
@@ -1191,11 +1300,12 @@ export default function Home() {
                       <div>
                         <p className="ptext ptext1">
                           Another noteworthy aspect of Legal251's service was
-                          the transparency regarding fees and costs. I received
-                          a detailed breakdown of the expected expenses upfront,
-                          allowing me to make informed decisions. The pricing
-                          was fair and competitive, especially considering the
-                          high-quality legal representation I received.
+                          the transparency regarding fees and costs. I
+                          received a detailed breakdown of the expected
+                          expenses upfront, allowing me to make informed
+                          decisions. The pricing was fair and competitive,
+                          especially considering the high-quality legal
+                          representation I received.
                         </p>
                       </div>
                     </div>
@@ -1211,7 +1321,7 @@ export default function Home() {
                         loading="lazy"
                       />
                     </div>
-                    <div className="viewbtndiv">
+                    {/* <div className="viewbtndiv">
                       <button className="viewbtn">
                         <img
                           style={{ marginLeft: 10 }}
@@ -1230,7 +1340,7 @@ export default function Home() {
                           loading="lazy"
                         />
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -1238,12 +1348,15 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <br /> <br /> <br />
       <section>
         <div className="servicebackimg">
           <div className="servicesection">
             <center>
-              <div id="sercice-sec-carosel" className="owl-carousel owl-theme">
+              <div
+                id="sercice-sec-carosel"
+                className="owl-carousel owl-theme"
+              >
                 <div>
                   <div
                     className="nav-link space clickborderch1 active show"
@@ -1265,9 +1378,14 @@ export default function Home() {
                               loading="lazy"
                             />
                           </div>
-                          <p className="Owl_Para" style={{ marginBottom: 10 }}>
+                          <p
+                            className="Owl_Para"
+                            style={{ marginBottom: 10 }}
+                          >
                             {" "}
-                            GST Registration
+                            GST
+                            <br />
+                            Registration
                           </p>
                         </Link>
                       </div>
@@ -1296,9 +1414,14 @@ export default function Home() {
                               loading="lazy"
                             />
                           </div>
-                          <p className="Owl_Para" style={{ marginBottom: 10 }}>
+                          <p
+                            className="Owl_Para"
+                            style={{ marginBottom: 10 }}
+                          >
                             {" "}
-                            GST Return Filing
+                            GST Return
+                            <br />
+                            Filing
                           </p>
                         </Link>
                       </div>
@@ -1327,8 +1450,12 @@ export default function Home() {
                               loading="lazy"
                             />
                           </div>
-                          <p className="Owl_Para" style={{ marginBottom: 10 }}>
-                            ITR Filing
+                          <p
+                            className="Owl_Para"
+                            style={{ marginBottom: 10 }}
+                          >
+                            ITR <br />
+                            Filing
                           </p>
                         </Link>
                       </div>
@@ -1357,9 +1484,14 @@ export default function Home() {
                               loading="lazy"
                             />
                           </div>
-                          <p className="Owl_Para" style={{ marginBottom: 10 }}>
+                          <p
+                            className="Owl_Para"
+                            style={{ marginBottom: 10 }}
+                          >
                             {" "}
-                            Online Accounting
+                            Online
+                            <br />
+                            Accounting
                           </p>
                         </Link>
                       </div>
@@ -1388,8 +1520,12 @@ export default function Home() {
                               loading="lazy"
                             />
                           </div>
-                          <p className="Owl_Para" style={{ marginBottom: 10 }}>
-                            Trademark Registration
+                          <p
+                            className="Owl_Para"
+                            style={{ marginBottom: 10 }}
+                          >
+                            Trademark <br />
+                            Registration
                           </p>
                         </Link>
                       </div>
@@ -1418,8 +1554,12 @@ export default function Home() {
                               loading="lazy"
                             />
                           </div>
-                          <p className="Owl_Para" style={{ marginBottom: 10 }}>
-                            Gumasta Licence(S &amp; E)
+                          <p
+                            className="Owl_Para"
+                            style={{ marginBottom: 10 }}
+                          >
+                            Gumasta <br />
+                            Licence(S &amp; E)
                           </p>
                         </Link>
                       </div>
@@ -1448,8 +1588,13 @@ export default function Home() {
                               loading="lazy"
                             />
                           </div>
-                          <p className="Owl_Para" style={{ marginBottom: 10 }}>
-                            Food Licence
+                          <p
+                            className="Owl_Para"
+                            style={{ marginBottom: 10 }}
+                          >
+                            Food
+                            <br />
+                            Licence
                           </p>
                         </Link>
                       </div>
@@ -1478,8 +1623,13 @@ export default function Home() {
                               loading="lazy"
                             />
                           </div>
-                          <p className="Owl_Para" style={{ marginBottom: 10 }}>
-                            Trade Licence
+                          <p
+                            className="Owl_Para"
+                            style={{ marginBottom: 10 }}
+                          >
+                            Trade
+                            <br />
+                            Licence
                           </p>
                         </Link>
                       </div>
@@ -1599,7 +1749,8 @@ export default function Home() {
                         >
                           <span style={{ color: "#2d2d2d" }}>
                             {" "}
-                            Time taken: Plan based&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Time taken: Plan
+                            based&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           </span>
                           <span>
                             <span
@@ -1610,7 +1761,9 @@ export default function Home() {
                             >
                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Starting at:
                             </span>
-                            <span style={{ color: "#f8951d" }}>&nbsp;₹751</span>{" "}
+                            <span style={{ color: "#f8951d" }}>
+                              &nbsp;₹751
+                            </span>{" "}
                           </span>
                         </p>
                       </div>
@@ -1618,8 +1771,9 @@ export default function Home() {
                   </div>
                   <div className="col-md-12">
                     <p className="legalcardcontain legalcardcontain1">
-                      Stay ahead of deadlines and file your returns on time with
-                      an all-time available team. Start Playing it safe now.{" "}
+                      Stay ahead of deadlines and file your returns on time
+                      with an all-time available team. Start Playing it safe
+                      now.{" "}
                     </p>
                   </div>
                   <div>
@@ -1677,7 +1831,8 @@ export default function Home() {
                         >
                           <span style={{ color: "#2d2d2d" }}>
                             {" "}
-                            Time taken: Plan based&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Time taken: Plan
+                            based&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           </span>
                           <span>
                             <span
@@ -1688,7 +1843,9 @@ export default function Home() {
                             >
                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Starting at:
                             </span>
-                            <span style={{ color: "#f8951d" }}>&nbsp;₹590</span>{" "}
+                            <span style={{ color: "#f8951d" }}>
+                              &nbsp;₹590
+                            </span>{" "}
                           </span>
                         </p>
                       </div>
@@ -1756,7 +1913,8 @@ export default function Home() {
                         >
                           <span style={{ color: "#2d2d2d" }}>
                             {" "}
-                            Time taken: Plan based&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Time taken: Plan
+                            based&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           </span>
                           <span>
                             <span
@@ -1928,7 +2086,9 @@ export default function Home() {
                             >
                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Starting at:
                             </span>
-                            <span style={{ color: "#f8951d" }}>&nbsp;₹751</span>{" "}
+                            <span style={{ color: "#f8951d" }}>
+                              &nbsp;₹751
+                            </span>{" "}
                           </span>
                         </p>
                       </div>
@@ -2006,7 +2166,9 @@ export default function Home() {
                             >
                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Starting at:
                             </span>
-                            <span style={{ color: "#f8951d" }}>&nbsp;₹590</span>{" "}
+                            <span style={{ color: "#f8951d" }}>
+                              &nbsp;₹590
+                            </span>{" "}
                           </span>
                         </p>
                       </div>
@@ -2015,8 +2177,8 @@ export default function Home() {
                   <div className="col-md-12">
                     <p className="legalcardcontain legalcardcontain1">
                       Starting a food business needs an FSSAI registration.
-                      Register for your food license online, supported by expert
-                      professionals.
+                      Register for your food license online, supported by
+                      expert professionals.
                     </p>
                   </div>
                   <div>
@@ -2084,7 +2246,9 @@ export default function Home() {
                             >
                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Starting at:
                             </span>
-                            <span style={{ color: "#f8951d" }}>&nbsp;₹751</span>{" "}
+                            <span style={{ color: "#f8951d" }}>
+                              &nbsp;₹751
+                            </span>{" "}
                           </span>
                         </p>
                       </div>
@@ -2130,8 +2294,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <section className="what_we_can_help_you_with " style={{marginTop:"50px"}}>
+      <br />
+      <br />
+      <br />
+      <br />
+      <section className="what_we_can_help_you_with">
         <div className="otrust">
           <h3 className="whatwchu">
             What <span className="whatwe">We</span> Can{" "}
@@ -2234,7 +2401,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="row downloadrow">
         <div className="col-sm-6 downfirstcol">
           <center>
@@ -2265,6 +2435,7 @@ export default function Home() {
                 />
                 <span className="getittext">
                   <span className="getitspan">GET IT ON</span>
+                  <br />
                   Google Play
                 </span>
               </p>
@@ -2274,9 +2445,14 @@ export default function Home() {
               className="googleplaybutton2"
             >
               <p style={{ display: "block" }}>
-                <img src={Appleimg} className="googleplayimg" loading="lazy" />
+                <img
+                  src={Appleimg}
+                  className="googleplayimg"
+                  loading="lazy"
+                />
                 <span className="getittext">
                   <span className="getitspan">GET IT ON</span>
+                  <br />
                   App Store
                 </span>
               </p>
@@ -2284,7 +2460,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      <br />
+      <br />
+      <br />
+      <br />
       <section className="testimonial">
         <div className="row">
           <div className="col-12 col-sm-12 col-md-12 col-lg-4">
@@ -2296,14 +2475,15 @@ export default function Home() {
                   <img className="heartimg" src={Heartimg} loading="lazy" />
                   ve
                 </span>{" "}
-                From Our <span className="client">Clients</span>
+                From
+                <br /> Our <span className="client">Clients</span>
               </h3>
               <p className="test_para">
                 {" "}
                 Our customers love the convenience of filing with us and
                 appreciate our expertise in getting their Legal work done on
-                time. We value the trust our clients place in us, and we strive
-                to provide them with the best service possible.
+                time. We value the trust our clients place in us, and we
+                strive to provide them with the best service possible.
               </p>
             </div>
           </div>
@@ -2329,7 +2509,11 @@ export default function Home() {
                   <div className="box1 scrollAnim fade-in-up ">
                     <div className="contenthead anim-top testicard">
                       <div>
-                        <img className="cords " src={Quoteimg} loading="lazy" />
+                        <img
+                          className="cords "
+                          src={Quoteimg}
+                          loading="lazy"
+                        />
                       </div>
                       <div className="ratestar">
                         <div>
@@ -2349,12 +2533,12 @@ export default function Home() {
                     <div>
                       <p className="ptext anim-top">
                         Filing my GST returns had been an absolute nightmare
-                        until I found Legal251. The interface is so easy to use,
-                        it makes filing my returns on time a breeze. I can
-                        easily keep track of all my invoices and payments and
-                        Legal251 experts even provides helpful tips for me to
-                        make sure that everything is done correctly. Thanks to
-                        Legal251 team, filing GST returns has become
+                        until I found Legal251. The interface is so easy to
+                        use, it makes filing my returns on time a breeze. I
+                        can easily keep track of all my invoices and payments
+                        and Legal251 experts even provides helpful tips for me
+                        to make sure that everything is done correctly. Thanks
+                        to Legal251 team, filing GST returns has become
                         stress-free!
                       </p>
                     </div>
@@ -2405,13 +2589,14 @@ export default function Home() {
                     <div>
                       <p className="ptext anim-top">
                         I was having a hard time filing my GST returns and was
-                        really confused as to how to go about it. That's when I
-                        came across Legal251. They were thorough professionals
-                        who made sure that my documents were filed perfectly
-                        without any errors. Their customer service was also
-                        top-notch and they guided me through the entire process
-                        with ease. I'm glad that I chose Legal251 for filing my
-                        GST returns. Highly recommended!
+                        really confused as to how to go about it. That's when
+                        I came across Legal251. They were thorough
+                        professionals who made sure that my documents were
+                        filed perfectly without any errors. Their customer
+                        service was also top-notch and they guided me through
+                        the entire process with ease. I'm glad that I chose
+                        Legal251 for filing my GST returns. Highly
+                        recommended!
                       </p>
                     </div>
                   </div>
@@ -2437,7 +2622,11 @@ export default function Home() {
                   <div className="box1 scrollAnim fade-in-up ">
                     <div className="contenthead anim-top testicard">
                       <div>
-                        <img className="cords" src={Quoteimg2} loading="lazy" />
+                        <img
+                          className="cords"
+                          src={Quoteimg2}
+                          loading="lazy"
+                        />
                       </div>
                       <div className="ratestar">
                         <div>
@@ -2458,8 +2647,8 @@ export default function Home() {
                       <p className="ptext anim-top">
                         I've been using Legal251 for filing my GST returns for
                         the past few months and I'm extremely impressed with
-                        their service and platform. It's so easy to use, and all
-                        the necessary information is provided in a very
+                        their service and platform. It's so easy to use, and
+                        all the necessary information is provided in a very
                         organized way. Plus, filing my returns on time has
                         become so much easier with this platform. Highly
                         recommend Legal251 for anyone looking for an efficient
@@ -2489,7 +2678,11 @@ export default function Home() {
                   <div className="box1 scrollAnim fade-in-up ">
                     <div className="contenthead anim-top testicard">
                       <div>
-                        <img className="cords" src={Quoteimg2} loading="lazy" />
+                        <img
+                          className="cords"
+                          src={Quoteimg2}
+                          loading="lazy"
+                        />
                       </div>
                       <div className="ratestar">
                         <div>
@@ -2509,12 +2702,12 @@ export default function Home() {
                     <div>
                       <p className="ptext anim-top">
                         I was a bit worried when filing my GST return for the
-                        first time, but Legal251 made it a breeze. Their team of
-                        experts guided me through every step and filed my return
-                        perfectly. I'm really glad I chose Legal251 to help me
-                        with this task as they have an excellent knowledge of
-                        the regulations and ensured that everything was done
-                        correctly. Thank you!
+                        first time, but Legal251 made it a breeze. Their team
+                        of experts guided me through every step and filed my
+                        return perfectly. I'm really glad I chose Legal251 to
+                        help me with this task as they have an excellent
+                        knowledge of the regulations and ensured that
+                        everything was done correctly. Thank you!
                       </p>
                     </div>
                   </div>
@@ -2524,7 +2717,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <br />
+      <br />
+      <br />
+      <br />
       <section>
         <center>
           <h3 className="reviewheading">
@@ -2546,8 +2742,8 @@ export default function Home() {
               <img className="legallogo" src={Legallogoimg} loading="lazy" />
               ?”
             </span>{" "}
-            we asked our clients. Thousands of people answered; here are some of
-            their comments.{" "}
+            we asked our clients. Thousands of people answered; here are some
+            of their comments.{" "}
           </p>
           <center>
             <div className="row Allimg marlr" id="amazing-stories-desktop">
@@ -2853,7 +3049,9 @@ export default function Home() {
                 +
               </span>
             </h3>
-            <span className="counterheadingtext1">Currently served cities</span>
+            <span className="counterheadingtext1">
+              Currently served cities
+            </span>
             <h3 className="counterheading2">
               <span className="counter-value" data-count={110}>
                 0
@@ -2880,7 +3078,9 @@ export default function Home() {
                 +
               </span>
             </h3>
-            <span className="counterheadingtext3">Qualified professionals</span>
+            <span className="counterheadingtext3">
+              Qualified professionals
+            </span>
             <h3 className="counterheading4">
               <span className="counter-value" data-count={50}>
                 0
@@ -2892,7 +3092,9 @@ export default function Home() {
           </center>
         </div>
       </div>
-
+      <br />
+      <br />
+      <br />
       <section>
         <div className="row otrust" style={{ padding: "0px 30px" }}>
           <div className="col-12 col-sm-12 col-md-6 col-lg-6">
@@ -2913,9 +3115,9 @@ export default function Home() {
                 confidence. Our team of experienced experts provide filing
                 services that are always on-time and accurate. Plus, we have a
                 mobile app and dashboard for managing your service &amp;
-                documents, so you can stay on top of your filing and other works
-                from anywhere. With over 10 years of experience in the industry,
-                you can trust us to get the job done right!
+                documents, so you can stay on top of your filing and other
+                works from anywhere. With over 10 years of experience in the
+                industry, you can trust us to get the job done right!
               </p>
               <img
                 src={Group9730}
@@ -3055,7 +3257,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <br />
+      <br />
+      <br />
       <div className="news ">
         <div>
           <div className="row newsrow">
@@ -3074,28 +3278,31 @@ export default function Home() {
                     <p className="card-text bignewscardtext">
                       Meet the online legal advisors covering all domains and
                       providing services to simplify the most complex-looking
-                      processes for a common person. Legal251 is an online legal
-                      solutions provider that comprehensively delivers the
-                      solutions for all queries of the Legal domain. Founded in
-                      2010 with a vision of streamlining the legal issues and
-                      concerns of every person of this country, Legal251 is the
-                      most trusted name among its users. Our services are
-                      helping startups and businesses around the country
-                      extensively in easing the process of Registrations and
-                      Legal Management. It all started with the inception of an
-                      idea to reduce the time spent on legal activities of
-                      growth-focused startups and businesses. The clients loved
-                      our services and therefore the retention rate went up to
-                      95%. We grew to a team of 100+ Members including Chartered
-                      Accountants, Lawyers, Legal Advisors, Accounting Managers
-                      and more. Our value-based model for our clients has made
-                      us achieve numerous milestones in our path to glory.
-                      Recently, we decided to go digital and bring our loved
-                      services on mobiles, desktops and pcs for everyone to get
+                      processes for a common person. Legal251 is an online
+                      legal solutions provider that comprehensively delivers
+                      the solutions for all queries of the Legal domain.
+                      <br />
+                      <br />
+                      Founded in 2010 with a vision of streamlining the legal
+                      issues and concerns of every person of this country,
+                      Legal251 is the most trusted name among its users. Our
+                      services are helping startups and businesses around the
+                      country extensively in easing the process of
+                      Registrations and Legal Management. It all started with
+                      the inception of an idea to reduce the time spent on
+                      legal activities of growth-focused startups and
+                      businesses. The clients loved our services and therefore
+                      the retention rate went up to 95%. We grew to a team of
+                      100+ Members including Chartered Accountants, Lawyers,
+                      Legal Advisors, Accounting Managers and more. Our
+                      value-based model for our clients has made us achieve
+                      numerous milestones in our path to glory. Recently, we
+                      decided to go digital and bring our loved services on
+                      mobiles, desktops and pcs for everyone to get
                       benefitted. We brought the best in class technology and
-                      added new services to become the partner of our clients in
-                      their legal issues. Trust and Transparency are the key
-                      values that drive us to go the extra mile for client
+                      added new services to become the partner of our clients
+                      in their legal issues. Trust and Transparency are the
+                      key values that drive us to go the extra mile for client
                       satisfaction.
                     </p>
                     <center>
@@ -3103,6 +3310,7 @@ export default function Home() {
                         Read more...
                       </Link>
                     </center>
+                    <br />
                   </div>
                 </div>
               </center>
@@ -3125,8 +3333,8 @@ export default function Home() {
                         Getting consultancy with Legal251 becomes hassle-free
                         and time-saving. Whatever may be your problem in this
                         legal domain we are here for you to give a perfect
-                        solution. You just have to follow the process explained
-                        below and we will handle the rest.
+                        solution. You just have to follow the process
+                        explained below and we will handle the rest.
                       </p>
                       <center>
                         <Link
@@ -3152,11 +3360,11 @@ export default function Home() {
                       </h5>
                       <p style={{ marginTop: 10 }} />
                       <p className="card-text smallnewscardtext">
-                        We leverage the power of digital to simplify the things
-                        and not make them complex for you. Our clear, concise
-                        and transparent process gives you the complete control
-                        of actions taken for you. Working smartly we execute the
-                        operations in a flawless manner.
+                        We leverage the power of digital to simplify the
+                        things and not make them complex for you. Our clear,
+                        concise and transparent process gives you the complete
+                        control of actions taken for you. Working smartly we
+                        execute the operations in a flawless manner.
                       </p>
                       <center>
                         <Link className="readmorebutton" to="how-we-work.html">
@@ -3216,7 +3424,7 @@ export default function Home() {
                         and every step of it and when it's completed you can
                         directly see and download the solution from Service
                         Tracking Dashboard whenever you want it will always be
-                        accessible to you.
+                        accessible to you. <br />
                       </p>
                       <center>
                         <Link
@@ -3232,6 +3440,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <br />
         </div>
       </div>
       <div className="whatspopupclosediv" id="whatspopupclosediv">
@@ -3263,8 +3472,8 @@ export default function Home() {
         <div style={{ textAlign: "center" }}>
           <h2 className="whatsup_head">Hi we are Online!</h2>
           <p className="whatsup_pera">
-            We are here to help you! Chat with us on WhatsApp for any queries or
-            more.
+            We are here to help you! Chat with us on WhatsApp for any queries
+            or more.
           </p>
         </div>
         <div style={{ textAlign: "center", display: "flex" }}>
@@ -3279,7 +3488,10 @@ export default function Home() {
           </button>
         </div>
       </div>
-
+      <br className="mobresbr" />
+      <br className="mobresbr" />
+      <br className="mobresbr" />
+      <br className="mobresbr" />
       <div className="consulationnowsection consulationnowsection1">
         <div className="row">
           <div className="col-md-7">
@@ -3321,6 +3533,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
+      
+     
+    </div>
+  </>
   );
 }

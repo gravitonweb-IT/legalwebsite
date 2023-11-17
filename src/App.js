@@ -12,15 +12,6 @@ import OpcOnePersonCompanyRegistration from "./components/StartBusiness/OpcOnePe
 import ParternerShip from "./components/StartBusiness/ParternerShip";
 import ParternLtdCompanyRegisteration from "./components/StartBusiness/ParternLtdCompanyRegisteration";
 import Section8CompanyRegistration from "./components/StartBusiness/Section8CompanyRegistration";
-import DissolutionOfDeed from "./components/ChangeInBusiness/DissolutionOfDeed";
-import AddressAmendmentWithInStateLlp from "./components/ChangeInBusiness/AddressAmendmentWithInStateLlp";
-import AddressAmendmentWithInStateCompany from "./components/ChangeInBusiness/AddressAmendmentWithInStateCompany";
-import AddressAmendmentOutStateLlp from "./components/ChangeInBusiness/AddressAmendmentOutStateLlp";
-import AddressAmendmentoutStateCompany from "./components/ChangeInBusiness/AddressAmendmentoutStateCompany";
-import AddDirector from "./components/ChangeInBusiness/AddDirector";
-import AddPartner from "./components/ChangeInBusiness/AddPartner";
-import IncreaseCapitalLlp from "./components/ChangeInBusiness/IncreaseCapitalLlp";
-import ChangeInNameLlp from "./components/ChangeInBusiness/ChangeInNameLlp";
 import AnnualComplianceCompancy from "./components/Compliance/AnnualComplianceCompancy";
 import AnnualComplianceLlp from "./components/Compliance/AnnualComplianceLlp";
 import CmaReport from "./components/Compliance/CmaReport";
@@ -69,6 +60,19 @@ import UCalculator from "./components/Utilities/UCalculator";
 import GSTCalculator from "./components/Utilities/GSTCalculator";
 import BalanceSheetPraparationAndPL from "./components/OtherServices/BalanceSheetPraparationAndPL";
 import EsicRegistration from "./components/Registration/EsicRegistration";
+import AddDirector from "./components/ChangeInBusiness/AddDirector";
+import AddPartner from "./components/ChangeInBusiness/AddPartner";
+import AddressAmendmentoutStateCompany from "./components/ChangeInBusiness/AddressAmendmentoutStateCompany";
+import AddressAmendmentWithInStateLlp from "./components/ChangeInBusiness/AddressAmendmentWithInStateLlp";
+import AddressAmendmentOutStateLlp from "./components/ChangeInBusiness/AddressAmendmentOutStateLlp";
+import AddressAmendmentWithInStateCompany from "./components/ChangeInBusiness/AddressAmendmentWithInStateCompany";
+import ChangeInNameLlp from "./components/ChangeInBusiness/ChangeInNameLlp";
+import ChangesInNameCompany from "./components/ChangeInBusiness/ChangesInNameCompany";
+import DissolutionOfDeed from "./components/ChangeInBusiness/DissolutionOfDeed";
+import IncreaseCapitalCompany from "./components/ChangeInBusiness/IncreaseCapitalCompany";
+import IncreaseCapitalLlp from "./components/ChangeInBusiness/IncreaseCapitalLlp";
+import RemoveDirector from "./components/ChangeInBusiness/RemoveDirector";
+import RemovePartner from "./components/ChangeInBusiness/RemovePartner";
 
 
 function App() {
@@ -107,28 +111,20 @@ function App() {
 
 
         {/* Changes In Business */}
-
-        <Route path="/DissolutionOfDeed" element={<DissolutionOfDeed />} />
-        <Route
-          path="/AddressAmendmentWithInStateLlp"
-          element={<AddressAmendmentWithInStateLlp />}
-        />
-        <Route
-          path="/AddressAmendmentWithInStateCompany"
-          element={<AddressAmendmentWithInStateCompany />}
-        />
-        <Route
-          path="/AddressAmendmentOutStateLlp"
-          element={<AddressAmendmentOutStateLlp />}
-        />
-        <Route
-          path="/AddressAmendmentoutStateCompany"
-          element={<AddressAmendmentoutStateCompany />}
-        />
         <Route path="/AddDirector" element={<AddDirector />} />
-        <Route path="/AddPartner" element={<AddPartner />} />
-        <Route path="/IncreaseCapitalLlp" element={<IncreaseCapitalLlp />} />
-        <Route path="/ChangeInNameLlp" element={<ChangeInNameLlp />} />
+        <Route path="/AddPartner" element={< AddPartner/>} />
+        <Route path="/AddressAmendmentoutStateCompany" element={< AddressAmendmentoutStateCompany/>} />
+        <Route path="/AddressAmendmentWithInStateLlp" element={< AddressAmendmentWithInStateLlp/>} />
+        <Route path="/AddressAmendmentOutStateLlp" element={< AddressAmendmentOutStateLlp/>} />
+        <Route path="/AddressAmendmentWithInStateCompany" element={<AddressAmendmentWithInStateCompany/>} />
+        <Route path="/ChangeInNameLlp" element={<ChangeInNameLlp/>} />
+        <Route path="/ChangesInNameCompany" element={<ChangesInNameCompany />} />
+        <Route path="/DissolutionOfDeed" element={<DissolutionOfDeed/>} />
+        <Route path="/IncreaseCapitalCompany" element={< IncreaseCapitalCompany/>} />
+        <Route path="/IncreaseCapitalLlp " element={<IncreaseCapitalLlp />} />
+        <Route path="/RemoveDirector" element={<RemoveDirector />} />
+        <Route path="/RemovePartner" element={<RemovePartner/>} />
+      
 
       {/* Registration */}
       <Route path="/EsicRegistration" element={<EsicRegistration/>} />
@@ -196,8 +192,8 @@ function App() {
       <Route path="/RDCalculator" element={<RDCalculator/>} />
       <Route path="/SimpleInterestCalculator" element={<SimpleInterestCalculator/>} />
       <Route path="/SIPCalculator" element={<SIPCalculator/>} />
-      <Route path="/CapitalGainCalculator" element={<TDSCalculator/>} />
-      <Route path="/CapitalGainCalculator" element={<UCalculator/>} />
+      <Route path="/TDSCalculator" element={<TDSCalculator/>} />
+      <Route path="/UCalculator" element={<UCalculator/>} />
      
 
 

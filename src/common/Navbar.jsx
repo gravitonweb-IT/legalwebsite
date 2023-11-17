@@ -2896,7 +2896,7 @@ const Navbar = () => {
                   </ul>
                 </li>
                 <li className="dropdown megamenu-fw ">
-                  <Link to="#" className="dropdown-toggle mytext5 m_togle">
+                  <Link to="/" className="dropdown-toggle mytext5 m_togle">
                     Change in Business
                     <i
                       className="fa fa-angle-down down_arrow_hide"
@@ -3112,7 +3112,7 @@ const Navbar = () => {
                               <li className="incontent">
                                 <Link
                                   className="text"
-                                  to="remove-director.html"
+                                  to="/RemoveDirector"
                                 >
                                   {" "}
                                   <img
@@ -3126,7 +3126,7 @@ const Navbar = () => {
                                 </Link>
                               </li>
                               <li className="incontent">
-                                <Link className="text" to="remove-partner.html">
+                                <Link className="text" to="/RemovePartner">
                                   {" "}
                                   <img
                                     className="megamenu_icon"
@@ -3151,7 +3151,7 @@ const Navbar = () => {
                                   <div>
                                     <Link
                                       className="text"
-                                      to="increase-capital-company.html"
+                                      to="/IncreaseCapitalCompany"
                                     >
                                       {" "}
                                       <span className="hvr-sweep-to-right textres">
@@ -3164,7 +3164,7 @@ const Navbar = () => {
                               <li className="incontent">
                                 <Link
                                   className="text"
-                                  to="change-in-name-company.html"
+                                  to="/ChangesInNameCompany"
                                 >
                                   {" "}
                                   <img
@@ -3418,7 +3418,7 @@ const Navbar = () => {
                   </ul>
                 </li>
                 <li className="dropdown megamenu-fw ">
-                  <Link to="#" className="dropdown-toggle mytext2 m_togle">
+                  <Link to="/" className="dropdown-toggle mytext2 m_togle">
                     Filing &amp; More
                     <i
                       className="fa fa-angle-down down_arrow_hide"
@@ -3448,7 +3448,7 @@ const Navbar = () => {
                             <div className="content">
                               <ul className="menu-col" id="id01">
                                 <li className="incontent">
-                                  <Link to="gst-return-filing.html">
+                                  <Link to="/GstReturnFiling">
                                     <img
                                       className="megamenu_icon"
                                       src={Group3506}                                      loading="lazy"
@@ -3459,7 +3459,7 @@ const Navbar = () => {
                                   </Link>
                                 </li>
                                 <li className="incontent">
-                                  <Link to="income-tax-return-filing.html">
+                                  <Link to="/ITSfiling">
                                     <img
                                       className="megamenu_icon"
                                       src={Group3507}
@@ -3471,7 +3471,7 @@ const Navbar = () => {
                                   </Link>
                                 </li>
                                 <li className="incontent">
-                                  <Link to="tds-return-filing.html">
+                                  <Link to="/TDSReturnFiling">
                                     <img
                                       className="megamenu_icon"
                                       src={Tdsrf}
@@ -3502,7 +3502,7 @@ const Navbar = () => {
                             <div className="content">
                               <ul className="menu-col" id="id01">
                                 <li className="incontent li_dview newincontent">
-                                  <Link to="online-accounting.html">
+                                  <Link to="/OnlineAccounting">
                                     <img
                                       className="megamenu_icon megamenu_iconspecial"
                                       src={Layer2}
@@ -3552,7 +3552,7 @@ const Navbar = () => {
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
                                 <Link
-                                  to="legal-drafting.html"
+                                  to="/LegalDrafting"
                                   className="singlemenua"
                                 >
                                   <img
@@ -3567,7 +3567,7 @@ const Navbar = () => {
                               </li>
                               <li className="incontent">
                                 <Link
-                                  to="rent-agreement.html"
+                                  to="/RentAgreement"
                                   className="singlemenua"
                                 >
                                   <img
@@ -3582,7 +3582,7 @@ const Navbar = () => {
                               </li>
                               <li className="incontent">
                                 <Link
-                                  to="noc-no-objection-certificate.html"
+                                  to="/NOC"
                                   className="singlemenua"
                                 >
                                   <img
@@ -3598,7 +3598,7 @@ const Navbar = () => {
                               </li>
                               <li className="incontent">
                                 <Link
-                                  to="affidavit.html"
+                                  to="/Affidavit"
                                   className="singlemenua"
                                 >
                                   <img
@@ -3613,7 +3613,7 @@ const Navbar = () => {
                               </li>
                               <li className="incontent">
                                 <Link
-                                  to="power-of-attorney.html"
+                                  to="/PowerOfAttorney"
                                   className="singlemenua"
                                 >
                                   <img
@@ -3633,7 +3633,7 @@ const Navbar = () => {
                           <div className="content">
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
-                                <Link to="will.html" className="singlemenua">
+                                <Link to="/Will" className="singlemenua">
                                   <img
                                     className="megamenu_icon"
                                     src={Group3506}
@@ -3646,7 +3646,7 @@ const Navbar = () => {
                               </li>
                               <li className="incontent">
                                 <Link
-                                  to="application.html"
+                                  to="/ApplicationForm"
                                   className="singlemenua"
                                 >
                                   <img
@@ -3660,7 +3660,7 @@ const Navbar = () => {
                                 </Link>
                               </li>
                               <li className="incontent">
-                                <Link to="nda-non-disclosure-agreement-online.html">
+                                <Link to="/NDADrafting">
                                   <img
                                     className="megamenu_icon"
                                     src={Nda}
@@ -3672,7 +3672,7 @@ const Navbar = () => {
                                 </Link>
                               </li>
                               <li className="incontent">
-                                <Link to="privacy-policy-drafting-online.html">
+                                <Link to="/PrivacyPolicyDrafting">
                                   <img
                                     className="megamenu_icon"
                                     src={UserPrivacy}
@@ -3684,7 +3684,7 @@ const Navbar = () => {
                                 </Link>
                               </li>
                               <li className="incontent">
-                                <Link to="terms-and-conditions-drafting-online.html">
+                                <Link to="/TermAndCondition">
                                   <img
                                     className="megamenu_icon"
                                     src={Tnc}
@@ -3703,7 +3703,7 @@ const Navbar = () => {
                   </ul>
                 </li>
                 <li className="dropdown megamenu-fw ">
-                  <Link to="#" className="dropdown-toggle mytext4 m_togle">
+                  <Link to="/" className="dropdown-toggle mytext4 m_togle">
                     Legal Issues{" "}
                     <i
                       className="fa fa-angle-down down_arrow_hide"
@@ -3733,7 +3733,7 @@ const Navbar = () => {
                           <div className="content le_cpadd">
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
-                                <Link to="legal-notice-reply.html">
+                                <Link to="/LegalNoticeReply">
                                   <img
                                     className="megamenu_icon"
                                     src={LegalReply}
@@ -3745,7 +3745,7 @@ const Navbar = () => {
                                 </Link>
                               </li>
                               <li className="incontent">
-                                <Link to="legal-claim-help.html">
+                                <Link to="/LegalAdvice">
                                   <img
                                     className="megamenu_icon"
                                     src={BaggageClaim}
@@ -3775,7 +3775,7 @@ const Navbar = () => {
                           <div className="content le_cpadd">
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
-                                <Link to="legal-notice.html">
+                                <Link to="/LegalNoticePreparation">
                                   <img
                                     className="megamenu_icon"
                                     src={Help}
@@ -3821,7 +3821,7 @@ const Navbar = () => {
                           <div className="content o_cpadd">
                             <ul className="menu-col" id="id01">
                               <li className="incontent">
-                                <Link to="balance-sheet-prepration.html">
+                                <Link to="/BalanceSheetPraparationAndPL">
                                   <img
                                     className="megamenu_icon"
                                     src={Group5926}
@@ -3834,7 +3834,7 @@ const Navbar = () => {
                                 </Link>
                               </li>
                               <li className="incontent">
-                                <Link to="project-report-prepration.html">
+                                <Link to="/ProjectReportPreparation">
                                   <img
                                     className="megamenu_icon"
                                     src={Group5927}
@@ -3853,7 +3853,7 @@ const Navbar = () => {
                   </ul>
                 </li>
                 <li className="dropdown megamenu-fw ">
-                  <Link to="#" className="dropdown-toggle mytext7 m_togle">
+                  <Link to="/" className="dropdown-toggle mytext7 m_togle">
                     Utilities
                     <i
                       className="fa fa-angle-down down_arrow_hide"
@@ -3879,7 +3879,7 @@ const Navbar = () => {
                             <div className="content lo_cpadd">
                               <ul className="menu-col" id="id01">
                                 <li className="incontent">
-                                  <Link to="GST-calculator.html">
+                                  <Link to="/GSTCalculator">
                                     <img
                                       className="megamenu_icon"
                                       src={GstImg}
@@ -3891,7 +3891,7 @@ const Navbar = () => {
                                   </Link>
                                 </li>
                                 <li className="incontent">
-                                  <Link to="SIP-calculator.html">
+                                  <Link to="/SIPCalculator">
                                     <img
                                       className="megamenu_icon"
                                       src={SipImg}
@@ -3903,7 +3903,7 @@ const Navbar = () => {
                                   </Link>
                                 </li>
                                 <li className="incontent">
-                                  <Link to="EMI-calculator.html">
+                                  <Link to="/EMICalculator">
                                     <img
                                       className="megamenu_icon"
                                       src={InterestImg}
@@ -3915,7 +3915,7 @@ const Navbar = () => {
                                   </Link>
                                 </li>
                                 <li className="incontent">
-                                  <Link to="FD-calculator.html">
+                                  <Link to="/FDCalculator">
                                     <img
                                       className="megamenu_icon"
                                       src={FDimg}
@@ -3933,7 +3933,7 @@ const Navbar = () => {
                             <div className="content lo_cpadd">
                               <ul className="menu-col" id="id01">
                                 <li className="incontent">
-                                  <Link to="80U-calculator.html">
+                                  <Link to="/UCalculator">
                                     <img
                                       className="megamenu_icon"
                                       src={Group6457}
@@ -3945,7 +3945,7 @@ const Navbar = () => {
                                   </Link>
                                 </li>
                                 <li className="incontent">
-                                  <Link to="HRA-calculator.html">
+                                  <Link to="/HRACalculator">
                                     <img
                                       className="megamenu_icon"
                                       src={HRAimg}
@@ -3957,7 +3957,7 @@ const Navbar = () => {
                                   </Link>
                                 </li>
                                 <li className="incontent">
-                                  <Link to="simple-interest.html">
+                                  <Link to="/SimpleInterestCalculator">
                                     <img
                                       className="megamenu_icon"
                                       src={InterestRateimg}
@@ -3969,7 +3969,7 @@ const Navbar = () => {
                                   </Link>
                                 </li>
                                 <li className="incontent">
-                                  <Link to="capital-gain-calulator.html">
+                                  <Link to="/CapitalGainCalculator">
                                     <img
                                       className="megamenu_icon"
                                       src={CapitalGainimg}
@@ -3987,7 +3987,7 @@ const Navbar = () => {
                             <div className="content lo_cpadd">
                               <ul className="menu-col" id="id01">
                                 <li className="incontent">
-                                  <Link to="TDS-calculator.html">
+                                  <Link to="/TDSCalculator">
                                     <img
                                       className="megamenu_icon"
                                       src={Tds}
@@ -3999,7 +3999,7 @@ const Navbar = () => {
                                   </Link>
                                 </li>
                                 <li className="incontent">
-                                  <Link to="PPF-calculator.html">
+                                  <Link to="/PPfCalculator">
                                     <img
                                       className="megamenu_icon"
                                       src={PPF}
@@ -4011,7 +4011,7 @@ const Navbar = () => {
                                   </Link>
                                 </li>
                                 <li className="incontent">
-                                  <Link to="Gratuity-calculator.html">
+                                  <Link to="GratuityCalculator">
                                     <img
                                       className="megamenu_icon"
                                       src={Gratuaty}
@@ -4023,7 +4023,7 @@ const Navbar = () => {
                                   </Link>
                                 </li>
                                 <li className="incontent">
-                                  <Link to="RD-calculator.html">
+                                  <Link to="/RDCalculator">
                                     <img
                                       className="megamenu_icon"
                                       src={RDimg}
