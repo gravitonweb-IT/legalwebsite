@@ -24,7 +24,6 @@ import Groupimg1 from "./../components/images/common/Group_7.svg";
 import Groupimg2 from "./../components/images/common/Group_3.svg";
 import Sidesearchicon from "./../components/images/sidesearchicon.svg";
 import Star from "./../components/images/star.svg";
-// import Lglimg from "./../components/images/common/legal.svg";
 import Groupimg3 from "./../components/images/megamenubimage/Group_5675.png";
 import Partship from "./../components/images/icons/partnership-deed.svg";
 import Companyimg from "./../components/images/icons/company-reg.svg";
@@ -36,7 +35,7 @@ import Groupimg4 from "./../components/images/megamenubimage/Group_5675.png";
 import Annualimg from "./../components/images/icons/newicons/annualcompliancellp.svg";
 import Cmareport from "./../components/images/icons/newicons/CMAReport.svg";
 import Adddir from "./../components/images/icons/newicons/AddDirector(company).svg";
-import Group5675 from "./../components/images/megamenubimage/Group_5675.png";
+
 import Group917 from "./../components/images/icons/Group 5917.svg";
 import Addressimg from "./../components/images/icons/newicons/AddressAmendmentWithinstate(LLP).svg";
 import Addressimg2 from "./../components/images/icons/newicons/AddressAmendmentWithinstate(Company).svg";
@@ -46,6 +45,59 @@ import Addressimg5 from "./../components/images/icons/newicons/AddDirector(compa
 import Addpartner from "./../components/images/icons/newicons/AddPartner(LLP).svg";
 import Increaseimg from "./../components/images/icons/newicons/IncreaseCapital(LLP).svg";
 import Changeimg from "./../components/images/icons/newicons/ChangeInNameofLLP.svg";
+import RemoveDirector from "./../components/images/icons/newicons/removeDirector(company).svg";
+import RemovePartner from "./../components/images/icons/newicons/RemovePartner(LLP).svg";
+import IncreaseCapital from "./../components/images/icons/newicons/IncreaseCapital(Company).svg";
+import ChangeInName from "./../components/images/icons/newicons/ChangeInNameofCompany.svg";
+import Group59 from "./../components/images/icons/Group 5910.svg";
+import Group5911 from "./../components/images/icons/Group 5911.svg";
+import Group5912 from "./../components/images/icons/Group 5912.svg";
+import Group5913 from "./../components/images/icons/Group 5913.svg";
+import Proffessional from "./../components/images/icons/proffessional.svg";
+import Group5632 from "./../components/images/icons/Group_5632_1.svg";
+import Group3625 from "./../components/images/icons/Group_3625_2.svg";
+import Group6897 from "./../components/images/icons/Group_6897.png";
+import Group5915 from "./../components/images/icons/Group 5915.svg";
+import Group5645 from "./../components/images/icons/Group_5645_1.svg";
+import Group5631 from "./../components/images/icons/Group_5631_1.svg";
+import Group56 from "./../components/images/megamenubimage/Group_5675.png";
+import Group3506 from "./../components/images/icons/Group_3506_1.svg";
+import Group3507 from "./../components/images/icons/Group_3507_1.svg";
+import Tdsrf from "./../components/images/icons/newicons/tdsrf.svg";
+import Group5675 from "./../components/images/megamenubimage/Group_5675.png";
+import Layer2 from "./../components/images/icons/Layer_2_1.svg";
+// import Group5675 from "./../components/images/megamenubimage/Group_5675.png";
+import MovieCopyright from "./../components/images/icons/movie-copyright_1.svg";
+// import Group591 from "./../components/images/icons/Group 5918.svg";
+import Group5919 from "./../components/images/icons/Group 5919.svg";
+import Group5920 from "./../components/images/icons/Group 5920.svg";
+import Group5921 from "./../components/images/icons/Group 5921.svg";
+// import PathCopy from "./../components/images/icons/NoPath-Copy (17).svg";
+import Appf from "./../components/images/icons/appf.svg";
+import Nda from "./../components/images/icons/nda.png";
+import UserPrivacy from "./../components/images/icons/user-privacy_1.svg";
+import Tnc from "./../components/images/icons/tnc.png";
+// import Group5675 from "./../components/images/megamenubimage/Group_5675.png";
+import LegalReply from "./../components/images/icons/legalreply.svg";
+import BaggageClaim from "./../components/images/icons/baggage-claim.svg";
+// import Group5675 from "./../components/images/megamenubimage/Group_5675.png";
+import Help from "./../components/images/icons/help.png";
+// import Group5675 from "./../components/images/megamenubimage/Group_5675.png";
+import Group5926  from "./../components/images/icons/Group 5926.svg";
+import Group5927 from "./../components/images/icons/Group 5927.svg";
+// import Group5675 from "./../components/images/megamenubimage/Group_5675.png";
+import GstImg from "./../components/images/calculator_icons/gst.svg";
+import SipImg from "./../components/images/calculator_icons/sip.svg";
+import InterestImg from "./../components/images/calculator_icons/interest.svg";
+import FDimg from "./../components/images/calculator_icons/fd.svg";
+import Group6457 from "./../components/images/calculator_icons/Group_6457.svg";
+import HRAimg from "./../components/images/calculator_icons/hra.svg";
+import InterestRateimg from "./../components/images/calculator_icons/interest-rate.svg";
+import CapitalGainimg from "./../components/images/calculator_icons/capital_gain.svg";
+import Tds from "./../components/images/calculator_icons/tds.svg";
+import PPF from "./../components/images/calculator_icons/ppf.svg";
+import Gratuaty from "./../components/images/calculator_icons/gratuaty.svg";
+import RDimg from "./../components/images/calculator_icons/rd.svg";
 
 const Navbar = () => {
 
@@ -2861,7 +2913,8 @@ const Navbar = () => {
                         <div className="megamenu_heading">
                           <img
                             className="megamenu_title_img"
-                            src={Group5675}
+                            // src={Group5675}
+
                             loading="lazy"
                           />
                           <div>
@@ -3064,7 +3117,7 @@ const Navbar = () => {
                                   {" "}
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/newicons/removeDirector(company).svg"
+                                    src={RemoveDirector}
                                     loading="lazy"
                                   />{" "}
                                   <span className="hvr-sweep-to-right">
@@ -3077,7 +3130,7 @@ const Navbar = () => {
                                   {" "}
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/newicons/RemovePartner(LLP).svg"
+                                    src={RemovePartner}
                                     loading="lazy"
                                   />{" "}
                                   <span className="hvr-sweep-to-right textres">
@@ -3090,7 +3143,7 @@ const Navbar = () => {
                                   <div>
                                     <img
                                       className="megamenu_iconspecial"
-                                      src="images/icons/newicons/IncreaseCapital(Company).svg"
+                                      src={IncreaseCapital}
                                       loading="lazy"
                                     />
                                     &nbsp;
@@ -3116,7 +3169,7 @@ const Navbar = () => {
                                   {" "}
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/newicons/ChangeInNameofCompany.svg"
+                                    src={ChangeInName}
                                     loading="lazy"
                                   />{" "}
                                   <span className="hvr-sweep-to-right textres">
@@ -3150,7 +3203,7 @@ const Navbar = () => {
                           <div className="megamenu_heading">
                             <img
                               className="megamenu_title_img"
-                              src="images/megamenubimage/Group_5675.png"
+                              // src={Group5675}
                               loading="lazy"
                             />
                             <div>
@@ -3170,7 +3223,7 @@ const Navbar = () => {
                                   >
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/NoPath%20-%20Copy%20(4).svg"
+                                      src={Group3507}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3186,7 +3239,7 @@ const Navbar = () => {
                                     {" "}
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/Group%205910.svg"
+                                      src={Group59}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3201,7 +3254,7 @@ const Navbar = () => {
                                   >
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/Group%205911.svg"
+                                      src={Group5911}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3216,7 +3269,7 @@ const Navbar = () => {
                                   >
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/Group%205912.svg"
+                                      src={Group5912}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3231,7 +3284,7 @@ const Navbar = () => {
                                   >
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/Group%205913.svg"
+                                      src={Group5913}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3252,7 +3305,7 @@ const Navbar = () => {
                                   >
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/proffessional.svg"
+                                      src={Proffessional}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3267,7 +3320,7 @@ const Navbar = () => {
                                   >
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/Group_5632_1.svg"
+                                      src={Group5632}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3282,7 +3335,7 @@ const Navbar = () => {
                                   >
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/Group_3625_2.svg"
+                                      src={Group3625}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3297,7 +3350,7 @@ const Navbar = () => {
                                   >
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/Group_6897.png"
+                                      src={Group6897}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3318,7 +3371,7 @@ const Navbar = () => {
                                   >
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/Group%205915.svg"
+                                      src={Group5915}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3333,7 +3386,7 @@ const Navbar = () => {
                                   >
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/Group_5645_1.svg"
+                                      src={Group5645}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3348,7 +3401,7 @@ const Navbar = () => {
                                   >
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/Group_5631_1.svg"
+                                      src={Group5631}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3384,7 +3437,7 @@ const Navbar = () => {
                             <div className="megamenu_heading">
                               <img
                                 className="megamenu_title_img"
-                                src="images/megamenubimage/Group_5675.png"
+                                src={Group56}
                                 loading="lazy"
                               />
                               <div>
@@ -3398,8 +3451,7 @@ const Navbar = () => {
                                   <Link to="gst-return-filing.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/Group_3506_1.svg"
-                                      loading="lazy"
+                                      src={Group3506}                                      loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
                                       GST Return Filing
@@ -3410,7 +3462,7 @@ const Navbar = () => {
                                   <Link to="income-tax-return-filing.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/Group_3507_1.svg"
+                                      src={Group3507}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3422,7 +3474,7 @@ const Navbar = () => {
                                   <Link to="tds-return-filing.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/icons/newicons/tdsrf.svg"
+                                      src={Tdsrf}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3437,7 +3489,7 @@ const Navbar = () => {
                             <div className="megamenu_heading">
                               <img
                                 className="megamenu_title_img"
-                                src="images/megamenubimage/Group_5675.png"
+                                // src={Group5675}
                                 loading="lazy"
                               />
                               <div>
@@ -3453,7 +3505,7 @@ const Navbar = () => {
                                   <Link to="online-accounting.html">
                                     <img
                                       className="megamenu_icon megamenu_iconspecial"
-                                      src="images/icons/Layer_2_1.svg"
+                                      src={Layer2}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3487,7 +3539,7 @@ const Navbar = () => {
                         <div className="megamenu_heading">
                           <img
                             className="megamenu_title_img"
-                            src="images/megamenubimage/Group_5675.png"
+                            // src={Group5675}
                             loading="lazy"
                           />
                           <div>
@@ -3505,7 +3557,7 @@ const Navbar = () => {
                                 >
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/movie-copyright_1.svg"
+                                    src={MovieCopyright}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3520,7 +3572,7 @@ const Navbar = () => {
                                 >
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/Group%205918.svg"
+                                    src={Group59}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3535,7 +3587,7 @@ const Navbar = () => {
                                 >
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/Group%205919.svg"
+                                    src={Group5919}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3551,7 +3603,7 @@ const Navbar = () => {
                                 >
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/Group%205920.svg"
+                                    src={Group5920}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3566,7 +3618,7 @@ const Navbar = () => {
                                 >
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/Group%205921.svg"
+                                    src={Group5921}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3584,7 +3636,7 @@ const Navbar = () => {
                                 <Link to="will.html" className="singlemenua">
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/NoPath%20-%20Copy%20(17).svg"
+                                    src={Group3506}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right">
@@ -3599,7 +3651,7 @@ const Navbar = () => {
                                 >
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/appf.svg"
+                                    src={Appf}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3611,7 +3663,7 @@ const Navbar = () => {
                                 <Link to="nda-non-disclosure-agreement-online.html">
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/nda.png"
+                                    src={Nda}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3623,7 +3675,7 @@ const Navbar = () => {
                                 <Link to="privacy-policy-drafting-online.html">
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/user-privacy_1.svg"
+                                    src={UserPrivacy}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3635,7 +3687,7 @@ const Navbar = () => {
                                 <Link to="terms-and-conditions-drafting-online.html">
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/tnc.png"
+                                    src={Tnc}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3668,7 +3720,7 @@ const Navbar = () => {
                         <div className="col-menu col-md-4">
                           <div className="megamenu_heading">
                             <img
-                              src="images/megamenubimage/Group_5675.png"
+                              src={Group5675}
                               loading="lazy"
                             />
                             <div>
@@ -3684,7 +3736,7 @@ const Navbar = () => {
                                 <Link to="legal-notice-reply.html">
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/legalreply.svg"
+                                    src={LegalReply}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3696,7 +3748,7 @@ const Navbar = () => {
                                 <Link to="legal-claim-help.html">
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/baggage-claim.svg"
+                                    src={BaggageClaim}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3710,7 +3762,7 @@ const Navbar = () => {
                         <div className="col-menu col-md-4">
                           <div className="megamenu_heading">
                             <img
-                              src="images/megamenubimage/Group_5675.png"
+                              // src={Group5675}
                               loading="lazy"
                             />
                             <div>
@@ -3726,7 +3778,7 @@ const Navbar = () => {
                                 <Link to="legal-notice.html">
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/help.png"
+                                    src={Help}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3758,7 +3810,7 @@ const Navbar = () => {
                       <div className="row">
                         <div className="col-menu col-md-5 pleft">
                           <div className="megamenu_heading">
-                            <img src="images/megamenubimage/Group_5675.png" />
+                            {/* <img src={Group5675} /> */}
                             <div>
                               <span className="title mtitle">
                                 Other Services
@@ -3772,7 +3824,7 @@ const Navbar = () => {
                                 <Link to="balance-sheet-prepration.html">
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/Group%205926.svg"
+                                    src={Group5926}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3785,7 +3837,7 @@ const Navbar = () => {
                                 <Link to="project-report-prepration.html">
                                   <img
                                     className="megamenu_icon"
-                                    src="images/icons/Group%205927.svg"
+                                    src={Group5927}
                                     loading="lazy"
                                   />
                                   <span className="hvr-sweep-to-right textres">
@@ -3817,7 +3869,7 @@ const Navbar = () => {
                       <div className="row">
                         <div className="col-menu">
                           <div className="megamenu_heading">
-                            <img src="images/megamenubimage/Group_5675.png" />
+                            {/* <img src={Group5675} /> */}
                             <div>
                               <span className="title mtitle">Utilities </span>
                             </div>
@@ -3830,7 +3882,7 @@ const Navbar = () => {
                                   <Link to="GST-calculator.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/calculator_icons/gst.svg"
+                                      src={GstImg}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3842,7 +3894,7 @@ const Navbar = () => {
                                   <Link to="SIP-calculator.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/calculator_icons/sip.svg"
+                                      src={SipImg}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3854,7 +3906,7 @@ const Navbar = () => {
                                   <Link to="EMI-calculator.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/calculator_icons/interest.svg"
+                                      src={InterestImg}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3866,7 +3918,7 @@ const Navbar = () => {
                                   <Link to="FD-calculator.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/calculator_icons/fd.svg"
+                                      src={FDimg}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3884,7 +3936,7 @@ const Navbar = () => {
                                   <Link to="80U-calculator.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/calculator_icons/Group_6457.svg"
+                                      src={Group6457}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3896,7 +3948,7 @@ const Navbar = () => {
                                   <Link to="HRA-calculator.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/calculator_icons/hra.svg"
+                                      src={HRAimg}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3908,7 +3960,7 @@ const Navbar = () => {
                                   <Link to="simple-interest.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/calculator_icons/interest-rate.svg"
+                                      src={InterestRateimg}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3920,7 +3972,7 @@ const Navbar = () => {
                                   <Link to="capital-gain-calulator.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/calculator_icons/capital_gain.svg"
+                                      src={CapitalGainimg}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3938,7 +3990,7 @@ const Navbar = () => {
                                   <Link to="TDS-calculator.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/calculator_icons/tds.svg"
+                                      src={Tds}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3950,7 +4002,7 @@ const Navbar = () => {
                                   <Link to="PPF-calculator.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/calculator_icons/ppf.svg"
+                                      src={PPF}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3962,7 +4014,7 @@ const Navbar = () => {
                                   <Link to="Gratuity-calculator.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/calculator_icons/gratuaty.svg"
+                                      src={Gratuaty}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
@@ -3974,7 +4026,7 @@ const Navbar = () => {
                                   <Link to="RD-calculator.html">
                                     <img
                                       className="megamenu_icon"
-                                      src="images/calculator_icons/rd.svg"
+                                      src={RDimg}
                                       loading="lazy"
                                     />
                                     <span className="hvr-sweep-to-right textres">
