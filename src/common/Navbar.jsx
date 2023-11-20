@@ -21,8 +21,8 @@ const Navbar = () => {
         <li className="dropdown">
           <Link to="/">Start Business</Link>
           <div className="dropdown-content">
-            <Link to="/">Partnership Deed</Link>
-            <Link to="/">Partner-ltd. Company registration</Link>
+            <Link to="/ParternerShip">Partnership Deed</Link>
+            <Link to="/ParternLtdCompanyRegisteration">Partner-ltd. Company registration</Link>
             <Link to="/">section-8-company-registration </Link>
             
             <Link to="/">LLP-company-registration</Link>
