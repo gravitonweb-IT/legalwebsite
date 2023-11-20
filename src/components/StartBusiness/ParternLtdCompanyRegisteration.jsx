@@ -2,7 +2,7 @@ import React from 'react'
 
 const ParternLtdCompanyRegisteration = () => {
   return (
-    <div>ParternLtdCompanyRegisteration</div>
+    <div>Pvt. Ltd. Company Registration</div>
   )
 }
 
