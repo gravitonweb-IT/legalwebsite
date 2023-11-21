@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84.044" height="52" viewBox="0 0 84.044 52">
+  <g id="Group_5909" data-name="Group 5909" transform="translate(-4)">
+    <g id="Group_5907" data-name="Group 5907" transform="translate(33.366)">
+      <path id="Path_24479" data-name="Path 24479" d="M-7436.979,9115.189l.561-51.922,22.08,10.832v31.234Z" transform="translate(7444.386 -9063.189)" fill="#fb9b35"/>
+      <path id="Path_24481" data-name="Path 24481" d="M-7436.979,9100.859l.408-37.59,15.984,7.84v22.617Z" transform="translate(7448.169 -9056.134)" fill="#fff"/>
+      <path id="Path_24480" data-name="Path 24480" d="M-7432.807,9063.23l-7.871,3.5v45.836l7.363,2.531Z" transform="translate(7440.678 -9063.23)" fill="#148706"/>
+    </g>
+    <text id="Ice" transform="translate(4 30.486)" fill="#042246" font-size="19" font-family="Gotham"><tspan x="0" y="0">Ice</tspan></text>
+    <text id="gate" transform="translate(45.044 30.486)" fill="#1e91c4" font-size="19" font-family="Gotham"><tspan x="0" y="0">gate</tspan></text>
+  </g>
+</svg>
