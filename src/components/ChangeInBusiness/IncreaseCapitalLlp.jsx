@@ -3409,7 +3409,7 @@ const IncreaseCapitalLlp = () => {
                       We believe you to be a part of this family and that all your
                       problems, as well as achievements, are our very own. Your
                       interests are ours and their fulfillment is at the top in
-                      our regards.
+                      our faithfull.
                     </p>
                   </div>
                 </center>
