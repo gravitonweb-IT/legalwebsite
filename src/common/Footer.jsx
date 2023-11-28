@@ -1,5 +1,5 @@
 import React from 'react'
-import Legalwhitelogo from "./../components/images/legalwhitelogo.svg";
+import Legalwhitelogo from "./../components/images/Media.jpg";
 import Visaimg from "./../components/images/visa.svg";
 import Upiimg from "./../components/images/upi.svg";
 import Rupayimg from "./../components/images/rupay.svg";
@@ -92,7 +92,7 @@ const Footer = () => {
                       className="__cf_email__"
                       data-cfemail="f4979b9a80959780b49891939598c6c1c5da979b99"
                     >
-                      [email&nbsp;protected]
+                      legal257rgvf@gmail.com
                     </span>
                   </Link>
                   <br />
@@ -101,7 +101,15 @@ const Footer = () => {
                     style={{ textDecoration: "underline", color: "#fff" }}
                     className="footertext"
                   >
-                    (+91)77728-77729
+                    9435266783/8133997722
+                  </Link>
+                  <br/>
+                  <Link
+                    to="tel:7772877729"
+                    style={{ textDecoration: "underline", color: "#fff" }}
+                    className="footertext"
+                  >
+                   UTTAR KHATOWAL RUPAHI NAGAON ASSAM <br/>PIN:- 782128
                   </Link>
                   <br />
                 </div>
