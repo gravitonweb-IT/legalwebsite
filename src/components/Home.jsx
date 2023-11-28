@@ -29,9 +29,21 @@ import Service20 from "./../assests/images/HomepageImages/trademark.svg";
 import Service21 from "./../assests/images/HomepageImages/gstreturn.svg";
 import Service22 from "./../assests/images/HomepageImages/gumasta.svg";
 import GoogleImg from "./../assests/images/HomepageImages/googleImg.png";
+import GstImg from "./../assests/images/HomepageImages/gst-image1.jfif";
+import consultant from "./../assests/images/HomepageImages/consultant.png";
+import taxConsultant from "./../assests/images/HomepageImages/tax-consultation.png";
+import taxExpert from "./../assests/images/HomepageImages/tax-expert.png";
+import taxFiling from "./../assests/images/HomepageImages/tax-filing.png";
+import taxPlaning from "./../assests/images/HomepageImages/tax-planing.png";
+import updatesOnLaw from "./../assests/images/HomepageImages/updates-on-law.png";
+import tile1 from "./../assests/images/HomepageImages/tile1.png";
+import tile2 from "./../assests/images/HomepageImages/tile2.png";
+import tile3 from "./../assests/images/HomepageImages/tile3.png";
+import tile4 from "./../assests/images/HomepageImages/tile4.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import "./home.css";
 
 const Home = () => {
   const settings1 = {
@@ -48,23 +60,23 @@ const Home = () => {
   const settings2 = {
     dots: true,
     infinite: true,
-    speed: 800,
+    speed: 400,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 1200,
+    autoplaySpeed: 1000,
   };
 
   const settings3 = {
     dots: false,
     infinite: true,
-    speed: 800,
+    speed: 500,
     slidesToShow: 6,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 1200,
+    autoplaySpeed: 1000,
   };
 
   const isSmallScreen1 = window.innerWidth <= 768;
@@ -81,8 +93,8 @@ const Home = () => {
   return (
     <>
       {/* hero section */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ml-0 md:ml-20 lg:ml-28 ">
-        <div className="mx-5 sm:mx-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ml-0 md:ml-20 lg:ml-28">
+        <div className="mx-5 md:mx-0">
           <p className="font-bold text-2xl md:text-4xl lg:text-5xl mt-5 md:mt-20 md:h-[120px] ">
             <Typewriter
               options={{
@@ -182,6 +194,10 @@ const Home = () => {
               </div>
             </Slider>
           </div>
+
+          <div className="mt-10">
+            <img src={GoogleImg}></img>
+          </div>
         </div>
 
         <div>
@@ -220,7 +236,7 @@ const Home = () => {
                         id="name"
                         name="name"
                         placeholder="Enter Your Name"
-                        className=" w-full md:w-[400px] mt-2  border p-2 rounded-lg"
+                        className=" w-full lg:w-[400px] mt-2  border p-2 rounded-lg"
                       />
                     </p>
                     <label className="mt-3">Email</label>
@@ -230,7 +246,7 @@ const Home = () => {
                         id="email"
                         name="email"
                         placeholder="Enter Your Email"
-                        className=" w-full md:w-[400px]  mt-2 border p-2 rounded-lg"
+                        className=" w-full lg:w-[400px]  mt-2 border p-2 rounded-lg"
                       />
                     </p>
                     <label className="mt-3">Contact Number</label>
@@ -241,13 +257,13 @@ const Home = () => {
                         id="pnum"
                         name="phone"
                         placeholder="Enter Your Number"
-                        className=" w-full md:w-[400px] mt-2  border p-2 rounded-lg"
+                        className=" w-full lg:w-[400px] mt-2  border p-2 rounded-lg"
                       />
                     </p>
                     <label>Related to</label>
                     <p>
                       <select
-                        className=" border p-2 w-full md:w-[400px] mt-2 rounded-lg"
+                        className=" border p-2 w-full lg:w-[400px] mt-2 rounded-lg"
                         required
                       >
                         <option value="" disabled selected>
@@ -285,12 +301,12 @@ const Home = () => {
       </div>
 
       {/* second part */}
-      <div className="mt-40 md:mt-64 flex justify-center font-bold text-2xl md:text-4xl mx-5 sm:mx-0">
+      <div className="mt-40 text-center font-bold text-2xl md:text-4xl mx-5 sm:mx-0">
         <h1>
           <span> Discover</span>257+ legal services over one platform
         </h1>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-6 gap-5 mx-5 md:mx-20 lg:mx-28 mt-5 md:mt-16">
+      <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-5 mx-5 md:mx-20 lg:mx-28 mt-10 md:mt-16">
         <div className="bg-white shadow-2xl rounded-[40px] p-5">
           <div className="flex justify-center">
             <img src={Service1} className="w-[50px] h-auto"></img>
@@ -618,8 +634,497 @@ const Home = () => {
         </Slider>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-12 gap-5 mx-5 md:mx-20 lg:mx-28 mt-5 bg-white shadow-2xl p-5">
-      <div></div>
+      <div
+        className="grid grid-cols-1 md:grid-cols-12 gap-5 mx-5 md:mx-20 lg:mx-28 px-5 md:px-20 mt-5 md:mt-10 
+       bg-white shadow-2xl p-5"
+      >
+        <div className="md:col-span-4 ">
+          <img src={GstImg}></img>
+        </div>
+
+        <div className="md:col-span-8">
+          <div className="grid grid-cols-1 md:grid-cols-2">
+            <div>
+              <h1 className="text-[#01355D] text-xl md:text-2xl font-semibold">
+                GST Registration
+              </h1>
+            </div>
+
+            <div>
+              <span className="font-semibold text-md">
+                Time Required : 6-7 days
+              </span>
+              <span className="border-r-2 border-black mx-3"></span>
+              <span className="font-semibold text-md">
+                Starting at : &#x20b9;
+                <b className="text-[#954535]">2251</b>
+              </span>
+            </div>
+          </div>
+
+          <p className="mt-5 text-md font-medium">
+            Register yourself as a trusted business of this country with GST
+            online in minutes. Ask our experts to guide you for an easy GST
+            Registration.
+          </p>
+          <div className="mt-5">
+            <button className="bg-[#8A4117] text-white px-4 py-3 rounded-[4px]">
+              GET STARTED
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* fifth part */}
+
+      <div className="mt-5 md:mt-20 text-center">
+        <h1 className="font-bold text-2xl md:text-4xl">
+          What We Can{" "}
+          <span className="bg-gradient-to-r from-purple-600 via-red-500 to-yellow-300">
+            Help You
+          </span>{" "}
+          With?
+        </h1>
+      </div>
+      <div className="mx-5 md:mx-20 lg:mx-28 mt-5 md:mt-20">
+        <Slider {...settings3}>
+          <div className="">
+            <div className="flex justify-center">
+              <img src={consultant} className="w-[40px] h-auto"></img>
+            </div>
+            <p className="text-md font-semibold text-center mt-3">
+              Consultancy
+            </p>
+          </div>
+
+          <div className="">
+            <div className="flex justify-center">
+              <img src={taxConsultant} className="w-[40px] h-auto"></img>
+            </div>
+            <p className="text-md font-semibold text-center mt-3">
+              Tax
+              <br />
+              Consultancy
+            </p>
+          </div>
+
+          <div className="">
+            <div className="flex justify-center">
+              <img src={taxExpert} className="w-[40px] h-auto"></img>
+            </div>
+            <p className="text-md font-semibold text-center mt-3">
+              Tax
+              <br />
+              Experts
+            </p>
+          </div>
+
+          <div className="">
+            <div className="flex justify-center">
+              <img src={taxFiling} className="w-[40px] h-auto"></img>
+            </div>
+            <p className="text-md font-semibold text-center mt-3">
+              Tax
+              <br />
+              Filing
+            </p>
+          </div>
+
+          <div className="">
+            <div className="flex justify-center">
+              <img src={taxPlaning} className="w-[40px] h-auto"></img>
+            </div>
+            <p className="text-md font-semibold text-center mt-3">
+              Tax
+              <br />
+              Planning
+            </p>
+          </div>
+
+          <div className="">
+            <div className="flex justify-center">
+              <img src={updatesOnLaw} className="w-[40px] h-auto"></img>
+            </div>
+            <p className="text-md font-semibold text-center mt-3">
+              Updates On
+              <br />
+              Laws
+            </p>
+          </div>
+
+          <div className="">
+            <div className="flex justify-center">
+              <img src={taxConsultant} className="w-[40px] h-auto"></img>
+            </div>
+            <p className="text-md font-semibold text-center mt-3">
+              Tax
+              <br />
+              Consultancy
+            </p>
+          </div>
+        </Slider>
+      </div>
+
+      {/* six part */}
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-10 mx-5 md:mx-20 lg:mx-32 mt-5 md:mt-20">
+        <div className="md:col-span-7">
+          <div class="hexagonrow1">
+            <div class="hexagoncol">
+              <div class="hexagon">
+                <img
+                  class="hexalogo"
+                  src="https://legal251.com/images/clients/1.png"
+                  loading="lazy"
+                />
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+              </div>
+            </div>
+            <div class="hexagoncol">
+              <div class="hexagon">
+                <img
+                  class="hexalogo"
+                  src="https://legal251.com/images/clients/2.png"
+                  loading="lazy"
+                />
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+              </div>
+            </div>
+            <div class="hexagoncol">
+              <div class="hexagon">
+                <img
+                  class="hexalogo"
+                  src="https://legal251.com/images/clients/3.png"
+                  loading="lazy"
+                />
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+              </div>
+            </div>
+            <div class="hexagoncol">
+              <div class="hexagon">
+                <img
+                  class="hexalogo"
+                  src="https://legal251.com/images/clients/4.png"
+                  loading="lazy"
+                />
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hexagonrow2">
+            <div class="hexagoncol">
+              <div class="hexagon">
+                <img
+                  class="hexalogo"
+                  src="https://legal251.com/images/clients/5.png"
+                  loading="lazy"
+                />
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+              </div>
+            </div>
+            <div class="hexagoncol">
+              <div class="hexagon">
+                <img
+                  class="hexalogo"
+                  src="https://legal251.com/images/clients/6.png"
+                  loading="lazy"
+                />
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+              </div>
+            </div>
+            <div class="hexagoncol">
+              <div class="hexagon">
+                <img
+                  class="hexalogo"
+                  src="https://legal251.com/images/clients/7.png"
+                  loading="lazy"
+                />
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+              </div>
+            </div>
+            <div class="hexagoncol">
+              <div class="hexagon">
+                <img
+                  class="hexalogo"
+                  src="https://legal251.com/images/clients/8.png"
+                  loading="lazy"
+                />
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+              </div>
+            </div>
+            <div class="hexagoncol">
+              <div class="hexagon">
+                <img
+                  class="hexalogo"
+                  src="https://legal251.com/images/clients/9.png"
+                  loading="lazy"
+                />
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hexagonrow3">
+            <div class="hexagoncol">
+              <div class="hexagon">
+                <img
+                  class="hexalogo"
+                  src="https://legal251.com/images/clients/10.png"
+                  loading="lazy"
+                />
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+              </div>
+            </div>
+            <div class="hexagoncol">
+              <div class="hexagon">
+                <img
+                  class="hexalogo"
+                  src="https://legal251.com/images/clients/11.png"
+                  loading="lazy"
+                />
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+              </div>
+            </div>
+            <div class="xagoncol">
+              <div class="hexagon">
+                <img
+                  class="hexalogo"
+                  src="https://legal251.com/images/clients/12.png"
+                  loading="lazy"
+                />
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+              </div>
+            </div>
+            <div class="hexagoncol">
+              <div class="hexagon">
+                <img
+                  class="hexalogo"
+                  src="https://legal251.com/images/clients/13.png"
+                  loading="lazy"
+                />
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="md:col-span-3">
+          <h3 className="text-center">
+            <span className="text-[#01355D] font-semibold text-2xl md:text-4xl">
+              100+
+            </span>
+          </h3>
+          <p className="text-center text-[#01355D] font-semibold">
+            Currently Served Cities
+          </p>
+
+          <h3 className="text-center mt-10 md:mt-28">
+            <span className="text-[#01355D] font-semibold text-2xl md:text-4xl">
+              110k+
+            </span>
+          </h3>
+          <p className="text-center text-[#01355D] font-semibold">
+            Trusted Clients
+          </p>
+        </div>
+
+        <div className="md:col-span-2">
+          <h3 className="text-center mt-0 md:mt-20">
+            <span className="text-[#01355D] font-semibold text-2xl md:text-4xl">
+              354+
+            </span>
+          </h3>
+          <p className="text-center text-[#01355D] font-semibold">
+            Qualified Professionals
+          </p>
+
+          <h3 className="text-center mt-10 md:mt-20">
+            <span className="text-[#01355D] font-semibold text-2xl md:text-4xl">
+              50k+
+            </span>
+          </h3>
+          <p className="text-center text-[#01355D] font-semibold">
+            Queries Solved
+          </p>
+        </div>
+      </div>
+
+      {/* sevent part */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20 mx-5 md:mx-20 lg:mx-32 mt-5 md:mt-20">
+        <div className="">
+          <h1 className="font-bold text-2xl md:text-4xl">
+            Why Choose <span className="text-[#954535]">Legal257?</span>
+          </h1>
+          <p class="mt-4 text-md font-medium text-justify">
+            Legal257 is the perfect choice for anyone looking to prepare legal
+            documents , registrations and compliance with ease and confidence.
+            Our team of experienced experts provide filing services that are
+            always on-time and accurate. Plus, we have a mobile app and
+            dashboard for managing your service &amp; documents, so you can stay
+            on top of your filing and other works from anywhere. With over 10
+            years of experience in the industry, you can trust us to get the job
+            done right!
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div className="">
+            <div className="flex">
+              <div className="">
+                <img src={tile1} className="w-[25px] h-auto"></img>
+              </div>
+
+              <div className="">
+                <p class="pl-5 font-semibold">Trusted Advisors</p>
+              </div>
+            </div>
+
+            <div className="flex mt-3">
+              <div className="">
+                <img src={tile2} className="w-[25px] h-auto"></img>
+              </div>
+
+              <div className="">
+                <p class="pl-5 font-semibold">10 Years of Experience</p>
+              </div>
+            </div>
+
+            <div className="flex mt-3">
+              <div className="">
+                <img src={tile3} className="w-[25px] h-auto"></img>
+              </div>
+
+              <div className="">
+                <p class="pl-5 font-semibold">Dedicated Experts</p>
+              </div>
+            </div>
+
+            <div className="flex mt-3">
+              <div className="">
+                <img src={tile4} className="w-[25px] h-auto"></img>
+              </div>
+
+              <div className="">
+                <p class="pl-5 font-semibold">Safe & Secure</p>
+              </div>
+            </div>
+
+            <div className="flex mt-3">
+              <div className="">
+                <img src={tile1} className="w-[25px] h-auto"></img>
+              </div>
+
+              <div className="">
+                <p class="pl-5 font-semibold">Digital Plateform</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="">
+            <div className="flex">
+              <div className="">
+                <img src={tile1} className="w-[25px] h-auto"></img>
+              </div>
+
+              <div className="">
+                <p class="pl-5 font-semibold">Round Clock Support</p>
+              </div>
+            </div>
+
+            <div className="flex mt-3">
+              <div className="">
+                <img src={tile2} className="w-[25px] h-auto"></img>
+              </div>
+
+              <div className="">
+                <p class="pl-5 font-semibold">Verified Professionals</p>
+              </div>
+            </div>
+
+            <div className="flex mt-3">
+              <div className="">
+                <img src={tile3} className="w-[25px] h-auto"></img>
+              </div>
+
+              <div className="">
+                <p class="pl-5 font-semibold">Quick and Reliable System</p>
+              </div>
+            </div>
+
+            <div className="flex mt-3">
+              <div className="">
+                <img src={tile4} className="w-[25px] h-auto"></img>
+              </div>
+
+              <div className="">
+                <p class="pl-5 font-semibold">Super Fast Team</p>
+              </div>
+            </div>
+
+            <div className="flex mt-3">
+              <div className="">
+                <img src={tile1} className="w-[25px] h-auto"></img>
+              </div>
+
+              <div className="">
+                <p class="pl-5 font-semibold">Best Operational Control</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* eight part */}
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-20 mx-5 md:mx-20 lg:mx-32 mt-5 md:mt-20">
+        <div className="md:col-span-7">
+          <p className="text-2xl md:text-3xl lg:text-5xl font-bold">
+            BOOK A <span className=" text-[#954535]">FREE</span>
+          </p>
+          <p className="text-2xl md:text-3xl lg:text-5xl font-bold mt-3">
+            <span className="text-[#01355D]">CONSULTATION </span>NOW!
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 mt-5 md:mt-10">
+            <div className="">
+              <p className="text-2xl md:text-2xl lg:text-4xl font-medium">
+                Ready to take first step ? Let's chat about how we can help.
+              </p>
+            </div>
+
+            <div className="">
+              <img
+                src="https://legal251.com/images/bookdemo/Group_9801.svg"
+                className="w-[50%] h-auto"
+              />
+            </div>
+          </div>
+
+          <div className="mt-5">
+            <button className="bg-[#8A4117] text-white px-4 py-3 rounded-[4px]">
+             Book A Free Demo
+            </button>
+          </div>
+        </div>
+
+        <div className="md:col-span-5 hidden lg:block">
+          <img
+            src="https://legal251.com/images/bookdemo/Group_97982x.png"
+            className=""
+          />
+        </div>
       </div>
     </>
   );
