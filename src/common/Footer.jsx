@@ -97,22 +97,16 @@ const Footer = () => {
                   </Link>
                   <br />
                   <Link
-                    to="tel:7772877729"
+                    to="tel:9435266783/8133997722"
                     style={{ textDecoration: "underline", color: "#fff" }}
                     className="footertext"
                   >
                     9435266783/8133997722
                   </Link>
                   <br/>
-                  <Link
-                    to="tel:7772877729"
-                    style={{ textDecoration: "underline", color: "#fff" }}
-                    className="footertext"
-                  >
-                   UTTAR KHATOWAL RUPAHI NAGAON ASSAM <br/>PIN:- 782128
-                  </Link>
-                  <br />
+                 
                 </div>
+                
                 <div className="col-md-3">
                   <p className="footerheading">Links</p>
                   <Link
@@ -239,40 +233,18 @@ const Footer = () => {
                 </div>
                 <div className="col-md-5">
                   <center>
-                    <p className="Subscribeinfoheading">
-                      Subscribe for more info
+                  <p className="footerheading">
+                      Address
                     </p>
-                    <div className="input-group Subscribeinfodiv">
-                      <input
-                        type="email"
-                        id="footerEmail"
-                        maxLength={50}
-                        className="form-control Subscribeemail Subscribeinfoinput"
-                        placeholder="email..."
-                        style={{ borderColor: "#F4FC40", borderRadius: 40 }}
-                        required=""
-                      />
-                      <div className="input-group-btn">
-                        <button
-                          id="footersubmitemail"
-                          onclick="submitfooteremail()"
-                          className="Subscribeinfobutton"
-                          type="submit"
-                        >
-                          <img
-                            src={Emailbuttonimg}
-                            className="Subscribeinfobuttonimg"
-                            loading="lazy"
-                          />
-                        </button>
-                      </div>
-                    </div>
-                    <p
-                      id="footererror"
-                      className="Subscribeemail"
-                      style={{ color: "#fe0c0c" }}
-                    />
-                    <br />
+                    <Link
+                    to="Address"
+                    style={{ textDecoration: "", color: "#fff" }}
+                    className="footertext"
+                  >
+                   UTTAR KHATOWAL RUPAHI NAGAON ASSAM <br/>PINCODE:- 782128
+                  </Link>
+                  <br />
+                     
                     <p className="Followusheading">Follow us on</p>
                     <Link
                       to="https://www.instagram.com/legal251india/"
