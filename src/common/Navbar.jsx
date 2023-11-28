@@ -98,6 +98,7 @@ import Tds from "./../components/images/calculator_icons/tds.svg";
 import PPF from "./../components/images/calculator_icons/ppf.svg";
 import Gratuaty from "./../components/images/calculator_icons/gratuaty.svg";
 import RDimg from "./../components/images/calculator_icons/rd.svg";
+import Lglimg from "./../components/images/common/Media.jpg";
 
 const Navbar = () => {
 
@@ -2706,9 +2707,9 @@ const Navbar = () => {
               <Link className="navbar-brand" to="/">
                 <center>
                   <img
-                    // src={Lglimg}
+                    src={Lglimg}
                     className="logo mainlogo"
-                    alt=""
+                    alt="img"
                   />
                 </center>
               </Link>

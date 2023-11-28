@@ -205,6 +205,7 @@ const Footer = () => {
                     Contact us
                   </Link>
                 </div>
+              
                 <div className="col-md-4">
                   <p className="footerheading">Account</p>
                   <Link
@@ -232,7 +233,7 @@ const Footer = () => {
                   </Link>
                 </div>
                 <div className="col-md-5">
-                  <center>
+                  
                   <p className="footerheading">
                       Address
                     </p>
@@ -241,7 +242,7 @@ const Footer = () => {
                     style={{ textDecoration: "", color: "#fff" }}
                     className="footertext"
                   >
-                   UTTAR KHATOWAL RUPAHI NAGAON ASSAM <br/>PINCODE:- 782128
+                   UTTAR KHATOWAL <br/>RUPAHI NAGAON ASSAM <br/>PINCODE:- 782128
                   </Link>
                   <br />
                      
@@ -284,13 +285,13 @@ const Footer = () => {
                         loading="lazy"
                       />{" "}
                     </Link>
-                  </center>
+                  
                 </div>
               </div>
             </div>
           </div>
           <p className="footerbottomtext" style={{ textAlign: "center" }}>
-            © 2023 ISONOMY LEGAL251 Private Limited. All Rights Reserved
+            © 2023 ISONOMY LEGAL257 Private Limited. All Rights Reserved
           </p>
         </footer>
         <div className="modal fade" id="myModal1" role="dialog">
@@ -398,7 +399,7 @@ const Footer = () => {
                     fontWeight: 800,
                   }}
                 >
-                  Thank You for Trusting Legal251
+                  Thank You for Trusting Legal257
                 </h4>
               </div>
               <div className="modal-body">
