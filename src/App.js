@@ -83,7 +83,7 @@ function App() {
         <Route path="/CmaReport" element={<CmaReport />} />
       </Routes>
 
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }

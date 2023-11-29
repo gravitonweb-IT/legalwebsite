@@ -50,8 +50,8 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 ${
         isScrolled
-          ? "bg-white text-black shadow-xl px-5 py-2 sm:px-10 sm:py-2 md:px-20 lg:px-28 md:py-2"
-          : "bg-white text-black shadow-lg px-5 py-2 sm:px-10 sm:py-2 md:px-20 lg:px-28 md:py-2"
+          ? "bg-white text-black shadow-lg px-5 py-2 sm:px-10 sm:py-2 md:px-20 lg:px-28 md:py-2"
+          : "bg-white text-black shadow-md px-5 py-2 sm:px-10 sm:py-2 md:px-20 lg:px-28 md:py-2"
       }`}
     >
       <div className="flex justify-between items-center">
@@ -166,7 +166,7 @@ const Navbar = () => {
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
-                          to="/"
+                          to="/ParternerShip"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -1436,9 +1436,11 @@ GST Calculator
                       </h2>
 
                       <div>
+                      <Link to="/ParternerShip">
                         <h2 className="text-lg font-semibold ">
                           Partnership Deed
                         </h2>
+                      </Link>
                         <h2 className="text-lg font-semibold">
                           Pvt. Ltd. Company Registration
                         </h2>
