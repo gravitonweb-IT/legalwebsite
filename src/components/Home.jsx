@@ -207,7 +207,7 @@ const Home = () => {
               src={ilegalhomeimg}
               alt="Legal Home"
             />
-            <div className="absolute top-0 left-0 w-full flex  justify-center mt-16 ">
+            <div className="absolute top-0 left-0 w-full flex  justify-center mt-28 ">
               <div className="bg-white shadow-lg rounded-2xl p-5">
                 <h1 className="font-semibold text-2xl flex justify-center text-[#01355D] ">
                   Get your queries solved by
