@@ -10,10 +10,55 @@ import {
   faFlagCheckered,
   faRegistered,
   faPlus,
-  faMinus
+  faMinus,
 } from "@fortawesome/free-solid-svg-icons";
-import { faHandshake,faPenToSquare  } from "@fortawesome/free-regular-svg-icons";
+import {
+  faHandshake,
+  faPenToSquare,
+} from "@fortawesome/free-regular-svg-icons";
 
+const faqs = [
+  {
+    id: 1,
+    question:
+      "Q1. Partnership Deed Registration is done under which Indian Constitution Act?",
+    answer:
+      "Partnership Act 1932 is responsible for Partnership Deed Registration in India.",
+  },
+  {
+    id: 2,
+    question:
+      "Q2. Which form is required to get registered under the Partnership Act?",
+    answer:
+      "Form No. 1 is required to get registered under the Partnership Act.",
+  },
+  {
+    id: 3,
+    question: "Q3. What are the types of Partnerships in India?",
+    answer:
+      "In India, there are two types of partnerships: Partnership at Will and Particular Partnership.",
+  },
+  {
+    id: 4,
+    question: "Q4. How much time does it take to Register a Partnership?",
+    answer:
+      "In India, the time for obtaining the Registration of a Partnership Firm varies from 14-16 working days.",
+  },
+  {
+    id: 5,
+    question:
+      "Q5. What is the minimum age to register as a partner in a partnership firm?",
+    answer:
+      "Legal257 New Services Complete Description: New Services - Google Docs",
+  },
+  {
+    id: 6,
+    question:
+      "Q10. Can my friend from a different country become a partner in my Partnership Firm?",
+    answer:
+      "Yes, a foreigner is eligible to become a partner in an Indian Partnership Firm and can contribute to the firm's capital in some cases.",
+  },
+];
 const ParternerShip = () => {
   const [formData, setFormData] = useState({
     firstName: "",
@@ -44,11 +89,16 @@ const ParternerShip = () => {
     });
   };
 
+  const [openId, setOpenId] = useState(null);
+
+  const toggleFAQ = (id) => {
+    setOpenId((prevId) => (prevId === id ? null : id));
+  };
+
   return (
     <>
-
       {/* section-1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-10 md:mt-28">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-20 md:mt-28">
         <div className="">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             Partnership Deed
@@ -187,9 +237,7 @@ const ParternerShip = () => {
               className="w-10 h-10 text-[#FFE56A]"
             />
           </div>
-          <h1 className="mt-3 text-center">
-          Claim Set-Off
-          </h1>
+          <h1 className="mt-3 text-center">Claim Set-Off</h1>
         </div>
 
         <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
@@ -199,9 +247,7 @@ const ParternerShip = () => {
               className="w-10 h-10 text-[#FFE56A]"
             />
           </div>
-          <h1 className="mt-3 text-center">
-          Conversion of Entity
-          </h1>
+          <h1 className="mt-3 text-center">Conversion of Entity</h1>
         </div>
 
         <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
@@ -211,9 +257,7 @@ const ParternerShip = () => {
               className="w-10 h-10 text-[#FFE56A]"
             />
           </div>
-          <h1 className="mt-3 text-center">
-          Higher Credibility
-          </h1>
+          <h1 className="mt-3 text-center">Higher Credibility</h1>
         </div>
 
         <div className="bg-white shadow-2xl  p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
@@ -223,9 +267,7 @@ const ParternerShip = () => {
               className="w-10 h-10 text-[#FFE56A]"
             />
           </div>
-          <h1 className="mt-3 text-center">
-          Obtain PAN
-          </h1>
+          <h1 className="mt-3 text-center">Obtain PAN</h1>
         </div>
 
         <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
@@ -235,9 +277,7 @@ const ParternerShip = () => {
               className="w-10 h-10 text-[#FFE56A]"
             />
           </div>
-          <h1 className="mt-3 text-center">
-          Apply for Bank Loan
-          </h1>
+          <h1 className="mt-3 text-center">Apply for Bank Loan</h1>
         </div>
 
         <div className="bg-white shadow-2xl  p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
@@ -247,9 +287,7 @@ const ParternerShip = () => {
               className="w-10 h-10 text-[#FFE56A]"
             />
           </div>
-          <h1 className="mt-3 text-center">
-          Open Bank Account in Firm's Name
-          </h1>
+          <h1 className="mt-3 text-center">Open Bank Account in Firm's Name</h1>
         </div>
 
         <div className="bg-white shadow-lg p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
@@ -260,7 +298,29 @@ const ParternerShip = () => {
             />
           </div>
           <h1 className="mt-3 text-center">
-          Get GST/IEC Registration/ FSSAI Licence
+            Get GST/IEC Registration/ FSSAI Licence
+          </h1>
+        </div>
+
+        <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
+          <div className=" text-center">
+            <FontAwesomeIcon
+              icon={faFlagCheckered}
+              className="w-10 h-10 text-[#FFE56A]"
+            />
+          </div>
+          <h1 className="mt-3 text-center">Sharing Profits & Losses</h1>
+        </div>
+
+        <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
+          <div className=" text-center">
+            <FontAwesomeIcon
+              icon={faFlagCheckered}
+              className="w-10 h-10 text-[#FFE56A]"
+            />
+          </div>
+          <h1 className="mt-3 text-center">
+            Easy to <br></br> Incorporate
           </h1>
         </div>
 
@@ -272,31 +332,7 @@ const ParternerShip = () => {
             />
           </div>
           <h1 className="mt-3 text-center">
-          Sharing Profits & Losses
-          </h1>
-        </div>
-
-        <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
-          <div className=" text-center">
-            <FontAwesomeIcon
-              icon={faFlagCheckered}
-              className="w-10 h-10 text-[#FFE56A]"
-            />
-          </div>
-          <h1 className="mt-3 text-center">
-          Easy to <br></br> Incorporate
-          </h1>
-        </div>
-
-        <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
-          <div className=" text-center">
-            <FontAwesomeIcon
-              icon={faFlagCheckered}
-              className="w-10 h-10 text-[#FFE56A]"
-            />
-          </div>
-          <h1 className="mt-3 text-center">
-          Less <br></br> Compliances
+            Less <br></br> Compliances
           </h1>
         </div>
       </div>
@@ -445,50 +481,68 @@ const ParternerShip = () => {
         </div>
       </div>
 
-
       {/* section-5 */}
-      {/* <div className="mt-10 md:mt-16 flex justify-center">
+      <div className="mt-10 md:mt-16 flex justify-center">
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#01355D]">
-        <FontAwesomeIcon icon={faPenToSquare}
+          <FontAwesomeIcon
+            icon={faPenToSquare}
             className="pr-5 text-[#01355D] "
           />
           Faq's
         </h1>
-      </div> */}
+      </div>
 
-{/*     
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mt-10 mx-5 md:mx-20 lg:mx-28 ">
-          <div className="flex justify-center">
-            <img src={Faq3} alt="FAQ" className="w-full md:w-[70%] h-auto"/>
-          </div>
-
-          <div className="">
-           
-            {accordionItems.map((item, index) => (
-              <div
-                key={index}
-                className={`faq-item border-2 p-4 mt-10 hover:shadow-xl cursor-pointer rounded-lg ${
-                  item.isOpen ? "shadow-xl" : ""
-                }`}
-              >
-                <div
-                  className="flex items-center justify-between cursor-pointer"
-                  onClick={() => toggleAccordion(index)}
-                >
-                  <h2 className="text-xl font-bold">{item.title}</h2>
-                  <FontAwesomeIcon
-                    icon={item.isOpen ? faMinus : faPlus}
-                    className="text-gray-600"
-                  />
-                </div>
-                {item.isOpen && (
-                  <p className="mt-4 text-[#64666C]">{item.content}</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mx-5 md:mx-20 lg:mx-28 mt-10">
+        {faqs.map((faq) => (
+          <div key={faq.id} className="p-4">
+            <div
+              className="border-2 border-gray-300 p-4 cursor-pointer flex justify-between items-center rounded-[4px]"
+              onClick={() => toggleFAQ(faq.id)}
+            >
+              <h2 className="text-lg font-semibold">{faq.question}</h2>
+              <span className="text-gray-500">
+                {openId === faq.id ? (
+                  <i className="fas fa-minus" />
+                ) : (
+                  <i className="fas fa-plus" />
                 )}
-              </div>
-            ))}
+              </span>
+            </div>
+            {openId === faq.id && (
+              <p className="text-gray-700 mt-2">{faq.answer}</p>
+            )}
           </div>
-        </div> */}
+        ))}
+      </div>
 
+      {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mx-5 md:mx-20 lg:mx-28 mt-10">
+        {faqs.map((faq) => (
+          <div
+            key={faq.id}
+            className="p-4 border-2 border-gray-300 rounded-[4px]"
+          >
+            <div
+              className="cursor-pointer flex justify-between items-center"
+              onClick={() => toggleFAQ(faq.id)}
+            >
+              <h2 className="text-lg font-semibold">{faq.question}</h2>
+              <span className="text-gray-500">
+                {openId === faq.id ? (
+                  <i className="fas fa-minus" />
+                ) : (
+                  <i className="fas fa-plus" />
+                )}
+              </span>
+            </div>
+            <div
+              style={{ visibility: openId === faq.id ? "visible" : "hidden" }}
+              className="text-gray-700 mt-2"
+            >
+              {faq.answer}
+            </div>
+          </div>
+        ))}
+      </div> */}
     </>
   );
 };
