@@ -1,15 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import { Link,  useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import legallogo from "./Images/logolegal.png";
 
 const Navbar = () => {
- 
-
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-
   const [isScrolled, setIsScrolled] = useState(false);
-
   const location = useLocation();
   const [activeDropdown, setActiveDropdown] = useState(null);
 
@@ -20,9 +16,6 @@ const Navbar = () => {
   const handleMouseLeave = () => {
     setActiveDropdown(null);
   };
-
-
-
 
   useEffect(() => {
     const handleScroll = () => {
@@ -45,8 +38,6 @@ const Navbar = () => {
   }, [location.pathname]);
 
   return (
-   
-
     <nav
       className={`fixed top-0 left-0 right-0 z-50 ${
         isScrolled
@@ -63,9 +54,7 @@ const Navbar = () => {
           )}
         </Link>
 
-         <div className="lg:hidden">
-         
-
+        <div className="lg:hidden">
           <button
             className="p-2 focus:outline-none third-dropdown-button"
             onClick={() => setIsDrawerOpen(!isDrawerOpen)}
@@ -85,7 +74,7 @@ const Navbar = () => {
               ></path>
             </svg>
           </button>
-        </div> 
+        </div>
         {/* Drawer */}
 
         {isDrawerOpen && (
@@ -111,15 +100,14 @@ const Navbar = () => {
             </button>
 
             <ul className="space-y-3">
-           {/* Start Business */}
-            <li>
+              {/* Start Business */}
+              <li>
                 <button
                   className="text-black hover:text-blue-500 focus:outline-none"
                   onMouseEnter={() => handleMouseEnter(1)}
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                   
                     className="hover:text-blue-500 font-semibold"
                     onClick={() => setIsDrawerOpen(true)}
                   >
@@ -159,10 +147,8 @@ const Navbar = () => {
                   )}
                 </button>
 
-                {activeDropdown  === 1 &&(
+                {activeDropdown === 1 && (
                   <div className="ml-2">
-                   
-
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
@@ -179,7 +165,7 @@ const Navbar = () => {
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        Pvt. Ltd. Company Registration
+                          Pvt. Ltd. Company Registration
                         </Link>
                       </p>
                       <p>
@@ -188,7 +174,7 @@ const Navbar = () => {
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        Section 8 Company Registration
+                          Section 8 Company Registration
                         </Link>
                       </p>
                       <p>
@@ -197,7 +183,7 @@ const Navbar = () => {
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                      LLP Company Registration
+                          LLP Company Registration
                         </Link>
                       </p>
                       <p>
@@ -206,21 +192,17 @@ const Navbar = () => {
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                         OPC Company REgistration
+                          OPC Company REgistration
                         </Link>
                       </p>
 
-                      <p>
-                   
-
-                     
-                      </p>
+                      <p></p>
                     </ul>
                   </div>
                 )}
               </li>
 
- {/* Start Business */}
+              {/* Start Business */}
               <li>
                 <button
                   className="text-black hover:text-blue-500 focus:outline-none"
@@ -228,7 +210,6 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                   
                     className="hover:text-blue-500 font-semibold"
                     onClick={() => setIsDrawerOpen(true)}
                   >
@@ -268,10 +249,8 @@ const Navbar = () => {
                   )}
                 </button>
 
-                {activeDropdown  === 2 &&(
+                {activeDropdown === 2 && (
                   <div className="ml-2">
-                   
-
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
@@ -288,7 +267,7 @@ const Navbar = () => {
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                         Annual Compliance Pvt.Ltd.
+                          Annual Compliance Pvt.Ltd.
                         </Link>
                       </p>
                       <p>
@@ -297,21 +276,17 @@ const Navbar = () => {
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                       CMA Report
+                          CMA Report
                         </Link>
                       </p>
 
-                      <p>
-                   
-
-                     
-                      </p>
+                      <p></p>
                     </ul>
                   </div>
                 )}
               </li>
 
-{/* Change in business */}
+              {/* Change in business */}
               <li>
                 <button
                   className="text-black hover:text-blue-500 focus:outline-none"
@@ -319,7 +294,6 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                   
                     className="hover:text-blue-500 font-semibold"
                     onClick={() => setIsDrawerOpen(true)}
                   >
@@ -359,10 +333,8 @@ const Navbar = () => {
                   )}
                 </button>
 
-                {activeDropdown  === 3 &&(
+                {activeDropdown === 3 && (
                   <div className="ml-2">
-                   
-
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
@@ -388,7 +360,7 @@ const Navbar = () => {
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                           Address Amendment Within state (Company)
+                          Address Amendment Within state (Company)
                         </Link>
                       </p>
                       <p>
@@ -406,17 +378,7 @@ const Navbar = () => {
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                           Address Amendment out of state (Company)
-                        </Link>
-                      </p>
-                     
-                      <p>
-                        <Link
-                          to="/"
-                          className="hover:text-blue-500"
-                          onClick={() => setIsDrawerOpen(false)}
-                        >
-                             Add Director (company)
+                          Address Amendment out of state (Company)
                         </Link>
                       </p>
 
@@ -426,54 +388,7 @@ const Navbar = () => {
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                             Add Partner (Company)
-                        </Link>
-                      </p>
-                      <p>
-                        <Link
-                          to="/"
-                          className="hover:text-blue-500"
-                          onClick={() => setIsDrawerOpen(false)}
-
-                        > Increase Capital (LLP)
-                        </Link>
-                      </p>
-                      <p>
-                        <Link
-                          to="/"
-                          className="hover:text-blue-500"
-                          onClick={() => setIsDrawerOpen(false)}
-                        >
-                               Change In Name of LLP
-                        </Link>
-                      </p>
-                      <p>
-                        <Link
-                          to="/"
-                          className="hover:text-blue-500"
-                          onClick={() => setIsDrawerOpen(false)}
-                        >
-                            Remove Director (Company)
-
-                        </Link>
-                      </p>
-                      <p>
-                        <Link
-                          to="/"
-                          className="hover:text-blue-500"
-                          onClick={() => setIsDrawerOpen(false)}
-                        >
-                              Remove Partner (LLP)
-                        </Link>
-                      </p>
-                      <p>
-                        <Link
-                          to="/"
-                          className="hover:text-blue-500"
-                          onClick={() => setIsDrawerOpen(false)}
-                        >
-                               
-Increase Capital (Company)
+                          Add Director (company)
                         </Link>
                       </p>
 
@@ -483,18 +398,69 @@ Increase Capital (Company)
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-      
-                               Change In Name of Company
+                          Add Partner (Company)
                         </Link>
                       </p>
-                 
+                      <p>
+                        <Link
+                          to="/"
+                          className="hover:text-blue-500"
+                          onClick={() => setIsDrawerOpen(false)}
+                        >
+                          {" "}
+                          Increase Capital (LLP)
+                        </Link>
+                      </p>
+                      <p>
+                        <Link
+                          to="/"
+                          className="hover:text-blue-500"
+                          onClick={() => setIsDrawerOpen(false)}
+                        >
+                          Change In Name of LLP
+                        </Link>
+                      </p>
+                      <p>
+                        <Link
+                          to="/"
+                          className="hover:text-blue-500"
+                          onClick={() => setIsDrawerOpen(false)}
+                        >
+                          Remove Director (Company)
+                        </Link>
+                      </p>
+                      <p>
+                        <Link
+                          to="/"
+                          className="hover:text-blue-500"
+                          onClick={() => setIsDrawerOpen(false)}
+                        >
+                          Remove Partner (LLP)
+                        </Link>
+                      </p>
+                      <p>
+                        <Link
+                          to="/"
+                          className="hover:text-blue-500"
+                          onClick={() => setIsDrawerOpen(false)}
+                        >
+                          Increase Capital (Company)
+                        </Link>
+                      </p>
 
-                  
+                      <p>
+                        <Link
+                          to="/"
+                          className="hover:text-blue-500"
+                          onClick={() => setIsDrawerOpen(false)}
+                        >
+                          Change In Name of Company
+                        </Link>
+                      </p>
                     </ul>
                   </div>
                 )}
               </li>
-
 
               {/* Registrations */}
               <li>
@@ -504,7 +470,6 @@ Increase Capital (Company)
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                   
                     className="hover:text-blue-500 font-semibold"
                     onClick={() => setIsDrawerOpen(true)}
                   >
@@ -544,10 +509,8 @@ Increase Capital (Company)
                   )}
                 </button>
 
-                {activeDropdown  === 4 &&(
+                {activeDropdown === 4 && (
                   <div className="ml-2">
-                   
-
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
@@ -555,10 +518,7 @@ Increase Capital (Company)
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        
- Import Export License (IEC)
-
-
+                          Import Export License (IEC)
                         </Link>
                       </p>
                       <p>
@@ -567,7 +527,7 @@ Increase Capital (Company)
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        ICEGATE Registration
+                          ICEGATE Registration
                         </Link>
                       </p>
 
@@ -597,7 +557,7 @@ Increase Capital (Company)
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        PF Registration
+                          PF Registration
                         </Link>
                       </p>
 
@@ -607,7 +567,7 @@ Increase Capital (Company)
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                         Professional Tax Registration
+                          Professional Tax Registration
                         </Link>
                       </p>
 
@@ -617,31 +577,7 @@ Increase Capital (Company)
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        Trade Mark Registration
-                        </Link>
-                      </p>
-
-
-
-
-                      <p>
-                        <Link
-                          to="/"
-                          className="hover:text-blue-500"
-                          onClick={() => setIsDrawerOpen(false)}
-                        >
-                        Gumasta License
-                        </Link>
-                      </p>
-
-
-                      <p>
-                        <Link
-                          to="/"
-                          className="hover:text-blue-500"
-                          onClick={() => setIsDrawerOpen(false)}
-                        >
-                         ESIC Registration
+                          Trade Mark Registration
                         </Link>
                       </p>
 
@@ -651,7 +587,7 @@ Increase Capital (Company)
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                         GST Registration
+                          Gumasta License
                         </Link>
                       </p>
 
@@ -661,8 +597,7 @@ Increase Capital (Company)
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        
-Food Licence
+                          ESIC Registration
                         </Link>
                       </p>
 
@@ -672,13 +607,29 @@ Food Licence
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                       Trade Licence
+                          GST Registration
                         </Link>
                       </p>
 
-                   
+                      <p>
+                        <Link
+                          to="/"
+                          className="hover:text-blue-500"
+                          onClick={() => setIsDrawerOpen(false)}
+                        >
+                          Food Licence
+                        </Link>
+                      </p>
 
-                   
+                      <p>
+                        <Link
+                          to="/"
+                          className="hover:text-blue-500"
+                          onClick={() => setIsDrawerOpen(false)}
+                        >
+                          Trade Licence
+                        </Link>
+                      </p>
                     </ul>
                   </div>
                 )}
@@ -693,11 +644,10 @@ Food Licence
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                   
                     className="hover:text-blue-500 font-semibold"
                     onClick={() => setIsDrawerOpen(true)}
                   >
-                  Filing & More
+                    Filing & More
                   </Link>
 
                   {activeDropdown ? (
@@ -733,10 +683,8 @@ Food Licence
                   )}
                 </button>
 
-                {activeDropdown  === 5 &&(
+                {activeDropdown === 5 && (
                   <div className="ml-2">
-                   
-
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
@@ -744,10 +692,7 @@ Food Licence
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                GST Return Filing
-
-
-
+                          GST Return Filing
                         </Link>
                       </p>
                       <p>
@@ -756,7 +701,7 @@ Food Licence
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        ITR Filing
+                          ITR Filing
                         </Link>
                       </p>
 
@@ -766,20 +711,15 @@ Food Licence
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        TDS Return Filing
+                          TDS Return Filing
                         </Link>
                       </p>
 
-                      <p>
-                   
-
-                     
-                      </p>
+                      <p></p>
                     </ul>
                   </div>
                 )}
               </li>
-
 
               <li>
                 <button
@@ -788,7 +728,6 @@ Food Licence
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                   
                     className="hover:text-blue-500 font-semibold"
                     onClick={() => setIsDrawerOpen(true)}
                   >
@@ -828,10 +767,8 @@ Food Licence
                   )}
                 </button>
 
-                {activeDropdown  === 6 &&(
+                {activeDropdown === 6 && (
                   <div className="ml-2">
-                   
-
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
@@ -839,12 +776,9 @@ Food Licence
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                       
-
-Online Accounting
+                          Online Accounting
                         </Link>
                       </p>
-                  
                     </ul>
                   </div>
                 )}
@@ -858,7 +792,6 @@ Online Accounting
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                   
                     className="hover:text-blue-500 font-semibold"
                     onClick={() => setIsDrawerOpen(true)}
                   >
@@ -898,10 +831,8 @@ Online Accounting
                   )}
                 </button>
 
-                {activeDropdown  === 7 &&(
+                {activeDropdown === 7 && (
                   <div className="ml-2">
-                   
-
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
@@ -909,8 +840,7 @@ Online Accounting
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                       Legal Drafting
-
+                          Legal Drafting
                         </Link>
                       </p>
                       <p>
@@ -919,7 +849,7 @@ Online Accounting
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                         Rent Agreement
+                          Rent Agreement
                         </Link>
                       </p>
                       <p>
@@ -928,7 +858,7 @@ Online Accounting
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        NOC
+                          NOC
                         </Link>
                       </p>
                       <p>
@@ -937,7 +867,7 @@ Online Accounting
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        Affidavit
+                          Affidavit
                         </Link>
                       </p>
                       <p>
@@ -946,7 +876,7 @@ Online Accounting
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        Power of Attorney
+                          Power of Attorney
                         </Link>
                       </p>
                       <p>
@@ -955,8 +885,7 @@ Online Accounting
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        
-Will
+                          Will
                         </Link>
                       </p>
                       <p>
@@ -965,8 +894,7 @@ Will
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        
-Application Form
+                          Application Form
                         </Link>
                       </p>
                       <p>
@@ -975,7 +903,7 @@ Application Form
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        NDA Drafting
+                          NDA Drafting
                         </Link>
                       </p>
                       <p>
@@ -984,7 +912,7 @@ Application Form
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                         Privacy Policy Drafting
+                          Privacy Policy Drafting
                         </Link>
                       </p>
                       <p>
@@ -993,12 +921,9 @@ Application Form
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                         
-Terms and Conditions Drafting
+                          Terms and Conditions Drafting
                         </Link>
                       </p>
-
-                    
                     </ul>
                   </div>
                 )}
@@ -1012,11 +937,10 @@ Terms and Conditions Drafting
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                   
                     className="hover:text-blue-500 font-semibold"
                     onClick={() => setIsDrawerOpen(true)}
                   >
-                  Legal Issue
+                    Legal Issue
                   </Link>
 
                   {activeDropdown ? (
@@ -1052,10 +976,8 @@ Terms and Conditions Drafting
                   )}
                 </button>
 
-                {activeDropdown  === 8 &&(
+                {activeDropdown === 8 && (
                   <div className="ml-2">
-                   
-
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
@@ -1063,12 +985,7 @@ Terms and Conditions Drafting
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        Legal Notice Reply
-
-
-
-
-
+                          Legal Notice Reply
                         </Link>
                       </p>
                       <p>
@@ -1077,15 +994,11 @@ Terms and Conditions Drafting
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                         Legal Advice
+                          Legal Advice
                         </Link>
                       </p>
 
-                      <p>
-                   
-
-                     
-                      </p>
+                      <p></p>
                     </ul>
                   </div>
                 )}
@@ -1098,11 +1011,10 @@ Terms and Conditions Drafting
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                   
                     className="hover:text-blue-500 font-semibold"
                     onClick={() => setIsDrawerOpen(true)}
                   >
-                  Legal Notice
+                    Legal Notice
                   </Link>
 
                   {activeDropdown ? (
@@ -1138,10 +1050,8 @@ Terms and Conditions Drafting
                   )}
                 </button>
 
-                {activeDropdown  === 9 &&(
+                {activeDropdown === 9 && (
                   <div className="ml-2">
-                   
-
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
@@ -1149,10 +1059,9 @@ Terms and Conditions Drafting
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                         Legal Notice Prepration
+                          Legal Notice Prepration
                         </Link>
                       </p>
-                  
                     </ul>
                   </div>
                 )}
@@ -1166,7 +1075,6 @@ Terms and Conditions Drafting
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                   
                     className="hover:text-blue-500 font-semibold"
                     onClick={() => setIsDrawerOpen(true)}
                   >
@@ -1206,10 +1114,8 @@ Terms and Conditions Drafting
                   )}
                 </button>
 
-                {activeDropdown  === 10 &&(
+                {activeDropdown === 10 && (
                   <div className="ml-2">
-                   
-
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
@@ -1218,7 +1124,6 @@ Terms and Conditions Drafting
                           onClick={() => setIsDrawerOpen(false)}
                         >
                           Balance Sheet Preparation & P&L
-
                         </Link>
                       </p>
                       <p>
@@ -1230,8 +1135,6 @@ Terms and Conditions Drafting
                           Project Report Preparationr
                         </Link>
                       </p>
-
-                   
                     </ul>
                   </div>
                 )}
@@ -1245,11 +1148,10 @@ Terms and Conditions Drafting
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                   
                     className="hover:text-blue-500 font-semibold"
                     onClick={() => setIsDrawerOpen(true)}
                   >
-                   Utilities
+                    Utilities
                   </Link>
 
                   {activeDropdown ? (
@@ -1285,10 +1187,8 @@ Terms and Conditions Drafting
                   )}
                 </button>
 
-                {activeDropdown  === 11 &&(
+                {activeDropdown === 11 && (
                   <div className="ml-2">
-                   
-
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
@@ -1296,10 +1196,7 @@ Terms and Conditions Drafting
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                         
-GST Calculator
-
-
+                          GST Calculator
                         </Link>
                       </p>
                       <p>
@@ -1308,7 +1205,7 @@ GST Calculator
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                         SIP Calculator
+                          SIP Calculator
                         </Link>
                       </p>
 
@@ -1318,7 +1215,7 @@ GST Calculator
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                       EMI Calculator
+                          EMI Calculator
                         </Link>
                       </p>
                       <p>
@@ -1327,7 +1224,7 @@ GST Calculator
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                       FD Calculator
+                          FD Calculator
                         </Link>
                       </p>
                       <p>
@@ -1336,7 +1233,7 @@ GST Calculator
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                       80U Calculator
+                          80U Calculator
                         </Link>
                       </p>
                       <p>
@@ -1345,7 +1242,7 @@ GST Calculator
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        HRA Calculator
+                          HRA Calculator
                         </Link>
                       </p>
                       <p>
@@ -1354,7 +1251,7 @@ GST Calculator
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        Simple Interest Calculator
+                          Simple Interest Calculator
                         </Link>
                       </p>
                       <p>
@@ -1363,7 +1260,7 @@ GST Calculator
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        Capital Gain Calculator
+                          Capital Gain Calculator
                         </Link>
                       </p>
                       <p>
@@ -1372,7 +1269,7 @@ GST Calculator
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        TDS Calculator
+                          TDS Calculator
                         </Link>
                       </p>
                       <p>
@@ -1381,7 +1278,7 @@ GST Calculator
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                       PPF Calculator
+                          PPF Calculator
                         </Link>
                       </p>
                       <p>
@@ -1390,7 +1287,7 @@ GST Calculator
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                        Gratuity Calculator
+                          Gratuity Calculator
                         </Link>
                       </p>
                       <p>
@@ -1399,24 +1296,21 @@ GST Calculator
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                       RD Calculator
+                          RD Calculator
                         </Link>
                       </p>
                     </ul>
                   </div>
                 )}
               </li>
-
-           
             </ul>
           </div>
         )}
 
         {/* for desktop */}
-       
 
         <ul className="hidden lg:flex text-md font-medium space-x-6">
-        {/* Start Business */}
+          {/* Start Business */}
           <li
             className="relative"
             onMouseEnter={() => handleMouseEnter(1)}
@@ -1436,11 +1330,11 @@ GST Calculator
                       </h2>
 
                       <div>
-                      <Link to="/ParternerShip">
-                        <h2 className="text-lg font-semibold ">
-                          Partnership Deed
-                        </h2>
-                      </Link>
+                        <Link to="/ParternerShip">
+                          <h2 className="text-lg font-semibold ">
+                            Partnership Deed
+                          </h2>
+                        </Link>
                         <h2 className="text-lg font-semibold">
                           Pvt. Ltd. Company Registration
                         </h2>
@@ -1529,9 +1423,8 @@ GST Calculator
                       </h2>
                       <h2 className="text-lg font-semibold">
                         {" "}
-                      Change In Name of LLP
+                        Change In Name of LLP
                       </h2>
-                     
                     </div>
 
                     <div className="mt-7 p-5">
@@ -1560,7 +1453,6 @@ GST Calculator
             )}
           </li>
 
-
           {/* Registrations */}
           <li
             className="relative"
@@ -1574,7 +1466,7 @@ GST Calculator
             {activeDropdown === 3 && (
               <div className="fixed inset-0 z-50 h-[30%] flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
-                <div className="grid grid-cols-3 gap-5 p-4">
+                  <div className="grid grid-cols-3 gap-5 p-4">
                     <div>
                       <h2 className="text-lg font-semibold text-blue-500">
                         {" "}
@@ -1587,10 +1479,10 @@ GST Calculator
                           Import Export License (IEC)
                         </h2>
                         <h2 className="text-lg font-semibold">
-                         ICEGATE Registrations
+                          ICEGATE Registrations
                         </h2>
                         <h2 className="text-lg font-semibold">
-                        MSME Registrations
+                          MSME Registrations
                         </h2>
                         <h2 className="text-lg font-semibold">
                           Society Registrations
@@ -1603,41 +1495,33 @@ GST Calculator
 
                     <div className="mt-7 p-4">
                       <h2 className="text-lg font-semibold">
-                       Professional Tax Registrations
+                        Professional Tax Registrations
                       </h2>
                       <h2 className="text-lg font-semibold">
                         {" "}
-                      Gumasta Registrations
+                        Gumasta Registrations
                       </h2>
                       <h2 className="text-lg font-semibold">
-                      Trade Mark Registrations
+                        Trade Mark Registrations
                       </h2>
                       <h2 className="text-lg font-semibold">
                         {" "}
-                       ESIC Registrations
+                        ESIC Registrations
                       </h2>
-                  
                     </div>
 
                     <div className="mt-7 p-4">
                       <h2 className="text-lg font-semibold">
-                       GST Registrations
+                        GST Registrations
                       </h2>
-                      <h2 className="text-lg font-semibold">
-                        {" "}
-                      Food License
-                      </h2>
-                      <h2 className="text-lg font-semibold">
-                        Trade License 
-                      </h2>
-                     
+                      <h2 className="text-lg font-semibold"> Food License</h2>
+                      <h2 className="text-lg font-semibold">Trade License</h2>
                     </div>
                   </div>
                 </div>
               </div>
             )}
           </li>
-
 
           {/* Filing & More */}
           <li
@@ -1655,32 +1539,28 @@ GST Calculator
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="p-4">
                       <h2 className="text-lg font-semibold text-blue-500">
-                       Filing{" "}
+                        Filing{" "}
                       </h2>
 
                       <div>
                         <h2 className="text-lg font-semibold ">
                           GST REturn Filing
                         </h2>
+                        <h2 className="text-lg font-semibold">ITR Filing</h2>
                         <h2 className="text-lg font-semibold">
-                         ITR Filing
+                          TDS Return Filing
                         </h2>
-                        <h2 className="text-lg font-semibold">
-                         TDS Return Filing
-                        </h2>
-                    
                       </div>
                     </div>
                     <div className="p-4">
                       <h2 className="text-lg font-semibold text-blue-500">
-                       Accounting
+                        Accounting
                       </h2>
                       <div>
                         <h2 className="text-lg font-semibold">
                           {" "}
-                         Online Accounting
+                          Online Accounting
                         </h2>
-                     
                       </div>
                     </div>
                   </div>
@@ -1688,7 +1568,6 @@ GST Calculator
               </div>
             )}
           </li>
-
 
           {/* Drafting */}
           <li
@@ -1703,56 +1582,42 @@ GST Calculator
             {activeDropdown === 5 && (
               <div className="fixed inset-0 z-50 h-[30%] flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
-                <div className="grid grid-cols-2 gap-4 p-4">
+                  <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="p-4">
                       <h2 className="text-lg font-semibold text-blue-500">
-                     Drafting
+                        Drafting
                       </h2>
 
                       <div>
                         <h2 className="text-lg font-semibold ">
-                        Legal Drafting
-
+                          Legal Drafting
                         </h2>
                         <h2 className="text-lg font-semibold">
-                        Rent Agreement
+                          Rent Agreement
                         </h2>
+                        <h2 className="text-lg font-semibold">NOC</h2>
+                        <h2 className="text-lg font-semibold">Affidavit</h2>
                         <h2 className="text-lg font-semibold">
-                         NOC
+                          Power Of Attorney
                         </h2>
-                        <h2 className="text-lg font-semibold">
-                       Affidavit
-                        </h2>
-                        <h2 className="text-lg font-semibold">
-                       Power Of Attorney
-                        </h2>
-                    
                       </div>
                     </div>
                     <div className="p-4 mt-5">
-                    
                       <div>
+                        <h2 className="text-lg font-semibold"> Will</h2>
                         <h2 className="text-lg font-semibold">
                           {" "}
-                       Will
+                          Application Form
+                        </h2>
+                        <h2 className="text-lg font-semibold"> NDA Drafting</h2>
+                        <h2 className="text-lg font-semibold">
+                          {" "}
+                          Privacy Policy Drafting
                         </h2>
                         <h2 className="text-lg font-semibold">
                           {" "}
-                     Application Form
+                          Terms & Conditions Drafting
                         </h2>
-                        <h2 className="text-lg font-semibold">
-                          {" "}
-                    NDA Drafting
-                        </h2>
-                        <h2 className="text-lg font-semibold">
-                          {" "}
-                   Privacy Policy Drafting
-                        </h2>
-                        <h2 className="text-lg font-semibold">
-                          {" "}
-                    Terms & Conditions Drafting
-                        </h2>
-                     
                       </div>
                     </div>
                   </div>
@@ -1774,33 +1639,28 @@ GST Calculator
             {activeDropdown === 6 && (
               <div className="fixed inset-0 z-50 h-[20%] flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
-                <div className="grid grid-cols-2 gap-4 p-4">
+                  <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="p-4">
                       <h2 className="text-lg font-semibold text-blue-500">
-                       Legal Reply
+                        Legal Reply
                       </h2>
 
                       <div>
                         <h2 className="text-lg font-semibold ">
-                         Legal Notice Reply
+                          Legal Notice Reply
                         </h2>
-                        <h2 className="text-lg font-semibold">
-                        Legal Advice
-                        </h2>
-                  
-                    
+                        <h2 className="text-lg font-semibold">Legal Advice</h2>
                       </div>
                     </div>
                     <div className="p-4">
                       <h2 className="text-lg font-semibold text-blue-500">
-                       Accounting
+                        Accounting
                       </h2>
                       <div>
                         <h2 className="text-lg font-semibold">
                           {" "}
-                         Legal Notice Preparation
+                          Legal Notice Preparation
                         </h2>
-                     
                       </div>
                     </div>
                   </div>
@@ -1808,7 +1668,6 @@ GST Calculator
               </div>
             )}
           </li>
-
 
           {/* Other Services */}
           <li
@@ -1823,31 +1682,26 @@ GST Calculator
             {activeDropdown === 7 && (
               <div className="fixed inset-0 z-50 h-[20%] flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
-                <div className="grid grid-cols-1  p-4">
+                  <div className="grid grid-cols-1  p-4">
                     <div className="p-4">
                       <h2 className="text-lg font-semibold text-blue-500">
-                      Other Services
+                        Other Services
                       </h2>
 
                       <div>
                         <h2 className="text-lg font-semibold ">
-                        Balance Sheet Preparation & P&L
-
+                          Balance Sheet Preparation & P&L
                         </h2>
                         <h2 className="text-lg font-semibold">
-                        Project Report Preparation
+                          Project Report Preparation
                         </h2>
-                  
-                    
                       </div>
                     </div>
-                
                   </div>
                 </div>
               </div>
             )}
           </li>
-
 
           {/* Utilities */}
           <li
@@ -1862,7 +1716,7 @@ GST Calculator
             {activeDropdown === 8 && (
               <div className="fixed inset-0 z-50 h-[30%] flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
-                <div className="grid grid-cols-3 gap-5 p-4">
+                  <div className="grid grid-cols-3 gap-5 p-4">
                     <div>
                       <h2 className="text-lg font-semibold text-blue-500">
                         {" "}
@@ -1873,60 +1727,36 @@ GST Calculator
                         <h2 className="text-lg font-semibold">
                           {" "}
                           GST Calculator
-
                         </h2>
                         <h2 className="text-lg font-semibold">
-                        SIP Calculator
+                          SIP Calculator
                         </h2>
                         <h2 className="text-lg font-semibold">
-                        EMI Calculator
+                          EMI Calculator
                         </h2>
-                        <h2 className="text-lg font-semibold">
-                        FD Calculator
-                        </h2>
-                     
+                        <h2 className="text-lg font-semibold">FD Calculator</h2>
                       </div>
                     </div>
 
                     <div className="mt-7 p-4">
+                      <h2 className="text-lg font-semibold">80U Calculator</h2>
+                      <h2 className="text-lg font-semibold"> HRA Calculator</h2>
                       <h2 className="text-lg font-semibold">
-                      80U Calculator
-
-
+                        Simple Interest Calculator
                       </h2>
                       <h2 className="text-lg font-semibold">
                         {" "}
-                        HRA Calculator
+                        Capital Gain Calculator
                       </h2>
-                      <h2 className="text-lg font-semibold">
-                      Simple Interest Calculator
-                      </h2>
-                      <h2 className="text-lg font-semibold">
-                        {" "}
-                     
-                                 Capital Gain Calculator
-                      </h2>
-                  
                     </div>
 
                     <div className="mt-7 p-4">
+                      <h2 className="text-lg font-semibold">TDS Calculator</h2>
+                      <h2 className="text-lg font-semibold"> PPF Calculator</h2>
                       <h2 className="text-lg font-semibold">
-                      TDS Calculator
-
-
-
+                        Gratuity Calculator
                       </h2>
-                      <h2 className="text-lg font-semibold">
-                        {" "}
-                        PPF Calculator
-                      </h2>
-                      <h2 className="text-lg font-semibold">
-                      Gratuity Calculator
-                      </h2>
-                      <h2 className="text-lg font-semibold">
-                      RD Calculator
-                      </h2>
-                     
+                      <h2 className="text-lg font-semibold">RD Calculator</h2>
                     </div>
                   </div>
                 </div>

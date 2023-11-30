@@ -14,14 +14,17 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import legallogo from "./Images/logolegal.png";
 
 const Footer = () => {
   return (
     <>
-      <div className="footer-part mt-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 mx-5 md:mx-20 lg:mx-28">
-          <div className="col-span-2">
-            <h4 className="text-[#954535] text-3xl font-bold">Legal257</h4>
+      <div className="footer-part mt-5 md:mt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-12 mx-5 md:mx-20 lg:mx-28">
+          <div className="lg:col-span-2">
+            <div>
+              <img src={legallogo} alt="" className="w-full md:w-[80%] h-auto" />
+            </div>
 
             <h5 className="mt-3 text-black text-lg font-semibold">
               <Link to="#">About Us</Link>
@@ -33,7 +36,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="col-span-2 mt-5 md:mt-4 lg:mt-0">
+          <div className="lg:col-span-2 mt-5 md:mt-4 lg:mt-0">
             <h5 className="text-black font-semibold text-lg">Support</h5>
 
             <div className="mt-2 md:mt-4 text-black">
@@ -47,7 +50,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col-span-2 mt-5 md:mt-4 lg:mt-0">
+          <div className="lg:col-span-2 mt-5 md:mt-4 lg:mt-0">
             <h5 className="text-black font-semibold text-lg">Legal & Policies</h5>
 
             <div className="mt-2 md:mt-4 text-black">
@@ -61,7 +64,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col-span-2 mt-5 md:mt-4 lg:mt-0">
+          <div className="lg:col-span-2 mt-5 md:mt-4 lg:mt-0">
             <h5 className="text-black font-semibold text-lg">Quick Links</h5>
 
             <div className="mt-2 md:mt-4 text-black">
@@ -88,7 +91,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col-span-2 mt-5 md:mt-4 lg:mt-0">
+          <div className="lg:col-span-2 mt-5 md:mt-4 lg:mt-0">
             <h5 className="text-black font-semibold text-lg">Account</h5>
 
             <div className="mt-2 md:mt-4 text-black">
@@ -102,7 +105,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col-span-2 mt-5 md:mt-4 lg:mt-0">
+          <div className="lg:col-span-2 mt-5 md:mt-4 lg:mt-0">
           <h5 className="text-black font-semibold text-lg">Contact Us</h5>
 
             <ul class="list-inline footer-contact mt-2 md:mt-4">

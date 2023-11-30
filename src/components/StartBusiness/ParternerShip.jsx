@@ -16,6 +16,14 @@ import {
   faHandshake,
   faPenToSquare,
 } from "@fortawesome/free-regular-svg-icons";
+import { faSquarespace } from "@fortawesome/free-brands-svg-icons";
+import "./PartnerShip.css";
+import whyChoose1 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose1.svg";
+import whyChoose2 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose2.svg";
+import whyChoose3 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose3.svg";
+import whyChoose4 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose4.svg";
+import whyChoose5 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose5.svg";
+import whyChoose6 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose6.svg";
 
 const faqs = [
   {
@@ -543,6 +551,104 @@ const ParternerShip = () => {
           </div>
         ))}
       </div> */}
+
+      {/* section-6 */}
+      <div className="mt-10 md:mt-16 flex justify-center">
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#01355D]">
+          <FontAwesomeIcon
+            icon={faSquarespace}
+            className="pr-5 text-[#01355D] "
+          />
+          Why Choose Us?
+        </h1>
+      </div>
+
+      <div className="why-choose-image mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-16 mx-5 md:mx-20 lg:mx-28 pt-12 lg:pt-20 pb-10">
+          <div className="text-white">
+            <div className="flex justify-center">
+              <img src={whyChoose1} alt="" className=" md:w-[40%] h-auto" />
+            </div>
+            <h1 className="mt-3 text-center text-xl font-semibold">
+              Growth & Improvement
+            </h1>
+            <p className="mt-2 text-center">
+              We believe in growth and improvement at all costs. For us, growth
+              is the law of life and it shall be fulfilled. We know the
+              importance of business and its growth for you.
+            </p>
+          </div>
+
+          <div className="text-white">
+            <div className="flex justify-center">
+              <img src={whyChoose2} alt="" className=" md:w-[35%] h-auto" />
+            </div>
+            <h1 className="mt-3 text-center text-xl font-semibold">
+              Support & Availability
+            </h1>
+            <p className="mt-2 text-center">
+              We feel how much pain even a small problem or query can cause,
+              that is the reason we are available to support you and solve any
+              of such problems at every particular instance in time.
+            </p>
+          </div>
+
+          <div className="text-white">
+            <div className="flex justify-center">
+              <img src={whyChoose3} alt="" className=" md:w-[30%] h-auto" />
+            </div>
+            <h1 className="mt-3 text-center text-xl font-semibold">
+              Experienced Team
+            </h1>
+            <p className="mt-2 text-center">
+              All the members of our team are experienced individuals who
+              believe in professionalism and customer satisfaction above all.
+              Each one of them is passionate in their respective fields.
+            </p>
+          </div>
+
+          <div className="text-white">
+            <div className="flex justify-center">
+              <img src={whyChoose4} alt="" className=" md:w-[35%] h-auto" />
+            </div>
+            <h1 className="mt-3 text-center text-xl font-semibold">Focus</h1>
+            <p className="mt-2 text-center">
+              Any assigned task is of utmost importance to us, that's why our
+              team members are always focused on taking care of even the
+              smallest of our clients' needs and requirements.
+            </p>
+          </div>
+
+          <div className="text-white">
+            <div className="flex justify-center">
+              <img src={whyChoose5} alt="" className=" md:w-[35%] h-auto" />
+            </div>
+            <h1 className="mt-3 text-center text-xl font-semibold">
+              Value For Money
+            </h1>
+            <p className="mt-2 text-center">
+              We understand that the money being spent is hard-earned, therefore
+              we utilize every single penny that you pay us in the most
+              effective way possible hence providing the best value for money.
+            </p>
+          </div>
+
+          <div className="text-white">
+            <div className="flex justify-center">
+              <img src={whyChoose6} alt="" className=" md:w-[35%] h-auto" />
+            </div>
+            <h1 className="mt-3 text-center text-xl font-semibold">
+              Care & Regards
+            </h1>
+            <p className="mt-2 text-center">
+              We believe you to be a part of this family and that all your
+              problems, as well as achievements, are our very own. Your
+              interests are ours and their fulfillment is at the top in our
+              regards.
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
