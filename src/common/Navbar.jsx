@@ -161,7 +161,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/PvtLtdCompanyRegisteration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -1331,13 +1331,15 @@ const Navbar = () => {
 
                       <div>
                         <Link to="/ParternerShip">
-                          <h2 className="text-lg font-semibold ">
+                          <h2 className="text-lg font-semibold  hover:text-blue-500">
                             Partnership Deed
                           </h2>
-                        </Link>
-                        <h2 className="text-lg font-semibold">
+                        </Link >
+                        <Link to= "/PvtLtdCompanyRegisteration">
+                        <h2 className="text-lg font-semibold  hover:text-blue-500">
                           Pvt. Ltd. Company Registration
                         </h2>
+                        </Link>
                         <h2 className="text-lg font-semibold">
                           Section 8 Company Registration
                         </h2>

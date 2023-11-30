@@ -42,7 +42,7 @@ function App() {
         />
         <Route path="/ParternerShip" element={<ParternerShip />} />
         <Route
-          path="/ParternLtdCompanyRegisteration"
+          path="/PvtLtdCompanyRegisteration"
           element={<ParternLtdCompanyRegisteration />}
         />
         <Route
