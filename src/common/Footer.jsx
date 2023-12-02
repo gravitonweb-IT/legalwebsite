@@ -112,14 +112,14 @@ const Footer = () => {
               <li className="mb-3">
                 <a href="#">
                   <FontAwesomeIcon icon={faPhone} className="footer-icon" />
-                  +91-1234567890
+                  +91-9435266783 / +91-8133997722
                 </a>
               </li>
 
               <li className="mb-3">
                 <a href="#">
                   <FontAwesomeIcon icon={faEnvelope} className="footer-icon" />
-                  legal257@gmail.com
+                  Legal257@gmail.com
                 </a>
               </li>
 
@@ -129,7 +129,8 @@ const Footer = () => {
                     icon={faLocationDot}
                     className="footer-icon"
                   />
-                 address
+                 UTTAR KHATOWAL RUPAHI NAGAON ASSAM 
+                 PIN:- 782128
                 </Link>
               </li>
             </ul>

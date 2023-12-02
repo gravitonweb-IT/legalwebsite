@@ -41,8 +41,8 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 ${
         isScrolled
-          ? "bg-white text-black shadow-lg px-5 py-2 sm:px-10 sm:py-2 md:px-20 lg:px-28 md:py-2"
-          : "bg-white text-black shadow-md px-5 py-2 sm:px-10 sm:py-2 md:px-20 lg:px-28 md:py-2"
+          ? "bg-white text-black shadow-lg px-5 py-2 sm:px-8 sm:py-2 md:px-12  xl:px-20"
+          : "bg-white text-black shadow-md px-5 py-2 sm:px-8 sm:py-2 md:px-12  xl:px-20"
       }`}
     >
       <div className="flex justify-between items-center">
@@ -54,7 +54,7 @@ const Navbar = () => {
           )}
         </Link>
 
-        <div className="lg:hidden">
+        <div className="xl:hidden">
           <button
             className="p-2 focus:outline-none third-dropdown-button"
             onClick={() => setIsDrawerOpen(!isDrawerOpen)}
@@ -78,9 +78,9 @@ const Navbar = () => {
         {/* Drawer */}
 
         {isDrawerOpen && (
-          <div className="lg:hidden absolute top-0 right-0 h-screen w-full bg-white text-black p-4 shadow-md overflow-y-auto">
+          <div className="xl:hidden absolute top-0 right-0 h-screen w-full bg-white text-black p-4 shadow-md overflow-y-auto">
             <button
-              className="text-black font-bold p-2 focus:outline-none absolute top-2 right-2"
+              className="text-black  p-2 focus:outline-none absolute top-2 right-2"
               onClick={() => setIsDrawerOpen(false)}
             >
               <svg
@@ -108,7 +108,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                    className="hover:text-blue-500 font-semibold"
+                    className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(true)}
                   >
                     Start Business
@@ -210,7 +210,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                    className="hover:text-blue-500 font-semibold"
+                    className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(true)}
                   >
                     Compliance
@@ -294,7 +294,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                    className="hover:text-blue-500 font-semibold"
+                    className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(true)}
                   >
                     Change In Business
@@ -470,7 +470,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                    className="hover:text-blue-500 font-semibold"
+                    className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(true)}
                   >
                     Registrations
@@ -644,7 +644,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                    className="hover:text-blue-500 font-semibold"
+                    className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(true)}
                   >
                     Filing & More
@@ -728,7 +728,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                    className="hover:text-blue-500 font-semibold"
+                    className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(true)}
                   >
                     Accounting
@@ -792,7 +792,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                    className="hover:text-blue-500 font-semibold"
+                    className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(true)}
                   >
                     Drafting
@@ -937,7 +937,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                    className="hover:text-blue-500 font-semibold"
+                    className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(true)}
                   >
                     Legal Issue
@@ -1011,7 +1011,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                    className="hover:text-blue-500 font-semibold"
+                    className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(true)}
                   >
                     Legal Notice
@@ -1075,7 +1075,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                    className="hover:text-blue-500 font-semibold"
+                    className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(true)}
                   >
                     Other Services
@@ -1148,7 +1148,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
-                    className="hover:text-blue-500 font-semibold"
+                    className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(true)}
                   >
                     Utilities
@@ -1309,14 +1309,14 @@ const Navbar = () => {
 
         {/* for desktop */}
 
-        <ul className="hidden lg:flex text-md font-medium space-x-6">
+        <ul className="hidden xl:flex text-md  space-x-4">
           {/* Start Business */}
           <li
             className="relative"
             onMouseEnter={() => handleMouseEnter(1)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 font-bold text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
               Start Business
             </Link>
 
@@ -1325,45 +1325,45 @@ const Navbar = () => {
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="p-4">
-                      <h2 className="text-lg font-semibold text-blue-500">
+                      <h2 className="text-sm xl:text-lg  text-blue-500">
                         Start Business{" "}
                       </h2>
 
                       <div>
                         <Link to="/ParternerShip">
-                          <h2 className="text-lg font-semibold  hover:text-blue-500">
+                          <h2 className="text-sm xl:text-lg   hover:text-blue-500">
                             Partnership Deed
                           </h2>
                         </Link >
                         <Link to= "/PvtLtdCompanyRegisteration">
-                        <h2 className="text-lg font-semibold  hover:text-blue-500">
+                        <h2 className="text-sm xl:text-lg   hover:text-blue-500">
                           Pvt. Ltd. Company Registration
                         </h2>
                         </Link>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           Section 8 Company Registration
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           LLP Company Registration
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           OPC Company REgistration
                         </h2>
                       </div>
                     </div>
                     <div className="p-4">
-                      <h2 className="text-lg font-semibold text-blue-500">
+                      <h2 className="text-sm xl:text-lg  text-blue-500">
                         Compliance
                       </h2>
                       <div>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           {" "}
                           Annual Compliance LLP{" "}
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           Annual Compliance Pvt.Ltd.
                         </h2>
-                        <h2 className="text-lg font-semibold">CMA Report</h2>
+                        <h2 className="text-sm xl:text-lg ">CMA Report</h2>
                       </div>
                     </div>
                   </div>
@@ -1378,7 +1378,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(2)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 font-bold text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
               Change In Business
             </Link>
 
@@ -1387,64 +1387,64 @@ const Navbar = () => {
                 <div className="bg-white text-black border shadow-lg rounded-b-lg text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-3 gap-5 p-4">
                     <div>
-                      <h2 className="text-lg font-semibold text-blue-500">
+                      <h2 className="text-sm xl:text-lg  text-blue-500">
                         {" "}
                         Change In Business
                       </h2>
 
                       <div className="p-4">
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           {" "}
                           Dissolution of deeds
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           Address Amendment Within state (LLP)
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           Address Amendment Within state (Company)
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           Address Amendment out of state (LLP)
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           Address Amendment out of state (Company)
                         </h2>
                       </div>
                     </div>
 
                     <div className="mt-7 p-5">
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         Add Director (company)
                       </h2>
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         {" "}
                         Add Partner (Company)
                       </h2>
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         Increase Capital (LLP)
                       </h2>
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         {" "}
                         Change In Name of LLP
                       </h2>
                     </div>
 
                     <div className="mt-7 p-5">
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         Remove Director (Company)
                       </h2>
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         {" "}
                         Remove Partner LLP
                       </h2>
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         Increase Capital (LLP)
                       </h2>
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         {" "}
                         Increase Capital(Company)
                       </h2>
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         {" "}
                         Change In Name Of Company
                       </h2>
@@ -1461,7 +1461,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(3)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 font-bold text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
               Registrations
             </Link>
 
@@ -1470,54 +1470,54 @@ const Navbar = () => {
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-3 gap-5 p-4">
                     <div>
-                      <h2 className="text-lg font-semibold text-blue-500">
+                      <h2 className="text-sm xl:text-lg  text-blue-500">
                         {" "}
                         Registrations
                       </h2>
 
                       <div className="p-4">
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           {" "}
                           Import Export License (IEC)
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           ICEGATE Registrations
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           MSME Registrations
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           Society Registrations
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           PF Registrations
                         </h2>
                       </div>
                     </div>
 
                     <div className="mt-7 p-4">
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         Professional Tax Registrations
                       </h2>
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         {" "}
                         Gumasta Registrations
                       </h2>
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         Trade Mark Registrations
                       </h2>
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         {" "}
                         ESIC Registrations
                       </h2>
                     </div>
 
                     <div className="mt-7 p-4">
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         GST Registrations
                       </h2>
-                      <h2 className="text-lg font-semibold"> Food License</h2>
-                      <h2 className="text-lg font-semibold">Trade License</h2>
+                      <h2 className="text-sm xl:text-lg "> Food License</h2>
+                      <h2 className="text-sm xl:text-lg ">Trade License</h2>
                     </div>
                   </div>
                 </div>
@@ -1531,7 +1531,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(4)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 font-bold text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
               Filing & More
             </Link>
 
@@ -1540,26 +1540,26 @@ const Navbar = () => {
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="p-4">
-                      <h2 className="text-lg font-semibold text-blue-500">
+                      <h2 className="text-sm xl:text-lg  text-blue-500">
                         Filing{" "}
                       </h2>
 
                       <div>
-                        <h2 className="text-lg font-semibold ">
+                        <h2 className="text-sm xl:text-lg  ">
                           GST REturn Filing
                         </h2>
-                        <h2 className="text-lg font-semibold">ITR Filing</h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">ITR Filing</h2>
+                        <h2 className="text-sm xl:text-lg ">
                           TDS Return Filing
                         </h2>
                       </div>
                     </div>
                     <div className="p-4">
-                      <h2 className="text-lg font-semibold text-blue-500">
+                      <h2 className="text-sm xl:text-lg  text-blue-500">
                         Accounting
                       </h2>
                       <div>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           {" "}
                           Online Accounting
                         </h2>
@@ -1577,7 +1577,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(5)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 font-bold text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
               Drafting
             </Link>
 
@@ -1586,37 +1586,37 @@ const Navbar = () => {
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="p-4">
-                      <h2 className="text-lg font-semibold text-blue-500">
+                      <h2 className="text-sm xl:text-lg  text-blue-500">
                         Drafting
                       </h2>
 
                       <div>
-                        <h2 className="text-lg font-semibold ">
+                        <h2 className="text-sm xl:text-lg  ">
                           Legal Drafting
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           Rent Agreement
                         </h2>
-                        <h2 className="text-lg font-semibold">NOC</h2>
-                        <h2 className="text-lg font-semibold">Affidavit</h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">NOC</h2>
+                        <h2 className="text-sm xl:text-lg ">Affidavit</h2>
+                        <h2 className="text-sm xl:text-lg ">
                           Power Of Attorney
                         </h2>
                       </div>
                     </div>
                     <div className="p-4 mt-5">
                       <div>
-                        <h2 className="text-lg font-semibold"> Will</h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg "> Will</h2>
+                        <h2 className="text-sm xl:text-lg ">
                           {" "}
                           Application Form
                         </h2>
-                        <h2 className="text-lg font-semibold"> NDA Drafting</h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg "> NDA Drafting</h2>
+                        <h2 className="text-sm xl:text-lg ">
                           {" "}
                           Privacy Policy Drafting
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           {" "}
                           Terms & Conditions Drafting
                         </h2>
@@ -1634,7 +1634,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(6)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 font-bold text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
               Legal Issues
             </Link>
 
@@ -1643,23 +1643,23 @@ const Navbar = () => {
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="p-4">
-                      <h2 className="text-lg font-semibold text-blue-500">
+                      <h2 className="text-sm xl:text-lg  text-blue-500">
                         Legal Reply
                       </h2>
 
                       <div>
-                        <h2 className="text-lg font-semibold ">
+                        <h2 className="text-sm xl:text-lg  ">
                           Legal Notice Reply
                         </h2>
-                        <h2 className="text-lg font-semibold">Legal Advice</h2>
+                        <h2 className="text-sm xl:text-lg ">Legal Advice</h2>
                       </div>
                     </div>
                     <div className="p-4">
-                      <h2 className="text-lg font-semibold text-blue-500">
+                      <h2 className="text-sm xl:text-lg  text-blue-500">
                         Accounting
                       </h2>
                       <div>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           {" "}
                           Legal Notice Preparation
                         </h2>
@@ -1677,7 +1677,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(7)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 font-bold text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
               Other Services
             </Link>
 
@@ -1686,15 +1686,15 @@ const Navbar = () => {
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-1  p-4">
                     <div className="p-4">
-                      <h2 className="text-lg font-semibold text-blue-500">
+                      <h2 className="text-sm xl:text-lg  text-blue-500">
                         Other Services
                       </h2>
 
                       <div>
-                        <h2 className="text-lg font-semibold ">
+                        <h2 className="text-sm xl:text-lg  ">
                           Balance Sheet Preparation & P&L
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           Project Report Preparation
                         </h2>
                       </div>
@@ -1711,7 +1711,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(8)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 font-bold text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
               Utilities
             </Link>
 
@@ -1720,45 +1720,45 @@ const Navbar = () => {
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-3 gap-5 p-4">
                     <div>
-                      <h2 className="text-lg font-semibold text-blue-500">
+                      <h2 className="text-sm xl:text-lg  text-blue-500">
                         {" "}
                         Utilites
                       </h2>
 
                       <div className="p-4">
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           {" "}
                           GST Calculator
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           SIP Calculator
                         </h2>
-                        <h2 className="text-lg font-semibold">
+                        <h2 className="text-sm xl:text-lg ">
                           EMI Calculator
                         </h2>
-                        <h2 className="text-lg font-semibold">FD Calculator</h2>
+                        <h2 className="text-sm xl:text-lg ">FD Calculator</h2>
                       </div>
                     </div>
 
                     <div className="mt-7 p-4">
-                      <h2 className="text-lg font-semibold">80U Calculator</h2>
-                      <h2 className="text-lg font-semibold"> HRA Calculator</h2>
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">80U Calculator</h2>
+                      <h2 className="text-sm xl:text-lg "> HRA Calculator</h2>
+                      <h2 className="text-sm xl:text-lg ">
                         Simple Interest Calculator
                       </h2>
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">
                         {" "}
                         Capital Gain Calculator
                       </h2>
                     </div>
 
                     <div className="mt-7 p-4">
-                      <h2 className="text-lg font-semibold">TDS Calculator</h2>
-                      <h2 className="text-lg font-semibold"> PPF Calculator</h2>
-                      <h2 className="text-lg font-semibold">
+                      <h2 className="text-sm xl:text-lg ">TDS Calculator</h2>
+                      <h2 className="text-sm xl:text-lg "> PPF Calculator</h2>
+                      <h2 className="text-sm xl:text-lg ">
                         Gratuity Calculator
                       </h2>
-                      <h2 className="text-lg font-semibold">RD Calculator</h2>
+                      <h2 className="text-sm xl:text-lg ">RD Calculator</h2>
                     </div>
                   </div>
                 </div>

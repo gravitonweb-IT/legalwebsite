@@ -94,7 +94,7 @@ const Home = () => {
     <>
       {/* hero section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ml-0 md:ml-20 lg:ml-28">
-        <div className="mx-5 md:mx-0">
+        <div className="mx-5 md:mx-0 mt-20">
           <p className="font-bold text-2xl md:text-4xl lg:text-5xl mt-5 md:mt-20 md:h-[120px] ">
             <Typewriter
               options={{
@@ -677,7 +677,7 @@ const Home = () => {
 
       {/* fifth part */}
 
-      <div className="mt-5 md:mt-20 text-center">
+      <div className="mt-10 md:mt-20 text-center">
         <h1 className="font-bold text-2xl md:text-4xl">
           What We Can{" "}
           <span className="bg-gradient-to-r from-purple-600 via-red-500 to-yellow-300">
