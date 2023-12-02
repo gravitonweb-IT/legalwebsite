@@ -119,7 +119,7 @@ const Footer = () => {
               <li className="mb-3">
                 <a href="#">
                   <FontAwesomeIcon icon={faEnvelope} className="footer-icon" />
-                  Legal257@gmail.com
+                  Legal257rgvf@gmail.com
                 </a>
               </li>
 

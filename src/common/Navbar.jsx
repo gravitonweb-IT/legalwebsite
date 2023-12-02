@@ -1309,14 +1309,14 @@ const Navbar = () => {
 
         {/* for desktop */}
 
-        <ul className="hidden xl:flex text-md  space-x-4">
+        <ul className="hidden xl:flex space-x-4">
           {/* Start Business */}
           <li
             className="relative"
             onMouseEnter={() => handleMouseEnter(1)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
+            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md">
               Start Business
             </Link>
 
@@ -1324,14 +1324,12 @@ const Navbar = () => {
               <div className="fixed inset-0 z-50  min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
-                    <div className="p-4">
-                      <h2 className="text-sm xl:text-md  text-blue-500">
+                    <div className="">
+                      <h2 className="text-sm xl:text-md text-blue-500 mb-3">
                         Start Business{" "}
                       </h2>
-
-                      <div>
                         <Link to="/ParternerShip">
-                          <h2 className="text-sm xl:text-md   hover:text-blue-500">
+                          <h2 className="text-sm xl:text-md hover:text-blue-500">
                             Partnership Deed
                           </h2>
                         </Link >
@@ -1349,13 +1347,14 @@ const Navbar = () => {
                         <h2 className="text-sm xl:text-md ">
                           OPC Company REgistration
                         </h2>
-                      </div>
+                    
                     </div>
-                    <div className="p-4">
-                      <h2 className="text-sm xl:text-md  text-blue-500">
+                    
+                    <div className="">
+                      <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         Compliance
                       </h2>
-                      <div>
+                      
                         <h2 className="text-sm xl:text-md ">
                           {" "}
                           Annual Compliance LLP{" "}
@@ -1364,8 +1363,8 @@ const Navbar = () => {
                           Annual Compliance Pvt.Ltd.
                         </h2>
                         <h2 className="text-sm xl:text-md ">CMA Report</h2>
-                      </div>
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -1386,13 +1385,11 @@ const Navbar = () => {
               <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-3 gap-5 p-4">
-                    <div>
-                      <h2 className="text-sm xl:text-md  text-blue-500">
+                    <div className="">
+                      <h2 className="text-sm xl:text-md text-blue-500 mb-3">
                         {" "}
                         Change In Business
                       </h2>
-
-                      <div className="p-4">
                         <h2 className="text-sm xl:text-md ">
                           {" "}
                           Dissolution of deeds
@@ -1409,7 +1406,7 @@ const Navbar = () => {
                         <h2 className="text-sm xl:text-md ">
                           Address Amendment out of state (Company)
                         </h2>
-                      </div>
+                      
                     </div>
 
                     <div className="mt-7 p-5">
@@ -1470,12 +1467,11 @@ const Navbar = () => {
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-3 gap-5 p-4">
                     <div>
-                      <h2 className="text-sm xl:text-md  text-blue-500">
+                      <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         {" "}
                         Registrations
                       </h2>
 
-                      <div className="p-4">
                         <h2 className="text-sm xl:text-md ">
                           {" "}
                           Import Export License (IEC)
@@ -1492,7 +1488,7 @@ const Navbar = () => {
                         <h2 className="text-sm xl:text-md ">
                           PF Registrations
                         </h2>
-                      </div>
+                     
                     </div>
 
                     <div className="mt-7 p-4">
@@ -1539,12 +1535,10 @@ const Navbar = () => {
               <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
-                    <div className="p-4">
-                      <h2 className="text-sm xl:text-md  text-blue-500">
+                    <div className="">
+                      <h2 className="text-sm xl:text-md text-blue-500 mb-3">
                         Filing{" "}
                       </h2>
-
-                      <div>
                         <h2 className="text-sm xl:text-md  ">
                           GST REturn Filing
                         </h2>
@@ -1552,18 +1546,18 @@ const Navbar = () => {
                         <h2 className="text-sm xl:text-md ">
                           TDS Return Filing
                         </h2>
-                      </div>
+                    
                     </div>
-                    <div className="p-4">
-                      <h2 className="text-sm xl:text-md  text-blue-500">
+
+                    <div className="">
+                      <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         Accounting
                       </h2>
-                      <div>
                         <h2 className="text-sm xl:text-md ">
                           {" "}
                           Online Accounting
                         </h2>
-                      </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -1585,12 +1579,10 @@ const Navbar = () => {
               <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
-                    <div className="p-4">
-                      <h2 className="text-sm xl:text-md  text-blue-500">
+                    <div className="">
+                      <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         Drafting
                       </h2>
-
-                      <div>
                         <h2 className="text-sm xl:text-md  ">
                           Legal Drafting
                         </h2>
@@ -1602,11 +1594,12 @@ const Navbar = () => {
                         <h2 className="text-sm xl:text-md ">
                           Power Of Attorney
                         </h2>
-                      </div>
+                      
                     </div>
-                    <div className="p-4 mt-5">
-                      <div>
-                        <h2 className="text-sm xl:text-md "> Will</h2>
+
+                    <div className="">
+                    
+                        <h2 className="text-sm xl:text-md mb-3 text-blue-500"> Will</h2>
                         <h2 className="text-sm xl:text-md ">
                           {" "}
                           Application Form
@@ -1620,7 +1613,7 @@ const Navbar = () => {
                           {" "}
                           Terms & Conditions Drafting
                         </h2>
-                      </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -1642,28 +1635,27 @@ const Navbar = () => {
               <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
-                    <div className="p-4">
-                      <h2 className="text-sm xl:text-md  text-blue-500">
+                    <div className="">
+                      <h2 className="text-sm xl:text-md text-blue-500 mb-3">
                         Legal Reply
                       </h2>
 
-                      <div>
                         <h2 className="text-sm xl:text-md  ">
                           Legal Notice Reply
                         </h2>
                         <h2 className="text-sm xl:text-md ">Legal Advice</h2>
-                      </div>
+                      
                     </div>
-                    <div className="p-4">
-                      <h2 className="text-sm xl:text-md  text-blue-500">
+
+                    <div className="">
+                      <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         Accounting
                       </h2>
-                      <div>
                         <h2 className="text-sm xl:text-md ">
                           {" "}
                           Legal Notice Preparation
                         </h2>
-                      </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -1685,8 +1677,8 @@ const Navbar = () => {
               <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-1  p-4">
-                    <div className="p-4">
-                      <h2 className="text-sm xl:text-md  text-blue-500">
+                    <div className="">
+                      <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         Other Services
                       </h2>
 
@@ -1720,13 +1712,13 @@ const Navbar = () => {
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-3 gap-5 p-4">
                     <div>
-                      <h2 className="text-sm xl:text-md  text-blue-500">
+                      <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         {" "}
                         Utilites
                       </h2>
 
-                      <div className="p-4">
-                        <h2 className="text-sm  xl:text-md ">
+                      <div className="">
+                        <h2 className="text-sm xl:text-md ">
                           {" "}
                           GST Calculator
                         </h2>
@@ -1740,7 +1732,7 @@ const Navbar = () => {
                       </div>
                     </div>
 
-                    <div className="mt-7 p-4">
+                    <div className="mt-7">
                       <h2 className="text-sm xl:text-md ">80U Calculator</h2>
                       <h2 className="text-sm xl:text-md "> HRA Calculator</h2>
                       <h2 className="text-sm xl:text-md ">
@@ -1752,7 +1744,7 @@ const Navbar = () => {
                       </h2>
                     </div>
 
-                    <div className="mt-7 p-4">
+                    <div className="mt-7">
                       <h2 className="text-sm xl:text-md ">TDS Calculator</h2>
                       <h2 className="text-sm xl:text-md "> PPF Calculator</h2>
                       <h2 className="text-sm xl:text-md ">

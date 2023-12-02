@@ -11,7 +11,11 @@ import sepratelegal from "../../assests/images/PvtLtdcompregistrationimg/Separat
 import morecapital from "../../assests/images/PvtLtdcompregistrationimg/morecapital.png";
 import limitiedcompliance from "../../assests/images/PvtLtdcompregistrationimg/lmtdcompliance.png";
 import investorimg from "../../assests/images/PvtLtdcompregistrationimg/attractinginvestor.png";
-import { faListCheck,faCircleQuestion, faHandshake } from "@fortawesome/free-solid-svg-icons";
+import {
+  faListCheck,
+  faCircleQuestion,
+  faHandshake,
+} from "@fortawesome/free-solid-svg-icons";
 import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
 
 const ParternLtdCompanyRegisteration = () => {
@@ -46,18 +50,18 @@ const ParternLtdCompanyRegisteration = () => {
           <p className="text-lg font-medium mt-5 text-justify">
             Grow your business! Register it as a Private Limited Company with
             complete legal protection. A Private Limited Company is a company
-            privately held for small businesses. This business entity limits
+            privately held for xsall businesses. This business entity limits
             owner liability to their shareholdings and the number of
             shareholders to 200 and restricts shareholders from publicly trading
             shares.
           </p>
 
-          <div className="border-2 rounded-2xl mt-8 md:mt-16 ">
+          <div className="border-2 rounded-2xl mt-5 lg:mt-12">
             <h1 className="text-white p-4 text-lg md:text-xl rounded-2xl text-center bg-[#8A4117]">
               Get Absolutely Free In Package
             </h1>
 
-            <div className="grid md:grid-cols-5 mt-8 p-5  gap-5">
+            <div className="grid grid-cols-2 md:grid-cols-5 mt-4 p-3 lg:p-5 gap-5">
               <div className="">
                 <div className="flex justify-center">
                   <FontAwesomeIcon
@@ -66,7 +70,7 @@ const ParternLtdCompanyRegisteration = () => {
                   />
                 </div>
 
-                <h1 className=" text-sm  text-center text-[#1E1E1E] mt-3">
+                <h1 className=" text-xs  text-center text-[#1E1E1E] mt-3">
                   PAN & TAN Registration
                 </h1>
               </div>
@@ -78,7 +82,7 @@ const ParternLtdCompanyRegisteration = () => {
                     className=" text-[#8A4117] w-[40px] h-auto "
                   />
                 </div>
-                <h1 className=" text-sm text-center  text-[#1E1E1E] mt-3">
+                <h1 className=" text-xs text-center  text-[#1E1E1E] mt-3">
                   DIN and DSC for Directors
                 </h1>
               </div>
@@ -89,7 +93,7 @@ const ParternLtdCompanyRegisteration = () => {
                     className=" text-[#8A4117] w-[40px] h-auto "
                   />
                 </div>
-                <h1 className="text-sm text-center  text-[#1E1E1E] mt-3">
+                <h1 className="text-xs text-center  text-[#1E1E1E] mt-3">
                   Complete Documentation
                 </h1>
               </div>
@@ -100,7 +104,7 @@ const ParternLtdCompanyRegisteration = () => {
                     className=" text-[#8A4117] w-[40px] h-auto "
                   />
                 </div>
-                <h1 className=" text-sm text-center  text-[#1E1E1E] mt-3">
+                <h1 className=" text-xs text-center  text-[#1E1E1E] mt-3">
                   Personal Assistance
                 </h1>
               </div>
@@ -111,7 +115,7 @@ const ParternLtdCompanyRegisteration = () => {
                     className=" text-[#8A4117] w-[40px] h-auto "
                   />
                 </div>
-                <h1 className="text-sm  text-center   text-[#1E1E1E] mt-3">
+                <h1 className="text-xs  text-center   text-[#1E1E1E] mt-3">
                   PF and ESIC Registration
                 </h1>
               </div>
@@ -119,60 +123,56 @@ const ParternLtdCompanyRegisteration = () => {
           </div>
         </div>
 
-        <div className="bg-white shadow-xl rounded-2xl p-5 md:col-span-5 ">
-          <h1 className="font-semibold text-2xl flex justify-center text-[#01355D] ">
-            Get Quote Instantly
-            <sapn className="text-[#F89327] "> &#x20B9;10051.00</sapn>
-          </h1>
+        <div className="bg-white shadow-xl rounded-2xl p-5 md:col-span-5">
+          <div class="flex justify-between mb-4">
+            <div class="font-semibold text-2xl text-[#01355D]">
+              Get Quote Instantly
+            </div>
+            <div class="text-xl font-semibold text-[#F89327]">
+              &#x20B9;10051.00
+            </div>
+          </div>
 
-          <form onSubmit={handleSubmit}>
-            <label className="mt-5">Name</label>
-            <p className="mb-3">
+          <form>
+            <label>Name</label>
+            <p className="mt-2 mb-2">
               <input
                 type="text"
                 id="name"
                 name="name"
                 placeholder="Enter Your Name"
-                className=" w-full  mt-2  border p-2 rounded-lg"
-                value={formData.firstName}
-                onChange={handleChange}
+                className=" w-full border p-2 rounded-lg"
               />
             </p>
-            <label className="mt-3">Email</label>
-            <p className="mb-3">
+            <label className="">Email</label>
+            <p className="mt-2 mb-2">
               <input
                 type="email"
                 id="email"
                 name="email"
                 placeholder="Enter Your Email"
-                className=" w-full   mt-2 border p-2 rounded-lg"
-                value={formData.email}
-                onChange={handleChange}
+                className=" w-full border p-2 rounded-lg"
               />
             </p>
-            <label className="mt-3">Contact Number</label>
+            <label className="">Contact Number</label>
 
-            <p className="mb-3">
+            <p className="mt-2 mb-2">
               <input
                 type="text"
                 id="pnum"
                 name="phone"
                 placeholder="Enter Your Number"
                 className=" w-full mt-2  border p-2 rounded-lg"
-                value={formData.phone}
-                onChange={handleChange}
               />
             </p>
             <label>Related to</label>
-            <p>
+            <p className="mt-2">
               <input
                 type="text"
                 id="city"
                 name="city"
                 placeholder="City/District"
-                className=" w-full  mt-2  border p-2 rounded-lg"
-                value={formData.city}
-                onChange={handleChange}
+                className=" w-full  border p-2 rounded-lg"
               />
             </p>
             <div className="mt-5 flex justify-center">
@@ -620,8 +620,6 @@ const ParternLtdCompanyRegisteration = () => {
         </table>
       </div>
 
-
-
       {/* fourth section */}
 
       <div className="mt-10 md:mt-16 flex justify-center">
@@ -637,13 +635,12 @@ const ParternLtdCompanyRegisteration = () => {
         <img src={patnership2} alt="" className="w-[100%] md:w-[50%] h-auto" />
       </div>
 
-
       {/* Fifth-section */}
 
       <div className="mt-10 md:mt-20 flex justify-center">
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#01355D]">
           <FontAwesomeIcon
-            icon={ faHandshake}
+            icon={faHandshake}
             className="pr-5 text-[#01355D] "
           />
           Benifits
@@ -653,143 +650,136 @@ const ParternLtdCompanyRegisteration = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3  gap-10  mx-10 md:mx-20 lg:mx-28 mt-5 md:mt-10">
         <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={lmtliablity } alt="" className="w-3/4 h-auto"   />
+            <img src={lmtliablity} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
-          Limited liability
+            Limited liability
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-          Shareholders are not personally liable for the company's debts and liabilities.
+            Shareholders are not personally liable for the company's debts and
+            liabilities.
           </p>
         </div>
 
         <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={sepratelegal } alt="" className="w-3/4 h-auto"  />
+            <img src={sepratelegal} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
-          Separate legal entity
+            Separate legal entity
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-          The company has its own legal identity, separate from its owners.
+            The company has its own legal identity, separate from its owners.
           </p>
         </div>
 
         <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={lmtliablity } alt="" className="w-3/4 h-auto"   />
+            <img src={lmtliablity} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
-          Perpetual existence
+            Perpetual existence
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-          The company continues to exist even if the shareholders change.
+            The company continues to exist even if the shareholders change.
           </p>
         </div>
 
-
         <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={morecapital  } alt="" className="w-3/4 h-auto"   />
+            <img src={morecapital} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
-          More capital
+            More capital
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-          Private limited companies can raise funds by issuing shares.
+            Private limited companies can raise funds by issuing shares.
           </p>
         </div>
 
-
         <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={limitiedcompliance} alt="" className="w-3/4 h-auto"   />
+            <img src={limitiedcompliance} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
-          Limited compliance
+            Limited compliance
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-          Private limited companies have less stringent compliance requirements compared to public companies.
+            Private limited companies have less stringent compliance
+            requirements compared to public companies.
           </p>
         </div>
 
-
-
         <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={investorimg } alt="" className="w-4/4 h-auto"   />
+            <img src={investorimg} alt="" className="w-4/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
-          Attracting investors
+            Attracting investors
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-          The structure of a private limited company is attractive to potential investors.
+            The structure of a private limited company is attractive to
+            potential investors.
           </p>
         </div>
 
-
-
         <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={lmtliablity } alt="" className="w-3/4 h-auto"   />
+            <img src={lmtliablity} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
-          Separate taxation
+            Separate taxation
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-          The company is taxed separately from its owners.
+            The company is taxed separately from its owners.
           </p>
         </div>
 
-
-
         <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={lmtliablity } alt="" className="w-3/4 h-auto"   />
+            <img src={lmtliablity} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
-          Limited risk
+            Limited risk
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-          Shareholders are only liable for the amount unpaid on their shares.
+            Shareholders are only liable for the amount unpaid on their shares.
           </p>
         </div>
 
-
         <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={lmtliablity } alt="" className="w-3/4 h-auto"   />
+            <img src={lmtliablity} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
-          Legal protection
+            Legal protection
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-          A company structure provides legal protection to shareholders and directors.
+            A company structure provides legal protection to shareholders and
+            directors.
           </p>
         </div>
       </div>
 
-
-
-      {/* <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 sm:mx-10 md:mx-20 lg:mx-32 mt-5 md:mt-18 lg:mt-20">
+      {/* <div className="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 xs:mx-10 md:mx-20 lg:mx-32 mt-5 md:mt-18 lg:mt-20">
         <div>
           <h1 className="font-open-sans text-4xl font-extrabold text-gray-700 leading-13">
             Pvt. Ltd. Company Registration
@@ -808,7 +798,7 @@ const ParternLtdCompanyRegisteration = () => {
             separate legal identity, and the company can keep going even if
             people involved change. You need at least two directors and two
             shareholders, and even people from other countries can join in.
-            We're here to guide you through this, ensuring a smooth process.
+            We're here to guide you through this, ensuring a xsooth process.
             Ready to start? Contact us today, and let's make your Pvt. Ltd.
             Company happen!
           </p>
@@ -820,7 +810,7 @@ const ParternLtdCompanyRegisteration = () => {
               <div className="mb-4">
                 <label
                   htmlFor="name"
-                  className="block text-sm font-semibold text-gray-600"
+                  className="block text-xs font-semibold text-gray-600"
                 >
                   Name
                 </label>
@@ -837,7 +827,7 @@ const ParternLtdCompanyRegisteration = () => {
               <div className="mb-4">
                 <label
                   htmlFor="contact"
-                  className="block text-sm font-semibold text-gray-600"
+                  className="block text-xs font-semibold text-gray-600"
                 >
                   Contact
                 </label>
@@ -854,7 +844,7 @@ const ParternLtdCompanyRegisteration = () => {
               <div className="mb-4">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-semibold text-gray-600"
+                  className="block text-xs font-semibold text-gray-600"
                 >
                   Email
                 </label>
@@ -871,7 +861,7 @@ const ParternLtdCompanyRegisteration = () => {
               <div className="mb-4">
                 <label
                   htmlFor="cityDistrict"
-                  className="block text-sm font-semibold text-gray-600"
+                  className="block text-xs font-semibold text-gray-600"
                 >
                   City/District
                 </label>
@@ -901,7 +891,7 @@ const ParternLtdCompanyRegisteration = () => {
 
       {/* 2nd part start */}
       {/* <div className="flex justify-center items-center mt-10">
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 justify-center items-center shadow-xl rounded-lg p-10">
+        <div className="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 justify-center items-center shadow-xl rounded-lg p-10">
          
           <div className="flex  p-2 w-[202px]">
             <div>
@@ -1014,7 +1004,7 @@ const ParternLtdCompanyRegisteration = () => {
       {/* 2nd part end */}
 
       {/* 3rd part start */}
-      {/* <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10  mt-5 md:mt-18 sm:mx-10 md:mx-20 lg:mx-32 lg:mt-20 ">
+      {/* <div className="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10  mt-5 md:mt-18 xs:mx-10 md:mx-20 lg:mx-32 lg:mt-20 ">
         <div className="">
           <img
             src="https://www.3ecpa.co.in/wp-content/uploads/2020/10/photo-legal-obligations-of-a-private-limited-company-1200x630-2.jpg"
@@ -1026,7 +1016,7 @@ const ParternLtdCompanyRegisteration = () => {
           <p className="text-base md:text-base lg:text-md xl:text-lg text-[#525252] font-normal">
             Grow your business! Register it as a Private Limited Company with
             complete legal protection. A Private Limited Company is a company
-            privately held for small businesses. This business entity limits
+            privately held for xsall businesses. This business entity limits
             owner liability to their shareholdings and the number of
             shareholders to 200 and restricts shareholders from publicly trading
             shares. It can have a minimum of 2 Directors and a maximum of 15
@@ -1072,7 +1062,7 @@ const ParternLtdCompanyRegisteration = () => {
         <img
           src="https://legal251.com/images/gstregistration/Private-Limited-Company-Registration@2x.png"
           alt="Company Registration"
-          className="w-full sm:w-2/3 md:w-1/2 lg:w-5/3 mt-10"
+          className="w-full xs:w-2/3 md:w-1/2 lg:w-5/3 mt-10"
         />
       </div> */}
       {/* 5th part end */}
