@@ -19,7 +19,7 @@ const ParternLtdCompanyRegisteration = () => {
     name: "",
     contact: "",
     email: "",
-    cityDistrict: "",
+    city: "",
   });
 
   const handleChange = (e) => {
@@ -31,7 +31,6 @@ const ParternLtdCompanyRegisteration = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log("Form submitted:", formData);
   };
 
@@ -126,8 +125,8 @@ const ParternLtdCompanyRegisteration = () => {
             <sapn className="text-[#F89327] "> &#x20B9;10051.00</sapn>
           </h1>
 
-          <form>
-            <label>Name</label>
+          <form onSubmit={handleSubmit}>
+            <label className="mt-5">Name</label>
             <p className="mb-3">
               <input
                 type="text"
@@ -135,6 +134,8 @@ const ParternLtdCompanyRegisteration = () => {
                 name="name"
                 placeholder="Enter Your Name"
                 className=" w-full  mt-2  border p-2 rounded-lg"
+                value={formData.firstName}
+                onChange={handleChange}
               />
             </p>
             <label className="mt-3">Email</label>
@@ -145,6 +146,8 @@ const ParternLtdCompanyRegisteration = () => {
                 name="email"
                 placeholder="Enter Your Email"
                 className=" w-full   mt-2 border p-2 rounded-lg"
+                value={formData.email}
+                onChange={handleChange}
               />
             </p>
             <label className="mt-3">Contact Number</label>
@@ -156,6 +159,8 @@ const ParternLtdCompanyRegisteration = () => {
                 name="phone"
                 placeholder="Enter Your Number"
                 className=" w-full mt-2  border p-2 rounded-lg"
+                value={formData.phone}
+                onChange={handleChange}
               />
             </p>
             <label>Related to</label>
@@ -166,6 +171,8 @@ const ParternLtdCompanyRegisteration = () => {
                 name="city"
                 placeholder="City/District"
                 className=" w-full  mt-2  border p-2 rounded-lg"
+                value={formData.city}
+                onChange={handleChange}
               />
             </p>
             <div className="mt-5 flex justify-center">

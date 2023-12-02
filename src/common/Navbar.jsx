@@ -1316,54 +1316,54 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(1)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
               Start Business
             </Link>
 
             {activeDropdown === 1 && (
-              <div className="fixed inset-0 z-50  h-[30%] flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50  min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="p-4">
-                      <h2 className="text-sm xl:text-lg  text-blue-500">
+                      <h2 className="text-sm xl:text-md  text-blue-500">
                         Start Business{" "}
                       </h2>
 
                       <div>
                         <Link to="/ParternerShip">
-                          <h2 className="text-sm xl:text-lg   hover:text-blue-500">
+                          <h2 className="text-sm xl:text-md   hover:text-blue-500">
                             Partnership Deed
                           </h2>
                         </Link >
                         <Link to= "/PvtLtdCompanyRegisteration">
-                        <h2 className="text-sm xl:text-lg   hover:text-blue-500">
+                        <h2 className="text-sm xl:text-md   hover:text-blue-500">
                           Pvt. Ltd. Company Registration
                         </h2>
                         </Link>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           Section 8 Company Registration
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           LLP Company Registration
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           OPC Company REgistration
                         </h2>
                       </div>
                     </div>
                     <div className="p-4">
-                      <h2 className="text-sm xl:text-lg  text-blue-500">
+                      <h2 className="text-sm xl:text-md  text-blue-500">
                         Compliance
                       </h2>
                       <div>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           {" "}
                           Annual Compliance LLP{" "}
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           Annual Compliance Pvt.Ltd.
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">CMA Report</h2>
+                        <h2 className="text-sm xl:text-md ">CMA Report</h2>
                       </div>
                     </div>
                   </div>
@@ -1378,73 +1378,73 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(2)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
               Change In Business
             </Link>
 
             {activeDropdown === 2 && (
-              <div className="fixed inset-0 z-50 h-[50%] flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-3 gap-5 p-4">
                     <div>
-                      <h2 className="text-sm xl:text-lg  text-blue-500">
+                      <h2 className="text-sm xl:text-md  text-blue-500">
                         {" "}
                         Change In Business
                       </h2>
 
                       <div className="p-4">
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           {" "}
                           Dissolution of deeds
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           Address Amendment Within state (LLP)
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           Address Amendment Within state (Company)
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           Address Amendment out of state (LLP)
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           Address Amendment out of state (Company)
                         </h2>
                       </div>
                     </div>
 
                     <div className="mt-7 p-5">
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         Add Director (company)
                       </h2>
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         {" "}
                         Add Partner (Company)
                       </h2>
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         Increase Capital (LLP)
                       </h2>
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         {" "}
                         Change In Name of LLP
                       </h2>
                     </div>
 
                     <div className="mt-7 p-5">
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         Remove Director (Company)
                       </h2>
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         {" "}
                         Remove Partner LLP
                       </h2>
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         Increase Capital (LLP)
                       </h2>
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         {" "}
                         Increase Capital(Company)
                       </h2>
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         {" "}
                         Change In Name Of Company
                       </h2>
@@ -1461,63 +1461,63 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(3)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
               Registrations
             </Link>
 
             {activeDropdown === 3 && (
-              <div className="fixed inset-0 z-50 h-[30%] flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-3 gap-5 p-4">
                     <div>
-                      <h2 className="text-sm xl:text-lg  text-blue-500">
+                      <h2 className="text-sm xl:text-md  text-blue-500">
                         {" "}
                         Registrations
                       </h2>
 
                       <div className="p-4">
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           {" "}
                           Import Export License (IEC)
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           ICEGATE Registrations
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           MSME Registrations
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           Society Registrations
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           PF Registrations
                         </h2>
                       </div>
                     </div>
 
                     <div className="mt-7 p-4">
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         Professional Tax Registrations
                       </h2>
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         {" "}
                         Gumasta Registrations
                       </h2>
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         Trade Mark Registrations
                       </h2>
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         {" "}
                         ESIC Registrations
                       </h2>
                     </div>
 
                     <div className="mt-7 p-4">
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         GST Registrations
                       </h2>
-                      <h2 className="text-sm xl:text-lg "> Food License</h2>
-                      <h2 className="text-sm xl:text-lg ">Trade License</h2>
+                      <h2 className="text-sm xl:text-md "> Food License</h2>
+                      <h2 className="text-sm xl:text-md ">Trade License</h2>
                     </div>
                   </div>
                 </div>
@@ -1531,35 +1531,35 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(4)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
               Filing & More
             </Link>
 
             {activeDropdown === 4 && (
-              <div className="fixed inset-0 z-50  h-[25%] flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="p-4">
-                      <h2 className="text-sm xl:text-lg  text-blue-500">
+                      <h2 className="text-sm xl:text-md  text-blue-500">
                         Filing{" "}
                       </h2>
 
                       <div>
-                        <h2 className="text-sm xl:text-lg  ">
+                        <h2 className="text-sm xl:text-md  ">
                           GST REturn Filing
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">ITR Filing</h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">ITR Filing</h2>
+                        <h2 className="text-sm xl:text-md ">
                           TDS Return Filing
                         </h2>
                       </div>
                     </div>
                     <div className="p-4">
-                      <h2 className="text-sm xl:text-lg  text-blue-500">
+                      <h2 className="text-sm xl:text-md  text-blue-500">
                         Accounting
                       </h2>
                       <div>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           {" "}
                           Online Accounting
                         </h2>
@@ -1577,46 +1577,46 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(5)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
               Drafting
             </Link>
 
             {activeDropdown === 5 && (
-              <div className="fixed inset-0 z-50 h-[30%] flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="p-4">
-                      <h2 className="text-sm xl:text-lg  text-blue-500">
+                      <h2 className="text-sm xl:text-md  text-blue-500">
                         Drafting
                       </h2>
 
                       <div>
-                        <h2 className="text-sm xl:text-lg  ">
+                        <h2 className="text-sm xl:text-md  ">
                           Legal Drafting
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           Rent Agreement
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">NOC</h2>
-                        <h2 className="text-sm xl:text-lg ">Affidavit</h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">NOC</h2>
+                        <h2 className="text-sm xl:text-md ">Affidavit</h2>
+                        <h2 className="text-sm xl:text-md ">
                           Power Of Attorney
                         </h2>
                       </div>
                     </div>
                     <div className="p-4 mt-5">
                       <div>
-                        <h2 className="text-sm xl:text-lg "> Will</h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md "> Will</h2>
+                        <h2 className="text-sm xl:text-md ">
                           {" "}
                           Application Form
                         </h2>
-                        <h2 className="text-sm xl:text-lg "> NDA Drafting</h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md "> NDA Drafting</h2>
+                        <h2 className="text-sm xl:text-md ">
                           {" "}
                           Privacy Policy Drafting
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           {" "}
                           Terms & Conditions Drafting
                         </h2>
@@ -1634,32 +1634,32 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(6)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
               Legal Issues
             </Link>
 
             {activeDropdown === 6 && (
-              <div className="fixed inset-0 z-50 h-[20%] flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="p-4">
-                      <h2 className="text-sm xl:text-lg  text-blue-500">
+                      <h2 className="text-sm xl:text-md  text-blue-500">
                         Legal Reply
                       </h2>
 
                       <div>
-                        <h2 className="text-sm xl:text-lg  ">
+                        <h2 className="text-sm xl:text-md  ">
                           Legal Notice Reply
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">Legal Advice</h2>
+                        <h2 className="text-sm xl:text-md ">Legal Advice</h2>
                       </div>
                     </div>
                     <div className="p-4">
-                      <h2 className="text-sm xl:text-lg  text-blue-500">
+                      <h2 className="text-sm xl:text-md  text-blue-500">
                         Accounting
                       </h2>
                       <div>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           {" "}
                           Legal Notice Preparation
                         </h2>
@@ -1677,24 +1677,24 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(7)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
               Other Services
             </Link>
 
             {activeDropdown === 7 && (
-              <div className="fixed inset-0 z-50 h-[20%] flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-1  p-4">
                     <div className="p-4">
-                      <h2 className="text-sm xl:text-lg  text-blue-500">
+                      <h2 className="text-sm xl:text-md  text-blue-500">
                         Other Services
                       </h2>
 
                       <div>
-                        <h2 className="text-sm xl:text-lg  ">
+                        <h2 className="text-sm xl:text-md  ">
                           Balance Sheet Preparation & P&L
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           Project Report Preparation
                         </h2>
                       </div>
@@ -1711,54 +1711,54 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(8)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-lg">
+            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
               Utilities
             </Link>
 
             {activeDropdown === 8 && (
-              <div className="fixed inset-0 z-50 h-[30%] flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-3 gap-5 p-4">
                     <div>
-                      <h2 className="text-sm xl:text-lg  text-blue-500">
+                      <h2 className="text-sm xl:text-md  text-blue-500">
                         {" "}
                         Utilites
                       </h2>
 
                       <div className="p-4">
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm  xl:text-md ">
                           {" "}
                           GST Calculator
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           SIP Calculator
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">
+                        <h2 className="text-sm xl:text-md ">
                           EMI Calculator
                         </h2>
-                        <h2 className="text-sm xl:text-lg ">FD Calculator</h2>
+                        <h2 className="text-sm xl:text-md ">FD Calculator</h2>
                       </div>
                     </div>
 
                     <div className="mt-7 p-4">
-                      <h2 className="text-sm xl:text-lg ">80U Calculator</h2>
-                      <h2 className="text-sm xl:text-lg "> HRA Calculator</h2>
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">80U Calculator</h2>
+                      <h2 className="text-sm xl:text-md "> HRA Calculator</h2>
+                      <h2 className="text-sm xl:text-md ">
                         Simple Interest Calculator
                       </h2>
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">
                         {" "}
                         Capital Gain Calculator
                       </h2>
                     </div>
 
                     <div className="mt-7 p-4">
-                      <h2 className="text-sm xl:text-lg ">TDS Calculator</h2>
-                      <h2 className="text-sm xl:text-lg "> PPF Calculator</h2>
-                      <h2 className="text-sm xl:text-lg ">
+                      <h2 className="text-sm xl:text-md ">TDS Calculator</h2>
+                      <h2 className="text-sm xl:text-md "> PPF Calculator</h2>
+                      <h2 className="text-sm xl:text-md ">
                         Gratuity Calculator
                       </h2>
-                      <h2 className="text-sm xl:text-lg ">RD Calculator</h2>
+                      <h2 className="text-sm xl:text-md ">RD Calculator</h2>
                     </div>
                   </div>
                 </div>
