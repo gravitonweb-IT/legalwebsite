@@ -1409,7 +1409,7 @@ const Navbar = () => {
                       
                     </div>
 
-                    <div className="mt-7 p-5">
+                    <div className="mt-7">
                       <h2 className="text-sm xl:text-md ">
                         Add Director (company)
                       </h2>
@@ -1426,7 +1426,7 @@ const Navbar = () => {
                       </h2>
                     </div>
 
-                    <div className="mt-7 p-5">
+                    <div className="mt-7">
                       <h2 className="text-sm xl:text-md ">
                         Remove Director (Company)
                       </h2>
