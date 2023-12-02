@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPenToSquare,
+} from "@fortawesome/free-regular-svg-icons";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import sliderhomeimg1 from "../../assests/images/HomepageImages/users.png";
 import sliderhomeimg2 from "../../assests/images/HomepageImages/customer.png";
@@ -11,12 +14,66 @@ import sepratelegal from "../../assests/images/PvtLtdcompregistrationimg/Separat
 import morecapital from "../../assests/images/PvtLtdcompregistrationimg/morecapital.png";
 import limitiedcompliance from "../../assests/images/PvtLtdcompregistrationimg/lmtdcompliance.png";
 import investorimg from "../../assests/images/PvtLtdcompregistrationimg/attractinginvestor.png";
+import PerpectualExistenceimg from "../../assests/images/PvtLtdcompregistrationimg/PerpectualExistence2.png";
+import SeparateTaxationimg from "../../assests/images/PvtLtdcompregistrationimg/SeparateTaxation.jpg";
+import LegalProtectionimg from "../../assests/images/PvtLtdcompregistrationimg/LegalProtection.png";
+import LimitedRiskimg from "../../assests/images/PvtLtdcompregistrationimg/LimitedRisk.png";
+import whyChoose1 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose1.svg";
+import whyChoose2 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose2.svg";
+import whyChoose3 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose3.svg";
+import whyChoose4 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose4.svg";
+import whyChoose5 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose5.svg";
+import whyChoose6 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose6.svg";
 import {
   faListCheck,
   faCircleQuestion,
   faHandshake,
 } from "@fortawesome/free-solid-svg-icons";
 import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
+import { faSquarespace } from "@fortawesome/free-brands-svg-icons"; 
+
+const faqs = [
+  {
+    id: 1,
+    question:
+      "Q1: Can the registered office address of the company be a residential address?",
+    answer:
+      "Yes, the registered office of the company can be a residential address. However, certain documents and proofs will be required to establish the authenticity and legality of the address.",
+  },
+  {
+    id: 2,
+    question:
+      "Q2: What are the tax implications for a Private Limited Company?",
+    answer:
+      "A Private Limited Company is subject to corporate income tax on its profits. Additionally, other taxes such as Goods and Services Tax (GST) may apply based on the nature of the company's business activities.",
+  },
+  {
+    id: 3,
+    question: "Q3: What are the key requirements to register a Private Limited Company in India?",
+    answer:
+      "To register a Private Limited Company in India, key requirements include a minimum of two directors and shareholders, a unique company name, a registered office, and compliance with statutory regulations.",
+  },
+  {
+    id: 4,
+    question: "Q4. Can a Private Limited Company convert into another type of business entity later?",
+    answer:
+      "Yes, a Private Limited Company in India can convert into another business entity, such as a Limited Liability Partnership (LLP) or a public company, subject to legal and regulatory procedures.",
+  },
+  {
+    id: 5,
+    question:
+      "Q5. What is the minimum capital requirement for a Private Limited Company?",
+    answer:
+      "As of my last knowledge update in January 2022, there is no minimum capital requirement for a Private Limited Company in India. The Companies Act 2013 abolished the concept of minimum capital.",
+  },
+  {
+    id: 6,
+    question:
+      "Q10. What is the process and timeline for Private Limited Company registration?",
+    answer:
+      "The process for Private Limited Company registration in India involves obtaining Digital Signatures, Director Identification Number, name approval, filing incorporation documents, and obtaining the certificate. The timeline is approximately 15-20 days.",
+  },
+];
 
 const ParternLtdCompanyRegisteration = () => {
   const [formData, setFormData] = useState({
@@ -46,6 +103,12 @@ const ParternLtdCompanyRegisteration = () => {
       phone: "",
       city: "",
     });
+  };
+
+  const [openId, setOpenId] = useState(null);
+
+  const toggleFAQ = (id) => {
+    setOpenId((prevId) => (prevId === id ? null : id));
   };
 
   return (
@@ -439,10 +502,10 @@ const ParternLtdCompanyRegisteration = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3  gap-10  mx-10 md:mx-20 lg:mx-28 mt-5 md:mt-10">
-        <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mx-10 md:mx-20 lg:mx-28 mt-5 md:mt-10">
+        <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={lmtliablity} alt="" className="w-3/4 h-auto" />
+            <img src={lmtliablity} alt=""className="w-2/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -455,9 +518,9 @@ const ParternLtdCompanyRegisteration = () => {
           </p>
         </div>
 
-        <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
+        <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={sepratelegal} alt="" className="w-3/4 h-auto" />
+            <img src={sepratelegal} alt=""className="w-2/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -469,9 +532,9 @@ const ParternLtdCompanyRegisteration = () => {
           </p>
         </div>
 
-        <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
+        <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={lmtliablity} alt="" className="w-3/4 h-auto" />
+            <img src={PerpectualExistenceimg} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -483,9 +546,9 @@ const ParternLtdCompanyRegisteration = () => {
           </p>
         </div>
 
-        <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
+        <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={morecapital} alt="" className="w-3/4 h-auto" />
+            <img src={morecapital} alt="" className="w-2/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -497,9 +560,9 @@ const ParternLtdCompanyRegisteration = () => {
           </p>
         </div>
 
-        <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
+        <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={limitiedcompliance} alt="" className="w-3/4 h-auto" />
+            <img src={limitiedcompliance} alt="" className="w-2/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -512,9 +575,9 @@ const ParternLtdCompanyRegisteration = () => {
           </p>
         </div>
 
-        <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
+        <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={investorimg} alt="" className="w-4/4 h-auto" />
+            <img src={investorimg} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -527,9 +590,9 @@ const ParternLtdCompanyRegisteration = () => {
           </p>
         </div>
 
-        <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
+        <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={lmtliablity} alt="" className="w-3/4 h-auto" />
+            <img src={SeparateTaxationimg} alt="" className="w-2/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -537,13 +600,13 @@ const ParternLtdCompanyRegisteration = () => {
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-            The company is taxed separately from its owners.
+            The company is taxed separately from its<br></br> owners.
           </p>
         </div>
 
-        <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
+        <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={lmtliablity} alt="" className="w-3/4 h-auto" />
+            <img src={LimitedRiskimg} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -555,9 +618,9 @@ const ParternLtdCompanyRegisteration = () => {
           </p>
         </div>
 
-        <div className="p-8 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
+        <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={lmtliablity} alt="" className="w-3/4 h-auto" />
+            <img src={LegalProtectionimg} alt="" className="w-2/4 h-auto"/>
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -571,314 +634,138 @@ const ParternLtdCompanyRegisteration = () => {
         </div>
       </div>
 
-      {/* <div className="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 xs:mx-10 md:mx-20 lg:mx-32 mt-5 md:mt-18 lg:mt-20">
-        <div>
-          <h1 className="font-open-sans text-4xl font-extrabold text-gray-700 leading-13">
-            Pvt. Ltd. Company Registration
-          </h1>
-          <p className="text-base md:text-base lg:text-md xl:text-lg text-[#525252] font-normal">
-            Get ready to turn your business dream into reality by registering
-            your Private Limited Company (Pvt. Ltd.). This type of company
-            provides a safety net, so your personal assets are protected if
-            something goes wrong in the business. The process involves choosing
-            a unique name, preparing some documents, and filing them with the
-            government.
-          </p>
-
-          <p className="text-base md:text-base lg:text-md xl:text-lg text-[#525252] font-normal mt-2">
-            The perks of going Pvt. Ltd. include reduced personal risk, a
-            separate legal identity, and the company can keep going even if
-            people involved change. You need at least two directors and two
-            shareholders, and even people from other countries can join in.
-            We're here to guide you through this, ensuring a xsooth process.
-            Ready to start? Contact us today, and let's make your Pvt. Ltd.
-            Company happen!
-          </p>
-        </div>
-        <div className="">
-          <div className="max-w-md mx-auto p-6 bg-white border rounded-md shadow-md">
-            <h2 className="text-2xl font-bold mb-4">Get Quote Instantly</h2>
-            <form onSubmit={handleSubmit}>
-              <div className="mb-4">
-                <label
-                  htmlFor="name"
-                  className="block text-xs font-semibold text-gray-600"
-                >
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
-                  required
-                />
-              </div>
-              <div className="mb-4">
-                <label
-                  htmlFor="contact"
-                  className="block text-xs font-semibold text-gray-600"
-                >
-                  Contact
-                </label>
-                <input
-                  type="text"
-                  id="contact"
-                  name="contact"
-                  value={formData.contact}
-                  onChange={handleChange}
-                  className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
-                  required
-                />
-              </div>
-              <div className="mb-4">
-                <label
-                  htmlFor="email"
-                  className="block text-xs font-semibold text-gray-600"
-                >
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
-                  required
-                />
-              </div>
-              <div className="mb-4">
-                <label
-                  htmlFor="cityDistrict"
-                  className="block text-xs font-semibold text-gray-600"
-                >
-                  City/District
-                </label>
-                <input
-                  type="text"
-                  id="cityDistrict"
-                  name="cityDistrict"
-                  value={formData.cityDistrict}
-                  onChange={handleChange}
-                  className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
-                  required
-                />
-              </div>
-              <div className="flex items-center justify-center">
-                <button
-                  type="submit"
-                  className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 mx-auto"
-                >
-                  Get Started
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div> */}
-      {/* 1st part end */}
-
-      {/* 2nd part start */}
-      {/* <div className="flex justify-center items-center mt-10">
-        <div className="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 justify-center items-center shadow-xl rounded-lg p-10">
-         
-          <div className="flex  p-2 w-[202px]">
-            <div>
-              <img
-                src="https://legal251.com/images/companyregimage/employee-experience.png"
-                className="w-[63px]"
-                alt=""
-              />
-            </div>
-            <div className="ml-4">
-              <p className="font-sans font-bold text-2xl  mt-0">
-                <span className="counter-value" data-count="10">
-                  10 Years
-                </span>
-              </p>
-              <p className="text-medium font-sans font-semibold text-gray-500 mt-0">
-                Of Experience
-              </p>
-            </div>
-          </div>
-
-          <div className="flex  p-2 w-[202px]">
-            <div>
-              <img
-                src="https://legal251.com/images/companyregimage/case-report.png"
-                className="w-[63px]"
-                alt=""
-              />
-            </div>
-            <div className="ml-4">
-              <p className="font-sans font-bold text-2xl  mt-0">
-                <span className="counter-value" data-count="10">
-                  5000
-                </span>
-                +
-              </p>
-              <p className="text-medium font-sans font-semibold text-gray-500 mt-0">
-                Cases Solved
-              </p>
-            </div>
-          </div>
-
-         
-          <div className="flex  p-2 w-[202px]">
-            <div>
-              <img
-                src="https://legal251.com/images/companyregimage/gold-cup.png"
-                className="w-[63px]"
-                alt=""
-              />
-            </div>
-            <div className="ml-4">
-              <p class="font-sans font-bold text-2xl  mt-0">
-                <span class="counter-value" data-count="15">
-                  15
-                </span>
-                +
-              </p>
-              <p className="text-medium font-sans font-semibold text-gray-500 mt-0">
-                Awards Gained
-              </p>
-            </div>
-          </div>
-
-          
-          <div className="flex  p-2 w-[202px]">
-            <div>
-              <img
-                src="https://legal251.com/images/companyregimage/users.png"
-                className="w-[63px]"
-                alt=""
-              />
-            </div>
-            <div className="ml-4">
-              <p class="font-sans font-bold text-2xl  mt-0">
-                <span class="counter-value" data-count="200">
-                  200
-                </span>
-                k +
-              </p>
-              <p className="text-medium font-sans font-semibold text-gray-500 mt-0">
-                Trusted Clients
-              </p>
-            </div>
-          </div>
-
-         
-          <div className="flex  p-2 w-[202px]">
-            <div>
-              <img
-                src="https://legal251.com/images/companyregimage/customer.png"
-                className="w-[63px]"
-                alt=""
-              />
-            </div>
-            <div className="ml-2">
-              <p className=" font-sans font-bold text-2xl  mt-0">
-                <span className="counter-value" data-count="50">
-                  50
-                </span>
-                k+
-              </p>
-              <p className="text-medium font-sans font-semibold text-gray-500 mt-0">
-                Queries Solved
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* 2nd part end */}
-
-      {/* 3rd part start */}
-      {/* <div className="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10  mt-5 md:mt-18 xs:mx-10 md:mx-20 lg:mx-32 lg:mt-20 ">
-        <div className="">
-          <img
-            src="https://www.3ecpa.co.in/wp-content/uploads/2020/10/photo-legal-obligations-of-a-private-limited-company-1200x630-2.jpg"
-            alt="lmt"
-            className="mt-10"
+      {/* six-section */}
+      <div className="mt-10 md:mt-16 flex justify-center">
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#01355D]">
+          <FontAwesomeIcon
+            icon={faPenToSquare}
+            className="pr-5 text-[#01355D] "
           />
-        </div>
-        <div>
-          <p className="text-base md:text-base lg:text-md xl:text-lg text-[#525252] font-normal">
-            Grow your business! Register it as a Private Limited Company with
-            complete legal protection. A Private Limited Company is a company
-            privately held for xsall businesses. This business entity limits
-            owner liability to their shareholdings and the number of
-            shareholders to 200 and restricts shareholders from publicly trading
-            shares. It can have a minimum of 2 Directors and a maximum of 15
-            Directors. Private limited company registration is governed by the
-            Companies Act of 2013 and the Companies Incorporation Rules of 2014.
-          </p>
-
-          <p className="text-base md:text-base lg:text-md xl:text-lg text-[#525252] font-normal mt-2">
-            We offer a complete package with easy documentation, fast
-            registration, and a hassle-free experience – so you can focus on
-            building and growing your business. Register your private limited
-            company today and start enjoying the benefits of a registered
-            business name!
-          </p>
-        </div>
-      </div> */}
-      {/* 3rd part end */}
-
-      {/* 4th part start */}
-      {/* <div class="flex items-center justify-center">
-        <p class="servicehrheading flex items-center mt-10 mx-auto text-center relative z-2 font-roboto font-bold text-5xl  bg-white leading-none pl-16 ">
-          <img
-            src="https://legal251.com/images/companyregimage/img.svg"
-            class="Howtoapplyimage mr-2"
-          />
-          Comparison
-        </p>
-      </div> */}
-
-      {/* 4th part end */}
-
-      {/* 5th part start*/}
-      {/* <div class="flex items-center justify-center">
-        <p class="servicehrheading flex items-center mt-10 mx-auto text-center relative z-2 font-roboto font-bold text-5xl  bg-white leading-none pl-16 ">
-          <img
-            src="https://legal251.com/images/services/question.svg"
-            class="Howtoapplyimage mr-2"
-          />
-          How to apply
-        </p>
-      </div> */}
-      {/* <div className="grid place-items-center ">
-        <img
-          src="https://legal251.com/images/gstregistration/Private-Limited-Company-Registration@2x.png"
-          alt="Company Registration"
-          className="w-full xs:w-2/3 md:w-1/2 lg:w-5/3 mt-10"
-        />
-      </div> */}
-      {/* 5th part end */}
-
-      {/* 6th part  start*/}
-      {/* <div class="flex items-center justify-center">
-        <p class="servicehrheading flex items-center mt-10 mx-auto text-center relative z-2 font-roboto font-bold text-5xl  bg-white leading-none pl-16 ">
-          <img
-            src="https://legal251.com/images/services/registration.svg"
-            class="Benefits mr-2"
-          />
-          Registration Process
-        </p>
+          Faq's
+        </h1>
       </div>
-      <div class="" style={{ marginTop: "0px" }}>
-        <center>
-          <img
-            src="https://legal251.com/images/companyregimage/pvtl-image.png"
-            class="minimumreqdivimg1 dregprocessimg"
-          />
-        </center>
-      </div> */}
 
-      {/* 6th part end */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mx-5 md:mx-20 lg:mx-28 mt-10">
+        {faqs.map((faq) => (
+          <div key={faq.id} className="p-4">
+            <div
+              className="border-2 border-gray-300 p-4 cursor-pointer flex justify-between items-center rounded-[4px]"
+              onClick={() => toggleFAQ(faq.id)}
+            >
+              <h2 className="text-lg font-semibold">{faq.question}</h2>
+              <span className="text-gray-500">
+                {openId === faq.id ? (
+                  <i className="fas fa-minus" />
+                ) : (
+                  <i className="fas fa-plus" />
+                )}
+              </span>
+            </div>
+            {openId === faq.id && (
+              <p className="text-gray-700 mt-2">{faq.answer}</p>
+            )}
+          </div>
+        ))}
+      </div>
+
+      {/* seven-section */}
+      <div className="mt-10 md:mt-16 flex justify-center">
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#01355D]">
+          <FontAwesomeIcon
+            icon={faSquarespace}
+            className="pr-5 text-[#01355D] "
+          />
+          Why Choose Us?
+        </h1>
+      </div>
+
+      <div className="why-choose-image mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 md:gap-16 mx-5 md:mx-20 lg:mx-28 pt-12 lg:pt-20 pb-10">
+          <div className="text-white">
+            <div className="flex justify-center">
+              <img src={whyChoose1} alt="" className=" md:w-[40%] h-auto" />
+            </div>
+            <h1 className="mt-3 text-center text-xl font-semibold">
+              Growth & Improvement
+            </h1>
+            <p className="mt-2 text-center">
+              We believe in growth and improvement at all costs. For us, growth
+              is the law of life and it shall be fulfilled. We know the
+              importance of business and its growth for you.
+            </p>
+          </div>
+
+          <div className="text-white">
+            <div className="flex justify-center">
+              <img src={whyChoose2} alt="" className=" md:w-[35%] h-auto" />
+            </div>
+            <h1 className="mt-3 text-center text-xl font-semibold">
+              Support & Availability
+            </h1>
+            <p className="mt-2 text-center">
+              We feel how much pain even a small problem or query can cause,
+              that is the reason we are available to support you and solve any
+              of such problems at every particular instance in time.
+            </p>
+          </div>
+
+          <div className="text-white">
+            <div className="flex justify-center">
+              <img src={whyChoose3} alt="" className=" md:w-[30%] h-auto" />
+            </div>
+            <h1 className="mt-3 text-center text-xl font-semibold">
+              Experienced Team
+            </h1>
+            <p className="mt-2 text-center">
+              All the members of our team are experienced individuals who
+              believe in professionalism and customer satisfaction above all.
+              Each one of them is passionate in their respective fields.
+            </p>
+          </div>
+
+          <div className="text-white">
+            <div className="flex justify-center">
+              <img src={whyChoose4} alt="" className=" md:w-[35%] h-auto" />
+            </div>
+            <h1 className="mt-3 text-center text-xl font-semibold">Focus</h1>
+            <p className="mt-2 text-center">
+              Any assigned task is of utmost importance to us, that's why our
+              team members are always focused on taking care of even the
+              smallest of our clients' needs and requirements.
+            </p>
+          </div>
+
+          <div className="text-white">
+            <div className="flex justify-center">
+              <img src={whyChoose5} alt="" className=" md:w-[35%] h-auto" />
+            </div>
+            <h1 className="mt-3 text-center text-xl font-semibold">
+              Value For Money
+            </h1>
+            <p className="mt-2 text-center">
+              We understand that the money being spent is hard-earned, therefore
+              we utilize every single penny that you pay us in the most
+              effective way possible hence providing the best value for money.
+            </p>
+          </div>
+
+          <div className="text-white">
+            <div className="flex justify-center">
+              <img src={whyChoose6} alt="" className=" md:w-[35%] h-auto" />
+            </div>
+            <h1 className="mt-3 text-center text-xl font-semibold">
+              Care & Regards
+            </h1>
+            <p className="mt-2 text-center">
+              We believe you to be a part of this family and that all your
+              problems, as well as achievements, are our very own. Your
+              interests are ours and their fulfillment is at the top in our
+              regards.
+            </p>
+          </div>
+        </div>
+      </div>
+
     </>
   );
 };

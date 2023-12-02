@@ -1,6 +1,7 @@
 .why-choose-image{
-    background-image: url("../../assests/images/Start BusinessImages/PatnerShipimages/Mask Group.jpg");
+    /* background-image: url("../../assests/images/Start BusinessImages/PatnerShipimages/Mask Group.jpg"); */
     /* background-attachment: fixed; */
+    background-color:#01355D;
     height:auto;
     background-position: center;
     background-repeat: no-repeat;

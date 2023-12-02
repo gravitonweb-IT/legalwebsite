@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import patnershipdeed from "../../assests/images/Start BusinessImages/PatnerShipimages/partnershipdeed.jfif";
-import Faq1 from "../../assests/images/Start BusinessImages/PatnerShipimages/faq's-image3.jfif";
-import Faq2 from "../../assests/images/Start BusinessImages/PatnerShipimages/faq's-image1.png";
-import Faq3 from "../../assests/images/Start BusinessImages/PatnerShipimages/faq's-image2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleQuestion,
@@ -230,7 +227,7 @@ const ParternerShip = () => {
           <div className=" text-center">
             <FontAwesomeIcon
               icon={faFlagCheckered}
-              className="w-10 h-10 text-[#FFE56A]"
+              className="w-10 h-10 text-yellow-500"
             />
           </div>
           <h1 className="mt-3 text-center">
@@ -242,7 +239,7 @@ const ParternerShip = () => {
           <div className=" text-center">
             <FontAwesomeIcon
               icon={faFlagCheckered}
-              className="w-10 h-10 text-[#FFE56A]"
+              className="w-10 h-10 text-yellow-500"
             />
           </div>
           <h1 className="mt-3 text-center">Claim Set-Off</h1>
@@ -252,7 +249,7 @@ const ParternerShip = () => {
           <div className=" text-center">
             <FontAwesomeIcon
               icon={faFlagCheckered}
-              className="w-10 h-10 text-[#FFE56A]"
+              className="w-10 h-10 text-yellow-500"
             />
           </div>
           <h1 className="mt-3 text-center">Conversion of Entity</h1>
@@ -262,7 +259,7 @@ const ParternerShip = () => {
           <div className=" text-center">
             <FontAwesomeIcon
               icon={faFlagCheckered}
-              className="w-10 h-10 text-[#FFE56A]"
+              className="w-10 h-10 text-yellow-500"
             />
           </div>
           <h1 className="mt-3 text-center">Higher Credibility</h1>
@@ -272,7 +269,7 @@ const ParternerShip = () => {
           <div className=" text-center">
             <FontAwesomeIcon
               icon={faFlagCheckered}
-              className="w-10 h-10 text-[#FFE56A]"
+              className="w-10 h-10 text-yellow-500"
             />
           </div>
           <h1 className="mt-3 text-center">Obtain PAN</h1>
@@ -282,7 +279,7 @@ const ParternerShip = () => {
           <div className=" text-center">
             <FontAwesomeIcon
               icon={faFlagCheckered}
-              className="w-10 h-10 text-[#FFE56A]"
+              className="w-10 h-10 text-yellow-500"
             />
           </div>
           <h1 className="mt-3 text-center">Apply for Bank Loan</h1>
@@ -292,7 +289,7 @@ const ParternerShip = () => {
           <div className=" text-center">
             <FontAwesomeIcon
               icon={faFlagCheckered}
-              className="w-10 h-10 text-[#FFE56A]"
+              className="w-10 h-10 text-yellow-500"
             />
           </div>
           <h1 className="mt-3 text-center">Open Bank Account in Firm's Name</h1>
@@ -302,7 +299,7 @@ const ParternerShip = () => {
           <div className=" text-center">
             <FontAwesomeIcon
               icon={faFlagCheckered}
-              className="w-10 h-10 text-[#FFE56A]"
+              className="w-10 h-10 text-yellow-500"
             />
           </div>
           <h1 className="mt-3 text-center">
@@ -314,7 +311,7 @@ const ParternerShip = () => {
           <div className=" text-center">
             <FontAwesomeIcon
               icon={faFlagCheckered}
-              className="w-10 h-10 text-[#FFE56A]"
+              className="w-10 h-10 text-yellow-500"
             />
           </div>
           <h1 className="mt-3 text-center">Sharing Profits & Losses</h1>
@@ -324,7 +321,7 @@ const ParternerShip = () => {
           <div className=" text-center">
             <FontAwesomeIcon
               icon={faFlagCheckered}
-              className="w-10 h-10 text-[#FFE56A]"
+              className="w-10 h-10 text-yellow-500"
             />
           </div>
           <h1 className="mt-3 text-center">
@@ -336,7 +333,7 @@ const ParternerShip = () => {
           <div className=" text-center">
             <FontAwesomeIcon
               icon={faFlagCheckered}
-              className="w-10 h-10 text-[#FFE56A]"
+              className="w-10 h-10 text-yellow-500"
             />
           </div>
           <h1 className="mt-3 text-center">
@@ -564,7 +561,7 @@ const ParternerShip = () => {
       </div>
 
       <div className="why-choose-image mt-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-16 mx-5 md:mx-20 lg:mx-28 pt-12 lg:pt-20 pb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 md:gap-16 mx-5 md:mx-20 lg:mx-28 pt-12 lg:pt-20 pb-10">
           <div className="text-white">
             <div className="flex justify-center">
               <img src={whyChoose1} alt="" className=" md:w-[40%] h-auto" />
