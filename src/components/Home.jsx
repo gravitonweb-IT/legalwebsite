@@ -301,7 +301,7 @@ const Home = () => {
       </div>
 
       {/* second part */}
-      <div className="mt-40 text-center font-bold text-2xl md:text-4xl mx-5 sm:mx-0">
+      <div className="mt-20 md:mt-40 text-center font-bold text-2xl md:text-4xl mx-5 sm:mx-0">
         <h1>
           <span> Discover</span>257+ legal services over one platform
         </h1>
@@ -677,7 +677,7 @@ const Home = () => {
 
       {/* fifth part */}
 
-      <div className="mt-10 md:mt-20 text-center">
+      <div className="mt-20 text-center">
         <h1 className="font-bold text-2xl md:text-4xl">
           What We Can{" "}
           <span className="bg-gradient-to-r from-purple-600 via-red-500 to-yellow-300">
@@ -963,7 +963,7 @@ const Home = () => {
       </div>
 
       {/* sevent part */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20 mx-5 md:mx-20 lg:mx-32 mt-5 md:mt-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20 mx-5 md:mx-20 lg:mx-32 mt-10 md:mt-20">
         <div className="">
           <h1 className="font-bold text-2xl md:text-4xl">
             Why Choose <span className="text-[#954535]">Legal257?</span>

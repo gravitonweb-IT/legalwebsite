@@ -1334,7 +1334,7 @@ const Navbar = () => {
                           </h2>
                         </Link >
                         <Link to= "/PvtLtdCompanyRegisteration">
-                        <h2 className="text-sm xl:text-md   hover:text-blue-500">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500">
                           Pvt. Ltd. Company Registration
                         </h2>
                         </Link>

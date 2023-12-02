@@ -21,7 +21,7 @@ import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
 const ParternLtdCompanyRegisteration = () => {
   const [formData, setFormData] = useState({
     name: "",
-    contact: "",
+    phone: "",
     email: "",
     city: "",
   });
@@ -33,16 +33,26 @@ const ParternLtdCompanyRegisteration = () => {
     });
   };
 
+  
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
+    console.log("Form Data:", formData);
+   // You can perform additional actions here, such as sending data to a server
+
+  // Reset the form
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      city: "",
+    });
   };
 
   return (
     <>
       {/* 1st part start */}
 
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-5 md:gap-16 mx-5 md:mx-20 lg:mx-28 mt-20 md:mt-28">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-5 md:gap-16 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
         <div className="md:col-span-7">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             Pvt. Ltd. Company Registration
@@ -133,7 +143,7 @@ const ParternLtdCompanyRegisteration = () => {
             </div>
           </div>
 
-          <form>
+          <form onSubmit={handleSubmit}>
             <label>Name</label>
             <p className="mt-2 mb-2">
               <input
@@ -142,6 +152,8 @@ const ParternLtdCompanyRegisteration = () => {
                 name="name"
                 placeholder="Enter Your Name"
                 className=" w-full border p-2 rounded-lg"
+                value={formData.name}
+                onChange={handleChange}
               />
             </p>
             <label className="">Email</label>
@@ -152,6 +164,8 @@ const ParternLtdCompanyRegisteration = () => {
                 name="email"
                 placeholder="Enter Your Email"
                 className=" w-full border p-2 rounded-lg"
+                value={formData.email}
+                onChange={handleChange}
               />
             </p>
             <label className="">Contact Number</label>
@@ -163,6 +177,8 @@ const ParternLtdCompanyRegisteration = () => {
                 name="phone"
                 placeholder="Enter Your Number"
                 className=" w-full mt-2  border p-2 rounded-lg"
+                value={formData.phone}
+                onChange={handleChange}
               />
             </p>
             <label>Related to</label>
@@ -173,6 +189,8 @@ const ParternLtdCompanyRegisteration = () => {
                 name="city"
                 placeholder="City/District"
                 className=" w-full  border p-2 rounded-lg"
+                value={formData.city}
+                onChange={handleChange}
               />
             </p>
             <div className="mt-5 flex justify-center">
@@ -284,232 +302,6 @@ const ParternLtdCompanyRegisteration = () => {
           Comparison
         </h1>
       </div>
-
-      {/* <div className="grid  md:grid-cols-5  gap-5 mx-5 md:mx-20 lg:mx-28 text-center    mt-10 md:mt-20 ">
-        <div className="">
-          <h1 className="font-semibold text-xl text-[#141F38] ">Features</h1>
-        </div>
-
-        <div>
-          <h1 className="font-semibold text-xl text-[#141F38] ">
-            Proprietorship
-          </h1>
-        </div>
-        <div>
-          <h1 className="font-semibold text-xl text-[#141F38] ">Partnership</h1>
-        </div>
-        <div>
-          <h1 className="font-semibold text-xl text-[#141F38] ">LLP</h1>
-        </div>
-        <div>
-          <h1 className="font-semibold text-xl text-[#141F38] ">Company</h1>
-        </div>
-      </div>
-
-      <div className="grid md:grid-cols-5  gap-5 mx-5 md:mx-20 lg:mx-28 text-center bg-[#F9FAFB] rounded-xl text-lg   mt-5 md:mt-10">
-        <div>
-          <h1 className="font-semibold text-xl text-[#141F38]  mt-3">
-            Definition
-          </h1>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            A sole proprietorship is a business owned and operated by a single
-            individual.
-          </p>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            A partnership is a legal arrangement where two or more individuals
-            or entities agree to share ownership, responsibilities, profits, and
-            liabilities of a business.
-          </p>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            An LLP is a hybrid business structure that combines elements of
-            partnerships and company. It offers limited liability to its
-            partners, protecting their personal assets from the liabilities of
-            the business.
-          </p>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            A company is a legal entity that exists separately from its owners
-            (shareholders). It can be a private limited company or a public
-            limited company. Shareholders' are the owners of the company and
-            their liability is limited to their investment, and the company's
-            operations and management are governed by the board of directors.
-          </p>
-        </div>
-      </div>
-
-      <div className="grid md:grid-cols-5  gap-5 mx-5 md:mx-20 lg:mx-28 text-center bg-[#F9FAFB] rounded-xl  text-lg  mt-5 ">
-        <div>
-          <h1 className="font-semibold text-xl text-[#141F38]  mt-3">
-            Ownership
-          </h1>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            In a proprietorship, a single individual owns and manages the
-            business.
-          </p>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            A partnership involves two or more individuals (partners) who share
-            ownership and management responsibilities.
-          </p>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            Partners have limited liability, meaning their personal assets are
-            generally protected from business debts or liabilities.
-          </p>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            A company is a legal entity separate from its owners (shareholders).
-            Shareholders have limited liability, and their personal assets are
-            not typically at risk for company debts.
-          </p>
-        </div>
-      </div>
-
-      <div className="grid md:grid-cols-2 gap-5 md:mx-20 lg:mx-28  bg-[#F9FAFB] rounded-xl  text-lg  mt-5 ">
-        <div>
-          {" "}
-          <h1 className="font-semibold text-xl pl-16 text-[#141F38] p-4 ">
-            Registration
-            <br /> Time
-          </h1>
-        </div>
-        <div>
-          <p className=" text-justify p-4 text-[#1E1E1E]">7-15 working days</p>
-        </div>
-      </div>
-
-      <div className="grid md:grid-cols-3 gap-5 md:mx-20 lg:mx-28  bg-[#F9FAFB] rounded-xl  text-lg  mt-5 ">
-        <div>
-          <h1 className="font-semibold text-xl pl-16 text-[#141F38] p-4 ">
-            Promoter
-            <br /> Liability
-          </h1>
-        </div>
-        <div>
-          <h1 className="font-semibold text-xl pl-10 text-[#141F38] p-4 ">
-            Unlimited Liability
-          </h1>
-        </div>
-        <div>
-          <h1 className="font-semibold text-xl pl-10 text-[#141F38] p-4 ">
-            Limited Liability
-          </h1>
-        </div>
-      </div>
-
-      <div className="grid md:grid-cols-5  gap-5 mx-5 md:mx-20 lg:mx-28 text-center bg-[#F9FAFB] rounded-xl  text-lg  mt-5 ">
-        <div>
-          <h1 className="font-semibold text-xl text-[#141F38]  mt-3">
-            Governance
-          </h1>
-        </div>
-
-        <div>
-          <p className=" p-4 text-[#1E1E1E] ">Governed by Local Laws</p>
-        </div>
-
-        <div>
-          <p className="p-4 text-[#1E1E1E] ">Under Partnership Act, 1932</p>
-        </div>
-
-        <div>
-          <p className=" p-4 text-[#1E1E1E] ">LLP Act, 2008</p>
-        </div>
-
-        <div>
-          <p className=" p-4 text-[#1E1E1E] ">Under Companies Act,2013</p>
-        </div>
-      </div>
-
-      <div className="grid md:grid-cols-5  gap-5 mx-5 md:mx-20 lg:mx-28 text-center bg-[#F9FAFB] rounded-xl  text-lg  mt-5 ">
-        <div>
-          <h1 className="font-semibold text-xl text-[#141F38]  mt-3">
-            Compliance <br />
-            Requirements
-          </h1>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            Compliance in accordance with- Income Tax Laws and other Local Laws
-          </p>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            Compliance in accordance with- Income Tax Laws and other Local Laws
-          </p>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            Compliance in accordance with-Income Tax Laws, Local Laws, Companies
-            Act and other as applicable
-          </p>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            Compliance in accordance with-Income Tax Laws, Local Laws, Companies
-            Act and other as applicable
-          </p>
-        </div>
-      </div>
-
-      <div className="grid md:grid-cols-5  gap-5 mx-5 md:mx-20 lg:mx-28 text-center bg-[#F9FAFB] rounded-xl  text-lg  mt-5 ">
-        <div>
-          <h1 className="font-semibold text-xl text-[#141F38]  mt-3">
-            Taxation
-          </h1>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            Income is taxed at the individual's income tax rates.
-          </p>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            Income is generally taxed at the individual partners' income tax
-            rates.
-          </p>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            Taxed as a partnership, where partners are individually taxed on
-            their share of profits.
-          </p>
-        </div>
-
-        <div>
-          <p className="text-justify p-4 text-[#1E1E1E] ">
-            Subject to corporate tax rates. Shareholders are taxed on dividends
-            received.
-          </p>
-        </div>
-      </div> */}
 
       <div className="overflow-x-auto ">
         <table className="min-w-full bg-white rounded-xl shadow-md mt-5 md:mt-10 ">

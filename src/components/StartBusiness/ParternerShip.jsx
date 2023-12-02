@@ -106,7 +106,7 @@ const ParternerShip = () => {
   return (
     <>
       {/* section-1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-20 md:mt-28">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
         <div className="">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             Partnership Deed
