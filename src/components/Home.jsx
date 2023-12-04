@@ -94,7 +94,7 @@ const Home = () => {
     <>
       {/* hero section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ml-0 md:ml-20 lg:ml-28">
-        <div className="mx-5 md:mx-0 mt-20">
+        <div className="mx-5 md:mx-0 mt-20 md:mt-16">
           <p className="font-bold text-2xl md:text-4xl lg:text-5xl mt-5 md:mt-20 md:h-[120px] ">
             <Typewriter
               options={{
@@ -203,7 +203,7 @@ const Home = () => {
         <div>
           <div className="relative">
             <img
-              className="rounded-bl-[100px] w-[100%] h-[70vh]"
+              className="rounded-bl-[100px] w-[100%] h-[75vh]"
               src={ilegalhomeimg}
               alt="Legal Home"
             />
@@ -301,7 +301,7 @@ const Home = () => {
       </div>
 
       {/* second part */}
-      <div className="mt-20 md:mt-40 text-center font-bold text-2xl md:text-4xl mx-5 sm:mx-0">
+      <div className="mt-44 md:mt-32 text-center font-bold text-2xl md:text-4xl mx-5 sm:mx-0">
         <h1>
           <span> Discover</span>257+ legal services over one platform
         </h1>
@@ -505,7 +505,7 @@ const Home = () => {
             <div>
               <h1 className="text-xl font-semibold text-[#8A4117]">Deepak</h1>
               <p className="text-justify mt-4 text-[#1E1E1E]">
-                Another noteworthy aspect of Legal251's service was the
+                Another noteworthy aspect of Legal257's service was the
                 transparency regarding fees and costs. I received a detailed
                 breakdown of the expected expenses upfront, allowing me to make
                 informed decisions. The pricing was fair and competitive,
@@ -518,7 +518,7 @@ const Home = () => {
               <h1 className="text-xl font-semibold text-[#8A4117]">Amisha</h1>
               <p className="text-justify mt-4 text-[#1E1E1E]">
                 I recently had the opportunity to utilize the online legal
-                services provided by Legal251, and I must say that I am
+                services provided by Legal257, and I must say that I am
                 thoroughly impressed. As someone who needed legal assistance but
                 couldn't spare the time for in-person consultations, their
                 online platform proved to be a convenient and efficient
@@ -686,7 +686,7 @@ const Home = () => {
           With?
         </h1>
       </div>
-      <div className="mx-5 md:mx-20 lg:mx-28 mt-5 md:mt-20">
+      <div className="mx-5 md:mx-20 lg:mx-28 mt-10 md:mt-20">
         <Slider {...settings3}>
           <div className="">
             <div className="flex justify-center">

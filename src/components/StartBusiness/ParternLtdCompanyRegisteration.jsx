@@ -69,7 +69,7 @@ const faqs = [
   {
     id: 6,
     question:
-      "Q10. What is the process and timeline for Private Limited Company registration?",
+      "Q6. What is the process and timeline for Private Limited Company registration?",
     answer:
       "The process for Private Limited Company registration in India involves obtaining Digital Signatures, Director Identification Number, name approval, filing incorporation documents, and obtaining the certificate. The timeline is approximately 15-20 days.",
   },
@@ -117,7 +117,7 @@ const ParternLtdCompanyRegisteration = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-12 gap-5 md:gap-16 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
         <div className="md:col-span-7">
-          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
+          <h1 className="text-2xl md:text-4xl xl:text-5xl font-bold text-[#B70505]">
             Pvt. Ltd. Company Registration
           </h1>
           <p className="text-lg font-medium mt-5 text-justify">
@@ -129,7 +129,7 @@ const ParternLtdCompanyRegisteration = () => {
             shares.
           </p>
 
-          <div className="border-2 rounded-2xl mt-5 lg:mt-12">
+          <div className="border-2 rounded-2xl mt-5 lg:mt-8 xl:mt-12">
             <h1 className="text-white p-4 text-lg md:text-xl rounded-2xl text-center bg-[#8A4117]">
               Get Absolutely Free In Package
             </h1>
@@ -267,7 +267,7 @@ const ParternLtdCompanyRegisteration = () => {
 
       {/* second-section */}
 
-      <div className="grid grid-cols-1  md:grid-cols-5  gap-5  shadow-xl rounded-lg p-5 mx-5 md:mx-20 lg:mx-28 mt-10 md:mt-20">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-5  shadow-2xl rounded-lg p-5 mx-5 md:mx-20 lg:mx-28 mt-10 md:mt-20">
         <div className="flex justify-center items-center ">
           <img
             src={sliderhomeimg1}
@@ -502,7 +502,7 @@ const ParternLtdCompanyRegisteration = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mx-10 md:mx-20 lg:mx-28 mt-5 md:mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-10 md:mx-20 lg:mx-28 mt-5 md:mt-10">
         <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
             <img src={lmtliablity} alt=""className="w-2/4 h-auto" />

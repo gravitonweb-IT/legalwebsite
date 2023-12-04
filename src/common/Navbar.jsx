@@ -170,7 +170,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="Section 8 Company Registration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -179,7 +179,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/LLPCompanyRegistration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -188,7 +188,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/OpcOnePersonCompanyRegistration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -254,7 +254,7 @@ const Navbar = () => {
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
-                          to="/"
+                          to="/AnnualComplianceLlp"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -263,7 +263,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/AnnualComplianceCompancy"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -272,7 +272,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/CmaReport"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -1316,12 +1316,12 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(1)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md">
+            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Start Business
             </Link>
 
             {activeDropdown === 1 && (
-              <div className="fixed inset-0 z-50  min-h-fit flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50  min-h-fit flex justify-center mt-[45px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="">
@@ -1333,20 +1333,30 @@ const Navbar = () => {
                             Partnership Deed
                           </h2>
                         </Link >
+
                         <Link to= "/PvtLtdCompanyRegisteration">
                         <h2 className="text-sm xl:text-md hover:text-blue-500">
                           Pvt. Ltd. Company Registration
                         </h2>
                         </Link>
-                        <h2 className="text-sm xl:text-md ">
+
+                        <Link to= "/Section8CompanyRegistration">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500">
                           Section 8 Company Registration
                         </h2>
+                        </Link>
+
+                        <Link to="/LLPCompanyRegistration">
                         <h2 className="text-sm xl:text-md ">
                           LLP Company Registration
                         </h2>
+                        </Link>
+
+                        <Link to="/OpcOnePersonCompanyRegistration">
                         <h2 className="text-sm xl:text-md ">
-                          OPC Company REgistration
+                          OPC Company Registration
                         </h2>
+                        </Link>
                     
                     </div>
                     
@@ -1354,15 +1364,22 @@ const Navbar = () => {
                       <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         Compliance
                       </h2>
-                      
+
+                       <Link to="/AnnualComplianceLlp">
                         <h2 className="text-sm xl:text-md ">
-                          {" "}
-                          Annual Compliance LLP{" "}
+                          Annual Compliance LLP
                         </h2>
+                        </Link>
+
+                        <Link to="/AnnualComplianceCompancy">
                         <h2 className="text-sm xl:text-md ">
                           Annual Compliance Pvt.Ltd.
                         </h2>
+                        </Link>
+
+                        <Link to="/CmaReport">
                         <h2 className="text-sm xl:text-md ">CMA Report</h2>
+                        </Link>
                     </div>
                     
                   </div>
@@ -1377,12 +1394,12 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(2)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
+            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Change In Business
             </Link>
 
             {activeDropdown === 2 && (
-              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[45px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-3 gap-5 p-4">
                     <div className="">
@@ -1458,12 +1475,12 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(3)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
+            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Registrations
             </Link>
 
             {activeDropdown === 3 && (
-              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[45px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-3 gap-5 p-4">
                     <div>
@@ -1527,12 +1544,12 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(4)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
+            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Filing & More
             </Link>
 
             {activeDropdown === 4 && (
-              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[45px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="">
@@ -1571,12 +1588,12 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(5)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
+            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Drafting
             </Link>
 
             {activeDropdown === 5 && (
-              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[45px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="">
@@ -1627,12 +1644,12 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(6)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
+            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Legal Issues
             </Link>
 
             {activeDropdown === 6 && (
-              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[45px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="">
@@ -1669,12 +1686,12 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(7)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
+            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Other Services
             </Link>
 
             {activeDropdown === 7 && (
-              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[45px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-1  p-4">
                     <div className="">
@@ -1703,12 +1720,12 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(8)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500  text-sm xl:text-md">
+            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Utilities
             </Link>
 
             {activeDropdown === 8 && (
-              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[50px] ">
+              <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[45px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-3 gap-5 p-4">
                     <div>
