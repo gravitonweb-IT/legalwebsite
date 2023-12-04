@@ -107,7 +107,7 @@ const Navbar = () => {
                   onMouseEnter={() => handleMouseEnter(1)}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <Link
+                  <Link to="/"
                     className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(false)}
                   >
@@ -211,7 +211,7 @@ const Navbar = () => {
                 >
                   <Link
                     className="hover:text-blue-500 "
-                    onClick={() => setIsDrawerOpen(true)}
+                    onClick={() => setIsDrawerOpen(false)}
                   >
                     Compliance
                   </Link>
@@ -295,7 +295,7 @@ const Navbar = () => {
                 >
                   <Link
                     className="hover:text-blue-500 "
-                    onClick={() => setIsDrawerOpen(true)}
+                    onClick={() => setIsDrawerOpen(false)}
                   >
                     Change In Business
                   </Link>
@@ -471,7 +471,7 @@ const Navbar = () => {
                 >
                   <Link
                     className="hover:text-blue-500 "
-                    onClick={() => setIsDrawerOpen(true)}
+                    onClick={() => setIsDrawerOpen(false)}
                   >
                     Registrations
                   </Link>
@@ -645,7 +645,7 @@ const Navbar = () => {
                 >
                   <Link
                     className="hover:text-blue-500 "
-                    onClick={() => setIsDrawerOpen(true)}
+                    onClick={() => setIsDrawerOpen(false)}
                   >
                     Filing & More
                   </Link>
@@ -729,7 +729,7 @@ const Navbar = () => {
                 >
                   <Link
                     className="hover:text-blue-500 "
-                    onClick={() => setIsDrawerOpen(true)}
+                    onClick={() => setIsDrawerOpen(false)}
                   >
                     Accounting
                   </Link>
@@ -793,7 +793,7 @@ const Navbar = () => {
                 >
                   <Link
                     className="hover:text-blue-500 "
-                    onClick={() => setIsDrawerOpen(true)}
+                    onClick={() => setIsDrawerOpen(false)}
                   >
                     Drafting
                   </Link>
@@ -938,7 +938,7 @@ const Navbar = () => {
                 >
                   <Link
                     className="hover:text-blue-500 "
-                    onClick={() => setIsDrawerOpen(true)}
+                    onClick={() => setIsDrawerOpen(false)}
                   >
                     Legal Issue
                   </Link>
@@ -1012,7 +1012,7 @@ const Navbar = () => {
                 >
                   <Link
                     className="hover:text-blue-500 "
-                    onClick={() => setIsDrawerOpen(true)}
+                    onClick={() => setIsDrawerOpen(false)}
                   >
                     Legal Notice
                   </Link>
@@ -1076,7 +1076,7 @@ const Navbar = () => {
                 >
                   <Link
                     className="hover:text-blue-500 "
-                    onClick={() => setIsDrawerOpen(true)}
+                    onClick={() => setIsDrawerOpen(false)}
                   >
                     Other Services
                   </Link>
