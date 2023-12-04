@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
-import patnershipdeed from "../../assests/images/Start BusinessImages/PatnerShipimages/partnershipdeed.jfif";
+import Cma from "../../assests/images/CmaImg/CmaImg.png";
 import Benchmarking from "../../assests/images/CmaImg/Benchmarking.png";
 import Competitive from "../../assests/images/CmaImg/Competitive.png";
 import Compliance from "../../assests/images/CmaImg/Compliance.png";
@@ -197,7 +197,7 @@ const CmaReport = () => {
             <h1 className="text-center text-xl text-[#F89327] font-semibold">
               &#x20B9;1206.78
             </h1>
-            <img src={patnershipdeed}></img>
+            <img src={Cma}></img>
           </div>
         </div>
       </div>

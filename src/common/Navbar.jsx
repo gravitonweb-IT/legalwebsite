@@ -338,7 +338,7 @@ const Navbar = () => {
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
-                          to="/"
+                          to="/DissolutionOfDeed"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -347,7 +347,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/AddressAmendmentWithInStateLlp"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -356,7 +356,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/AddressAmendmentWithInStateCompany"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -365,7 +365,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/AddressAmendmentOutStateLlp"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -374,7 +374,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/AddressAmendmentoutStateCompany"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -384,7 +384,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/AddDirector"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -394,7 +394,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/AddPartner"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -1404,36 +1404,55 @@ const Navbar = () => {
                   <div className="grid grid-cols-3 gap-5 p-4">
                     <div className="">
                       <h2 className="text-sm xl:text-md text-blue-500 mb-3">
-                        {" "}
                         Change In Business
                       </h2>
+                        
+                        <Link to="/DissolutionOfDeed">
                         <h2 className="text-sm xl:text-md ">
-                          {" "}
                           Dissolution of deeds
                         </h2>
+                        </Link>
+
+                        <Link to="/AddressAmendmentWithInStateLlp">
                         <h2 className="text-sm xl:text-md ">
                           Address Amendment Within state (LLP)
                         </h2>
+                        </Link>
+
+                        <Link to="/AddressAmendmentWithInStateCompany">
                         <h2 className="text-sm xl:text-md ">
                           Address Amendment Within state (Company)
                         </h2>
+                        </Link>
+
+                        <Link to="/AddressAmendmentOutStateLlp">
                         <h2 className="text-sm xl:text-md ">
                           Address Amendment out of state (LLP)
                         </h2>
+                        </Link>
+
+                        <Link to="/AddressAmendmentoutStateCompany">
                         <h2 className="text-sm xl:text-md ">
                           Address Amendment out of state (Company)
                         </h2>
+                        </Link>
                       
                     </div>
 
                     <div className="mt-7">
+                      <Link to="/AddDirector">
                       <h2 className="text-sm xl:text-md ">
                         Add Director (company)
                       </h2>
+                      </Link>
+
+                      <Link to="/AddPartner">
                       <h2 className="text-sm xl:text-md ">
-                        {" "}
                         Add Partner (Company)
                       </h2>
+                      </Link>
+
+
                       <h2 className="text-sm xl:text-md ">
                         Increase Capital (LLP)
                       </h2>

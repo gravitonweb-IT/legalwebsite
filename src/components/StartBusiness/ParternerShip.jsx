@@ -13,8 +13,8 @@ import {
   faHandshake,
   faPenToSquare,
 } from "@fortawesome/free-regular-svg-icons";
-import { faSquarespace } from "@fortawesome/free-brands-svg-icons";
 import "./PartnerShip.css";
+import { faSquarespace } from "@fortawesome/free-brands-svg-icons";
 import whyChoose1 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose1.svg";
 import whyChoose2 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose2.svg";
 import whyChoose3 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose3.svg";

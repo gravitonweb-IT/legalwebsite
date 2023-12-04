@@ -5,7 +5,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 
-import Navbar from './common/Navbar';
+import Navbar from "./common/Navbar";
 import LLPCompanyRegistration from "./components/StartBusiness/LLPCompanyRegistration";
 import OpcOnePersonCompanyRegistration from "./components/StartBusiness/OpcOnePersonCompanyRegistration";
 import ParternerShip from "./components/StartBusiness/ParternerShip";
@@ -44,7 +44,7 @@ import TradeLicense from "./components/Registration/TradeLicense";
 function App() {
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         {/* Start Business */}
@@ -78,21 +78,26 @@ function App() {
         />
         <Route
           path="/AddressAmendmentOutStateLlp"
-          element={<AddressAmendmentOutStateLlp/>}
+          element={<AddressAmendmentOutStateLlp />}
         />
         <Route
           path="/AddressAmendmentoutStateCompany"
-          element={<AddressAmendmentoutStateCompany/>}
+          element={<AddressAmendmentoutStateCompany />}
         />
         <Route path="/AddDirector" element={<AddDirector />} />
         <Route path="/AddPartner" element={<AddPartner />} />
         <Route path="/IncreaseCapitalLlp" element={<IncreaseCapitalLlp />} />
         <Route path="/ChangeInNameLlp" element={<ChangeInNameLlp />} />
-        <Route path="/Changeincompany" element={<Changeincompany/>} />
-         <Route path="/RemoveDirectorcompany" element={<RemoveDirectorcompany/>} />
-         <Route path="/RemoveDirectorllp" element={<RemoveDirectorllp/>} />
-         <Route path="/IncreaseCapitalCompany" element={<IncreaseCapitalCompany/>} />
-       
+        <Route path="/Changeincompany" element={<Changeincompany />} />
+        <Route
+          path="/RemoveDirectorcompany"
+          element={<RemoveDirectorcompany />}
+        />
+        <Route path="/RemoveDirectorllp" element={<RemoveDirectorllp />} />
+        <Route
+          path="/IncreaseCapitalCompany"
+          element={<IncreaseCapitalCompany />}
+        />
 
         {/* Compliance */}
 
@@ -104,27 +109,32 @@ function App() {
         <Route path="/CmaReport" element={<CmaReport />} />
 
         {/* Registrations */}
-        <Route path="/ImportExportLicense" element={<ImportExportLicense/>} />
-        <Route path="/IcegateRegistration" element={<IcegateRegistration/>} />
-        <Route path="/MsmeUdhyanRegistration" element={<MsmeUdhyanRegistration/>} />
-        <Route path="/SocietyRegistration" element={<SocietyRegistration/>} />
-        <Route path="/PfRegistration" element={<PfRegistration/>} />
-        <Route path="/ProfessionalTaxRegistration" element={<ProfessionalTaxRegistration/>} />
-        <Route path="/GumastaLicense" element={<GumastaLicense/>} />
-        <Route path="/TradeMarkRegistration" element={<TradeMarkRegistration/>} />
-        <Route path="/EsirRegistration" element={<EsirRegistration/>} />
-        <Route path="/GstRegistration" element={<GstRegistration/>} />
-        <Route path="/FoodRegistration" element={<FoodRegistration/>} />
-        <Route path="/TradeLicense" element={<TradeLicense/>} />
-
+        <Route path="/ImportExportLicense" element={<ImportExportLicense />} />
+        <Route path="/IcegateRegistration" element={<IcegateRegistration />} />
+        <Route
+          path="/MsmeUdhyanRegistration"
+          element={<MsmeUdhyanRegistration />}
+        />
+        <Route path="/SocietyRegistration" element={<SocietyRegistration />} />
+        <Route path="/PfRegistration" element={<PfRegistration />} />
+        <Route
+          path="/ProfessionalTaxRegistration"
+          element={<ProfessionalTaxRegistration />}
+        />
+        <Route path="/GumastaLicense" element={<GumastaLicense />} />
+        <Route
+          path="/TradeMarkRegistration"
+          element={<TradeMarkRegistration />}
+        />
+        <Route path="/EsirRegistration" element={<EsirRegistration />} />
+        <Route path="/GstRegistration" element={<GstRegistration />} />
+        <Route path="/FoodRegistration" element={<FoodRegistration />} />
+        <Route path="/TradeLicense" element={<TradeLicense />} />
 
         {/* Filing & more */}
-        
-
-        
       </Routes>
 
-      <Footer/>
+      <Footer />
     </>
   );
 }
