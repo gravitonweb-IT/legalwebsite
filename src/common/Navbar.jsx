@@ -109,7 +109,7 @@ const Navbar = () => {
                 >
                   <Link
                     className="hover:text-blue-500 "
-                    onClick={() => setIsDrawerOpen(true)}
+                    onClick={() => setIsDrawerOpen(false)}
                   >
                     Start Business
                   </Link>
@@ -170,7 +170,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="Section 8 Company Registration"
+                          to="/Section8CompanyRegistration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >

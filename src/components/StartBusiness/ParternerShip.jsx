@@ -59,7 +59,7 @@ const faqs = [
   {
     id: 6,
     question:
-      "Q10. Can my friend from a different country become a partner in my Partnership Firm?",
+      "Q6. Can my friend from a different country become a partner in my Partnership Firm?",
     answer:
       "Yes, a foreigner is eligible to become a partner in an Indian Partnership Firm and can contribute to the firm's capital in some cases.",
   },
