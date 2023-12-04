@@ -24,6 +24,22 @@ import AnnualComplianceCompancy from "./components/Compliance/AnnualComplianceCo
 import AnnualComplianceLlp from "./components/Compliance/AnnualComplianceLlp";
 import CmaReport from "./components/Compliance/CmaReport";
 import Footer from "./common/Footer";
+import Changeincompany from "./components/ChangeInBusiness/Changeincompany";
+import RemoveDirectorcompany from "./components/ChangeInBusiness/RemoveDirectorcompany";
+import RemoveDirectorllp from "./components/ChangeInBusiness/RemoveDirectorllp";
+import IncreaseCapitalCompany from "./components/ChangeInBusiness/IncreaseCapitalCompany";
+import ImportExportLicense from "./components/Registration/ImportExportLicense";
+import IcegateRegistration from "./components/Registration/IcegateRegistration";
+import MsmeUdhyanRegistration from "./components/Registration/MsmeUdhyanRegistration";
+import SocietyRegistration from "./components/Registration/SocietyRegistration";
+import PfRegistration from "./components/Registration/PfRegistration";
+import ProfessionalTaxRegistration from "./components/Registration/ProfessionalTaxRegistration";
+import GumastaLicense from "./components/Registration/GumastaLicense";
+import TradeMarkRegistration from "./components/Registration/TradeMarkRegistration";
+import EsirRegistration from "./components/Registration/EsirRegistration";
+import GstRegistration from "./components/Registration/GstRegistration";
+import FoodRegistration from "./components/Registration/FoodRegistration";
+import TradeLicense from "./components/Registration/TradeLicense";
 
 function App() {
   return (
@@ -72,6 +88,11 @@ function App() {
         <Route path="/AddPartner" element={<AddPartner />} />
         <Route path="/IncreaseCapitalLlp" element={<IncreaseCapitalLlp />} />
         <Route path="/ChangeInNameLlp" element={<ChangeInNameLlp />} />
+        <Route path="/Changeincompany" element={<Changeincompany/>} />
+         <Route path="/RemoveDirectorcompany" element={<RemoveDirectorcompany/>} />
+         <Route path="/RemoveDirectorllp" element={<RemoveDirectorllp/>} />
+         <Route path="/IncreaseCapitalCompany" element={<IncreaseCapitalCompany/>} />
+       
 
         {/* Compliance */}
 
@@ -81,6 +102,26 @@ function App() {
         />
         <Route path="/AnnualComplianceLlp" element={<AnnualComplianceLlp />} />
         <Route path="/CmaReport" element={<CmaReport />} />
+
+        {/* Registrations */}
+        <Route path="/ImportExportLicense" element={<ImportExportLicense/>} />
+        <Route path="/IcegateRegistration" element={<IcegateRegistration/>} />
+        <Route path="/MsmeUdhyanRegistration" element={<MsmeUdhyanRegistration/>} />
+        <Route path="/SocietyRegistration" element={<SocietyRegistration/>} />
+        <Route path="/PfRegistration" element={<PfRegistration/>} />
+        <Route path="/ProfessionalTaxRegistration" element={<ProfessionalTaxRegistration/>} />
+        <Route path="/GumastaLicense" element={<GumastaLicense/>} />
+        <Route path="/TradeMarkRegistration" element={<TradeMarkRegistration/>} />
+        <Route path="/EsirRegistration" element={<EsirRegistration/>} />
+        <Route path="/GstRegistration" element={<GstRegistration/>} />
+        <Route path="/FoodRegistration" element={<FoodRegistration/>} />
+        <Route path="/TradeLicense" element={<TradeLicense/>} />
+
+
+        {/* Filing & more */}
+        
+
+        
       </Routes>
 
       <Footer/>
