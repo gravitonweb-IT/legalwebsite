@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import patnershipdeed from "../../assests/images/Start BusinessImages/PatnerShipimages/partnershipdeed.jfif";
+import Benchmarking from "../../assests/images/CmaImg/Benchmarking.png";
+import Competitive from "../../assests/images/CmaImg/Competitive.png";
+import Compliance from "../../assests/images/CmaImg/Compliance.png";
+import Cost from "../../assests/images/CmaImg/Cost.png";
+import Enhanced from "../../assests/images/CmaImg/Enhanced.png";
+import LegalRegulatory from "../../assests/images/CmaImg/LegalRegulatory.png";
+import Performace1 from "../../assests/images/CmaImg/Performace1.png";
+import Transoarency from "../../assests/images/CmaImg/Transoarency.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleQuestion,
@@ -82,7 +90,6 @@ const CmaReport = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Data:", formData);
-
     // You can perform additional actions here, such as sending data to a server
 
     // Reset the form
@@ -223,7 +230,7 @@ const CmaReport = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-10 md:mx-20 lg:mx-28 mt-5 md:mt-10">
         <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src="" alt="" className="w-2/4 h-auto" />
+            <img src={Compliance} alt="" className="w-2/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -238,7 +245,7 @@ const CmaReport = () => {
 
         <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src="" alt="" className="w-3/4 h-auto" />
+            <img src={Cost} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -247,13 +254,13 @@ const CmaReport = () => {
 
           <p className="text-gray-600 mt-3 text-center">
             Strategic cost optimization enhances efficiency, ensuring optimal
-            resource utilization and profitability.
+            resource utilization.
           </p>
         </div>
 
         <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src="" alt="" className="w-3/4 h-auto" />
+            <img src={Enhanced} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -268,7 +275,7 @@ const CmaReport = () => {
 
         <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src="" alt="" className="w-3/4 h-auto" />
+            <img src={Transoarency} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -283,7 +290,7 @@ const CmaReport = () => {
 
         <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src="" alt="" className="w-3/4 h-auto" />
+            <img src={LegalRegulatory} alt="" className="w-2/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -298,7 +305,7 @@ const CmaReport = () => {
 
         <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src="" alt="" className="w-[100%] h-auto" />
+            <img src={Competitive} alt="" className="w-3/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -313,22 +320,7 @@ const CmaReport = () => {
 
         <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src="" alt="" className="w-2/4 h-auto" />
-          </div>
-
-          <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
-            Improved Resource Allocation
-          </h3>
-
-          <p className="text-gray-600 mt-3 text-center">
-            Efficient resource allocation enhances productivity and supports
-            organizational improvement and growth.
-          </p>
-        </div>
-
-        <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
-          <div className="flex justify-center">
-            <img src="" alt="" className="w-3/4 h-auto" />
+            <img src={Performace1} alt="" className="w-2/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -343,7 +335,7 @@ const CmaReport = () => {
 
         <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src="" alt="" className="w-3/4 h-auto" />
+            <img src={Benchmarking} alt="" className="w-2/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
