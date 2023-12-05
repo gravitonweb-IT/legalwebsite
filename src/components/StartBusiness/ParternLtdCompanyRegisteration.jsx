@@ -367,7 +367,8 @@ const ParternLtdCompanyRegisteration = () => {
       </div>
 
       <div className="overflow-x-auto ">
-        <table className="min-w-full bg-white rounded-xl shadow-md mt-5 md:mt-10 ">
+        <div className="mx-0 md:mx-14">
+        <table className="min-w-full bg-white rounded-xl shadow-md mt-5 md:mt-10">
           <thead>
             <tr className="bg-gray-200 text-gray-700 text-left">
               <th className="py-3 px-4 font-semibold">Aspect</th>
@@ -473,6 +474,7 @@ const ParternLtdCompanyRegisteration = () => {
             </tr>
           </tbody>
         </table>
+        </div>
       </div>
 
       {/* fourth section */}

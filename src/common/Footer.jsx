@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-12 mx-5 md:mx-20 lg:mx-28">
           <div className="lg:col-span-2">
             <div>
-              <img src={legallogo} alt="" className="w-full md:w-[80%] h-auto" />
+              <img src={legallogo} alt="" className="w-[50%] md:w-[80%] h-auto" />
             </div>
 
             <h5 className="mt-3 text-black text-lg font-semibold">

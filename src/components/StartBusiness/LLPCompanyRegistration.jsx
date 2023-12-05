@@ -364,6 +364,7 @@ const LLPCompanyRegistration = () => {
       </div>
 
       <div className="overflow-x-auto ">
+      <div className="mx-0 md:mx-14">
         <table className="min-w-full bg-white rounded-xl shadow-md mt-5 md:mt-10 ">
           <thead>
             <tr className="bg-gray-200 text-gray-700 text-left">
@@ -470,6 +471,7 @@ const LLPCompanyRegistration = () => {
             </tr>
           </tbody>
         </table>
+      </div>
       </div>
 
       {/* fourth section */}

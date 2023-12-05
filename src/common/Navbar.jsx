@@ -403,17 +403,16 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/IncreaseCapitalLlp"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
-                          {" "}
                           Increase Capital (LLP)
                         </Link>
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/ChangeInNameLlp"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -422,7 +421,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="RemoveDirectorcompany"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -431,7 +430,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/RemoveDirectorllp"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -440,7 +439,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/IncreaseCapitalCompany"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -450,7 +449,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/Changeincompany"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -1452,35 +1451,43 @@ const Navbar = () => {
                       </h2>
                       </Link>
 
-
+                      <Link to="/IncreaseCapitalLlp">
                       <h2 className="text-sm xl:text-md ">
                         Increase Capital (LLP)
                       </h2>
+                      </Link>
+
+                     <Link to="/ChangeInNameLlp">
                       <h2 className="text-sm xl:text-md ">
-                        {" "}
                         Change In Name of LLP
                       </h2>
+                      </Link>
                     </div>
 
                     <div className="mt-7">
+                      <Link to="RemoveDirectorcompany">
                       <h2 className="text-sm xl:text-md ">
                         Remove Director (Company)
                       </h2>
+                      </Link>
+
+                      <Link to="/RemoveDirectorllp">
                       <h2 className="text-sm xl:text-md ">
-                        {" "}
                         Remove Partner LLP
                       </h2>
+                      </Link>
+
+                      <Link to="/IncreaseCapitalCompany">
                       <h2 className="text-sm xl:text-md ">
-                        Increase Capital (LLP)
-                      </h2>
-                      <h2 className="text-sm xl:text-md ">
-                        {" "}
                         Increase Capital(Company)
                       </h2>
+                      </Link>
+                      
+                      <Link to="/Changeincompany">
                       <h2 className="text-sm xl:text-md ">
-                        {" "}
                         Change In Name Of Company
                       </h2>
+                      </Link>
                     </div>
                   </div>
                 </div>

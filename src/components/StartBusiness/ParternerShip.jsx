@@ -103,18 +103,18 @@ const ParternerShip = () => {
   return (
     <>
       {/* section-1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
         <div className="">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             Partnership Deed
           </h1>
-          <p className="text-lg font-medium mt-5 text-justify">
+          <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             A Partnership Deed (PDR) is a written legal document containing an
             agreement between the partners of a firm which summarises the terms
             and conditions of their partnership under the “Indian Partnership
             Act 1932”. Get help from the experts of Legal251 for making PDR.
           </p>
-          <p className="text-lg font-medium mt-5 text-justify">
+          <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             A Partnership Deed is a written legal document that outlines the
             rights and responsibilities of all partners of a business or firm.
             Contact us to get your Partnership drafted in the best way by the
@@ -127,7 +127,7 @@ const ParternerShip = () => {
           </div>
         </div>
 
-        <div className="grid grid:cols-1 md:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
+        <div className="grid grid:cols-1 sm:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
           <div className="">
             <form onSubmit={handleSubmit}>
               <p>
@@ -137,7 +137,7 @@ const ParternerShip = () => {
                   required
                   name="firstName"
                   placeholder="First Name"
-                  className="py-2 border-b-2 border-slate-400 px-5"
+                  className="py-2 border-b-2 border-slate-400 px-5w-full"
                   value={formData.firstName}
                   onChange={handleChange}
                 />
@@ -149,7 +149,7 @@ const ParternerShip = () => {
                   name="email"
                   placeholder="Email"
                   required
-                  className="py-2 border-b-2 border-slate-400 px-5"
+                  className="py-2 border-b-2 border-slate-400 px-5 w-full"
                   value={formData.email}
                   onChange={handleChange}
                 />
@@ -161,7 +161,7 @@ const ParternerShip = () => {
                   name="phone"
                   required
                   placeholder="Contact No"
-                  className="py-2 border-b-2 border-slate-400 px-5"
+                  className="py-2 border-b-2 border-slate-400 px-5 w-full"
                   value={formData.phone}
                   onChange={handleChange}
                 />
@@ -173,7 +173,7 @@ const ParternerShip = () => {
                   name="city"
                   placeholder="City"
                   required
-                  className="py-2 border-b-2 border-slate-400 px-5"
+                  className="py-2 border-b-2 border-slate-400 px-5 w-full"
                   value={formData.city}
                   onChange={handleChange}
                 />

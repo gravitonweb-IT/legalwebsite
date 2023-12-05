@@ -108,12 +108,12 @@ const AddressAmendmentWithInStateLlp = () => {
     <>
       <>
         {/* section-1 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
           <div className="">
             <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
               LLP Address Amendment (within State)
             </h1>
-            <p className="text-lg font-medium mt-5 text-justify">
+            <p className="text-md xl:text-lg font-medium mt-5 text-justify">
               To amend the address of a Limited Liability Partnership (LLP)
               within the state, file Form 15 with the Registrar of Companies.
               Attach the required documents, including proof of the new address.
@@ -131,7 +131,7 @@ const AddressAmendmentWithInStateLlp = () => {
             </div>
           </div>
 
-          <div className="grid grid:cols-1 md:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
+          <div className="grid grid:cols-1 sm:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
             <div className="">
               <form onSubmit={handleSubmit}>
                 <p>
@@ -141,7 +141,7 @@ const AddressAmendmentWithInStateLlp = () => {
                     required
                     name="firstName"
                     placeholder="First Name"
-                    className="py-2 border-b-2 border-slate-400 px-5"
+                    className="py-2 border-b-2 border-slate-400 px-5 w-full"
                     value={formData.firstName}
                     onChange={handleChange}
                   />
@@ -153,7 +153,7 @@ const AddressAmendmentWithInStateLlp = () => {
                     name="email"
                     placeholder="Email"
                     required
-                    className="py-2 border-b-2 border-slate-400 px-5"
+                    className="py-2 border-b-2 border-slate-400 px-5 w-full"
                     value={formData.email}
                     onChange={handleChange}
                   />
@@ -165,7 +165,7 @@ const AddressAmendmentWithInStateLlp = () => {
                     name="phone"
                     required
                     placeholder="Contact No"
-                    className="py-2 border-b-2 border-slate-400 px-5"
+                    className="py-2 border-b-2 border-slate-400 px-5 w-full"
                     value={formData.phone}
                     onChange={handleChange}
                   />
@@ -177,7 +177,7 @@ const AddressAmendmentWithInStateLlp = () => {
                     name="city"
                     placeholder="City"
                     required
-                    className="py-2 border-b-2 border-slate-400 px-5"
+                    className="py-2 border-b-2 border-slate-400 px-5 w-full"
                     value={formData.city}
                     onChange={handleChange}
                   />

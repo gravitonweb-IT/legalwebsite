@@ -108,12 +108,12 @@ const AddressAmendmentOutStateLlp = () => {
   return (
     <>
       {/* section-1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
         <div className="">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             LLP Address Amendment (out of State)
           </h1>
-          <p className="text-lg font-medium mt-5 text-justify">
+          <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             Amending the address of a Limited Liability Partnership (LLP)
             outside its original state involves filing the appropriate form,
             typically Form 15, with the relevant Registrar of Companies.
@@ -128,7 +128,7 @@ const AddressAmendmentOutStateLlp = () => {
           </div>
         </div>
 
-        <div className="grid grid:cols-1 md:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
+        <div className="grid grid:cols-1 sm:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
           <div className="">
             <form onSubmit={handleSubmit}>
               <p>
@@ -138,7 +138,7 @@ const AddressAmendmentOutStateLlp = () => {
                   required
                   name="firstName"
                   placeholder="First Name"
-                  className="py-2 border-b-2 border-slate-400 px-5"
+                  className="py-2 border-b-2 border-slate-400 px-5 w-full"
                   value={formData.firstName}
                   onChange={handleChange}
                 />
@@ -150,7 +150,7 @@ const AddressAmendmentOutStateLlp = () => {
                   name="email"
                   placeholder="Email"
                   required
-                  className="py-2 border-b-2 border-slate-400 px-5"
+                  className="py-2 border-b-2 border-slate-400 px-5 w-full"
                   value={formData.email}
                   onChange={handleChange}
                 />
@@ -162,7 +162,7 @@ const AddressAmendmentOutStateLlp = () => {
                   name="phone"
                   required
                   placeholder="Contact No"
-                  className="py-2 border-b-2 border-slate-400 px-5"
+                  className="py-2 border-b-2 border-slate-400 px-5 w-full"
                   value={formData.phone}
                   onChange={handleChange}
                 />
@@ -174,7 +174,7 @@ const AddressAmendmentOutStateLlp = () => {
                   name="city"
                   placeholder="City"
                   required
-                  className="py-2 border-b-2 border-slate-400 px-5"
+                  className="py-2 border-b-2 border-slate-400 px-5 w-full"
                   value={formData.city}
                   onChange={handleChange}
                 />

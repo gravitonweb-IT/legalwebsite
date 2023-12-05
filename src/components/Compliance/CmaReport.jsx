@@ -115,7 +115,7 @@ const CmaReport = () => {
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             Credit Monitoring Arrangement (CMA) Report
           </h1>
-          <p className="text-lg font-medium mt-5 text-justify">
+          <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             The Credit Monitoring Arrangement (CMA) Report is a financial
             document prepared by businesses seeking loans. It provides a
             comprehensive overview of the borrower's financial health, including
@@ -131,7 +131,7 @@ const CmaReport = () => {
           </div>
         </div>
 
-        <div className="grid grid:cols-1 md:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
+        <div className="grid grid:cols-1 sm:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
           <div className="">
             <form onSubmit={handleSubmit}>
               <p>
