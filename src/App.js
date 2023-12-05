@@ -40,6 +40,10 @@ import EsirRegistration from "./components/Registration/EsirRegistration";
 import GstRegistration from "./components/Registration/GstRegistration";
 import FoodRegistration from "./components/Registration/FoodRegistration";
 import TradeLicense from "./components/Registration/TradeLicense";
+import GstReturnFiling from "./components/fillingThenMore/GstReturnFiling";
+import ITSfiling from "./components/fillingThenMore/ITSfiling";
+import TDSReturnFiling from "./components/fillingThenMore/TDSReturnFiling";
+import OnlineAccounting from "./components/fillingThenMore/OnlineAccounting";
 
 function App() {
   return (
@@ -132,6 +136,14 @@ function App() {
         <Route path="/TradeLicense" element={<TradeLicense />} />
 
         {/* Filing & more */}
+        <Route path="/GstReturnFiling" element={<GstReturnFiling/>} /> 
+        <Route path="/ITSfiling" element={<ITSfiling/>} />
+        <Route path="/TDSReturnFiling" element={<TDSReturnFiling/>} />
+        <Route path="/OnlineAccounting" element={<OnlineAccounting/>} />
+
+{/* Drafting */}
+
+
       </Routes>
 
       <Footer />

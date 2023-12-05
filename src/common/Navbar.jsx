@@ -108,6 +108,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link to="/"
+                   
                     className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(false)}
                   >
@@ -513,7 +514,7 @@ const Navbar = () => {
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
-                          to="/"
+                          to="/ImportExportLicense"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -522,7 +523,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/IcegateRegistration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -532,7 +533,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/MsmeUdhyanRegistration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -542,7 +543,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/SocietyRegistration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -552,7 +553,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/PfRegistration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -562,7 +563,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/ProfessionalTaxRegistration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -572,7 +573,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/TradeMarkRegistration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -582,7 +583,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/GumastaLicense"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -592,7 +593,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/EsirRegistration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -602,7 +603,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/GstRegistration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -612,7 +613,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/FoodRegistration"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -622,7 +623,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/TradeLicense"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -687,7 +688,7 @@ const Navbar = () => {
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
-                          to="/"
+                          to="/GstReturnFiling"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -696,7 +697,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/ITSfiling"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -706,7 +707,7 @@ const Navbar = () => {
 
                       <p>
                         <Link
-                          to="/"
+                          to="/TDSReturnFiling"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -771,7 +772,7 @@ const Navbar = () => {
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
-                          to="/"
+                          to="/OnlineAccounting"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -1315,7 +1316,10 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(1)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
+            <Link
+              to="/"
+              className="hover:text-blue-500 text-sm xl:text-md font-semibold"
+            >
               Start Business
             </Link>
 
@@ -1327,60 +1331,58 @@ const Navbar = () => {
                       <h2 className="text-sm xl:text-md text-blue-500 mb-3">
                         Start Business{" "}
                       </h2>
-                        <Link to="/ParternerShip">
-                          <h2 className="text-sm xl:text-md hover:text-blue-500">
-                            Partnership Deed
-                          </h2>
-                        </Link >
+                      <Link to="/ParternerShip">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500">
+                          Partnership Deed
+                        </h2>
+                      </Link>
 
-                        <Link to= "/PvtLtdCompanyRegisteration">
+                      <Link to="/PvtLtdCompanyRegisteration">
                         <h2 className="text-sm xl:text-md hover:text-blue-500">
                           Pvt. Ltd. Company Registration
                         </h2>
-                        </Link>
+                      </Link>
 
-                        <Link to= "/Section8CompanyRegistration">
+                      <Link to="/Section8CompanyRegistration">
                         <h2 className="text-sm xl:text-md hover:text-blue-500">
                           Section 8 Company Registration
                         </h2>
-                        </Link>
+                      </Link>
 
-                        <Link to="/LLPCompanyRegistration">
+                      <Link to="/LLPCompanyRegistration">
                         <h2 className="text-sm xl:text-md ">
                           LLP Company Registration
                         </h2>
-                        </Link>
+                      </Link>
 
-                        <Link to="/OpcOnePersonCompanyRegistration">
+                      <Link to="/OpcOnePersonCompanyRegistration">
                         <h2 className="text-sm xl:text-md ">
                           OPC Company Registration
                         </h2>
-                        </Link>
-                    
+                      </Link>
                     </div>
-                    
+
                     <div className="">
                       <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         Compliance
                       </h2>
 
-                       <Link to="/AnnualComplianceLlp">
+                      <Link to="/AnnualComplianceLlp">
                         <h2 className="text-sm xl:text-md ">
                           Annual Compliance LLP
                         </h2>
-                        </Link>
+                      </Link>
 
-                        <Link to="/AnnualComplianceCompancy">
+                      <Link to="/AnnualComplianceCompancy">
                         <h2 className="text-sm xl:text-md ">
                           Annual Compliance Pvt.Ltd.
                         </h2>
-                        </Link>
+                      </Link>
 
-                        <Link to="/CmaReport">
+                      <Link to="/CmaReport">
                         <h2 className="text-sm xl:text-md ">CMA Report</h2>
-                        </Link>
+                      </Link>
                     </div>
-                    
                   </div>
                 </div>
               </div>
@@ -1393,10 +1395,10 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(2)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
+            <Link  className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Change In Business
             </Link>
-
+ 
             {activeDropdown === 2 && (
               <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[45px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg text-sm w-full max-w-screen-lg cursor-pointer">
@@ -1405,84 +1407,84 @@ const Navbar = () => {
                       <h2 className="text-sm xl:text-md text-blue-500 mb-3">
                         Change In Business
                       </h2>
-                        
+                       
                         <Link to="/DissolutionOfDeed">
                         <h2 className="text-sm xl:text-md ">
                           Dissolution of deeds
                         </h2>
                         </Link>
-
+ 
                         <Link to="/AddressAmendmentWithInStateLlp">
                         <h2 className="text-sm xl:text-md ">
                           Address Amendment Within state (LLP)
                         </h2>
                         </Link>
-
+ 
                         <Link to="/AddressAmendmentWithInStateCompany">
                         <h2 className="text-sm xl:text-md ">
                           Address Amendment Within state (Company)
                         </h2>
                         </Link>
-
+ 
                         <Link to="/AddressAmendmentOutStateLlp">
                         <h2 className="text-sm xl:text-md ">
                           Address Amendment out of state (LLP)
                         </h2>
                         </Link>
-
+ 
                         <Link to="/AddressAmendmentoutStateCompany">
                         <h2 className="text-sm xl:text-md ">
                           Address Amendment out of state (Company)
                         </h2>
                         </Link>
-                      
+                     
                     </div>
-
+ 
                     <div className="mt-7">
                       <Link to="/AddDirector">
                       <h2 className="text-sm xl:text-md ">
                         Add Director (company)
                       </h2>
                       </Link>
-
+ 
                       <Link to="/AddPartner">
                       <h2 className="text-sm xl:text-md ">
                         Add Partner (Company)
                       </h2>
                       </Link>
-
+ 
                       <Link to="/IncreaseCapitalLlp">
                       <h2 className="text-sm xl:text-md ">
                         Increase Capital (LLP)
                       </h2>
                       </Link>
-
+ 
                      <Link to="/ChangeInNameLlp">
                       <h2 className="text-sm xl:text-md ">
                         Change In Name of LLP
                       </h2>
                       </Link>
                     </div>
-
+ 
                     <div className="mt-7">
                       <Link to="RemoveDirectorcompany">
                       <h2 className="text-sm xl:text-md ">
                         Remove Director (Company)
                       </h2>
                       </Link>
-
+ 
                       <Link to="/RemoveDirectorllp">
                       <h2 className="text-sm xl:text-md ">
                         Remove Partner LLP
                       </h2>
                       </Link>
-
+ 
                       <Link to="/IncreaseCapitalCompany">
                       <h2 className="text-sm xl:text-md ">
                         Increase Capital(Company)
                       </h2>
                       </Link>
-                      
+                     
                       <Link to="/Changeincompany">
                       <h2 className="text-sm xl:text-md ">
                         Change In Name Of Company
@@ -1501,7 +1503,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(3)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
+            <Link className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Registrations
             </Link>
 
@@ -1514,49 +1516,76 @@ const Navbar = () => {
                         {" "}
                         Registrations
                       </h2>
-
-                        <h2 className="text-sm xl:text-md ">
+                      <Link to="/ImportExportLicense">
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
                           {" "}
                           Import Export License (IEC)
                         </h2>
-                        <h2 className="text-sm xl:text-md ">
+                      </Link>
+                      <Link to="/IcegateRegistration">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">
                           ICEGATE Registrations
                         </h2>
-                        <h2 className="text-sm xl:text-md ">
+                      </Link>
+                      <Link to="/MsmeUdhyanRegistration">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">
                           MSME Registrations
                         </h2>
-                        <h2 className="text-sm xl:text-md ">
+                      </Link>
+                      <Link to="/SocietyRegistration">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">
                           Society Registrations
                         </h2>
-                        <h2 className="text-sm xl:text-md ">
+                      </Link>
+                      <Link to="/PfRegistration">
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
                           PF Registrations
                         </h2>
-                     
+                      </Link>
                     </div>
 
                     <div className="mt-7 p-4">
-                      <h2 className="text-sm xl:text-md ">
-                        Professional Tax Registrations
-                      </h2>
-                      <h2 className="text-sm xl:text-md ">
-                        {" "}
-                        Gumasta Registrations
-                      </h2>
-                      <h2 className="text-sm xl:text-md ">
-                        Trade Mark Registrations
-                      </h2>
-                      <h2 className="text-sm xl:text-md ">
-                        {" "}
-                        ESIC Registrations
-                      </h2>
+                      <Link to="/ProfessionalTaxRegistration">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">
+                          Professional Tax Registrations
+                        </h2>
+                      </Link>
+                      <Link to="/GumastaLicense">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">
+                          {" "}
+                          Gumasta Registrations
+                        </h2>
+                      </Link>
+                      <Link to="/TradeMarkRegistration">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500">
+                          Trade Mark Registrations
+                        </h2>
+                      </Link>
+                      <Link to="/EsirRegistration">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">
+                          {" "}
+                          ESIC Registrations
+                        </h2>
+                      </Link>
                     </div>
 
                     <div className="mt-7 p-4">
-                      <h2 className="text-sm xl:text-md ">
-                        GST Registrations
-                      </h2>
-                      <h2 className="text-sm xl:text-md "> Food License</h2>
-                      <h2 className="text-sm xl:text-md ">Trade License</h2>
+                      <Link to="/GstRegistration">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500">
+                          GST Registrations
+                        </h2>
+                      </Link>
+                      <Link to="/FoodRegistration">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500">
+                          {" "}
+                          Food License
+                        </h2>
+                      </Link>
+                      <Link to="/TradeLicense">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500">
+                          Trade License
+                        </h2>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1570,7 +1599,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(4)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
+            <Link className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Filing & More
             </Link>
 
@@ -1582,25 +1611,31 @@ const Navbar = () => {
                       <h2 className="text-sm xl:text-md text-blue-500 mb-3">
                         Filing{" "}
                       </h2>
-                        <h2 className="text-sm xl:text-md  ">
+                      <Link to="/GstReturnFiling">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">
                           GST REturn Filing
                         </h2>
-                        <h2 className="text-sm xl:text-md ">ITR Filing</h2>
-                        <h2 className="text-sm xl:text-md ">
+                      </Link>
+                      <Link to="/ITSfiling">
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">ITR Filing</h2>
+                      </Link>
+                      <Link to="/TDSReturnFiling">
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
                           TDS Return Filing
                         </h2>
-                    
+                      </Link>
                     </div>
 
                     <div className="">
                       <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         Accounting
                       </h2>
-                        <h2 className="text-sm xl:text-md ">
+                      <Link to="/OnlineAccounting">
+                        <h2 className="text-sm xl:text-md   hover:text-blue-500">
                           {" "}
                           Online Accounting
                         </h2>
-                      
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1614,7 +1649,10 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(5)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
+            <Link
+              to="/"
+              className="hover:text-blue-500 text-sm xl:text-md font-semibold"
+            >
               Drafting
             </Link>
 
@@ -1626,37 +1664,28 @@ const Navbar = () => {
                       <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         Drafting
                       </h2>
-                        <h2 className="text-sm xl:text-md  ">
-                          Legal Drafting
-                        </h2>
-                        <h2 className="text-sm xl:text-md ">
-                          Rent Agreement
-                        </h2>
-                        <h2 className="text-sm xl:text-md ">NOC</h2>
-                        <h2 className="text-sm xl:text-md ">Affidavit</h2>
-                        <h2 className="text-sm xl:text-md ">
-                          Power Of Attorney
-                        </h2>
-                      
+                      <h2 className="text-sm xl:text-md  ">Legal Drafting</h2>
+                      <h2 className="text-sm xl:text-md ">Rent Agreement</h2>
+                      <h2 className="text-sm xl:text-md ">NOC</h2>
+                      <h2 className="text-sm xl:text-md ">Affidavit</h2>
+                      <h2 className="text-sm xl:text-md ">Power Of Attorney</h2>
                     </div>
 
                     <div className="">
-                    
-                        <h2 className="text-sm xl:text-md mb-3 text-blue-500"> Will</h2>
-                        <h2 className="text-sm xl:text-md ">
-                          {" "}
-                          Application Form
-                        </h2>
-                        <h2 className="text-sm xl:text-md "> NDA Drafting</h2>
-                        <h2 className="text-sm xl:text-md ">
-                          {" "}
-                          Privacy Policy Drafting
-                        </h2>
-                        <h2 className="text-sm xl:text-md ">
-                          {" "}
-                          Terms & Conditions Drafting
-                        </h2>
-                      
+                      <h2 className="text-sm xl:text-md mb-3 text-blue-500">
+                        {" "}
+                        Will
+                      </h2>
+                      <h2 className="text-sm xl:text-md "> Application Form</h2>
+                      <h2 className="text-sm xl:text-md "> NDA Drafting</h2>
+                      <h2 className="text-sm xl:text-md ">
+                        {" "}
+                        Privacy Policy Drafting
+                      </h2>
+                      <h2 className="text-sm xl:text-md ">
+                        {" "}
+                        Terms & Conditions Drafting
+                      </h2>
                     </div>
                   </div>
                 </div>
@@ -1670,7 +1699,10 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(6)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
+            <Link
+              to="/"
+              className="hover:text-blue-500 text-sm xl:text-md font-semibold"
+            >
               Legal Issues
             </Link>
 
@@ -1683,22 +1715,20 @@ const Navbar = () => {
                         Legal Reply
                       </h2>
 
-                        <h2 className="text-sm xl:text-md  ">
-                          Legal Notice Reply
-                        </h2>
-                        <h2 className="text-sm xl:text-md ">Legal Advice</h2>
-                      
+                      <h2 className="text-sm xl:text-md  ">
+                        Legal Notice Reply
+                      </h2>
+                      <h2 className="text-sm xl:text-md ">Legal Advice</h2>
                     </div>
 
                     <div className="">
                       <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         Accounting
                       </h2>
-                        <h2 className="text-sm xl:text-md ">
-                          {" "}
-                          Legal Notice Preparation
-                        </h2>
-                      
+                      <h2 className="text-sm xl:text-md ">
+                        {" "}
+                        Legal Notice Preparation
+                      </h2>
                     </div>
                   </div>
                 </div>
@@ -1712,7 +1742,10 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(7)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
+            <Link
+              to="/"
+              className="hover:text-blue-500 text-sm xl:text-md font-semibold"
+            >
               Other Services
             </Link>
 
@@ -1746,7 +1779,10 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(8)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/" className="hover:text-blue-500 text-sm xl:text-md font-semibold">
+            <Link
+              to="/"
+              className="hover:text-blue-500 text-sm xl:text-md font-semibold"
+            >
               Utilities
             </Link>
 
@@ -1761,16 +1797,9 @@ const Navbar = () => {
                       </h2>
 
                       <div className="">
-                        <h2 className="text-sm xl:text-md ">
-                          {" "}
-                          GST Calculator
-                        </h2>
-                        <h2 className="text-sm xl:text-md ">
-                          SIP Calculator
-                        </h2>
-                        <h2 className="text-sm xl:text-md ">
-                          EMI Calculator
-                        </h2>
+                        <h2 className="text-sm xl:text-md "> GST Calculator</h2>
+                        <h2 className="text-sm xl:text-md ">SIP Calculator</h2>
+                        <h2 className="text-sm xl:text-md ">EMI Calculator</h2>
                         <h2 className="text-sm xl:text-md ">FD Calculator</h2>
                       </div>
                     </div>
