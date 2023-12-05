@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import patnershipdeed from "../../assests/images/Start BusinessImages/PatnerShipimages/partnershipdeed.jfif";
+import ImportExport from "../../assests/images/RegistrationImages/ImportExportImg.png";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -12,19 +12,16 @@ import {
   faPenToSquare,
 } from "@fortawesome/free-regular-svg-icons";
 
-
 const faqs = [
   {
     id: 1,
-    question:
-      "Q1.  What is IE Code?",
+    question: "Q1.  What is IE Code?",
     answer:
       "The IEC or Import-Export Code is a 10-digit number issued by the DGFT (Director General of Foreign Trade) Department of Commerce, the government of India. This registration number is mandatory for traders importing or exporting goods and services to or from India.",
   },
   {
     id: 2,
-    question:
-      "Q2. Who requires the IEC Licence?",
+    question: "Q2. Who requires the IEC Licence?",
     answer:
       "Any person or entity indulging in international trade of import or export goods and services must register for an IEC licence.",
   },
@@ -42,15 +39,13 @@ const faqs = [
   },
   {
     id: 5,
-    question:
-      "Q5. Is there any penalty for not having an IE Code?",
+    question: "Q5. Is there any penalty for not having an IE Code?",
     answer:
       "IEC Licence is not mandatory for all. Only importers and exporters of goods and services must have it. Hence, there’s no such penalty for not having an IE code, but import/export is impossible without obtaining an IEC licence.",
   },
   {
     id: 6,
-    question:
-      "Q6. How much time does it take to obtain the IE code in India?",
+    question: "Q6. How much time does it take to obtain the IE code in India?",
     answer:
       "With Legal257, one can obtain the IEC registration in 3-5 working days from DGFT after submitting all required documents and the application form.",
   },
@@ -94,24 +89,22 @@ const ImportExportLicense = () => {
   return (
     <>
       {/* section-1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
         <div className="">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             Import Export License
           </h1>
-          <p className="text-lg font-medium mt-5 text-justify">
+          <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             An Import Export License is a government-issued authorization
             permitting individuals or businesses to legally engage in importing
             and/or exporting goods across international borders. It ensures
             compliance with regulations, facilitates trade, and monitors the
             movement of goods while adhering to specific trade policies and
-            customs regulations.
+            customs regulations.An Import Export License grants legal permission
+            for individuals or businesses to engage in cross-border trade,
+            ensuring compliance with regulations.
           </p>
-          <p className="text-lg font-medium mt-5 text-justify">
-            An Import Export License grants legal permission for individuals or
-            businesses to engage in cross-border trade, ensuring compliance with
-            regulations and facilitating international transactions
-          </p>
+
           <div className="mt-5">
             <button className="bg-[#8A4117] text-white px-4 py-3 rounded-[4px]">
               GET STARTED
@@ -119,7 +112,7 @@ const ImportExportLicense = () => {
           </div>
         </div>
 
-        <div className="grid grid:cols-1 md:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
+        <div className="grid grid:cols-1 sm:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
           <div className="">
             <form onSubmit={handleSubmit}>
               <p>
@@ -183,9 +176,9 @@ const ImportExportLicense = () => {
 
           <div className="">
             <h1 className="text-center text-xl text-[#F89327] font-semibold">
-              &#x20B9;1751.00
+              &#x20B9;1351.00
             </h1>
-            <img src={patnershipdeed}></img>
+            <img src={ImportExport} className="w-3/4 h-auto"></img>
           </div>
         </div>
       </div>
@@ -490,8 +483,8 @@ const ImportExportLicense = () => {
         </div>
       </div>
 
-  {/* section-5 */}
-  <div className="mt-10 md:mt-16 flex justify-center">
+      {/* section-5 */}
+      <div className="mt-10 md:mt-16 flex justify-center">
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#01355D]">
           <FontAwesomeIcon
             icon={faPenToSquare}
@@ -523,8 +516,6 @@ const ImportExportLicense = () => {
           </div>
         ))}
       </div>
-      
-
     </>
   );
 };

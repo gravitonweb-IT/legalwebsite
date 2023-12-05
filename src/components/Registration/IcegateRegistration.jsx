@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import patnershipdeed from "../../assests/images/Start BusinessImages/PatnerShipimages/partnershipdeed.jfif";
+import IceGateImg from "../../assests/images/RegistrationImages/IceGateImg.png";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -89,26 +89,22 @@ const IcegateRegistration = () => {
   return (
     <>
       {/* section-1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
         <div className="">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             ICE GATE Registration
           </h1>
-          <p className="text-lg font-medium mt-5 text-justify">
+          <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             ICE GATE (Indian Customs Electronic Gateway) facilitates e-filing
             services for trade-related activities, cargo carriers, and trading
             partners. Registering on ICE GATE enables seamless electronic
             filing, ensuring efficient handling of customs-related processes.
             Accessible via the ICEGT platform, users can streamline trade
             transactions and collaborate effectively with stakeholders for
-            smoother operations and compliance.
+            smoother operations and compliance. ICE GATE (Indian Customs
+            Electronic Gateway) allows seamless e-filing for trade activities.
           </p>
-          <p className="text-lg font-medium mt-5 text-justify">
-            ICE GATE (Indian Customs Electronic Gateway) allows seamless
-            e-filing for trade activities. Register on ICEGT to streamline
-            customs processes, collaborate with partners, and ensure compliance
-            for efficient trade operations.
-          </p>
+
           <div className="mt-5">
             <button className="bg-[#8A4117] text-white px-4 py-3 rounded-[4px]">
               GET STARTED
@@ -116,7 +112,7 @@ const IcegateRegistration = () => {
           </div>
         </div>
 
-        <div className="grid grid:cols-1 md:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
+        <div className="grid grid grid:cols-1 sm:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
           <div className="">
             <form onSubmit={handleSubmit}>
               <p>
@@ -180,9 +176,9 @@ const IcegateRegistration = () => {
 
           <div className="">
             <h1 className="text-center text-xl text-[#F89327] font-semibold">
-              &#x20B9;1751.00
+              &#x20B9;1351.00
             </h1>
-            <img src={patnershipdeed}></img>
+            <img src={IceGateImg}></img>
           </div>
         </div>
       </div>

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-
-import patnershipdeed from "../../assests/images/Start BusinessImages/PatnerShipimages/partnershipdeed.jfif";
+import TradeImg from "../../assests/images/RegistrationImages/TradeImg.png";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -12,8 +11,6 @@ import {
   faHandshake,
   faPenToSquare,
 } from "@fortawesome/free-regular-svg-icons";
-
-
 
 const faqs = [
   {
@@ -36,8 +33,7 @@ const faqs = [
   },
   {
     id: 4,
-    question:
-      "Q4.  Do I require a Trade Licence to operate a restaurant?",
+    question: "Q4.  Do I require a Trade Licence to operate a restaurant?",
     answer:
       "Yes, regardless of what area of the business you're in, you'll need a Trade Licence. This licence is required for every business that trades goods or services for money, and a Food Establishment licence is necessary for a restaurant.",
   },
@@ -49,8 +45,7 @@ const faqs = [
   },
   {
     id: 6,
-    question:
-      "Q6. When will I be able to renew my trade licence?",
+    question: "Q6. When will I be able to renew my trade licence?",
     answer:
       "In India, trade licences are renewed from January 1 to March 31. The renewal application must be submitted within thirty days of the license's expiration date. The following are the documents that must be supplied to renew your licence: A copy of the trade licence; challans from the previous year; and a receipt for current property taxes paid.",
   },
@@ -92,24 +87,22 @@ const TradeLicense = () => {
   return (
     <>
       {/* section-1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
         <div className="">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             Trade Licence
           </h1>
-          <p className="text-lg font-medium mt-5 text-justify">
+          <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             Embarking on a new business venture? Start with the essential
             paperwork – the Trade Licence. Legal257's expert team ensures a
             seamless application process, enabling you to focus on your business
             operations hassle-free. Let us guide you through the procedure,
             ensuring a smooth and efficient start to your entrepreneurial
-            journey.
-          </p>
-          <p className="text-lg font-medium mt-5 text-justify">
-            Commence your business journey by obtaining a Trade Licence.
+            journey. Commence your business journey by obtaining a Trade Licence.
             Legal257's expert team simplifies the application process, allowing
             you to focus on your work seamlessly and efficiently.
           </p>
+         
           <div className="mt-5">
             <button className="bg-[#8A4117] text-white px-4 py-3 rounded-[4px]">
               GET STARTED
@@ -117,7 +110,7 @@ const TradeLicense = () => {
           </div>
         </div>
 
-        <div className="grid grid:cols-1 md:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
+        <div className="grid grid:cols-1 sm:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
           <div className="">
             <form onSubmit={handleSubmit}>
               <p>
@@ -181,9 +174,9 @@ const TradeLicense = () => {
 
           <div className="">
             <h1 className="text-center text-xl text-[#F89327] font-semibold">
-              &#x20B9;1751.00
+              &#x20B9;851.00
             </h1>
-            <img src={patnershipdeed}></img>
+            <img src={TradeImg} className="w-3/4 h-auto"></img>
           </div>
         </div>
       </div>

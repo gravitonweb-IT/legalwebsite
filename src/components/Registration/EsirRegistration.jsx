@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-
-import patnershipdeed from "../../assests/images/Start BusinessImages/PatnerShipimages/partnershipdeed.jfif";
+import ESiImg from "../../assests/images/RegistrationImages/ESiImg.png";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -90,19 +89,16 @@ const EsirRegistration = () => {
   return (
     <>
       {/* section-1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
         <div className="">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             ESIC Registration
           </h1>
-          <p className="text-lg font-medium mt-5 text-justify">
+          <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             Avail benefits like medical coverage and financial support by
             completing ESIC (Employee State Insurance Corporation) Registration.
             Access monetary and medical aid under the ESI Act, reducing medical
-            expenses for employees and ensuring their well-being.
-          </p>
-          <p className="text-lg font-medium mt-5 text-justify">
-            Complete ESIC (Employee State Insurance Corporation) Registration to
+            expenses for employees and ensuring their well-being.  Complete ESIC (Employee State Insurance Corporation) Registration to
             access medical coverage and financial benefits, reducing employee
             medical expenses and ensuring comprehensive well-being under the ESI
             Act.
@@ -114,7 +110,7 @@ const EsirRegistration = () => {
           </div>
         </div>
 
-        <div className="grid grid:cols-1 md:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
+        <div className="grid grid:cols-1 sm:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
           <div className="">
             <form onSubmit={handleSubmit}>
               <p>
@@ -180,7 +176,7 @@ const EsirRegistration = () => {
             <h1 className="text-center text-xl text-[#F89327] font-semibold">
               &#x20B9;1751.00
             </h1>
-            <img src={patnershipdeed}></img>
+            <img src={ESiImg}></img>
           </div>
         </div>
       </div>

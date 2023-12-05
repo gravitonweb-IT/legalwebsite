@@ -116,6 +116,7 @@ const DissolutionOfDeed = () => {
               or partnerships. It requires careful review, mutual consent, and
               adherence to legal procedures. The process may include revoking
               rights, cancelling obligations, and transferring assets.
+              
               <p className="text-md xl:text-lg font-medium mt-5 text-justify">
                 Nullifying contracts, revoking agreements, terminating
                 partnerships; dissolving deeds involves legal processes for

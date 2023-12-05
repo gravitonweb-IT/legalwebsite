@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import patnershipdeed from "../../assests/images/Start BusinessImages/PatnerShipimages/partnershipdeed.jfif";
+import MSMEImg from "../../assests/images/RegistrationImages/MSMEImg.png";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -88,24 +88,20 @@ const MsmeUdhyanRegistration = () => {
   return (
     <>
       {/* section-1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
         <div className="">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             MSME Registration
           </h1>
-          <p className="text-lg font-medium mt-5 text-justify">
+          <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             MSME (Micro, Small, and Medium Enterprises) registration provides
             benefits to small businesses in India, including subsidies, access
             to credit, and government scheme participation. Register online
             through the Udyam Registration portal by providing basic business
             details and documentation to avail of these advantageous schemes and
-            support.
-          </p>
-          <p className="text-lg font-medium mt-5 text-justify">
-            MSME (Micro, Small, and Medium Enterprises) registration offers
+            support. MSME (Micro, Small, and Medium Enterprises) registration offers
             Indian small businesses benefits like subsidies and easier access to
-            credit. Register online via the Udyam Registration portal for these
-            advantages.
+            credit.
           </p>
           <div className="mt-5">
             <button className="bg-[#8A4117] text-white px-4 py-3 rounded-[4px]">
@@ -114,7 +110,7 @@ const MsmeUdhyanRegistration = () => {
           </div>
         </div>
 
-        <div className="grid grid:cols-1 md:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
+        <div className="grid grid:cols-1 sm:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
           <div className="">
             <form onSubmit={handleSubmit}>
               <p>
@@ -180,7 +176,7 @@ const MsmeUdhyanRegistration = () => {
             <h1 className="text-center text-xl text-[#F89327] font-semibold">
               &#x20B9;1751.00
             </h1>
-            <img src={patnershipdeed}></img>
+            <img src={MSMEImg} className="w-3/4 h-auto"></img>
           </div>
         </div>
       </div>

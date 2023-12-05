@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import patnershipdeed from "../../assests/images/Start BusinessImages/PatnerShipimages/partnershipdeed.jfif";
+import SocietyImg from "../../assests/images/RegistrationImages/SocietyImg.png";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -21,10 +21,8 @@ const faqs = [
   },
   {
     id: 2,
-    question:
-      "Q2. Is Society a Legal Entity?",
-    answer:
-      "Yes, after registration, a Society becomes a Legal Entity.",
+    question: "Q2. Is Society a Legal Entity?",
+    answer: "Yes, after registration, a Society becomes a Legal Entity.",
   },
   {
     id: 3,
@@ -40,7 +38,8 @@ const faqs = [
   },
   {
     id: 5,
-    question: "Q5. If the membership of Society changes, will Society come to an end",
+    question:
+      "Q5. If the membership of Society changes, will Society come to an end",
     answer:
       "No, Society will continue to operate even after a change in membership.",
   },
@@ -88,24 +87,20 @@ const SocietyRegistration = () => {
   return (
     <>
       {/* section-1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
         <div className="">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             Society Registration
           </h1>
-          <p className="text-lg font-medium mt-5 text-justify">
+          <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             Obtain hassle-free Society Registration services through Legal257
             for empowering purposeful learning or extending charitable
             assistance. Ensure seamless legal compliance and formalize your
             organization's goals. Facilitate impactful initiatives while
             availing professional guidance, fostering a positive impact within
-            communities for a meaningful cause.
-          </p>
-          <p className="text-lg font-medium mt-5 text-justify">
-            Legal257 offers seamless Society Registration services, aiding in
-            promoting purposeful learning and charitable assistance. Register
-            your society effortlessly and embark on impactful initiatives for a
-            noble cause.
+            communities for a meaningful cause. Legal257 offers seamless Society
+            Registration services, aiding in promoting purposeful learning and
+            charitable assistance.
           </p>
           <div className="mt-5">
             <button className="bg-[#8A4117] text-white px-4 py-3 rounded-[4px]">
@@ -114,7 +109,7 @@ const SocietyRegistration = () => {
           </div>
         </div>
 
-        <div className="grid grid:cols-1 md:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
+        <div className="grid grid:cols-1 sm:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
           <div className="">
             <form onSubmit={handleSubmit}>
               <p>
@@ -178,9 +173,9 @@ const SocietyRegistration = () => {
 
           <div className="">
             <h1 className="text-center text-xl text-[#F89327] font-semibold">
-              &#x20B9;1751.00
+              &#x20B9; 3351.00
             </h1>
-            <img src={patnershipdeed}></img>
+            <img src={SocietyImg}></img>
           </div>
         </div>
       </div>

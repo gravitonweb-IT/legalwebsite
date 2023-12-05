@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import patnershipdeed from "../../assests/images/Start BusinessImages/PatnerShipimages/partnershipdeed.jfif";
+import GstImg from "../../assests/images/RegistrationImages/GstImg.png";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -89,24 +89,22 @@ const GstRegistration = () => {
   return (
     <>
       {/* section-1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-10 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
         <div className="">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             GST Registration
           </h1>
-          <p className="text-lg font-medium mt-5 text-justify">
+          <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             Streamline your business with hassle-free online GST registration in
             minutes. Become a trusted entity in the country by availing expert
             guidance through the process. Our dedicated team ensures a seamless
             and easy registration experience, allowing you to focus on your
             business growth. Join us now for efficient GST registration
-            assistance.
-          </p>
-          <p className="text-lg font-medium mt-5 text-justify">
-            Ease your business's compliance journey with swift online GST
+            assistance.Ease your business's compliance journey with swift online GST
             registration. Our expert guidance ensures a smooth process, enabling
             you to establish credibility as a trusted entity in the country.
           </p>
+         
           <div className="mt-5">
             <button className="bg-[#8A4117] text-white px-4 py-3 rounded-[4px]">
               GET STARTED
@@ -114,7 +112,7 @@ const GstRegistration = () => {
           </div>
         </div>
 
-        <div className="grid grid:cols-1 md:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
+        <div className="grid grid:cols-1 sm:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
           <div className="">
             <form onSubmit={handleSubmit}>
               <p>
@@ -178,9 +176,9 @@ const GstRegistration = () => {
 
           <div className="">
             <h1 className="text-center text-xl text-[#F89327] font-semibold">
-              &#x20B9;1751.00
+              &#x20B9;4251.00
             </h1>
-            <img src={patnershipdeed}></img>
+            <img src={GstImg}></img>
           </div>
         </div>
       </div>
