@@ -44,6 +44,12 @@ import GstReturnFiling from "./components/fillingThenMore/GstReturnFiling";
 import ITSfiling from "./components/fillingThenMore/ITSfiling";
 import TDSReturnFiling from "./components/fillingThenMore/TDSReturnFiling";
 import OnlineAccounting from "./components/fillingThenMore/OnlineAccounting";
+import LegalDrafting from "./components/Drafting/LegalDrafting";
+import RentAgreement from "./components/Drafting/RentAgreement";
+import NOC from "./components/Drafting/NOC";
+import { Affidavit } from "./components/Drafting/Affidavit";
+import PowerOfAttorney from "./components/Drafting/PowerOfAttorney";
+
 
 function App() {
   return (
@@ -142,6 +148,17 @@ function App() {
         <Route path="/OnlineAccounting" element={<OnlineAccounting/>} />
 
         {/* Drafting */}
+        <Route path="/LegalDrafting" element={<LegalDrafting/>} />
+        <Route path="/RentAgreement" element={<RentAgreement/>} />
+        <Route path="/NOC" element={<NOC/>} />
+        <Route path="/Affidavit" element={<Affidavit/>} />
+        <Route path="/PowerOfAttorney" element={<PowerOfAttorney/>} />
+        
+        
+        
+        
+       
+
 
 
       </Routes>

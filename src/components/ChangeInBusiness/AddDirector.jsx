@@ -105,6 +105,7 @@ const AddDirector = () => {
   const toggleFAQ = (id) => {
     setOpenId((prevId) => (prevId === id ? null : id));
   };
+  
   return (
     <>
       {/* section-1 */}

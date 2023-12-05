@@ -1,9 +1,7 @@
 import React from 'react'
 
-const Affidavit = () => {
+export const Affidavit = () => {
   return (
     <div>Affidavit</div>
   )
 }
-
-export default Affidavit

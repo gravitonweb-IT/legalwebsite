@@ -137,7 +137,7 @@ const ParternerShip = () => {
                   required
                   name="firstName"
                   placeholder="First Name"
-                  className="py-2 border-b-2 border-slate-400 px-5w-full"
+                  className="py-2 border-b-2 border-slate-400 px-5 w-full"
                   value={formData.firstName}
                   onChange={handleChange}
                 />

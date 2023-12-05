@@ -836,7 +836,7 @@ const Navbar = () => {
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
-                          to="/"
+                          to="/LegalDrafting"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -845,7 +845,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/RentAgreement"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -1664,8 +1664,14 @@ const Navbar = () => {
                       <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         Drafting
                       </h2>
-                      <h2 className="text-sm xl:text-md  ">Legal Drafting</h2>
+                      <Link to="/LegalDrafting">
+                      <h2 className="text-sm xl:text-md">Legal Drafting</h2>
+                      </Link>
+
+                      <Link to="/RentAgreement">
                       <h2 className="text-sm xl:text-md ">Rent Agreement</h2>
+                      </Link>
+
                       <h2 className="text-sm xl:text-md ">NOC</h2>
                       <h2 className="text-sm xl:text-md ">Affidavit</h2>
                       <h2 className="text-sm xl:text-md ">Power Of Attorney</h2>
