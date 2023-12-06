@@ -508,7 +508,7 @@ const GstReturnFiling = () => {
                         required
                         name="firstName"
                         placeholder="First Name"
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.firstName}
                         onChange={handleChange}
                       />
@@ -520,7 +520,7 @@ const GstReturnFiling = () => {
                         name="email"
                         placeholder="Email"
                         required
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.email}
                         onChange={handleChange}
                       />
@@ -532,7 +532,7 @@ const GstReturnFiling = () => {
                         name="phone"
                         required
                         placeholder="Contact No"
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.phone}
                         onChange={handleChange}
                       />
@@ -544,7 +544,7 @@ const GstReturnFiling = () => {
                         name="city"
                         placeholder="City"
                         required
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.city}
                         onChange={handleChange}
                       />
@@ -620,7 +620,7 @@ const GstReturnFiling = () => {
                         required
                         name="firstName"
                         placeholder="First Name"
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.firstName}
                         onChange={handleChange}
                       />
@@ -632,7 +632,7 @@ const GstReturnFiling = () => {
                         name="email"
                         placeholder="Email"
                         required
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.email}
                         onChange={handleChange}
                       />
@@ -644,7 +644,7 @@ const GstReturnFiling = () => {
                         name="phone"
                         required
                         placeholder="Contact No"
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.phone}
                         onChange={handleChange}
                       />
@@ -656,7 +656,7 @@ const GstReturnFiling = () => {
                         name="city"
                         placeholder="City"
                         required
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.city}
                         onChange={handleChange}
                       />
@@ -730,7 +730,7 @@ const GstReturnFiling = () => {
                         required
                         name="firstName"
                         placeholder="First Name"
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.firstName}
                         onChange={handleChange}
                       />
@@ -742,7 +742,7 @@ const GstReturnFiling = () => {
                         name="email"
                         placeholder="Email"
                         required
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.email}
                         onChange={handleChange}
                       />
@@ -754,7 +754,7 @@ const GstReturnFiling = () => {
                         name="phone"
                         required
                         placeholder="Contact No"
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.phone}
                         onChange={handleChange}
                       />
@@ -766,7 +766,7 @@ const GstReturnFiling = () => {
                         name="city"
                         placeholder="City"
                         required
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.city}
                         onChange={handleChange}
                       />
@@ -844,7 +844,7 @@ const GstReturnFiling = () => {
                         required
                         name="firstName"
                         placeholder="First Name"
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.firstName}
                         onChange={handleChange}
                       />
@@ -856,7 +856,7 @@ const GstReturnFiling = () => {
                         name="email"
                         placeholder="Email"
                         required
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.email}
                         onChange={handleChange}
                       />
@@ -868,7 +868,7 @@ const GstReturnFiling = () => {
                         name="phone"
                         required
                         placeholder="Contact No"
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.phone}
                         onChange={handleChange}
                       />
@@ -880,7 +880,7 @@ const GstReturnFiling = () => {
                         name="city"
                         placeholder="City"
                         required
-                        className="py-2 border-b-2 border-slate-400 px-5"
+                        className="py-2 border-b-2 border-slate-400 px-5 w-full"
                         value={formData.city}
                         onChange={handleChange}
                       />

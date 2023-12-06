@@ -854,7 +854,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/NOC"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -863,7 +863,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/Affidavit"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -872,7 +872,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/PowerOfAttorney"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -881,7 +881,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/Will"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -890,7 +890,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/ApplicationForm"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -899,7 +899,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/NDADrafting"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -908,7 +908,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/PrivacyPolicyDrafting"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -917,7 +917,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/TermAndCondition"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -981,7 +981,7 @@ const Navbar = () => {
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
-                          to="/"
+                          to="/LegalNoticeReply"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -990,7 +990,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/LegalAdvice"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -1055,7 +1055,7 @@ const Navbar = () => {
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
-                          to="/"
+                          to="/LegalNoticePreparation"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -1119,7 +1119,7 @@ const Navbar = () => {
                     <ul className="mt-2 space-y-1">
                       <p>
                         <Link
-                          to="/"
+                          to="/BalanceSheetPraparationAndP"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -1128,7 +1128,7 @@ const Navbar = () => {
                       </p>
                       <p>
                         <Link
-                          to="/"
+                          to="/ProjectReportPreparation"
                           className="hover:text-blue-500"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -1671,27 +1671,41 @@ const Navbar = () => {
                       <Link to="/RentAgreement">
                       <h2 className="text-sm xl:text-md ">Rent Agreement</h2>
                       </Link>
-
+                      
+                      <Link to ="/NOC">
                       <h2 className="text-sm xl:text-md ">NOC</h2>
+                      </Link>
+
+                      <Link to="/Affidavit">
                       <h2 className="text-sm xl:text-md ">Affidavit</h2>
+                      </Link>
+
+                      <Link to="/PowerOfAttorney">
                       <h2 className="text-sm xl:text-md ">Power Of Attorney</h2>
+                      </Link>
+
                     </div>
 
-                    <div className="">
-                      <h2 className="text-sm xl:text-md mb-3 text-blue-500">
-                        {" "}
-                        Will
-                      </h2>
+                    <div className="mt-7">
+                      <Link to="/Will">
+                      <h2 className="text-sm xl:text-md"> Will </h2>
+                      </Link>
+
+                      <Link to="/ApplicationForm">
                       <h2 className="text-sm xl:text-md "> Application Form</h2>
-                      <h2 className="text-sm xl:text-md "> NDA Drafting</h2>
-                      <h2 className="text-sm xl:text-md ">
-                        {" "}
-                        Privacy Policy Drafting
-                      </h2>
-                      <h2 className="text-sm xl:text-md ">
-                        {" "}
-                        Terms & Conditions Drafting
-                      </h2>
+                      </Link>
+
+                       <Link to="/NDADrafting">
+                       <h2 className="text-sm xl:text-md "> NDA Drafting</h2>
+                       </Link>
+
+                       <Link to="/PrivacyPolicyDrafting">
+                      <h2 className="text-sm xl:text-md "> Privacy Policy Drafting</h2>
+                      </Link>
+
+                      <Link to="/TermAndCondition">
+                      <h2 className="text-sm xl:text-md ">Terms & Conditions Drafting</h2>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1717,24 +1731,32 @@ const Navbar = () => {
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="">
+                      
                       <h2 className="text-sm xl:text-md text-blue-500 mb-3">
                         Legal Reply
                       </h2>
 
+                      <Link to="/LegalNoticeReply">
                       <h2 className="text-sm xl:text-md  ">
                         Legal Notice Reply
                       </h2>
+                      </Link>
+
+                      <Link to="/LegalAdvice">
                       <h2 className="text-sm xl:text-md ">Legal Advice</h2>
+                      </Link>
                     </div>
 
                     <div className="">
                       <h2 className="text-sm xl:text-md  text-blue-500 mb-3">
                         Accounting
                       </h2>
+
+                      <Link to="/LegalNoticePreparation">
                       <h2 className="text-sm xl:text-md ">
-                        {" "}
                         Legal Notice Preparation
                       </h2>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1765,12 +1787,17 @@ const Navbar = () => {
                       </h2>
 
                       <div>
+                        <Link to="/BalanceSheetPraparationAndP">
                         <h2 className="text-sm xl:text-md  ">
                           Balance Sheet Preparation & P&L
                         </h2>
+                        </Link>
+
+                        <Link to="/ProjectReportPreparation">
                         <h2 className="text-sm xl:text-md ">
                           Project Report Preparation
                         </h2>
+                        </Link>
                       </div>
                     </div>
                   </div>

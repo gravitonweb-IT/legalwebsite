@@ -123,7 +123,7 @@ const ParternLtdCompanyRegisteration = () => {
           <p className="text-lg font-medium mt-5 text-justify">
             Grow your business! Register it as a Private Limited Company with
             complete legal protection. A Private Limited Company is a company
-            privately held for xsall businesses. This business entity limits
+            privately held for small businesses. This business entity limits
             owner liability to their shareholdings and the number of
             shareholders to 200 and restricts shareholders from publicly trading
             shares.

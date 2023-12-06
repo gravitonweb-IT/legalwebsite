@@ -49,6 +49,16 @@ import RentAgreement from "./components/Drafting/RentAgreement";
 import NOC from "./components/Drafting/NOC";
 import { Affidavit } from "./components/Drafting/Affidavit";
 import PowerOfAttorney from "./components/Drafting/PowerOfAttorney";
+import Will from "./components/Drafting/Will";
+import ApplicationForm from "./components/Drafting/ApplicationForm";
+import NDADrafting from "./components/Drafting/NDADrafting";
+import PrivacyPolicyDrafting from "./components/Drafting/PrivacyPolicyDrafting";
+import TermAndCondition from "./components/Drafting/TermAndCondition";
+import LegalAdvice from "./components/LegalIssue/LegalAdvice";
+import LegalNoticePreparation from "./components/LegalIssue/LegalNoticePreparation";
+import LegalNoticeReply from "./components/LegalIssue/LegalNoticeReply";
+import BalanceSheetPraparationAndP from "./components/OtherServices/BalanceSheetPraparationAndP";
+import ProjectReportPreparation from "./components/OtherServices/ProjectReportPreparation";
 
 
 function App() {
@@ -153,6 +163,22 @@ function App() {
         <Route path="/NOC" element={<NOC/>} />
         <Route path="/Affidavit" element={<Affidavit/>} />
         <Route path="/PowerOfAttorney" element={<PowerOfAttorney/>} />
+        <Route path="/Will" element={<Will/>} />
+        <Route path="/ApplicationForm" element={<ApplicationForm/>} />
+        <Route path="/NDADrafting" element={<NDADrafting/>} />
+        <Route path="/PrivacyPolicyDrafting" element={<PrivacyPolicyDrafting/>} />
+        <Route path="/TermAndCondition" element={<TermAndCondition/>} />
+
+        {/* Legal Issue */}
+        <Route path="/LegalAdvice" element={<LegalAdvice/>} />
+        <Route path="/LegalNoticePreparation" element={<LegalNoticePreparation/>} />
+        <Route path="/LegalNoticeReply" element={<LegalNoticeReply/>} />
+
+        {/* OtherServices */}
+        <Route path="/BalanceSheetPraparationAndP" element={<BalanceSheetPraparationAndP/>} />
+        <Route path="/ProjectReportPreparation" element={<ProjectReportPreparation/>} />
+
+
         
         
         

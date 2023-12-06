@@ -112,7 +112,7 @@ const ParternerShip = () => {
             A Partnership Deed (PDR) is a written legal document containing an
             agreement between the partners of a firm which summarises the terms
             and conditions of their partnership under the “Indian Partnership
-            Act 1932”. Get help from the experts of Legal251 for making PDR.
+            Act 1932”. Get help from the experts of Legal257 for making PDR.
           </p>
           <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             A Partnership Deed is a written legal document that outlines the
