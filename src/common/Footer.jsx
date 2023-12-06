@@ -160,14 +160,14 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* <div>
+          <div>
             <p className="footer-paragraph text-black text-md font-semibold">
-              Copyright &copy;2023 Legal257 Designed By :
+              Copyright &copy;2023 Legal257
               <Link href="#" className="footer-text">
-                <strong> Gravitonweb Technologies</strong>
+              
               </Link>
             </p>
-          </div> */}
+          </div>
         </div>
       </div>
     </>
