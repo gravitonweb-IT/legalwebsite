@@ -63,33 +63,64 @@ const faqs = [
 ];
 
 const LegalNoticeReply = () => {
-  const [formData, setFormData] = useState({
-    firstName: "",
-    email: "",
+
+  const [formDataBasic, setFormDataBasic] = useState({
+    name: "",
     phone: "",
+    email: "",
     city: "",
   });
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
+  const [formDataPro, setFormDataPro] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    city: "",
+  });
+ 
+  const [showFormBasic, setShowFormBasic] = useState(false);
+  const [showFormPro, setShowFormPro] = useState(false);
+
+
+
+  const handleChangeBasic = (e) => {
+    setFormDataBasic({ ...formDataBasic, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleChangePro = (e) => {
+    setFormDataPro({ ...formDataPro, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmitBasic = (e) => {
     e.preventDefault();
-    console.log("Form Data:", formData);
+    console.log("Basic Form Data:", formDataBasic);
 
-    // You can perform additional actions here, such as sending data to a server
-
-    // Reset the form
-    setFormData({
-      firstName: "",
+    setFormDataBasic({
+      name: "",
       email: "",
       phone: "",
       city: "",
     });
+  };
+
+  const handleSubmitPro = (e) => {
+    e.preventDefault();
+    console.log("Pro Form Data:", formDataPro);
+
+    setFormDataPro({
+      name: "",
+      email: "",
+      phone: "",
+      city: "",
+    });
+  };
+
+
+  const openFormBasic = () => {
+    setShowFormBasic(true);
+  };
+  const openFormPro = () => {
+    setShowFormPro(true);
   };
 
   const [openId, setOpenId] = useState(null);
@@ -126,6 +157,196 @@ const LegalNoticeReply = () => {
           <img src={LegalNoticeReplyImg}></img>
         </div>
       </div>
+
+{/* section */}
+
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-10 mx-5 md:mx-28 lg:mx-52 xl:mx-96 mt-8 md:mt-16">
+      <div className="bg-[#FBB03B]   rounded-xl shadow-lg p-3">
+          <h1 className="text-white text-center font-semibold text-xl md:text-2xl ">
+           GENERAL
+          </h1>
+          <div className="bg-white  rounded-lg  p-7 mt-3">
+            <div className=" ">
+              {!showFormBasic ? (
+                <div className="">
+                  <h2 className="text-xl font-bold mb-4 text-center">751</h2>
+                  <div className="text-center">
+                    <button
+                      onClick={openFormBasic}
+                      className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4"
+                    >
+                      GET STARTED
+                    </button>
+                  </div>
+                  <div className="mb-4">
+                    
+                    <p>
+                    Preferable in general matters where examination of <br /> 
+                    documents is not required.
+                     
+                    
+                    </p>
+                  </div>
+                 
+                </div>
+              ) : (
+                <div className="mt-4">
+                  <form onSubmit={handleSubmitBasic}>
+                    <p>
+                      <input
+                        type="text"
+                        id="name"
+                        required
+                        name="name"
+                        placeholder=" Name"
+                        className="py-2 border-b-2 border-slate-400 px-5"
+                        value={formDataBasic.name}
+                        onChange={handleChangeBasic}
+                      />
+                    </p>
+                    <p className="mt-3">
+                      <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        placeholder="Email"
+                        required
+                        className="py-2 border-b-2 border-slate-400 px-5"
+                        value={formDataBasic.email}
+                        onChange={handleChangeBasic}
+                      />
+                    </p>
+                    <p className="mt-3">
+                      <input
+                        type="text"
+                        id="phone"
+                        name="phone"
+                        required
+                        placeholder="Contact No"
+                        className="py-2 border-b-2 border-slate-400 px-5"
+                        value={formDataBasic.phone}
+                        onChange={handleChangeBasic}
+                      />
+                    </p>
+                    <p className="mt-3">
+                      <input
+                        type="city"
+                        id="city"
+                        name="city"
+                        placeholder="City"
+                        required
+                        className="py-2 border-b-2 border-slate-400 px-5"
+                        value={formDataBasic.city}
+                        onChange={handleChangeBasic}
+                      />
+                    </p>
+                    <div className="mt-5">
+                      <button
+                        type="submit"
+                        className="bg-[#FBB03B] text-white px-4 py-2 rounded-[20px]"
+                      >
+                        SUBMIT
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-[#B70505]   rounded-xl shadow-lg p-3">
+          <h1 className="text-white text-center font-semibold text-xl md:text-2xl ">
+            DETAILED
+          </h1>
+          <div className="bg-white  rounded-lg  p-7 mt-3">
+            <div className=" ">
+              {!showFormPro ? (
+                <div className="">
+                  <h2 className="text-xl font-bold text-center mb-4">2551</h2>
+                  <div className="text-center">
+                    <button
+                      onClick={openFormPro}
+                      className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4"
+                    >
+                      GET STARTED
+                    </button>
+                  </div>
+                  <div className="mb-4">
+                  
+                    <p> Preferable in matters where examination of documents <br/> is required.</p>
+                  </div>
+                 
+                </div>
+              ) : (
+                <div className="mt-4">
+                  <form onSubmit={handleSubmitPro}>
+                    <p>
+                      <input
+                        type="text"
+                        id="name"
+                        required
+                        name="name"
+                        placeholder="Name"
+                        className="py-2 border-b-2 border-slate-400 px-5"
+                        value={formDataPro.name}
+                        onChange={handleChangePro}
+                      />
+                    </p>
+                    <p className="mt-3">
+                      <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        placeholder="Email"
+                        required
+                        className="py-2 border-b-2 border-slate-400 px-5"
+                        value={formDataPro.email}
+                        onChange={handleChangePro}
+                      />
+                    </p>
+                    <p className="mt-3">
+                      <input
+                        type="text"
+                        id="phone"
+                        name="phone"
+                        required
+                        placeholder="Contact No"
+                        className="py-2 border-b-2 border-slate-400 px-5"
+                        value={formDataPro.phone}
+                        onChange={handleChangePro}
+                      />
+                    </p>
+                    <p className="mt-3">
+                      <input
+                        type="city"
+                        id="city"
+                        name="city"
+                        placeholder="City"
+                        required
+                        className="py-2 border-b-2 border-slate-400 px-5"
+                        value={formDataPro.city}
+                        onChange={handleChangePro}
+                      />
+                    </p>
+                    <div className="mt-5">
+                      <button
+                        type="submit"
+                        className="bg-[#B70505] text-white px-4 py-2 rounded-[20px]"
+                      >
+                        SUBMIT
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
       {/* section-2 */}
       <div className="mt-10 md:mt-16 flex justify-center">

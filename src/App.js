@@ -59,6 +59,18 @@ import LegalNoticePreparation from "./components/LegalIssue/LegalNoticePreparati
 import LegalNoticeReply from "./components/LegalIssue/LegalNoticeReply";
 import BalanceSheetPraparationAndP from "./components/OtherServices/BalanceSheetPraparationAndP";
 import ProjectReportPreparation from "./components/OtherServices/ProjectReportPreparation";
+import GSTCalculator from "./components/Utilities/GSTCalculator";
+import SIPCalculator from "./components/Utilities/SIPCalculator";
+import EMICalculator from "./components/Utilities/EMICalculator";
+import FDCalculator from "./components/Utilities/FDCalculator";
+import UCalculator from "./components/Utilities/UCalculator";
+import HRACalculator from "./components/Utilities/HRACalculator";
+import SimpleInterestCalculator from "./components/Utilities/SimpleInterestCalculator";
+import CapitalGainCalculator from "./components/Utilities/CapitalGainCalculator";
+import TDSCalculator from "./components/Utilities/TDSCalculator";
+import PPfCalculator from "./components/Utilities/PPfCalculator";
+import GratuityCalculator from "./components/Utilities/GratuityCalculator";
+import RDCalculator from "./components/Utilities/RDCalculator";
 
 
 function App() {
@@ -178,13 +190,21 @@ function App() {
         <Route path="/BalanceSheetPraparationAndP" element={<BalanceSheetPraparationAndP/>} />
         <Route path="/ProjectReportPreparation" element={<ProjectReportPreparation/>} />
 
+        {/* utilities */}
 
+         <Route path="/GSTCalculator" element={<GSTCalculator/>} />
+         <Route path="/SIPCalculator" element={<SIPCalculator/>} />
+         <Route path="/EMICalculator" element={<EMICalculator/>} />
+         <Route path="/FDCalculator" element={<FDCalculator/>} />
+         <Route path="/UCalculator" element={<UCalculator/>} />
+         <Route path="/HRACalculator" element={<HRACalculator/>} />
+         <Route path="/SimpleInterestCalculator" element={<SimpleInterestCalculator/>} />
+         <Route path="/CapitalGainCalculator" element={<CapitalGainCalculator/>} />
+         <Route path="/TDSCalculator" element={<TDSCalculator/>} />
+         <Route path="/PPfCalculator" element={<PPfCalculator/>} />
+         <Route path="/GratuityCalculator" element={<GratuityCalculator/>} />
+         <Route path="/RDCalculator" element={<RDCalculator/>} />
         
-        
-        
-        
-       
-
 
 
       </Routes>
