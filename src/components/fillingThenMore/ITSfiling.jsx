@@ -13,28 +13,104 @@ import {
 } from "@fortawesome/free-regular-svg-icons";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 
+
+const faqs = [
+  {
+    id: 1,
+    question:
+      " Q1. What is income tax return filing?",
+    answer:
+      "A tax return is a form or form filed with a tax authority that reports income, expenses, and other pertinent tax information. Tax returns allow taxpayers to calculate their tax liability, schedule tax payments, or request refunds for the overpayment of taxes. In most countries, tax returns must be filed annually for an individual or business with reportable income, including wages, interest, dividends, capital gains, or other profits.",
+  },
+  {
+    id: 2,
+    question: "Q2. Who is required to file an Income Tax Return?",
+    answer: "Anybody who is less than 60 years of age and has an annual income of more than Rs 2.5 lakh has to file income tax returns, according to the Income Tax Act. For senior citizens, the cut-off is Rs 3 lakh, and for those who are more than 80 years old, the cut off is Rs 5 lakh.",
+  },
+  {
+    id: 3,
+    question:
+      "Q3. Can I file a return of income even if my income is below taxable limits?",
+    answer:
+      "Yes, you can file a return of income voluntarily even if your income is less than the basic exemption limit.",
+  },
+  {
+    id: 4,
+    question: "Q4.  How many types of income tax returns forms are available for individuals?",
+    answer:
+      "In total, there are six ITR forms for individuals, namely, ITR-1, ITR-2, ITR-2A, ITR-3, ITR-4, and ITR-4S.",
+  },
+  {
+    id: 5,
+    question: "Q5.  If I have paid excess tax, how will it be refunded to me?",
+    answer:
+      "The excess tax can be claimed as a refund by filing your income tax return (ITR). After your return is processed and provided the tax department accepts your refund claim, the amount claimed as a refund would be credited back to your bank account through Electronic Clearance Service (ECS) transfer. You would also get an email intimation for the same.",
+  },
+  {
+    id: 6,
+    question: "Q6. How can I get a copy of ITR?",
+    answer:
+      "You can download a copy of your Income Tax Return acknowledgement after filing it online. The I-T department sends your ITR-V acknowledgement to your registered e-mail id.",
+  },
+];
+
+
+
 const ITSfiling = () => {
-  const [formData, setFormData] = useState({
+  const [formDataStarter, setFormDataStarter] = useState({
     name: "",
     phone: "",
     email: "",
     city: "",
   });
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
+  const [formDataBasic, setFormDataBasic] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    city: "",
+  });
+
+  const [formDataPro, setFormDataPro] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    city: "",
+  });
+
+  const [formDataPremium, setFormDataPremium] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    city: "",
+  });
+
+  const [showFormStarter, setShowFormStarter] = useState(false);
+  const [showFormBasic, setShowFormBasic] = useState(false);
+  const [showFormPro, setShowFormPro] = useState(false);
+  const [showFormPremium, setShowFormPremium] = useState(false);
+
+  const handleChangeStarter = (e) => {
+    setFormDataStarter({ ...formDataStarter, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form Data:", formData);
-    // You can perform additional actions here, such as sending data to a server
+  const handleChangeBasic = (e) => {
+    setFormDataBasic({ ...formDataBasic, [e.target.name]: e.target.value });
+  };
 
-    // Reset the form
-    setFormData({
+  const handleChangePro = (e) => {
+    setFormDataPro({ ...formDataPro, [e.target.name]: e.target.value });
+  };
+
+  const handleChangePremium = (e) => {
+    setFormDataPremium({ ...formDataPremium, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmitStarter = (e) => {
+    e.preventDefault();
+    console.log("Starter Form Data:", formDataStarter);
+
+    setFormDataStarter({
       name: "",
       email: "",
       phone: "",
@@ -42,22 +118,63 @@ const ITSfiling = () => {
     });
   };
 
-  const [showForm, setShowForm] = useState(false);
-  const [showForm1, setShowForm1] = useState(false);
-  const [showForm2, setShowForm2] = useState(false);
-  const [showForm3, setShowForm3] = useState(false);
+  const handleSubmitBasic = (e) => {
+    e.preventDefault();
+    console.log("Basic Form Data:", formDataBasic);
 
-  const openForm = () => {
-    setShowForm(true);
+    setFormDataBasic({
+      name: "",
+      email: "",
+      phone: "",
+      city: "",
+    });
   };
-  const openForm1 = () => {
-    setShowForm1(true);
+
+  const handleSubmitPro = (e) => {
+    e.preventDefault();
+    console.log("Pro Form Data:", formDataPro);
+
+    setFormDataPro({
+      name: "",
+      email: "",
+      phone: "",
+      city: "",
+    });
   };
-  const openForm2 = () => {
-    setShowForm2(true);
+
+  const handleSubmitPremium = (e) => {
+    e.preventDefault();
+    console.log("Premium Form Data:", formDataPremium);
+
+    setFormDataPremium({
+      name: "",
+      email: "",
+      phone: "",
+      city: "",
+    });
   };
-  const openForm3 = () => {
-    setShowForm3(true);
+
+  // Reset the form
+
+  const openFormStarter = () => {
+    setShowFormStarter(true);
+  };
+
+  const openFormBasic = () => {
+    setShowFormBasic(true);
+  };
+  const openFormPro = () => {
+    setShowFormPro(true);
+  };
+
+  const openFormPremium = () => {
+    setShowFormPremium(true);
+  };
+
+  const [openId, setOpenId] = useState(null);
+
+  const toggleFAQ = (id) => {
+    setOpenId((prevId) => (prevId === id ? null : id));
   };
   return (
     <>
@@ -103,18 +220,18 @@ const ITSfiling = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mx-5 md:mx-20 lg:mx-28 mt-5 md:mt-12">
-        <div className="bg-[#B70505] rounded-xl shadow-lg p-3 ">
+      <div className="bg-[#B70505] rounded-xl shadow-lg p-3 ">
           <h1 className="text-white text-center font-semibold text-xl md:text-2xl ">
             STARTER
           </h1>
           <div className="bg-white  rounded-lg  mt-3">
             <div className="  p-8">
-              {!showForm ? (
+              {!showFormStarter ? (
                 <div className="">
                   <h2 className="text-xl font-bold mb-4">Tenure Options</h2>
                   <div className="text-center">
                     <button
-                      onClick={openForm}
+                      onClick={openFormStarter}
                       className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4"
                     >
                       GET STARTED
@@ -149,17 +266,17 @@ const ITSfiling = () => {
               ) : (
                 <div className="mt-4">
                   {/* This is where your form or content will be displayed */}
-                  <form onSubmit={handleSubmit}>
+                  <form onSubmit={handleSubmitStarter}>
                     <p>
                       <input
                         type="text"
-                        id="firstname"
+                        id="name"
                         required
-                        name="firstName"
-                        placeholder="First Name"
+                        name="name"
+                        placeholder=" Name"
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.firstName}
-                        onChange={handleChange}
+                        value={formDataStarter.name}
+                        onChange={handleChangeStarter}
                       />
                     </p>
                     <p className="mt-3">
@@ -170,8 +287,8 @@ const ITSfiling = () => {
                         placeholder="Email"
                         required
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.email}
-                        onChange={handleChange}
+                        value={formDataStarter.email}
+                        onChange={handleChangeStarter}
                       />
                     </p>
                     <p className="mt-3">
@@ -182,8 +299,8 @@ const ITSfiling = () => {
                         required
                         placeholder="Contact No"
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.phone}
-                        onChange={handleChange}
+                        value={formDataStarter.phone}
+                        onChange={handleChangeStarter}
                       />
                     </p>
                     <p className="mt-3">
@@ -194,8 +311,8 @@ const ITSfiling = () => {
                         placeholder="City"
                         required
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.city}
-                        onChange={handleChange}
+                        value={formDataStarter.city}
+                        onChange={handleChangeStarter}
                       />
                     </p>
                     <div className="mt-5">
@@ -219,12 +336,12 @@ const ITSfiling = () => {
           </h1>
           <div className="bg-white  rounded-lg  p-7 mt-3">
             <div className=" ">
-              {!showForm1 ? (
+              {!showFormBasic ? (
                 <div className="">
                   <h2 className="text-xl font-bold mb-4">Tenure Options</h2>
                   <div className="text-center">
                     <button
-                      onClick={openForm1}
+                      onClick={openFormBasic}
                       className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4"
                     >
                       GET STARTED
@@ -260,18 +377,17 @@ const ITSfiling = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  {/* This is where your form or content will be displayed */}
-                  <form onSubmit={handleSubmit}>
+                  <form onSubmit={handleSubmitBasic}>
                     <p>
                       <input
                         type="text"
-                        id="firstname"
+                        id="name"
                         required
-                        name="firstName"
-                        placeholder="First Name"
+                        name="name"
+                        placeholder=" Name"
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.firstName}
-                        onChange={handleChange}
+                        value={formDataBasic.name}
+                        onChange={handleChangeBasic}
                       />
                     </p>
                     <p className="mt-3">
@@ -282,8 +398,8 @@ const ITSfiling = () => {
                         placeholder="Email"
                         required
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.email}
-                        onChange={handleChange}
+                        value={formDataBasic.email}
+                        onChange={handleChangeBasic}
                       />
                     </p>
                     <p className="mt-3">
@@ -294,8 +410,8 @@ const ITSfiling = () => {
                         required
                         placeholder="Contact No"
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.phone}
-                        onChange={handleChange}
+                        value={formDataBasic.phone}
+                        onChange={handleChangeBasic}
                       />
                     </p>
                     <p className="mt-3">
@@ -306,8 +422,8 @@ const ITSfiling = () => {
                         placeholder="City"
                         required
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.city}
-                        onChange={handleChange}
+                        value={formDataBasic.city}
+                        onChange={handleChangeBasic}
                       />
                     </p>
                     <div className="mt-5">
@@ -331,12 +447,12 @@ const ITSfiling = () => {
           </h1>
           <div className="bg-white  rounded-lg  p-5 mt-3">
             <div className=" ">
-              {!showForm2 ? (
+              {!showFormPro ? (
                 <div className="">
                   <h2 className="text-xl font-bold mb-4">Tenure Options</h2>
                   <div className="text-center">
                     <button
-                      onClick={openForm2}
+                      onClick={openFormPro}
                       className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4"
                     >
                       GET STARTED
@@ -370,18 +486,17 @@ const ITSfiling = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  {/* This is where your form or content will be displayed */}
-                  <form onSubmit={handleSubmit}>
+                  <form onSubmit={handleSubmitPro}>
                     <p>
                       <input
                         type="text"
-                        id="firstname"
+                        id="name"
                         required
-                        name="firstName"
-                        placeholder="First Name"
+                        name="name"
+                        placeholder="Name"
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.firstName}
-                        onChange={handleChange}
+                        value={formDataPro.name}
+                        onChange={handleChangePro}
                       />
                     </p>
                     <p className="mt-3">
@@ -392,8 +507,8 @@ const ITSfiling = () => {
                         placeholder="Email"
                         required
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.email}
-                        onChange={handleChange}
+                        value={formDataPro.email}
+                        onChange={handleChangePro}
                       />
                     </p>
                     <p className="mt-3">
@@ -404,8 +519,8 @@ const ITSfiling = () => {
                         required
                         placeholder="Contact No"
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.phone}
-                        onChange={handleChange}
+                        value={formDataPro.phone}
+                        onChange={handleChangePro}
                       />
                     </p>
                     <p className="mt-3">
@@ -416,8 +531,8 @@ const ITSfiling = () => {
                         placeholder="City"
                         required
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.city}
-                        onChange={handleChange}
+                        value={formDataPro.city}
+                        onChange={handleChangePro}
                       />
                     </p>
                     <div className="mt-5">
@@ -441,12 +556,12 @@ const ITSfiling = () => {
           </h1>
           <div className="bg-white  rounded-lg  p-5">
             <div className=" ">
-              {!showForm3 ? (
+              {!showFormPremium ? (
                 <div className="">
                   <h2 className="text-xl font-bold mb-4">Tenure Options</h2>
                   <div className="text-center">
                     <button
-                      onClick={openForm3}
+                      onClick={openFormPremium}
                       className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4"
                     >
                       GET STARTED
@@ -484,18 +599,17 @@ const ITSfiling = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  {/* This is where your form or content will be displayed */}
-                  <form onSubmit={handleSubmit}>
+                  <form onSubmit={handleSubmitPremium}>
                     <p>
                       <input
                         type="text"
-                        id="firstname"
+                        id="name"
                         required
-                        name="firstName"
-                        placeholder="First Name"
+                        name="name"
+                        placeholder=" Name"
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.firstName}
-                        onChange={handleChange}
+                        value={formDataPremium.name}
+                        onChange={handleChangePremium}
                       />
                     </p>
                     <p className="mt-3">
@@ -506,8 +620,8 @@ const ITSfiling = () => {
                         placeholder="Email"
                         required
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.email}
-                        onChange={handleChange}
+                        value={formDataPremium.email}
+                        onChange={handleChangePremium}
                       />
                     </p>
                     <p className="mt-3">
@@ -518,8 +632,8 @@ const ITSfiling = () => {
                         required
                         placeholder="Contact No"
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.phone}
-                        onChange={handleChange}
+                        value={formDataPremium.phone}
+                        onChange={handleChangePremium}
                       />
                     </p>
                     <p className="mt-3">
@@ -530,8 +644,8 @@ const ITSfiling = () => {
                         placeholder="City"
                         required
                         className="py-2 border-b-2 border-slate-400 px-5"
-                        value={formData.city}
-                        onChange={handleChange}
+                        value={formDataPremium.city}
+                        onChange={handleChangePremium}
                       />
                     </p>
                     <div className="mt-5">
@@ -922,6 +1036,41 @@ const ITSfiling = () => {
             </div>
           </div>
         </div>
+      </div>
+
+
+             {/* section-7 */}
+             <div className="mt-12 md:mt-16 flex justify-center">
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#01355D]">
+          <FontAwesomeIcon
+            icon={faPenToSquare}
+            className="pr-5 text-[#01355D] "
+          />
+          Faq's
+        </h1>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mx-5 md:mx-20 lg:mx-28 mt-8">
+        {faqs.map((faq) => (
+          <div key={faq.id} className="p-4">
+            <div
+              className="border-2 border-gray-300 p-4 cursor-pointer flex justify-between items-center rounded-[4px]"
+              onClick={() => toggleFAQ(faq.id)}
+            >
+              <h2 className="text-lg font-semibold">{faq.question}</h2>
+              <span className="text-gray-500">
+                {openId === faq.id ? (
+                  <i className="fas fa-minus" />
+                ) : (
+                  <i className="fas fa-plus" />
+                )}
+              </span>
+            </div>
+            {openId === faq.id && (
+              <p className="text-gray-700 mt-2">{faq.answer}</p>
+            )}
+          </div>
+        ))}
       </div>
     </>
   );
