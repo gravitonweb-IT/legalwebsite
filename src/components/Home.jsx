@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Typewriter from "typewriter-effect";
 import ilegalhomeimg from "./../assests/images/HomepageImages/legalImg1.jpg";
 import sliderhomeimg1 from "./../assests/images/HomepageImages/users.png";
@@ -90,6 +90,37 @@ const Home = () => {
   if (isSmallScreen2) {
     settings3.slidesToShow = 3;
   }
+
+  // form
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    select: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Form Data:", formData);
+
+    // You can perform additional actions here, such as sending data to a server
+
+    // Reset the form
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      select: "",
+    });
+  };
+
   return (
     <>
       {/* hero section */}
@@ -227,8 +258,9 @@ const Home = () => {
                     }}
                   />
                 </div>
+
                 <div>
-                  <form>
+                  <form onSubmit={handleSubmit}>
                     <label>Name</label>
                     <p className="mb-3">
                       <input
@@ -237,6 +269,8 @@ const Home = () => {
                         name="name"
                         placeholder="Enter Your Name"
                         className=" w-full lg:w-[400px] mt-2  border p-2 rounded-lg"
+                        value={formData.name}
+                        onChange={handleChange}
                       />
                     </p>
                     <label className="mt-3">Email</label>
@@ -247,6 +281,8 @@ const Home = () => {
                         name="email"
                         placeholder="Enter Your Email"
                         className=" w-full lg:w-[400px]  mt-2 border p-2 rounded-lg"
+                        value={formData.email}
+                        onChange={handleChange}
                       />
                     </p>
                     <label className="mt-3">Contact Number</label>
@@ -254,35 +290,32 @@ const Home = () => {
                     <p className="mb-3">
                       <input
                         type="text"
-                        id="pnum"
+                        id="phone"
                         name="phone"
                         placeholder="Enter Your Number"
                         className=" w-full lg:w-[400px] mt-2  border p-2 rounded-lg"
+                        value={formData.phone}
+                        onChange={handleChange}
                       />
                     </p>
                     <label>Related to</label>
                     <p>
                       <select
-                        className=" border p-2 w-full lg:w-[400px] mt-2 rounded-lg"
-                        required
+                        className="border p-2 w-full lg:w-[400px] mt-2 rounded-lg"
+                        value={formData.select}
+                        onChange={handleChange}
+                        id="select"
+                        name="select"
                       >
-                        <option value="" disabled selected>
+                        <option value="" disabled>
                           Select Course
                         </option>
-
-                        <option value="option1" className="text-black">
-                          Lawyer
-                        </option>
-
-                        <option value="option2" className="text-black">
-                          Consultant
-                        </option>
-
-                        <option value="option3" className="text-black">
+                        <option value="Lawyer">Lawyer</option>
+                        <option value="Consultant">Consultant</option>
+                        <option value="Company Secretary">
                           Company Secretary
                         </option>
-
-                        <option value="option3" className="text-black">
+                        <option value="Chartered Accountant">
                           Chartered Accountant
                         </option>
                       </select>
@@ -1114,7 +1147,7 @@ const Home = () => {
 
           <div className="mt-5">
             <button className="bg-[#8A4117] text-white px-4 py-3 rounded-[4px]">
-             Book A Free Demo
+              Book A Free Demo
             </button>
           </div>
         </div>
