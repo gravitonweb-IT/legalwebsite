@@ -48,7 +48,12 @@ const GSTCalculator = () => {
               className="w-10 h-10 text-yellow-500"
             />
           </div>
-          <h1 className="mt-3 text-center">Manageable</h1>
+          <h1 className="mt-3 text-center text-xl font-bold">Manageable</h1>
+          <p className="p-3 text-center ">
+            It helps you quickly differentiate between SGST, CGST, and IGST, as
+            well as assess each tax accurately in a manageable and hassle-free
+            way.
+          </p>
         </div>
 
         <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
@@ -58,7 +63,14 @@ const GSTCalculator = () => {
               className="w-10 h-10 text-yellow-500"
             />
           </div>
-          <h1 className="mt-3 text-center">Lower Taxes</h1>
+          <h1 className="mt-3 text-center text-xl font-bold">
+            Time Saving & Error Free
+          </h1>
+          <p className="p-3 text-center ">
+            It provides immediate returns and saves your time while making the
+            computation of the price of products & services easy and free from
+            human errors.
+          </p>
         </div>
       </div>
     </>

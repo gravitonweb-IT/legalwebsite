@@ -181,8 +181,8 @@ const LegalNoticeReply = () => {
                   </div>
                   <div className="mb-4">
                     
-                    <p>
-                    Preferable in general matters where examination of <br /> 
+                    <p className="text-center">
+                    Preferable in general matters where examination of 
                     documents is not required.
                      
                     
@@ -275,7 +275,7 @@ const LegalNoticeReply = () => {
                   </div>
                   <div className="mb-4">
                   
-                    <p> Preferable in matters where examination of documents <br/> is required.</p>
+                    <p className="text-center"> Preferable in matters where examination of documents  is required.</p>
                   </div>
                  
                 </div>
