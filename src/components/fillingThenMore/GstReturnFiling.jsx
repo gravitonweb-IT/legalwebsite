@@ -499,7 +499,7 @@ const GstReturnFiling = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  {/* This is where your form or content will be displayed */}
+
                   <form onSubmit={handleSubmit}>
                     <p>
                       <input
@@ -611,7 +611,7 @@ const GstReturnFiling = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  {/* This is where your form or content will be displayed */}
+                 
                   <form onSubmit={handleSubmit}>
                     <p>
                       <input
@@ -721,7 +721,7 @@ const GstReturnFiling = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  {/* This is where your form or content will be displayed */}
+                 
                   <form onSubmit={handleSubmit}>
                     <p>
                       <input
@@ -835,7 +835,7 @@ const GstReturnFiling = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  {/* This is where your form or content will be displayed */}
+               
                   <form onSubmit={handleSubmit}>
                     <p>
                       <input
