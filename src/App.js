@@ -71,6 +71,8 @@ import TDSCalculator from "./components/Utilities/TDSCalculator";
 import PPfCalculator from "./components/Utilities/PPfCalculator";
 import GratuityCalculator from "./components/Utilities/GratuityCalculator";
 import RDCalculator from "./components/Utilities/RDCalculator";
+import Termsconditions from "./components/Termsconditions";
+import Refundpolicy from "./components/Refundpolicy";
 
 
 function App() {
@@ -204,6 +206,9 @@ function App() {
          <Route path="/PPfCalculator" element={<PPfCalculator/>} />
          <Route path="/GratuityCalculator" element={<GratuityCalculator/>} />
          <Route path="/RDCalculator" element={<RDCalculator/>} />
+         <Route path="/RDCalculator" element={<RDCalculator/>} />
+         <Route path="/Termsconditions" element={<Termsconditions/>} />
+         <Route path="/Refundpolicy" element={<Refundpolicy/>} />
         
 
 

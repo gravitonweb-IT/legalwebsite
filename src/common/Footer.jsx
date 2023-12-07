@@ -54,11 +54,11 @@ const Footer = () => {
             <h5 className="text-black font-semibold text-lg">Legal & Policies</h5>
 
             <div className="mt-2 md:mt-4 text-black">
-              <Link to="#">
-                <p className="">Terms & Conditions</p>
+              <Link to="/Termsconditions">
+                <p className="mt-2">Terms & Conditions</p>
               </Link>
 
-              <Link to="#">
+              <Link to="/Refundpolicy">
                 <p className="mt-2">Privacy Policy</p>
               </Link>
             </div>
