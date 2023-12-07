@@ -55,11 +55,11 @@ const Footer = () => {
 
             <div className="mt-2 md:mt-4 text-black">
               <Link to="/Termsconditions">
-                <p className="mt-2">Terms & Conditions</p>
+                <p className="mt-2 hover:text-blue-500">Terms & Conditions</p>
               </Link>
 
               <Link to="/Refundpolicy">
-                <p className="mt-2">Privacy Policy</p>
+                <p className="mt-2 hover:text-blue-500">Privacy Policy</p>
               </Link>
             </div>
           </div>

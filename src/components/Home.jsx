@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import ilegalhomeimg from "./../assests/images/HomepageImages/legalImg1.jpg";
 import sliderhomeimg1 from "./../assests/images/HomepageImages/users.png";
@@ -405,11 +406,13 @@ const Home = () => {
           <div className="flex justify-center">
             <img src={Service7} className="w-[50px] h-auto"></img>
           </div>
+         
           <p className="text-md font-semibold text-center mt-3">
             GST
             <br />
             Registration
           </p>
+        
         </div>
 
         <div className="bg-white shadow-2xl rounded-[40px] p-5">
@@ -678,6 +681,7 @@ const Home = () => {
         <div className="md:col-span-8">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div>
+           
               <h1 className="text-[#01355D] text-xl md:text-2xl font-semibold">
                 GST Registration
               </h1>
@@ -701,9 +705,11 @@ const Home = () => {
             Registration.
           </p>
           <div className="mt-5">
+          <Link to="/GstRegistration"> 
             <button className="bg-[#8A4117] text-white px-4 py-3 rounded-[4px]">
               GET STARTED
             </button>
+            </Link>
           </div>
         </div>
       </div>
