@@ -14,35 +14,38 @@ import {
 
 const ResultBox = ({ result }) => (
   <div className=" mt3  text-black">
-    <p className="text-lg font-semibold ">Simple Interest: ₹{result.interest}</p>
-    <p className="text-lg font-semibold ">Total Amount: ₹{result.totalAmount}</p>
+      <h1 className="text-lg  font-semibold text-[#01355D]">  Interest Amount: </h1>
+            <p className="text-[#FBB03B] font-semibold  text-xl  md:text-2xl"> &#x20B9;{result.interest} /-</p>
+            <h1 className="text-lg  font-semibold text-[#01355D]">Total Amount: </h1>
+            <p className="text-[#FBB03B] font-semibold  text-xl  md:text-2xl"> &#x20B9;{result.totalAmount} /-</p>
+   
   </div>
 );
 
 const faqs = [
   {
     id: 1,
-    question: "Q1. How much should a person invest in SIP?",
-    answer:
-      "No upper limit for the amount one can invest in a SIP. However, you can invest only Rs. 500 per month.",
+    question: "Q1.  Can I use this Simple Interest Calculator anytime?",
+    answer: "Yes, you can use this SI calculator 24*7.",
   },
   {
     id: 2,
-    question: "Q2. Are SIPs and mutual funds similar?",
+    question: "Q2. How to calculate simple interest?",
     answer:
-      "SIP is not an investment scheme or any fund. It is a method of investing in Mutual Funds. You can use it to systematically invest a fixed amount of money in Mutual Funds for a period on a regular basis.",
+      "The formula for computing Simple Interest is (P x R x T) ÷ 100, where:  P = Principal, R = Rate of Interest,  T = Time for Tenure (for which you will earn interest),  You only have to put the values of P, R, & T in the online SI calculator, and you will get the results in moments.",
   },
   {
     id: 3,
-    question: "Q3. Can I alter my SIP amount anytime?",
+    question:
+      "Q3.  Is this calculator free, or do I need to pay any charges for it?",
     answer:
-      "No. You cannot change your SIP amount anytime, as it is fixed for a given period.",
+      "Yes, our SI calculator is free, and you don’t have to pay anything.",
   },
   {
     id: 4,
-    question: "Q4. Is SIP renewable?",
-    answer:
-      "Yes, you can automatically renew your SIP easily. While different companies also offer you the option to cancel the auto-renew feature.",
+    question:
+      "Q4. Do the Principal Amount and Interest Rates change over time?",
+    answer: "No. The principal amount and the interest rates don’t change.",
   },
 ];
 
@@ -52,7 +55,7 @@ const SimpleInterestCalculator = () => {
   const [time, setTime] = useState("");
   const [result, setResult] = useState(null);
   const [showResult, setShowResult] = useState(false);
-  const [calculationType, setCalculationType] = useState('yearly');
+  const [calculationType, setCalculationType] = useState("yearly");
   const chartRef = useRef(null);
 
   useEffect(() => {
@@ -69,9 +72,9 @@ const SimpleInterestCalculator = () => {
 
     if (!isNaN(p) && !isNaN(r) && !isNaN(t)) {
       let interest = 0;
-      if (calculationType === 'yearly') {
+      if (calculationType === "yearly") {
         interest = ((p * r * t) / 100).toFixed(2);
-      } else if (calculationType === 'monthly') {
+      } else if (calculationType === "monthly") {
         interest = ((p * r * t) / (12 * 100)).toFixed(2);
       }
 
@@ -119,7 +122,11 @@ const SimpleInterestCalculator = () => {
     updateChart();
   }, [result]);
 
+  const [openId, setOpenId] = useState(null);
 
+  const toggleFAQ = (id) => {
+    setOpenId((prevId) => (prevId === id ? null : id));
+  };
 
   return (
     <>
@@ -192,23 +199,23 @@ section-2 */}
             />
           </div>
           <div className=" mb-4">
-        <button
-          className={`${
-            calculationType === 'yearly' ? 'bg-blue-500' : 'bg-gray-300'
-          } hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-3 mr-2`}
-          onClick={() => setCalculationType('yearly')}
-        >
-          Yearly
-        </button>
-        <button
-          className={`${
-            calculationType === 'monthly' ? 'bg-blue-500' : 'bg-gray-300'
-          } hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-3`}
-          onClick={() => setCalculationType('monthly')}
-        >
-          Monthly
-        </button>
-      </div>
+            <button
+              className={`${
+                calculationType === "yearly" ? "bg-blue-500" : "bg-gray-300"
+              } hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-3 mr-2`}
+              onClick={() => setCalculationType("yearly")}
+            >
+              Yearly
+            </button>
+            <button
+              className={`${
+                calculationType === "monthly" ? "bg-blue-500" : "bg-gray-300"
+              } hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-3`}
+              onClick={() => setCalculationType("monthly")}
+            >
+              Monthly
+            </button>
+          </div>
           <div className="">
             <button
               className="hover:bg-[#B70505] bg-[#FBB03B] text-white font-bold py-2 px-4 rounded mt-3"
@@ -230,69 +237,103 @@ section-2 */}
         </div>
       </div>
 
-      {/* <div className="container mx-auto mt-1 p-4 bg-gray-100 rounded-lg max-w-full  ">
-        <h1 className="text-4xl font-bold text-center mt-5 mb-8 text-black">
-          Simple Interest Calculator
+      {/* section-3 */}
+      <div className="mt-14 md:mt-16 flex justify-center">
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#01355D]">
+          <FontAwesomeIcon
+            icon={faHandshake}
+            className="pr-5 text-[#01355D] "
+          />
+          Benefits
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ml-8 md:ml-8 ">
-         
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-bold mb-4 text-gray-800">
-              Financial Year 2021-2022
-            </h2>
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2">
-                Principal Amount
-              </label>
-              <input
-                type="number"
-                className="w-full p-3 border border-blue-400 rounded"
-                value={principal}
-                onChange={(e) => setPrincipal(e.target.value)}
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2">
-                Rate of Interest (%)
-              </label>
-              <input
-                type="number"
-                className="w-full p-3 border border-blue-400 rounded"
-                value={rate}
-                onChange={(e) => setRate(e.target.value)}
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2">
-                Time (in years)
-              </label>
-              <input
-                type="number"
-                className="w-full p-3 border border-blue-400 rounded"
-                value={time}
-                onChange={(e) => setTime(e.target.value)}
-              />
-            </div>
-            <button
-              className="bg-blue-900 text-white p-3 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring focus:border-blue-300"
-              onClick={handleCalculate}
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-3  gap-10 mx-5 md:mx-28  lg:mx-52   mt-10 md:mt-14">
+        <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
+          <div className=" text-center">
+            <FontAwesomeIcon
+              icon={faFlagCheckered}
+              className="w-10 h-10 text-yellow-500"
+            />
+          </div>
+          <h1 className="mt-3 text-center text-xl font-bold">
+            Easy & Faster Calculation
+          </h1>
+          <p className="p-3 text-center ">
+            With our Simple Interest Calculator, you can quickly and efficiently
+            calculate all the simple interest amounts, irrespective of the
+            amount.
+          </p>
+        </div>
+
+        <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
+          <div className=" text-center">
+            <FontAwesomeIcon
+              icon={faFlagCheckered}
+              className="w-10 h-10 text-yellow-500"
+            />
+          </div>
+          <h1 className="mt-3 text-center text-xl font-bold">
+            Instant and Accurate Results
+          </h1>
+          <p className="p-3 text-center ">
+            Unlike the conventional offline SI calculators, our online SI
+            calculator gives you instant results even for complex calculations
+            with a hundred per cent accuracy.
+          </p>
+        </div>
+
+        <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
+          <div className=" text-center">
+            <FontAwesomeIcon
+              icon={faFlagCheckered}
+              className="w-10 h-10 text-yellow-500"
+            />
+          </div>
+          <h1 className="mt-3 text-center text-xl font-bold">
+            Easy Comparison
+          </h1>
+          <p className="p-3 text-center ">
+            Our Simple Interest Calculator lets you compare simple interest
+            rates against compound interest rates while determining the current
+            value of money.
+          </p>
+        </div>
+      </div>
+
+      {/* section-4 */}
+      <div className="mt-14 md:mt-16 flex justify-center">
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#01355D]">
+          <FontAwesomeIcon
+            icon={faPenToSquare}
+            className="pr-5 text-[#01355D] "
+          />
+          Faq's
+        </h1>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mx-5 md:mx-20 lg:mx-28 mt-10">
+        {faqs.map((faq) => (
+          <div key={faq.id} className="p-4">
+            <div
+              className="border-2 border-gray-300 p-4 cursor-pointer flex justify-between items-center rounded-[4px]"
+              onClick={() => toggleFAQ(faq.id)}
             >
-              Calculate
-            </button>
-
-
-
-            {showResult && (
-              <div>
-                {result && <ResultBox result={result} />}
-                <div className="container mx-auto mt-8 p-4 bg-gray-200 rounded-lg max-w-2xl ">
-                  <canvas id="interestChart" width="400" height="400" />
-                </div>
-              </div>
+              <h2 className="text-lg font-semibold">{faq.question}</h2>
+              <span className="text-gray-500">
+                {openId === faq.id ? (
+                  <i className="fas fa-minus" />
+                ) : (
+                  <i className="fas fa-plus" />
+                )}
+              </span>
+            </div>
+            {openId === faq.id && (
+              <p className="text-gray-700 mt-2">{faq.answer}</p>
             )}
           </div>
-        </div>
-      </div> */}
+        ))}
+      </div>
     </>
   );
 };
