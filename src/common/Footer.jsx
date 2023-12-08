@@ -58,8 +58,18 @@ const Footer = () => {
                 <p className="mt-2 hover:text-blue-500">Terms & Conditions</p>
               </Link>
 
-              <Link to="/Refundpolicy">
+              <Link to="/Privacypolicy">
                 <p className="mt-2 hover:text-blue-500">Privacy Policy</p>
+              </Link>
+
+
+              <Link to="Cookiepolicy">
+                <p className="mt-2 hover:text-blue-500">Cookie Policy</p>
+              </Link>
+
+
+              <Link to="/Refundpolicy">
+                <p className="mt-2 hover:text-blue-500">Refund Policy</p>
               </Link>
             </div>
           </div>

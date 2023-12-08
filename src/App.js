@@ -73,6 +73,8 @@ import GratuityCalculator from "./components/Utilities/GratuityCalculator";
 import RDCalculator from "./components/Utilities/RDCalculator";
 import Termsconditions from "./components/Termsconditions";
 import Refundpolicy from "./components/Refundpolicy";
+import Privacypolicy from "./components/Privacypolicy";
+import Cookiepolicy from "./components/Cookiepolicy";
 
 
 function App() {
@@ -207,7 +209,11 @@ function App() {
          <Route path="/GratuityCalculator" element={<GratuityCalculator/>} />
          <Route path="/RDCalculator" element={<RDCalculator/>} />
          <Route path="/RDCalculator" element={<RDCalculator/>} />
+
+         {/* Policy */}
          <Route path="/Termsconditions" element={<Termsconditions/>} />
+         <Route path="/Privacypolicy" element={<Privacypolicy/>} />
+         <Route path="/Cookiepolicy" element={<Cookiepolicy/>} />
          <Route path="/Refundpolicy" element={<Refundpolicy/>} />
         
 

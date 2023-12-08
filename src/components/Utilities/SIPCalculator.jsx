@@ -85,7 +85,7 @@ const SIPCalculator = () => {
   };
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-10 lg:gap-14 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 lg:gap-14 mx-5 md:mx-20 lg:mx-28 mt-24 md:mt-28">
         <div className="">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B70505]">
             SIP Calculator
@@ -104,6 +104,7 @@ const SIPCalculator = () => {
       </div>
 
       {/* section-1 */}
+
 
       <div className="grid grid-cols-1 md:grid-cols-2 bg-gray-100 rounded-xl p-3 gap-5 mx-5 md:mx-20  lg:mx-28    mt-10 md:mt-14 shadow-xl">
         <div className="p-5 md:pl-10">
@@ -211,99 +212,8 @@ const SIPCalculator = () => {
         </div>
       </div>
 
-      {/* 
-calculator */}
 
-      {/* <div className="max-w-md mx-auto mt-20 p-4 bg-gray-100 rounded-lg shadow-lg">
-        <h1 className="text-2xl font-semibold mb-4">
-          Calculate SIP Mutual Fund Returns
-        </h1>
 
-        <div className="mb-4">
-          <label className="block text-lg mb-2 font-semibold text-[#01355D]">
-            Monthly Investment
-          </label>
-          <input
-            type="number"
-            className="p-2 border rounded"
-            placeholder="Monthly Investment"
-            value={monthlyInvestment}
-            onChange={(e) => setMonthlyInvestment(e.target.value)}
-          />
-        </div>
-        <div className="mb-4">
-          <label className="block text-lg mb-2 font-semibold text-[#01355D]">
-            Rate Of Interest
-          </label>
-          <input
-            type="number"
-            className="p-2 border rounded"
-            placeholder="Rate Of Interest"
-            value={rateOfInterest}
-            onChange={(e) => setRateOfInterest(e.target.value)}
-          />
-        </div>
-        <div className="mb-4">
-          <label className="block text-lg mb-2 font-semibold text-[#01355D]">
-            Time Period
-          </label>
-          <input
-            type="number"
-            className="p-2 border rounded"
-            placeholder="Time Period "
-            value={timePeriod}
-            onChange={(e) => setTimePeriod(e.target.value)}
-          />
-        </div>
-        <div className="flex justify-between mb-4">
-          <button
-            className={`${
-              isMonthly ? "bg-blue-500 text-white" : "bg-gray-300 text-gray-600"
-            } px-4 py-2 rounded mr-2`}
-            onClick={() => {
-              handleCalculateMonthly();
-              setResult(null);
-            }}
-          >
-            Yearly
-          </button>
-          <button
-            className={`${
-              !isMonthly
-                ? "bg-blue-500 text-white"
-                : "bg-gray-300 text-gray-600"
-            } px-4 py-2 rounded`}
-            onClick={() => {
-              handleCalculateYearly();
-              setResult(null);
-            }}
-          >
-            Monthly
-          </button>
-        </div>
-        <button
-          className="bg-blue-500 text-white px-4 py-2 rounded"
-          onClick={handleCalculate}
-        >
-          Calculate
-        </button>
-        {result && (
-          <div className="mt-8">
-            <p>
-              After {timePeriod} {isMonthly ? "Years" : "Months"}, your amount
-              will be <br />
-              <span className="text-green-500 font-bold text-xl">
-                ₹ {result.futureValue}
-              </span>
-            </p>
-            <p className="mt-4">
-              This includes ₹ {result.capitalGains} capital gains on an
-              investment amount of ₹{" "}
-              {(parseFloat(monthlyInvestment) * result.periods).toFixed(2)}
-            </p>
-          </div>
-        )}
-      </div> */}
 
       {/* section-2 */}
       <div className="mt-14 md:mt-16 flex justify-center">

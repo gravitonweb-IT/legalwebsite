@@ -81,8 +81,8 @@ const Termsconditions = () => {
           the profiles of lawyers autonomously and make an informed decision.
         </p>
 
-        <div className="mx-10 md:mx-16 lg:mx-20 mt-5">
-          <h1 className=" text-xl font-medium">
+       
+          <h1 className=" text-xl font-medium mt-3">
             Particularly, LEGAL257 does not grant an avenue for solicitation
           </h1>
 
@@ -92,10 +92,10 @@ const Termsconditions = () => {
             Hence, the lawyers are not authorized to view the personal data of
             potential clients.
           </p>
-        </div>
+      
 
-        <div className="mx-10 md:mx-16 lg:mx-20 mt-5">
-          <h1 className=" text-xl font-medium">
+      
+          <h1 className=" text-xl font-medium mt-3">
             LEGAL257 does not provide any Juridical Guidance
           </h1>
 
@@ -110,10 +110,10 @@ const Termsconditions = () => {
             encouraged to discuss with lawyers if they need specialized
             supervision on any of these documents.
           </p>
-        </div>
+       
 
-        <div className="mx-10 md:mx-16 lg:mx-20 mt-5">
-          <h1 className=" text-xl font-medium">
+     
+          <h1 className=" text-xl font-medium mt-3">
             'Common Needs'-The resale of any type of form is prohibited
           </h1>
 
@@ -134,10 +134,10 @@ const Termsconditions = () => {
             amounts to a breach of LEGAL257’s exclusive copyright and is liable
             to prosecution.
           </p>
-        </div>
+       
 
-        <div className="mx-10 md:mx-16 lg:mx-20 mt-5">
-          <h1 className=" text-xl font-medium">
+      
+          <h1 className=" text-xl font-medium mt-3">
             Disclaimer of representations by users
           </h1>
 
@@ -147,10 +147,10 @@ const Termsconditions = () => {
             representation that may be given by any of the law firms or lawyers
             that are registered through this website or any associate thereof.
           </p>
-        </div>
+      
 
-        <div className="mx-10 md:mx-16 lg:mx-20 mt-5">
-          <h1 className=" text-xl font-medium">
+      
+          <h1 className=" text-xl font-medium mt-3">
             Disclaimer of consultation services provided by LEGAL257
           </h1>
 
@@ -221,7 +221,7 @@ const Termsconditions = () => {
             will not in any circumstance produce any such association between
             you and LEGAL257.
           </p>
-        </div>
+       
       </div>
 
       <div className="mx-10 md:mx-16 lg:mx-20 mt-5">
@@ -801,7 +801,7 @@ const Termsconditions = () => {
           responsible. Thirdly, although we highly doubt it, you might find our
           services inadequate. In all three situations, kindly send in an email
           to the Ticket that has been created in your name, marking a copy to
-          contact@legal257.com . We would like to clarify that only refunds of
+          legal257rgvf@gmail.com We would like to clarify that only refunds of
           the expert fees component of the charges paid by you shall be
           considered for a refund.
         </p>
