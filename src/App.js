@@ -75,6 +75,7 @@ import Termsconditions from "./components/Termsconditions";
 import Refundpolicy from "./components/Refundpolicy";
 import Privacypolicy from "./components/Privacypolicy";
 import Cookiepolicy from "./components/Cookiepolicy";
+import BankServices from "./components/BankServices";
 
 
 function App() {
@@ -215,6 +216,7 @@ function App() {
          <Route path="/Privacypolicy" element={<Privacypolicy/>} />
          <Route path="/Cookiepolicy" element={<Cookiepolicy/>} />
          <Route path="/Refundpolicy" element={<Refundpolicy/>} />
+         <Route path="BankServices" element={<BankServices />} />
         
 
 

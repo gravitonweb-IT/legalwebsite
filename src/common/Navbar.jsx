@@ -107,8 +107,8 @@ const Navbar = () => {
                   onMouseEnter={() => handleMouseEnter(1)}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <Link to="/"
-                   
+                  <Link
+                    to="/"
                     className="hover:text-blue-500 "
                     onClick={() => setIsDrawerOpen(false)}
                   >
@@ -1303,6 +1303,11 @@ const Navbar = () => {
                   </div>
                 )}
               </li>
+
+              {/* bankServices */}
+              <li>
+                <Link to="/BankServices">BankServices</Link>
+              </li>
             </ul>
           </div>
         )}
@@ -1380,7 +1385,9 @@ const Navbar = () => {
                       </Link>
 
                       <Link to="/CmaReport">
-                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">CMA Report</h2>
+                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">
+                          CMA Report
+                        </h2>
                       </Link>
                     </div>
                   </div>
@@ -1395,10 +1402,10 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(2)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link  className="hover:text-blue-500 text-sm xl:text-md font-semibold">
+            <Link className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Change In Business
             </Link>
- 
+
             {activeDropdown === 2 && (
               <div className="fixed inset-0 z-50 min-h-fit flex justify-center mt-[45px] ">
                 <div className="bg-white text-black border shadow-lg rounded-b-lg text-sm w-full max-w-screen-lg cursor-pointer">
@@ -1407,88 +1414,87 @@ const Navbar = () => {
                       <h2 className="text-sm xl:text-md text-blue-500 mb-3">
                         Change In Business
                       </h2>
-                       
-                        <Link to="/DissolutionOfDeed">
+
+                      <Link to="/DissolutionOfDeed">
                         <h2 className="text-sm xl:text-md  hover:text-blue-500">
                           Dissolution of deeds
                         </h2>
-                        </Link>
- 
-                        <Link to="/AddressAmendmentWithInStateLlp">
+                      </Link>
+
+                      <Link to="/AddressAmendmentWithInStateLlp">
                         <h2 className="text-sm xl:text-md hover:text-blue-500 ">
                           Address Amendment Within state (LLP)
                         </h2>
-                        </Link>
- 
-                        <Link to="/AddressAmendmentWithInStateCompany">
+                      </Link>
+
+                      <Link to="/AddressAmendmentWithInStateCompany">
                         <h2 className="text-sm xl:text-md hover:text-blue-500 ">
                           Address Amendment Within state (Company)
                         </h2>
-                        </Link>
- 
-                        <Link to="/AddressAmendmentOutStateLlp">
+                      </Link>
+
+                      <Link to="/AddressAmendmentOutStateLlp">
                         <h2 className="text-sm xl:text-md hover:text-blue-500 ">
                           Address Amendment out of state (LLP)
                         </h2>
-                        </Link>
- 
-                        <Link to="/AddressAmendmentoutStateCompany">
+                      </Link>
+
+                      <Link to="/AddressAmendmentoutStateCompany">
                         <h2 className="text-sm xl:text-md  hover:text-blue-500">
                           Address Amendment out of state (Company)
                         </h2>
-                        </Link>
-                     
+                      </Link>
                     </div>
- 
+
                     <div className="mt-7">
                       <Link to="/AddDirector">
-                      <h2 className="text-sm xl:text-md hover:text-blue-500">
-                        Add Director (company)
-                      </h2>
+                        <h2 className="text-sm xl:text-md hover:text-blue-500">
+                          Add Director (company)
+                        </h2>
                       </Link>
- 
+
                       <Link to="/AddPartner">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">
-                        Add Partner (Company)
-                      </h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          Add Partner (Company)
+                        </h2>
                       </Link>
- 
+
                       <Link to="/IncreaseCapitalLlp">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">
-                        Increase Capital (LLP)
-                      </h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          Increase Capital (LLP)
+                        </h2>
                       </Link>
- 
-                     <Link to="/ChangeInNameLlp">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">
-                        Change In Name of LLP
-                      </h2>
+
+                      <Link to="/ChangeInNameLlp">
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          Change In Name of LLP
+                        </h2>
                       </Link>
                     </div>
- 
+
                     <div className="mt-7">
                       <Link to="RemoveDirectorcompany">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">
-                        Remove Director (Company)
-                      </h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          Remove Director (Company)
+                        </h2>
                       </Link>
- 
+
                       <Link to="/RemoveDirectorllp">
-                      <h2 className="text-sm xl:text-md hover:text-blue-500">
-                        Remove Partner LLP
-                      </h2>
+                        <h2 className="text-sm xl:text-md hover:text-blue-500">
+                          Remove Partner LLP
+                        </h2>
                       </Link>
- 
+
                       <Link to="/IncreaseCapitalCompany">
-                      <h2 className="text-sm xl:text-md hover:text-blue-500">
-                        Increase Capital(Company)
-                      </h2>
+                        <h2 className="text-sm xl:text-md hover:text-blue-500">
+                          Increase Capital(Company)
+                        </h2>
                       </Link>
-                     
+
                       <Link to="/Changeincompany">
-                      <h2 className="text-sm xl:text-md hover:text-blue-500 ">
-                        Change In Name Of Company
-                      </h2>
+                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">
+                          Change In Name Of Company
+                        </h2>
                       </Link>
                     </div>
                   </div>
@@ -1617,7 +1623,9 @@ const Navbar = () => {
                         </h2>
                       </Link>
                       <Link to="/ITSfiling">
-                        <h2 className="text-sm xl:text-md  hover:text-blue-500">ITR Filing</h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          ITR Filing
+                        </h2>
                       </Link>
                       <Link to="/TDSReturnFiling">
                         <h2 className="text-sm xl:text-md  hover:text-blue-500">
@@ -1665,46 +1673,69 @@ const Navbar = () => {
                         Drafting
                       </h2>
                       <Link to="/LegalDrafting">
-                      <h2 className="text-sm xl:text-md hover:text-blue-500">Legal Drafting</h2>
+                        <h2 className="text-sm xl:text-md hover:text-blue-500">
+                          Legal Drafting
+                        </h2>
                       </Link>
 
                       <Link to="/RentAgreement">
-                      <h2 className="text-sm xl:text-md hover:text-blue-500 ">Rent Agreement</h2>
+                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">
+                          Rent Agreement
+                        </h2>
                       </Link>
-                      
-                      <Link to ="/NOC">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">NOC</h2>
+
+                      <Link to="/NOC">
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          NOC
+                        </h2>
                       </Link>
 
                       <Link to="/Affidavit">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">Affidavit</h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          Affidavit
+                        </h2>
                       </Link>
 
                       <Link to="/PowerOfAttorney">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">Power Of Attorney</h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          Power Of Attorney
+                        </h2>
                       </Link>
-
                     </div>
 
                     <div className="mt-7">
                       <Link to="/Will">
-                      <h2 className="text-sm xl:text-md hover:text-blue-500"> Will </h2>
+                        <h2 className="text-sm xl:text-md hover:text-blue-500">
+                          {" "}
+                          Will{" "}
+                        </h2>
                       </Link>
 
                       <Link to="/ApplicationForm">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500"> Application Form</h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          {" "}
+                          Application Form
+                        </h2>
                       </Link>
 
-                       <Link to="/NDADrafting">
-                       <h2 className="text-sm xl:text-md hover:text-blue-500 "> NDA Drafting</h2>
-                       </Link>
+                      <Link to="/NDADrafting">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">
+                          {" "}
+                          NDA Drafting
+                        </h2>
+                      </Link>
 
-                       <Link to="/PrivacyPolicyDrafting">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500"> Privacy Policy Drafting</h2>
+                      <Link to="/PrivacyPolicyDrafting">
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          {" "}
+                          Privacy Policy Drafting
+                        </h2>
                       </Link>
 
                       <Link to="/TermAndCondition">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">Terms & Conditions Drafting</h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          Terms & Conditions Drafting
+                        </h2>
                       </Link>
                     </div>
                   </div>
@@ -1719,10 +1750,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(6)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link
-           
-              className="hover:text-blue-500 text-sm xl:text-md font-semibold"
-            >
+            <Link className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Legal Issues
             </Link>
 
@@ -1731,19 +1759,20 @@ const Navbar = () => {
                 <div className="bg-white text-black border shadow-lg rounded-b-lg  text-sm w-full max-w-screen-lg cursor-pointer">
                   <div className="grid grid-cols-2 gap-4 p-4">
                     <div className="">
-                      
                       <h2 className="text-sm xl:text-md text-blue-500 mb-3">
                         Legal Reply
                       </h2>
 
                       <Link to="/LegalNoticeReply">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500 ">
-                        Legal Notice Reply
-                      </h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500 ">
+                          Legal Notice Reply
+                        </h2>
                       </Link>
 
                       <Link to="/LegalAdvice">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">Legal Advice</h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          Legal Advice
+                        </h2>
                       </Link>
                     </div>
 
@@ -1753,9 +1782,9 @@ const Navbar = () => {
                       </h2>
 
                       <Link to="/LegalNoticePreparation">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">
-                        Legal Notice Preparation
-                      </h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          Legal Notice Preparation
+                        </h2>
                       </Link>
                     </div>
                   </div>
@@ -1770,10 +1799,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(7)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link
-              
-              className="hover:text-blue-500 text-sm xl:text-md font-semibold"
-            >
+            <Link className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Other Services
             </Link>
 
@@ -1788,15 +1814,15 @@ const Navbar = () => {
 
                       <div>
                         <Link to="/BalanceSheetPraparationAndP">
-                        <h2 className="text-sm xl:text-md  hover:text-blue-500 ">
-                          Balance Sheet Preparation & P&L
-                        </h2>
+                          <h2 className="text-sm xl:text-md  hover:text-blue-500 ">
+                            Balance Sheet Preparation & P&L
+                          </h2>
                         </Link>
 
                         <Link to="/ProjectReportPreparation ">
-                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">
-                          Project Report Preparation
-                        </h2>
+                          <h2 className="text-sm xl:text-md hover:text-blue-500 ">
+                            Project Report Preparation
+                          </h2>
                         </Link>
                       </div>
                     </div>
@@ -1812,10 +1838,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(8)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link
-              
-              className="hover:text-blue-500 text-sm xl:text-md font-semibold"
-            >
+            <Link className="hover:text-blue-500 text-sm xl:text-md font-semibold">
               Utilities
             </Link>
 
@@ -1831,60 +1854,91 @@ const Navbar = () => {
 
                       <div className="">
                         <Link to="/GSTCalculator">
-                        <h2 className="text-sm xl:text-md hover:text-blue-500"> GST Calculator</h2>
+                          <h2 className="text-sm xl:text-md hover:text-blue-500">
+                            {" "}
+                            GST Calculator
+                          </h2>
                         </Link>
                         <Link to="/SIPCalculator">
-                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">SIP Calculator</h2>
+                          <h2 className="text-sm xl:text-md hover:text-blue-500 ">
+                            SIP Calculator
+                          </h2>
                         </Link>
                         <Link to="/EMICalculator">
-                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">EMI Calculator</h2>
+                          <h2 className="text-sm xl:text-md hover:text-blue-500 ">
+                            EMI Calculator
+                          </h2>
                         </Link>
                         <Link to="/FDCalculator">
-                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">FD Calculator</h2>
+                          <h2 className="text-sm xl:text-md hover:text-blue-500 ">
+                            FD Calculator
+                          </h2>
                         </Link>
                       </div>
                     </div>
 
                     <div className="mt-7">
-                    <Link  to="/UCalculator">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">80U Calculator</h2>
+                      <Link to="/UCalculator">
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          80U Calculator
+                        </h2>
                       </Link>
                       <Link to="/HRACalculator">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500"> HRA Calculator</h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          {" "}
+                          HRA Calculator
+                        </h2>
                       </Link>
                       <Link to="/SimpleInterestCalculator">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">
-                        Simple Interest Calculator
-                      </h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          Simple Interest Calculator
+                        </h2>
                       </Link>
                       <Link to="/CapitalGainCalculator">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">
-                        {" "}
-                        Capital Gain Calculator
-                      </h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          {" "}
+                          Capital Gain Calculator
+                        </h2>
                       </Link>
                     </div>
 
                     <div className="mt-7">
-                    <Link to="/TDSCalculator">
-                      <h2 className="text-sm xl:text-md hover:text-blue-500 ">TDS Calculator</h2>
+                      <Link to="/TDSCalculator">
+                        <h2 className="text-sm xl:text-md hover:text-blue-500 ">
+                          TDS Calculator
+                        </h2>
                       </Link>
                       <Link to="/PPfCalculator">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500"> PPF Calculator</h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          {" "}
+                          PPF Calculator
+                        </h2>
                       </Link>
                       <Link to="/GratuityCalculator">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">
-                        Gratuity Calculator
-                      </h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          Gratuity Calculator
+                        </h2>
                       </Link>
                       <Link to="/RDCalculator">
-                      <h2 className="text-sm xl:text-md  hover:text-blue-500">RD Calculator</h2>
+                        <h2 className="text-sm xl:text-md  hover:text-blue-500">
+                          RD Calculator
+                        </h2>
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
             )}
+          </li>
+
+          {/* bankServices */}
+          <li>
+            <Link
+              to="/BankServices"
+              className="hover:text-blue-500 text-sm xl:text-md font-semibold"
+            >
+              BankServices
+            </Link>
           </li>
         </ul>
       </div>
