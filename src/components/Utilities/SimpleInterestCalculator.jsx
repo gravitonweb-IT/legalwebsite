@@ -14,11 +14,19 @@ import {
 
 const ResultBox = ({ result }) => (
   <div className=" mt3  text-black">
-      <h1 className="text-lg  font-semibold text-[#01355D]">  Interest Amount: </h1>
-            <p className="text-[#FBB03B] font-semibold  text-xl  md:text-2xl"> &#x20B9;{result.interest} /-</p>
-            <h1 className="text-lg  font-semibold text-[#01355D]">Total Amount: </h1>
-            <p className="text-[#FBB03B] font-semibold  text-xl  md:text-2xl"> &#x20B9;{result.totalAmount} /-</p>
-   
+    <h1 className="text-lg  font-semibold text-[#01355D]">
+      {" "}
+      Interest Amount:{" "}
+    </h1>
+    <p className="text-[#FBB03B] font-semibold  text-xl  md:text-2xl">
+      {" "}
+      &#x20B9;{result.interest} /-
+    </p>
+    <h1 className="text-lg  font-semibold text-[#01355D]">Total Amount: </h1>
+    <p className="text-[#FBB03B] font-semibold  text-xl  md:text-2xl">
+      {" "}
+      &#x20B9;{result.totalAmount} /-
+    </p>
   </div>
 );
 

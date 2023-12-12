@@ -98,9 +98,10 @@ const FDCalculator = () => {
             FD Calculator
           </h1>
           <p className="text-md xl:text-lg font-medium mt-5 text-justify">
-            Now planning a Fixed Deposit is simple with easy and rapid
-            calculation. Compare different plans and offers for you and your
-            family without any errors.
+            The FD calculator helps estimate returns on Fixed Deposits. By
+            entering the principal, tenure, and interest rate, it provides a
+            clear picture of maturity values, aiding in informed financial
+            decisions and goal planning.
           </p>
         </div>
 
