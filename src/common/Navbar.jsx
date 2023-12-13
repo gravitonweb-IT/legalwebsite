@@ -1306,7 +1306,11 @@ const Navbar = () => {
 
               {/* bankServices */}
               <li>
-                <Link to="/BankServices">BankServices</Link>
+                <Link to="/BankServices" 
+                 className="hover:text-blue-500 "
+                 onClick={() => setIsDrawerOpen(false)}>
+                 BankServices
+                </Link>
               </li>
             </ul>
           </div>
