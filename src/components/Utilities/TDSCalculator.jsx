@@ -265,8 +265,8 @@ const TDSCalculator = () => {
         <div className="">
           {showTdsCalculator ? (
             <div className="">
-              <h1 className="text-center text-2xl font-semibold mb-5">
-                Financial Year 2021-2022
+              <h1 className="text-center text-2xl text-blue-950 font-semibold mb-5">
+                Calculate TDS
               </h1>
 
               <label className="font-semibold text-lg">
