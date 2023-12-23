@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import document from "../../assests/images/filing and more/doucment.svg";
+import { servieUrl } from "../../env/env";
 
 
 
@@ -84,7 +85,30 @@ const OnlineAccounting = () => {
 
   const handleSubmitBasic = (e) => {
     e.preventDefault();
-    console.log("Basic Form Data:", formDataBasic);
+    // console.log("Basic Form Data:", formDataBasic);
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
+    
+    var raw = JSON.stringify({
+      "firstName": formDataBasic.firstname,
+      "email": formDataBasic.email,
+      "contactNo": formDataBasic.phone,
+      "city": formDataBasic.city,
+      "type": "Online Accounding"
+    });
+    
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow'
+    };
+    
+    fetch(servieUrl.url + "api/all-pages-api/", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
 
     setFormDataBasic({
       name: "",
@@ -96,7 +120,31 @@ const OnlineAccounting = () => {
 
   const handleSubmitPro = (e) => {
     e.preventDefault();
-    console.log("Pro Form Data:", formDataPro);
+    // console.log("Pro Form Data:", formDataPro);
+
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
+    
+    var raw = JSON.stringify({
+      "firstName": formDataPro.firstname,
+      "email": formDataPro.email,
+      "contactNo": formDataPro.phone,
+      "city": formDataPro.city,
+      "type": "Online Accounting"
+    });
+    
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow'
+    };
+    
+    fetch(servieUrl.url + "api/all-pages-api/", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
 
     setFormDataPro({
       name: "",

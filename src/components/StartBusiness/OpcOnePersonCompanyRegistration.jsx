@@ -22,6 +22,7 @@ import whyChoose3 from "../../assests/images/Start BusinessImages/PatnerShipimag
 import whyChoose4 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose4.svg";
 import whyChoose5 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose5.svg";
 import whyChoose6 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose6.svg";
+import { servieUrl } from "../../env/env";
 import {
   faListCheck,
   faCircleQuestion,
@@ -92,7 +93,30 @@ const OpcOnePersonCompanyRegistration = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form Data:", formData);
+    // console.log("Form Data:", formData);
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
+    
+    var raw = JSON.stringify({
+      "firstName": formData.firstName,
+      "email": formData.email,
+      "contactNo": formData.phone,
+      "city": formData.city,
+      "type": "Opc One Person Compaqny Registration"
+    });
+    
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow'
+    };
+    
+    fetch(servieUrl.url + "api/all-pages-api/", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
     // You can perform additional actions here, such as sending data to a server
 
     // Reset the form

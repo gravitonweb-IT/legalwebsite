@@ -33,6 +33,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
 import { faSquarespace } from "@fortawesome/free-brands-svg-icons";
+import { servieUrl } from "../../env/env";
 
 const faqs = [
   {
@@ -97,7 +98,29 @@ const AnnualComplianceCompancy = () => {
     e.preventDefault();
     console.log("Form Data:", formData);
     // You can perform additional actions here, such as sending data to a server
-
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
+    
+    var raw = JSON.stringify({
+      "firstName": formData.firstName,
+      "email": formData.email,
+      "contactNo": formData.phone,
+      "city": formData.city,
+      "type": "Annual Compliance Company"
+    });
+    
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow'
+    };
+    
+    fetch(servieUrl.url+ "api/all-pages-api/", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
     // Reset the form
     setFormData({
       name: "",

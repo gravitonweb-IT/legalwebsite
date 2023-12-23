@@ -20,6 +20,7 @@ import whyChoose3 from "../../assests/images/Start BusinessImages/PatnerShipimag
 import whyChoose4 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose4.svg";
 import whyChoose5 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose5.svg";
 import whyChoose6 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose6.svg";
+import { servieUrl } from "../../env/env";
 
 const faqs = [
   {
@@ -93,7 +94,32 @@ const LegalNoticeReply = () => {
 
   const handleSubmitBasic = (e) => {
     e.preventDefault();
-    console.log("Basic Form Data:", formDataBasic);
+    // console.log("Basic Form Data:", formDataBasic);
+
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
+    
+    var raw = JSON.stringify({
+      "firstName": formDataBasic.firstName,
+      "email": formDataBasic.email,
+      "contactNo": formDataBasic.phone,
+      "city": formDataBasic.city,
+      "type": "Legal Notice Reply"
+    });
+    
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow'
+    };
+    
+    fetch(servieUrl.url + "api/all-pages-api/", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
+
 
     setFormDataBasic({
       name: "",
@@ -105,7 +131,31 @@ const LegalNoticeReply = () => {
 
   const handleSubmitPro = (e) => {
     e.preventDefault();
-    console.log("Pro Form Data:", formDataPro);
+    // console.log("Pro Form Data:", formDataPro);
+
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
+    
+    var raw = JSON.stringify({
+      "firstName": formDataPro.firstName,
+      "email": formDataPro.email,
+      "contactNo": formDataPro.phone,
+      "city": formDataPro.city,
+      "type": "Legal Notice Reply"
+    });
+    
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow'
+    };
+    
+    fetch(servieUrl.url + "api/all-pages-api/", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
 
     setFormDataPro({
       name: "",

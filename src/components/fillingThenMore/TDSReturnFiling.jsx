@@ -8,6 +8,7 @@ import {
   faRegistered,  faPenToSquare,
 } from "@fortawesome/free-solid-svg-icons";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
+import { servieUrl } from "../../env/env";
 
 
 
@@ -90,7 +91,29 @@ const TDSReturnFiling = () => {
   const handleSubmitStarter = (e) => {
     e.preventDefault();
     console.log("Starter Form Data:", formDataStarter);
-
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
+    
+    var raw = JSON.stringify({
+      "firstName": formDataStarter.firstname,
+      "email": formDataStarter.email,
+      "contactNo": formDataStarter.phone,
+      "city": formDataStarter.city,
+      "type": "TDS Return Filing"
+    });
+    
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow'
+    };
+    
+    fetch(servieUrl.url + "api/all-pages-api/", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
     setFormDataStarter({
       name: "",
       email: "",
@@ -101,7 +124,31 @@ const TDSReturnFiling = () => {
 
   const handleSubmitBasic = (e) => {
     e.preventDefault();
-    console.log("Basic Form Data:", formDataBasic);
+    // console.log("Basic Form Data:", formDataBasic);
+
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
+    
+    var raw = JSON.stringify({
+      "firstName": formDataBasic.firstname,
+      "email": formDataBasic.email,
+      "contactNo": formDataBasic.phone,
+      "city": formDataBasic.city,
+      "type": "TDS Return Filing"
+    });
+    
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow'
+    };
+    
+    fetch( servieUrl.url + "api/all-pages-api/", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
 
     setFormDataBasic({
       name: "",

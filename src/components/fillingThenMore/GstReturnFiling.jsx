@@ -13,6 +13,7 @@ import {
 } from "@fortawesome/free-regular-svg-icons";
 import gstimage from "../../assests/images/filing and more/gstreturnimg.png";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
+import { servieUrl } from "../../env/env";
 
 const faqs = [
   {
@@ -116,7 +117,30 @@ const GstReturnFiling = () => {
 
   const handleSubmitBasic = (e) => {
     e.preventDefault();
-    console.log("Basic Form Data:", formDataBasic);
+    // console.log("Basic Form Data:", formDataBasic);
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
+    
+    var raw = JSON.stringify({
+      "firstName": formDataBasic.firstname,
+      "email": formDataBasic.email,
+      "contactNo": formDataBasic.phone,
+      "city": formDataBasic.city,
+      "type": "AddressAmendmentoutStateCompany"
+    });
+    
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow'
+    };
+    
+    fetch( servieUrl.url + "api/all-pages-api/", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
 
     setFormDataBasic({
       name: "",
@@ -128,7 +152,31 @@ const GstReturnFiling = () => {
 
   const handleSubmitPro = (e) => {
     e.preventDefault();
-    console.log("Pro Form Data:", formDataPro);
+    // console.log("Pro Form Data:", formDataPro);
+
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
+    
+    var raw = JSON.stringify({
+      "firstName": formDataPro.firstname,
+      "email": formDataPro.email,
+      "contactNo": formDataPro.phone,
+      "city": formDataPro.city,
+      "type": "GST Return Filing"
+    });
+    
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow'
+    };
+    
+    fetch(servieUrl.url + "api/all-pages-api/", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
 
     setFormDataPro({
       name: "",
@@ -141,7 +189,29 @@ const GstReturnFiling = () => {
   const handleSubmitPremium = (e) => {
     e.preventDefault();
     console.log("Premium Form Data:", formDataPremium);
-
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
+    
+    var raw = JSON.stringify({
+      "firstName": formDataPremium.firstname,
+      "email": formDataPremium.email,
+      "contactNo": formDataPremium.phone,
+      "city": formDataPremium.city,
+      "type": "Gst Return Filing"
+    });
+    
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow'
+    };
+    
+    fetch(servieUrl.url + "api/all-pages-api/", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
     setFormDataPremium({
       name: "",
       email: "",
