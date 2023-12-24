@@ -105,7 +105,7 @@ const Footer = () => {
             <h5 className="text-black font-semibold text-lg">Account</h5>
 
             <div className="mt-2 md:mt-4 text-black">
-              <Link to="#">
+              <Link to="/login">
                 <p className="">User Login</p>
               </Link>
 

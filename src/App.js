@@ -76,6 +76,8 @@ import Refundpolicy from "./components/Refundpolicy";
 import Privacypolicy from "./components/Privacypolicy";
 import Cookiepolicy from "./components/Cookiepolicy";
 import BankServices from "./components/BankServices";
+import Login from "./components/Login";
+import UserDashboard from "./components/UserDashboard";
 
 
 function App() {
@@ -217,8 +219,11 @@ function App() {
          <Route path="/Cookiepolicy" element={<Cookiepolicy/>} />
          <Route path="/Refundpolicy" element={<Refundpolicy/>} />
          <Route path="BankServices" element={<BankServices />} />
+         
         
-
+    {/* panel Urls */}
+    <Route path="/login" element={<Login />} />
+    <Route path="/userDashboard" element={<UserDashboard/>}/>
 
       </Routes>
 
