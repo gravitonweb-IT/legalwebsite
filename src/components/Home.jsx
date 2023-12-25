@@ -1305,19 +1305,19 @@ const Home = () => {
       </div>
 
       {/* eight part */}
-      {/* <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-20 mx-5 md:mx-20 lg:mx-32 mt-5 md:mt-20">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-20 mx-5 md:mx-20 lg:mx-32 mt-5 md:mt-20">
         <div className="md:col-span-7">
           <p className="text-2xl md:text-3xl lg:text-5xl font-bold">
-          Schedule Your <span className=" text-[#954535]">Complimentary</span>
+            Schedule Your <span className=" text-[#954535]">Complimentary</span>
           </p>
           <p className="text-2xl md:text-3xl lg:text-5xl font-bold mt-3">
-            <span className="text-[#01355D]"> Session   </span>Today!
+            <span className="text-[#01355D]"> Session </span>Today!
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 mt-5 md:mt-10">
             <div className="">
               <p className="text-2xl md:text-2xl lg:text-4xl font-medium">
-              Ready to start? Let's discuss how we can assist.
+                Ready to start? Let's discuss how we can assist.
               </p>
             </div>
 
@@ -1336,13 +1336,15 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="md:col-span-5 hidden lg:block">
-          <img
-            src="https://legal251.com/images/bookdemo/Group_97982x.png"
-            className=""
-          />
-        </div>
-      </div> */}
+        {/* <div className="md:col-span-5 hidden lg:block">
+          <div className="">
+            <p className="text-2xl md:text-2xl lg:text-4xl font-medium">
+              Don't miss out on this opportunity to emphasize the benefits or
+              opportunities.
+            </p>
+          </div>
+        </div> */}
+      </div>
     </>
   );
 };
