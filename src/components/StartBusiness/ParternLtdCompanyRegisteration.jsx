@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPenToSquare,
-} from "@fortawesome/free-regular-svg-icons";
+import { faPenToSquare } from "@fortawesome/free-regular-svg-icons";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import sliderhomeimg1 from "../../assests/images/HomepageImages/users.png";
 import sliderhomeimg2 from "../../assests/images/HomepageImages/customer.png";
@@ -30,7 +28,7 @@ import {
   faHandshake,
 } from "@fortawesome/free-solid-svg-icons";
 import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
-import { faSquarespace } from "@fortawesome/free-brands-svg-icons"; 
+import { faSquarespace } from "@fortawesome/free-brands-svg-icons";
 import { servieUrl } from "../../env/env";
 
 const faqs = [
@@ -50,13 +48,15 @@ const faqs = [
   },
   {
     id: 3,
-    question: "Q3: What are the key requirements to register a Private Limited Company in India?",
+    question:
+      "Q3: What are the key requirements to register a Private Limited Company in India?",
     answer:
       "To register a Private Limited Company in India, key requirements include a minimum of two directors and shareholders, a unique company name, a registered office, and compliance with statutory regulations.",
   },
   {
     id: 4,
-    question: "Q4. Can a Private Limited Company convert into another type of business entity later?",
+    question:
+      "Q4. Can a Private Limited Company convert into another type of business entity later?",
     answer:
       "Yes, a Private Limited Company in India can convert into another business entity, such as a Limited Liability Partnership (LLP) or a public company, subject to legal and regulatory procedures.",
   },
@@ -91,7 +91,6 @@ const ParternLtdCompanyRegisteration = () => {
     });
   };
 
-  
   const handleSubmit = (e) => {
     e.preventDefault();
     // console.log("Form Data:", formData);
@@ -99,29 +98,29 @@ const ParternLtdCompanyRegisteration = () => {
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
     myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
-    
+
     var raw = JSON.stringify({
-      "firstName": formData.firstName,
-      "email": formData.email,
-      "contactNo": formData.phone,
-      "city": formData.city,
-      "type": "Partern Ltd Company Registration"
+      firstName: formData.firstName,
+      email: formData.email,
+      contactNo: formData.phone,
+      city: formData.city,
+      type: "Partern Ltd Company Registration",
     });
-    
+
     var requestOptions = {
-      method: 'POST',
+      method: "POST",
       headers: myHeaders,
       body: raw,
-      redirect: 'follow'
+      redirect: "follow",
     };
-    
-    fetch(servieUrl.url + "api/all-pages-api/", requestOptions)
-      .then(response => response.text())
-      .then(result => console.log(result))
-      .catch(error => console.log('error', error));
-   // You can perform additional actions here, such as sending data to a server
 
-  // Reset the form
+    fetch(servieUrl.url + "api/all-pages-api/", requestOptions)
+      .then((response) => response.text())
+      .then((result) => console.log(result))
+      .catch((error) => console.log("error", error));
+    // You can perform additional actions here, such as sending data to a server
+
+    // Reset the form
     setFormData({
       name: "",
       email: "",
@@ -146,12 +145,12 @@ const ParternLtdCompanyRegisteration = () => {
             Pvt. Ltd. Company Registration
           </h1>
           <p className="text-lg font-medium mt-5 text-justify">
-            Grow your business! Register it as a Private Limited Company with
-            complete legal protection. A Private Limited Company is a company
-            privately held for small businesses. This business entity limits
-            owner liability to their shareholdings and the number of
-            shareholders to 200 and restricts shareholders from publicly trading
-            shares.
+            Elevate your business to new heights by establishing it as a Private
+            Limited Company, ensuring robust legal safeguards. This structure,
+            tailored for small enterprises, shields owners from extensive
+            liabilities, limits shareholders to 200, and prohibits public share
+            trading. Propel your business forward with the security and
+            exclusivity of a Private Limited Company.
           </p>
 
           <div className="border-2 rounded-2xl mt-5 lg:mt-8 xl:mt-12">
@@ -393,112 +392,113 @@ const ParternLtdCompanyRegisteration = () => {
 
       <div className="overflow-x-auto ">
         <div className="mx-0 md:mx-14">
-        <table className="min-w-full bg-white rounded-xl shadow-md mt-5 md:mt-10">
-          <thead>
-            <tr className="bg-gray-200 text-gray-700 text-left">
-              <th className="py-3 px-4 font-semibold">Aspect</th>
-              <th className="py-3 px-4 font-semibold">Proprietorship</th>
-              <th className="py-3 px-4 font-semibold">Partnership</th>
-              <th className="py-3 px-4 font-semibold">LLP</th>
-              <th className="py-3 px-4 font-semibold">Company</th>
-            </tr>
-          </thead>
-          <tbody className="text-gray-700">
-            <tr className="">
-              <td className="py-2 px-4 font-semibold">Definition</td>
-              <td className="py-2 px-4">
-                A business owned and operated by a single individual.
-              </td>
-              <td className="py-2 px-4">
-                A legal arrangement where two or more individuals or entities
-                share ownership and responsibilities of a business.
-              </td>
-              <td className="py-2 px-4">
-                A hybrid business structure combining elements of partnerships
-                and companies, offering limited liability to partners.
-              </td>
-              <td className="py-2 px-4">
-                A legal entity separate from its shareholders, with the board of
-                directors managing operations.
-              </td>
-            </tr>
-            <tr className="">
-              <td className="py-2 px-4 font-semibold">Ownership</td>
-              <td className="py-2 px-4">
-                Single individual owns and manages the business.
-              </td>
-              <td className="py-2 px-4">
-                Two or more individuals (partners) sharing ownership and
-                management responsibilities.
-              </td>
-              <td className="py-2 px-4">
-                Partners have limited liability, protecting personal assets from
-                business debts.
-              </td>
-              <td className="py-2 px-4">
-                Shareholders own the company; their liability is limited to
-                their investment.
-              </td>
-            </tr>
-            <tr>
-              <td className="py-2 px-4 font-semibold">Registration Time</td>
-              <td className="py-2 px-4">7-15 working days</td>
-              <td className="py-2 px-4">-</td>
-              <td className="py-2 px-4">-</td>
-              <td className="py-2 px-4">-</td>
-            </tr>
-            <tr>
-              <td className="py-2 px-4 font-semibold">Promotor Liability</td>
-              <td className="py-2 px-4">-</td>
-              <td className="py-2 px-4">Unlimited Liability</td>
-              <td className="py-2 px-4">Limited Liability</td>
-              <td className="py-2 px-4">-</td>
-            </tr>
-            <tr>
-              <td className="py-2 px-4 font-semibold">Governance</td>
-              <td className="py-2 px-4">Governed by Local Laws</td>
-              <td className="py-2 px-4">Under Partnership Act, 1932</td>
-              <td className="py-2 px-4">LLP Act, 2008</td>
-              <td className="py-2 px-4">Under Companies Act, 2013</td>
-            </tr>
-            <tr>
-              <td className="py-2 px-4 font-semibold">
-                Compliance Requirements
-              </td>
-              <td className="py-2 px-4">
-                Compliance with Income Tax Laws and other Local Laws
-              </td>
-              <td className="py-2 px-4">
-                Compliance with Income Tax Laws and other Local Laws
-              </td>
-              <td className="py-2 px-4">
-                Compliance with Income Tax Laws, Local Laws, Companies Act, and
-                others as applicable
-              </td>
-              <td className="py-2 px-4">
-                Compliance with Income Tax Laws, Local Laws, Companies Act, and
-                others as applicable
-              </td>
-            </tr>
-            <tr>
-              <td className="py-2 px-4 font-semibold">Taxation</td>
-              <td className="py-2 px-4">
-                Income taxed at individual's income tax rates.
-              </td>
-              <td className="py-2 px-4">
-                Income generally taxed at individual partners' income tax rates.
-              </td>
-              <td className="py-2 px-4">
-                Taxed as a partnership, partners individually taxed on their
-                share of profits.
-              </td>
-              <td className="py-2 px-4">
-                Subject to corporate tax rates, shareholders taxed on dividends
-                received.
-              </td>
-            </tr>
-          </tbody>
-        </table>
+          <table className="min-w-full bg-white rounded-xl shadow-md mt-5 md:mt-10">
+            <thead>
+              <tr className="bg-gray-200 text-gray-700 text-left">
+                <th className="py-3 px-4 font-semibold">Aspect</th>
+                <th className="py-3 px-4 font-semibold">Proprietorship</th>
+                <th className="py-3 px-4 font-semibold">Partnership</th>
+                <th className="py-3 px-4 font-semibold">LLP</th>
+                <th className="py-3 px-4 font-semibold">Company</th>
+              </tr>
+            </thead>
+            <tbody className="text-gray-700">
+              <tr className="">
+                <td className="py-2 px-4 font-semibold">Definition</td>
+                <td className="py-2 px-4">
+                  A business owned and operated by a single individual.
+                </td>
+                <td className="py-2 px-4">
+                  A legal arrangement where two or more individuals or entities
+                  share ownership and responsibilities of a business.
+                </td>
+                <td className="py-2 px-4">
+                  A hybrid business structure combining elements of partnerships
+                  and companies, offering limited liability to partners.
+                </td>
+                <td className="py-2 px-4">
+                  A legal entity separate from its shareholders, with the board
+                  of directors managing operations.
+                </td>
+              </tr>
+              <tr className="">
+                <td className="py-2 px-4 font-semibold">Ownership</td>
+                <td className="py-2 px-4">
+                  Single individual owns and manages the business.
+                </td>
+                <td className="py-2 px-4">
+                  Two or more individuals (partners) sharing ownership and
+                  management responsibilities.
+                </td>
+                <td className="py-2 px-4">
+                  Partners have limited liability, protecting personal assets
+                  from business debts.
+                </td>
+                <td className="py-2 px-4">
+                  Shareholders own the company; their liability is limited to
+                  their investment.
+                </td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 font-semibold">Registration Time</td>
+                <td className="py-2 px-4">7-15 working days</td>
+                <td className="py-2 px-4">-</td>
+                <td className="py-2 px-4">-</td>
+                <td className="py-2 px-4">-</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 font-semibold">Promotor Liability</td>
+                <td className="py-2 px-4">-</td>
+                <td className="py-2 px-4">Unlimited Liability</td>
+                <td className="py-2 px-4">Limited Liability</td>
+                <td className="py-2 px-4">-</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 font-semibold">Governance</td>
+                <td className="py-2 px-4">Governed by Local Laws</td>
+                <td className="py-2 px-4">Under Partnership Act, 1932</td>
+                <td className="py-2 px-4">LLP Act, 2008</td>
+                <td className="py-2 px-4">Under Companies Act, 2013</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 font-semibold">
+                  Compliance Requirements
+                </td>
+                <td className="py-2 px-4">
+                  Compliance with Income Tax Laws and other Local Laws
+                </td>
+                <td className="py-2 px-4">
+                  Compliance with Income Tax Laws and other Local Laws
+                </td>
+                <td className="py-2 px-4">
+                  Compliance with Income Tax Laws, Local Laws, Companies Act,
+                  and others as applicable
+                </td>
+                <td className="py-2 px-4">
+                  Compliance with Income Tax Laws, Local Laws, Companies Act,
+                  and others as applicable
+                </td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 font-semibold">Taxation</td>
+                <td className="py-2 px-4">
+                  Income taxed at individual's income tax rates.
+                </td>
+                <td className="py-2 px-4">
+                  Income generally taxed at individual partners' income tax
+                  rates.
+                </td>
+                <td className="py-2 px-4">
+                  Taxed as a partnership, partners individually taxed on their
+                  share of profits.
+                </td>
+                <td className="py-2 px-4">
+                  Subject to corporate tax rates, shareholders taxed on
+                  dividends received.
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
 
@@ -532,7 +532,7 @@ const ParternLtdCompanyRegisteration = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-10 md:mx-20 lg:mx-28 mt-5 md:mt-10">
         <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={lmtliablity} alt=""className="w-2/4 h-auto" />
+            <img src={lmtliablity} alt="" className="w-2/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -547,7 +547,7 @@ const ParternLtdCompanyRegisteration = () => {
 
         <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={sepratelegal} alt=""className="w-2/4 h-auto" />
+            <img src={sepratelegal} alt="" className="w-2/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -647,7 +647,7 @@ const ParternLtdCompanyRegisteration = () => {
 
         <div className="p-5 border border-[#B70505] rounded-lg cursor-pointer hover:bg-[#FBB03B] hover:bg-opacity-16">
           <div className="flex justify-center">
-            <img src={LegalProtectionimg} alt="" className="w-2/4 h-auto"/>
+            <img src={LegalProtectionimg} alt="" className="w-2/4 h-auto" />
           </div>
 
           <h3 className="font-bold text-xl mt-4 text-center text-[#01355D] ">
@@ -792,7 +792,6 @@ const ParternLtdCompanyRegisteration = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };

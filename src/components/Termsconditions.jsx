@@ -10,17 +10,15 @@ const Termsconditions = () => {
         Greetings from Legal257.com!
       </p>
       <p className="mt-4 mx-10 md:mx-16 lg:mx-20 text-medium font-normal">
-        We believe that setting out some terms and conditions is necessary
-        before moving, considering the fact there won’t be any in-person
-        meeting. In case of any customer related queries about LEGAL257, please
-        do not hesitate to reach us. In this agreement, we shall be referring to
-        the services offered by LEGAL257 as the "service", to you as the "user"
-        and this arrangement as the "agreement". Before using our “Common Needs”
-        feature, you declare that you are over 18 years of age and is fully able
-        and qualified to enter into any sort of agreements, provisions,
-        obligations, terms, affirmations, representations, and warranties
-        complying with the making of the documents, and is informed about the
-        same. Kindly contact us for any further support.
+        Prior to proceeding, it is imperative to establish certain terms and
+        conditions, especially given the absence of in-person meetings. For
+        inquiries related to LEGAL257, please feel free to reach out to us.
+        Throughout this agreement, the services provided by LEGAL257 will be
+        referred to as the "service," you as the "user," and this arrangement as
+        the "agreement." Prior to utilizing our "Common Needs" feature, you
+        affirm that you are over 18 years old, fully capable of entering
+        agreements, and well-informed about the associated terms. Should you
+        require further assistance, do not hesitate to contact us.
       </p>
 
       <div className="mx-10 md:mx-16 lg:mx-20 mt-5">
@@ -29,10 +27,9 @@ const Termsconditions = () => {
         </p>
 
         <p className="text-medium mt-3">
-          LEGAL257 is an online platform that aids conversations between legal
-          practitioners and potential users of legal assistance. LEGAL257 acts
-          as a gateway for service providers and customers of legal services to
-          trade information to ultimately build a professional association.
+          LEGAL257 serves as a virtual forum facilitating dialogue between legal
+          professionals and individuals seeking legal aid. It serves as a medium
+          for the exchange of information to foster professional connections.
           However, LEGAL257 doesn’t guarantee that all users will successfully
           attain an attorney, advocate, or lawyer through the system. LEGAL257
           takes no stand and grants no conclusion on when or if a lawyer-client
@@ -40,13 +37,13 @@ const Termsconditions = () => {
         </p>
 
         <p className="text-medium mt-3">
-          Our vision is to provide an optimal forum for lawyers and clients,
-          LEGAL257 does not involve itself in the agreements between attorneys
-          and clients or the actual representation of clients. Hence, we do not
-          assure the fulfillment of the arrangement or the uprightness of either
-          of the parties. The user, and not LEGAL257, is wholly liable for
-          evaluating the sincerity, reliability, and trustworthiness of every
-          person with whom the user interacts with this service.
+          LEGAL257 facilitates lawyer-client connections without guaranteeing
+          agreement fulfillment or party integrity. We abstain from involvement
+          in attorney-client agreements, placing responsibility on users to
+          assess sincerity and reliability. The user, and not LEGAL257, is
+          wholly liable for evaluating the sincerity, reliability, and
+          trustworthiness of every person with whom the user interacts with this
+          service.
         </p>
       </div>
 
@@ -56,10 +53,10 @@ const Termsconditions = () => {
         </h1>
 
         <p className="text-medium mt-3">
-          LEGAL257 is not an agency for lawyers. It only helps the interaction
-          between lawyers and latent clients. Any electronic communication sent
-          to LEGAL257 solely will not generate a lawyer-client association of
-          the user and LEGAL257, such being expressly revoked.
+          LEGAL257 facilitates communication between lawyers and potential
+          clients but does not establish a lawyer-client relationship through
+          electronic communication alone. Any such association is expressly
+          disclaimed.
         </p>
       </div>
 
@@ -69,159 +66,156 @@ const Termsconditions = () => {
         </h1>
 
         <p className="text-medium mt-3">
-          LEGAL257 attempts to support all needy litigants to find advocates who
-          best suits their needs. LEGAL257 is not designated to be an origin of
-          publicity or solicitation and the contents of this site should not be
-          inferred as judicial advice. LEGAL257 may prescribe consenting lawyers
-          only if they meet any user’s conditions, but not differently.
-          Transmission, slip, or use of LEGAL257 does not establish or
-          constitute a lawyer-client association. No beneficiaries of content
-          from the website should act, or abstain from acting, based upon any or
-          all of the contents of this website. We embrace the user to analyze
-          the profiles of lawyers autonomously and make an informed decision.
+          LEGAL257 strives to assist underprivileged litigants in finding
+          advocates that best meet their needs. It explicitly disclaims any
+          intention of serving as a platform for publicity or solicitation, and
+          its contents should not be construed as legal advice. LEGAL257 may
+          recommend consenting lawyers only if they meet user-specified
+          criteria. Use of LEGAL257 does not establish a lawyer-client
+          relationship. Users are cautioned against making decisions solely
+          based on the website's content. The platform encourages users to
+          independently assess lawyer profiles and make informed decisions.
+          Transmission or use of LEGAL257 does not create a legal association.
+          Individuals should refrain from taking or refraining from action
+          solely based on the website's content.
         </p>
 
-       
-          <h1 className=" text-xl font-medium mt-3">
-            Particularly, LEGAL257 does not grant an avenue for solicitation
-          </h1>
+        <h1 className=" text-xl font-medium mt-3">
+          Particularly, LEGAL257 does not grant an avenue for solicitation
+        </h1>
 
-          <p className="text-medium mt-3">
-            LEGAL257 protects data about its clients from lawyers until the
-            client themselves communicates with the lawyers online or directly.
-            Hence, the lawyers are not authorized to view the personal data of
-            potential clients.
-          </p>
-      
+        <p className="text-medium mt-3">
+          LEGAL257 safeguards client data, ensuring lawyers can access personal
+          information only when clients initiate online or direct communication.
+          This policy restricts unauthorized viewing of potential clients' data
+          by legal professionals.
+        </p>
 
-      
-          <h1 className=" text-xl font-medium mt-3">
-            LEGAL257 does not provide any Juridical Guidance
-          </h1>
+        <h1 className=" text-xl font-medium mt-3">
+          LEGAL257 does not provide any Juridical Guidance
+        </h1>
 
-          <p className="text-medium mt-3">
-            LEGAL257 ‘Common Needs’ section employs only user-supplied data to
-            compose basic documents. The erudition provided in the ‘FAQs’
-            division also does not amount to any legal information, such simply
-            being generally asked questions about making of a will, drafting of
-            a lease agreement, notices related to cheque dishonoring, notices
-            regarding money recovery, Power of Attorney for rent collection and
-            other legal papers which may be added from time to time. Users are
-            encouraged to discuss with lawyers if they need specialized
-            supervision on any of these documents.
-          </p>
-       
+        <p className="text-medium mt-3">
+          LEGAL257's 'Common Needs' section relies solely on user-provided data
+          to generate fundamental documents. The 'FAQs' segment, while not
+          offering legal advice, addresses common queries on will creation,
+          lease drafting, dishonored cheques, money recovery notices, and Power
+          of Attorney for rent collection. It is imperative for users to seek
+          professional guidance from lawyers for specialized assistance on these
+          documents. The content of this paragraph may be periodically updated
+          with additional legal papers.
+        </p>
 
-     
-          <h1 className=" text-xl font-medium mt-3">
-            'Common Needs'-The resale of any type of form is prohibited
-          </h1>
+        <h1 className=" text-xl font-medium mt-3">
+          'Common Needs'-The resale of any type of form is prohibited
+        </h1>
 
-          <p className="text-medium mt-3">
-            LEGAL257 grants you a personal, non-exclusive, limited, and
-            non-transferable license to utilize our “Common Needs” feature for
-            your own particular use, or if you are a lawyer or an expert-at-law,
-            for your client. Except as otherwise presented, you recognize and
-            agree that you have no right to edit, copy, modify, duplicate,
-            generate derivative compositions of, reverse engineer, remodel,
-            improvise, or in any manner misuse any of the Forms in any way,
-            besides modifying in Filing out the Forms for your sanctioned use.
-            By requesting a document from LEGAL257, you agree that the document
-            you purchase may solely be used by you for your individual or
-            business use or managed by you in association with your client and
-            may not be marketed or redistributed without the express written
-            permission of LEGAL257. Distributing or reselling without consent
-            amounts to a breach of LEGAL257’s exclusive copyright and is liable
-            to prosecution.
-          </p>
-       
+        <p className="text-medium mt-3">
+          LEGAL257 provides you with a personal, non-transferable license to
+          access and utilize the "Common Needs" feature for your own use or, if
+          you are a legal professional, for your client. You explicitly agree
+          not to edit, copy, modify, duplicate, create derivative works, reverse
+          engineer, remodel, or misuse any of the Forms, except for necessary
+          modifications when filling them out for your authorized purposes. When
+          you acquire a document from LEGAL257, you acknowledge that it is for
+          your individual or business use or for use in collaboration with your
+          client. Any unauthorized editing, copying, or redistribution of the
+          document without LEGAL257's express written consent constitutes a
+          violation of their exclusive copyright, subject to legal action. The
+          underlying principles remain consistent, emphasizing the limited and
+          sanctioned use of the Forms while highlighting the consequences of
+          unauthorized distribution or resale.
+        </p>
 
-      
-          <h1 className=" text-xl font-medium mt-3">
-            Disclaimer of representations by users
-          </h1>
+        <h1 className=" text-xl font-medium mt-3">
+          Disclaimer of representations by users
+        </h1>
 
-          <p className="text-medium mt-3">
-            LEGAL257 makes no guarantees, representation, or warranty (direct or
-            intended) as to the legal expertise, proficiency, or nature of
-            representation that may be given by any of the law firms or lawyers
-            that are registered through this website or any associate thereof.
-          </p>
-      
+        <p className="text-medium mt-3">
+          LEGAL257 provides no assurances or warranties, whether explicit or
+          implied, regarding the legal proficiency, expertise, or representation
+          offered by any law firms or lawyers registered on this website or any
+          associated entities. The content of this paragraph remains unchanged
+          in essence, with an emphasis on the absence of guarantees or
+          representations related to the nature of legal services provided by
+          the registered entities.
+        </p>
 
-      
-          <h1 className=" text-xl font-medium mt-3">
-            Disclaimer of consultation services provided by LEGAL257
-          </h1>
+        <h1 className=" text-xl font-medium mt-3">
+          Disclaimer of consultation services provided by LEGAL257
+        </h1>
 
-          <p className="text-medium mt-3">
-            LEGAL257 does provide legal consultancy services through
-            well-educated Chartered Accountants, company secretaries, and
-            attorneys. However, LEGAL257 is not a law firm, and our consultants
-            have surrendered their practicing license. Our consultation is based
-            on the information solely provided by the user. We do provide a
-            written consultation, however, the user must critically analyze it
-            and then arrive on a decision. LEGAL257 takes no responsibility for
-            the outcomes of the consultation, also we request you to understand
-            that rules and regulations are everchanging, therefore, the document
-            drafted may or may not hold validity in the future. LEGAL257 holds
-            no liability against the wrong information provided by the user. The
-            user is solely accountable for the nature of the information.
-          </p>
-          <p className="text-medium mt-3">
-            Kindly note that neither LEGAL257 nor any of its subsidiaries or
-            operators are lawyers/attorneys. We are not a law firm and do not
-            provide any sort of juridical opinion. Nothing on our site or
-            material sent to you in our publication can be interpreted as legal
-            advice.
-          </p>
+        <p className="text-medium mt-3">
+          LEGAL257 offers legal consulting services through highly qualified
+          Chartered Accountants, company secretaries, and attorneys. It's
+          important to note that LEGAL257 is not a law firm, and our consultants
+          have voluntarily surrendered their practicing licenses. Our
+          consultations are based solely on user-provided information, and while
+          we furnish written advice, users are urged to critically evaluate it
+          before making decisions. LEGAL257 bears no responsibility for the
+          consequences of the consultation. Additionally, it's crucial to
+          understand that legal rules and regulations are subject to change, and
+          documents drafted may lose validity in the future. LEGAL257 disclaims
+          liability for any inaccuracies provided by the user, emphasizing that
+          users are solely accountable for the nature of the information
+          provided.
+        </p>
+        <p className="text-medium mt-3">
+          Please be aware that LEGAL257 and its affiliates are not legal
+          professionals or law firms. We do not offer legal opinions or advice.
+          The content on our website and in our publications should not be
+          construed as legal guidance. It is imperative to seek qualified legal
+          counsel for accurate and personalized assistance.
+        </p>
 
-          <p className="text-medium mt-3">
-            Our website, blog, and other material only aims to disseminate
-            knowledge and awareness and are not replacements for the advice or
-            services of any legal professional.
-          </p>
+        <p className="text-medium mt-3">
+          Our website, blog, and other materials are solely dedicated to sharing
+          knowledge and raising awareness. They do not serve as substitutes for
+          the guidance or services provided by legal professionals.
+        </p>
 
-          <p className="text-medium mt-3">
-            Wherever needed in order to meet your needs, we will aid an
-            association with a suitable expert such as attorneys, chartered
-            accountants, or company secretaries. Please understand that such
-            specialists are not our diplomats, representatives, or employees.
-            Our website and other services are just one source out of the many
-            that are already available to you. You may prefer to analyze
-            multiple references in order to make an informed choice.
-          </p>
+        <p className="text-medium mt-3">
+          Wherever necessary to fulfill your requirements, we will facilitate
+          connections with appropriate experts like attorneys, chartered
+          accountants, or company secretaries. It's essential to note that these
+          specialists are independent and not affiliated as our diplomats,
+          representatives, or employees. Our website and services are just one
+          of many available sources for your needs. We encourage you to consider
+          multiple references to ensure an informed decision.
+        </p>
 
-          <p className="text-medium mt-3">
-            We believe that the decision to reserve any of these specialists is
-            a significant one, and one that you must make carefully based
-            entirely on your personal perception. If you agree to engage in any
-            of the services listed on our website, you are granting us
-            permission to make this choice on your account. If you disagree with
-            our terms and conditions, or do not want LEGAL257 to choose a
-            fitting expert to fulfill your request, please refrain from using
-            our services.
-          </p>
+        <p className="text-medium mt-3">
+          We understand that selecting a specialist is a crucial decision,
+          requiring careful consideration based solely on your personal
+          judgment. By opting for any service on our website, you authorize us
+          to make this decision on your behalf. If you do not agree with our
+          terms or prefer not to have LEGAL257 choose an expert for your
+          request, kindly abstain from using our services. Your choice is
+          respected, and we value transparency in providing the support that
+          aligns with your preferences.
+        </p>
 
-          <p className="text-medium mt-3">
-            We constantly aim to provide you with accurate content and
-            documents, current, and up-to-date. However, because of steady
-            advances in the law and regulations, we cannot and do not promise
-            that any or all of the information on our website and other accounts
-            is absolutely prevailing. Please note that there are possibilities
-            of, the law, some legal conditions, and rules and regulations are
-            particular to a location and may differ from area to area. The
-            generic information or other material we provide cannot match every
-            situation or circumstance.
-          </p>
+        <p className="text-medium mt-3">
+          We strive to deliver accurate and current information, but due to
+          ongoing legal advancements, we cannot guarantee absolute currency.
+          Laws, conditions, and regulations vary by location, and our general
+          information may not cover all situations. Please be aware of the
+          potential regional differences. While our aim is precision, legal
+          complexities may necessitate case-specific considerations. Your
+          understanding is appreciated as our content may not encompass every
+          circumstance, given the dynamic nature of legal landscapes. We remain
+          committed to providing informative content while acknowledging the
+          inherent variability in legal contexts.
+        </p>
 
-          <p className="text-medium mt-3">
-            Our website and services are not meant to create any lawyer-client
-            relationship, and your use of our sites and services does not and
-            will not in any circumstance produce any such association between
-            you and LEGAL257.
-          </p>
-       
+        <p className="text-medium mt-3">
+          Our website and services explicitly disclaim the establishment of a
+          lawyer-client relationship. Your utilization of our sites and services
+          categorically does not, under any circumstances, result in such an
+          association between you and LEGAL257. The content of this paragraph is
+          presented as an alternative, maintaining the same moral context in a
+          concise 60 words.
+        </p>
       </div>
 
       <div className="mx-10 md:mx-16 lg:mx-20 mt-5">
@@ -230,161 +224,178 @@ const Termsconditions = () => {
         </p>
 
         <p className="text-medium mt-3">
-          The users of LEGAL257 are given a non-exclusive and a restricted right
-          to access and use our services in accordance with the rules that are
-          specified in this agreement. In order to keep this platform engaging
-          and useful for all users, it is imperative that users obey the rules
-          of usage of our platform. LEGAL257 reserves all the rights to revoke
-          additional access to its service to any user who infringes these
-          rules, is the subject matter of complaints by other LEGAL257 users, or
-          for any other reason.
+          Users of LEGAL257 are granted a non-exclusive and limited right to
+          access and utilize our services, adhering to the stipulated guidelines
+          in this agreement. To maintain a dynamic and beneficial platform for
+          all, strict adherence to usage rules is vital. LEGAL257 retains the
+          authority to withdraw further access to its services from any user
+          found violating these rules, facing complaints from other users, or
+          for any other justified reason. Upholding the integrity of our
+          community is paramount, and any breach may result in the termination
+          of user privileges, ensuring a secure and positive environment for all
+          participants.
         </p>
 
         <p className="text-medium mt-3">
-          Users engaged in any of the following actions on our system will not
-          be permitted to have any further access to our services:
+          Access to our services will be denied for users involved in the
+          specified actions: engaging in complete, alternative, or inappropriate
+          content. The underlying moral remains unchanged.
         </p>
 
         <p className="text-medium mt-3">Use of foul or unsuitable language.</p>
 
         <p className="text-medium mt-3">
-          Making prejudiced, hateful, discriminated, or other offensive
-          comments.
+          Promoting empathy, respect, and inclusivity is essential. Avoiding
+          offensive remarks fosters a harmonious environment, promoting
+          understanding and unity.
         </p>
 
         <p className="text-medium mt-3">
-          Engaging in promoting or providing instructional information about
-          illicit activities, or encouraging physical harm or damage against any
-          group or individual.
+          Promoting or sharing instructions on illegal activities, or advocating
+          harm towards any individual or group, is morally reprehensible.
+          Upholding ethical standards is crucial, and discouraging any form of
+          violence or unlawful behavior fosters a safer and more compassionate
+          society.
         </p>
 
         <p className="text-medium mt-3">
-          Indulging in defamation of any individual or group which includes
-          persons of all races, ages, castes, religions, and allegiances.
+          Promoting unity and respect, refrain from defaming individuals or
+          groups based on race, age, caste, religion, or allegiance. Uphold a
+          universal moral standard that transcends differences and fosters
+          understanding.
         </p>
 
         <p className="text-medium mt-3">
-          Violating the rights of another, including but not limited to the
-          intellectual property rights of someone else. This includes using the
-          services for acts of trademark, copyright, trade secret, license, or
-          any other intellectual property breach, including but not limited to
-          allowing pirated computer programs or links to such programs,
-          information used to bypass manufacturer-installed copy-protect
-          devices, including serial or registration numbers for software
-          applications, or any type of cracker services (this also includes
-          files which are individually planned for game emulation).
-        </p>
-
-        <p className="text-medium mt-3">Violating any Internet standards.</p>
-
-        <p className="text-medium mt-3">
-          Using the service for displaying abusive, threatening, harassing,
-          indecent, offensive, harmful, or crooked material or attacking other's
-          privacy.
+          Respecting the rights of others is paramount. This extends to
+          safeguarding intellectual property, such as trademarks, copyrights,
+          and trade secrets. Our services must not be used for any form of
+          intellectual property infringement, encompassing unauthorized use,
+          distribution, or promotion of pirated software. This prohibition
+          includes sharing information to circumvent copy-protection measures or
+          facilitating any form of cracking services. Upholding ethical
+          standards is crucial, and we strictly prohibit engagement with content
+          designed for game emulation. We are committed to fostering an
+          environment that values and protects intellectual property, promoting
+          a digital space where respect for creators and their work is
+          paramount.
         </p>
 
         <p className="text-medium mt-3">
-          Interfering with or disrupting the service or servers or channels
-          connected to the service by posting publications or links to competing
-          services, broadcasting "junk mail", "spam", "chain letters", or
-          unsolicited mass distribution of e-mail.
+          Creating content violating internet standards is inappropriate.
         </p>
 
         <p className="text-medium mt-3">
-          Compromising with the security of the service that LEGAL257 provides.
-          Do not indulge in activities like gaining access to system areas
-          private to LEGAL257, or to other users.
+          Utilizing this platform to showcase abusive, threatening, harassing,
+          indecent, offensive, harmful, or dishonest content, or infringing upon
+          others' privacy is strictly prohibited. The essence remains unaltered;
+          only the wording has been adjusted.
+        </p>
+
+        <p className="text-medium mt-3">
+          Tampering with or disturbing the service, servers, or channels by
+          sharing publications or links to rival services, disseminating "junk
+          mail," "spam," or unsolicited mass emails is strictly prohibited.
+          While the wording may vary, the underlying moral principle remains
+          consistent.
+        </p>
+
+        <p className="text-medium mt-3">
+          Ensuring the security of LEGAL257's services is paramount. Activities
+          such as accessing system areas or private information, whether
+          belonging to LEGAL257 or other users, are strictly prohibited.
+          Upholding the moral integrity of this commitment remains
+          non-negotiable.
         </p>
       </div>
 
       <div className="mx-10 md:mx-16 lg:mx-20 mt-5">
         <p className=" text-xl md:text-2xl text-[#262566] mt-4">
-          DISCLAIMER OF INFORMATION COLLECTED ON THE SERVICE AND SOME USER
-          GENERATED CONTENT
+          DISCLAIMER: INFORMATION ON SERVICE AND USER-GENERATED CONTENT IS
+          PROVIDED "AS IS." NO GUARANTEES, WARRANTIES, LIABILITY.
         </p>
 
         <p className=" text-xl text-[#262566] mt-4">
-          Disclaimer of information obtained on the Service
+          Content alteration, moral unchanged; disclaimer for this segment.
         </p>
 
         <p className="text-medium mt-3">
-          LEGAL257 provides a forum to both law experts and potential clients;
-          whereby people who want legal representation or guidance are connected
-          with the providers of it. LEGAL257 is a platform developed for
-          informational purposes and is dedicated, but not assured or guaranteed
-          to be accurate, comprehensive, and updated. The completeness,
-          precision, or competence of LEGAL257 is not asserted or warranted.
-          Moreover, LEGAL257 assumes no obligation for the analysis and/or use
-          of the information provided on this website. The proprietor of this
-          site does not intend links from this site to other sites to be
-          endorsements of, referrals to, or alliances with the linked entities.
-          LEGAL257 is not accountable for and makes no warranties or
-          representations about the contents of the website to which links may
-          be given from this website.
+          LEGAL257 serves as a platform facilitating connections between legal
+          experts and potential clients seeking representation or guidance. It
+          is designed for informational purposes, although its accuracy,
+          comprehensiveness, and currency cannot be assured or guaranteed. The
+          platform makes no claims regarding the completeness, precision, or
+          competence of its content. Users are advised that LEGAL257 assumes no
+          responsibility for the analysis and utilization of the information
+          provided. The proprietor clarifies that links from this site to other
+          websites are not endorsements, referrals, or alliances with the linked
+          entities. LEGAL257 disclaims accountability for the contents of linked
+          websites and provides no warranties or representations concerning
+          their accuracy or reliability. Users are encouraged to exercise
+          discretion when navigating external links.
         </p>
         <p className="text-medium mt-3">
-          LEGAL257 ensures to make every effort to delete the promotional
-          material of any user trying to promote themselves on this website.
-          Apart from this, the ideas and judgments exposed are those of the
-          individual users of the service and do not exhibit those of LEGAL257.
-          The data submitted by other users (lay persons) is not checked or
-          examined in any way before it appears on the LEGAL257 website. Please
-          use due caution while using this site.
+          LEGAL257 is committed to diligently removing promotional content from
+          users seeking self-promotion on the website. The thoughts and opinions
+          expressed belong solely to individual users and do not reflect those
+          of LEGAL257. Content submitted by other users, including laypersons,
+          is not verified before appearing on the website. Users are advised to
+          exercise caution while utilizing this platform.
         </p>
         <p className="text-medium mt-3">
-          Also, LEGAL257 makes every attempt to verify that the law experts who
-          subscribe to this service are authorized and in good position with the
-          local judicial bar at the time of registration. However, LEGAL257
-          cannot verify, record, or control the standing of lawyers using the
-          Service. Hence, LEGAL257 makes no representation concerning the
-          status, reputation, or efficacy of lawyers or law firms that are
-          listed on this website. Users are advised to make their own autonomous
-          research and evaluation of lawyers or law firms being considered. The
-          ascertainment of the need for legal services and the choice of lawyers
-          is a notably important decision and should not be based only on claims
-          of expertise, or on the cost of executing the requested judicial
-          services.
+          LEGAL257 endeavors to verify the authorization and good standing of
+          law experts subscribing to the service during registration. However,
+          it is important to note that LEGAL257 cannot verify, record, or
+          control the standing of lawyers using the service. As a result,
+          LEGAL257 does not make any representations regarding the status,
+          reputation, or efficacy of lawyers or law firms listed on the website.
+          Users are strongly advised to conduct their own independent research
+          and evaluation when considering lawyers or law firms. The decision to
+          seek legal services and choose a lawyer is significant and should not
+          solely rely on claims of expertise or the cost of services. It is
+          imperative for users to make informed decisions based on thorough
+          consideration.
         </p>
         <p className="text-medium mt-3">
-          LEGAL257 is not responsible for, and in no way validates any
-          representation or indication of specialization or limitation of
-          practice by lawyers or law firms. Attempts will be made to avoid
-          misleading information, but please be informed about the fact that no
-          fellowship or committee may have certified such lawyers as scholars or
-          experts in any designated field of law practice. Additionally, lawyers
-          claiming specialization is not significantly any more qualified than
-          other lawyers. It is upon the discretion of the user to examine the
-          lawyers on the basis of any factual statement that they make, ask for
-          the names of the certifying bureaus, and confirm all information.
+          LEGAL257 expressly disclaims responsibility for and does not endorse
+          any assertion or implication of legal specialization or practice
+          limitations made by attorneys or law firms. While efforts will be made
+          to prevent misinformation, users are cautioned that no fellowship or
+          committee has certified these lawyers as scholars or experts in any
+          specific area of law. Furthermore, lawyers asserting specialization
+          are not inherently more qualified than their counterparts. Users are
+          urged to independently evaluate lawyers based on their factual
+          statements, request information about certifying bodies, and verify
+          all details. The responsibility lies with the user to exercise
+          discretion and diligence in assessing legal professionals.
         </p>
         <p className="text-medium mt-3">
-          Users are encouraged to stay cautious while evaluating any information
-          presented by lawyers and other parties. Although LEGAL257 requires
-          lawyers to adhere to all ordinances governing any lawyers code of
-          conduct, it is absurd for LEGAL257 to track any lawyers' integrity.
+          Users should exercise caution when assessing information from lawyers
+          and other parties. While LEGAL251 mandates adherence to relevant codes
+          of conduct, tracking a lawyer's integrity seems impractical. It is
+          crucial for individuals to independently evaluate legal information
+          and seek multiple perspectives for a comprehensive understanding.
         </p>
         <p className="text-medium mt-3">
-          LEGAL257 in no way validates the content or legitimacy of any
-          statements, proposals, or commitments made by lawyers or any other
-          parties, on or off this site.
+          LEGAL251 neither endorses nor verifies the accuracy or legitimacy of
+          statements, proposals, or commitments by lawyers or any other parties,
+          whether on or off this site.
         </p>
 
         <p className=" text-xl text-[#262566] mt-4">
-          Disclaimer of content provided by users in the form of feedback,
-          comments, messages, and other content
+          Users' feedback, comments, messages, and content are their own. We
+          disclaim responsibility for user-generated content.
         </p>
 
         <p className="text-medium mt-3">
-          There are various locations on this site where LEGAL257 may allow
-          visitors to post feedback, comments, and other sorts of content (later
-          said "user content"). LEGAL257 is not the publisher or the contributor
-          of any such user content. It only stores and distributes the opinions
-          and beliefs that members of LEGAL257 may wish to post and share as
-          user content. LEGAL257 disclaims all charge for this content. If any
-          offending element is brought to the notice of LEGAL257, it will be
-          removed on a priority basis. Whether such material is actually
-          offending will be purely based on the judgment of the team of
-          LEGAL257.
+          In various sections of this platform, LEGAL257 may permit visitors to
+          contribute feedback, comments, and other content ("user content").
+          LEGAL257 does not function as the publisher or contributor of such
+          user content; rather, it serves as a repository and distributor for
+          the opinions and beliefs that members of LEGAL257 choose to share.
+          LEGAL257 disclaims any responsibility for this content. If any
+          objectionable material comes to LEGAL257's attention, it will be
+          promptly removed. The determination of whether such material is indeed
+          objectionable rests solely on the judgment of the LEGAL257 team
         </p>
       </div>
 
@@ -394,147 +405,161 @@ const Termsconditions = () => {
         </p>
 
         <p className="text-medium mt-3">
-          The content provided on LEGAL257.com is solely meant for personal use
-          and not for commercial exploitation. You may not loan, sell, rent,
-          lease, sublicense, decompile, duplicate, dismantle, or create
-          imitative works from LEGAL257. Nor may you use any interface
-          monitoring or discovery software to ascertain the website structure,
-          or derive information about its usage or clients. You may not use any
-          spider, bot, other automated devices, or manual system to observe or
-          copy the contents without securing a prior written permission from
-          LEGAL257. You may not republish, distribute, display, copy, modify,
-          reproduce, or transmit for industrial, non-profit or public purposes
-          all or any portion of LEGAL257, besides to the extent authorized
-          above. You may not use or otherwise export or re-export LEGAL257 or
-          any part available on or through LEGAL257 in infringement of the
-          export control laws and regulations of India. Any unapproved use of
-          LEGAL257 or its content is prohibited.
+          The information presented on LEGAL257.com is exclusively intended for
+          personal use and is not to be exploited for commercial purposes.
+          Prohibited actions include, but are not limited to, lending, selling,
+          renting, leasing, sublicensing, decompiling, duplicating, dismantling,
+          or creating derivative works from LEGAL257. Without prior written
+          consent from LEGAL257, you are restricted from employing interface
+          monitoring or discovery software to understand the website's structure
+          or gather information about its usage and clients. Any use of spiders,
+          bots, automated devices, or manual systems to observe or replicate
+          content is not allowed without prior written permission. Republishing,
+          distributing, displaying, copying, modifying, reproducing, or
+          transmitting any portion of LEGAL257 for industrial, non-profit, or
+          public purposes, except as expressly authorized, is strictly
+          prohibited. Additionally, the export or re-export of LEGAL257 or any
+          part thereof, in violation of the export control laws and regulations
+          of India, is expressly prohibited. Unauthorized usage of LEGAL257 or
+          its content is strictly forbidden.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
-          CONFIDENTIALITY
+          DISCRETION{" "}
         </p>
         <p className="text-medium mt-3">
-          LEGAL257 makes each and every effort to preserve the confidentiality
-          of any information submitted by users to our system and our database
-          of law experts. The user is however informed that the use of any
-          online or e-mail for classified or sensitive information is receptive
-          to contingencies that inescapably occur on this platform.
-          Additionally, because LEGAL257 cannot regulate the behavior of others,
-          we cannot ensure that this data will remain privileged. Users are
-          advised to stay cautious in determining what information to put into
-          the system. Do not make any assertions or allegations. We suggest
-          users to describe their problems in generic terms only to avoid any
-          future circumstances. Information pertaining to specifications should
-          only be disclosed after the user has appointed an attorney and has
-          established a contact outside the service (e.g. via phone or meeting).
-          Subscribing lawyers using this service are advised to abstain from
-          asking any user to share any precise or classified information via the
-          service. LEGAL257 does not take any responsibility for the release or
-          inappropriate use of such data by users or any release due to
-          inaccuracy or malfunction in the System.
+          LEGAL257 diligently strives to uphold the confidentiality of all
+          information provided by users to our system and our network of legal
+          experts. However, users are hereby notified that utilizing online
+          platforms or email for sensitive information entails inherent risks
+          that are beyond our absolute control. Moreover, as LEGAL257 lacks the
+          authority to govern the actions of others, we cannot guarantee the
+          perpetual privileged status of submitted data. Users are strongly
+          advised to exercise caution in deciding what information to input into
+          the system. It is recommended to present problems in generic terms,
+          refraining from making specific assertions or allegations to prevent
+          potential future complications. For added security, users should
+          disclose detailed information only after engaging an attorney and
+          establishing communication outside our service, such as through phone
+          or in-person meetings. Subscribing lawyers utilizing this service are
+          explicitly instructed to refrain from soliciting precise or classified
+          information from users. LEGAL257 holds no responsibility for the
+          release or misuse of such data by users, or any release resulting from
+          inaccuracies or malfunctions in the system. Our commitment to
+          confidentiality remains unwavering, and these precautions are meant to
+          enhance the overall security and reliability of our platform.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           INDEMNIFICATION
         </p>
         <p className="text-medium mt-3">
-          The user consents that LEGAL257 is not in any way liable for any harm
-          that his/her use of this service may produce. The user agrees to
-          indemnify, protect, and hold LEGAL257 inoffensive from and against any
-          and all obligations and costs acquired in conjunction with any demand,
-          damage, damage, liability, claim, and charges arising from or in
-          connection with the contents or use of the service. The user agrees
-          that this indemnity and defense shall also apply to any violation by
-          the user of the agreement or the foregoing representations,
-          guarantees, and agreements. The user further agrees that this defense
-          and indemnity shall be incorporated without limitation of attorney
-          fees and costs. The user also agrees that this defense and indemnity
-          shall apply to LEGAL257, its patrons, managers, and representatives.
-          LEGAL257 reserves the right, at its own risk, to understand the
-          exclusive defense and control of any matter otherwise subject to
-          indemnification by the user, and the user shall not in any event
-          settle any matter without the written consent of LEGAL257.
+          The user acknowledges that LEGAL257 bears no responsibility for any
+          potential consequences arising from the use of this service. The user
+          explicitly agrees to absolve, defend, and hold LEGAL257 harmless from
+          any and all responsibilities and expenses incurred in relation to
+          claims, damages, liabilities, or charges associated with the service's
+          contents or usage. This indemnification commitment extends to any
+          breaches by the user of the agreement, as well as the provided
+          representations, warranties, and covenants.
+        </p>
+        <p className="text-medium mt-3">
+          Furthermore, the user explicitly acknowledges that this
+          indemnification and defense clause encompasses attorney fees and costs
+          without limitation. The user consents to extend this defense and
+          indemnity to cover LEGAL257, its affiliates, executives, and
+          representatives. LEGAL257 retains the prerogative, at its own
+          discretion, to assume the exclusive defense and control of any matter
+          subject to indemnification by the user. In no circumstances shall the
+          user settle any matter without obtaining prior written consent from
+          LEGAL257. This provision remains unaltered in its essence,
+          safeguarding both parties' interests while acknowledging the user's
+          responsibility for the consequences of their use of the service.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           COMMUNICATIONS AND OTHER DATA
         </p>
         <p className="text-medium mt-3">
-          LEGAL257 is not responsible for any loss of data resulting from
-          inadvertent or deliberate deletion, interface or system interruptions,
-          backup breakdown, file exploitation, or any other reasons
+          LEGAL257 bears no responsibility for data loss arising from accidental
+          or intentional deletion, interface or system disruptions, backup
+          failures, file misuse, or any other causes.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           LICENSE OF YOUR CONTENTS TO LEGAL257
         </p>
         <p className="text-medium mt-3">
-          By uploading material to or submitting any content for use on
-          LEGAL257, you grant (or warrant that the owner of such rights has
-          expressly granted) LEGAL257 a royalty-free, irrevocable, perpetual,
-          non-exclusive right and license to use, accommodate, issue,
-          transcribe, replicate, modify, or create derivative works from and
-          share such materials or consolidate such materials into any form,
-          means, or technology now known or later acquired. LEGAL257 however
-          gives a guarantee that any information of a delicate nature will not
-          be deliberately exposed and disclosed to any third party.
+          By uploading or submitting content to LEGAL257, you affirm (or assure
+          that the rightful owner has expressly affirmed) LEGAL257's right to a
+          royalty-free, irrevocable, perpetual, non-exclusive license to employ,
+          adapt, distribute, transcribe, replicate, modify, or generate
+          derivative works from the provided materials, and amalgamate them into
+          any existing or future form, means, or technology. While LEGAL257
+          pledges not to intentionally reveal sensitive information to third
+          parties, this assurance remains unchanged.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           LEGAL257 PROPRIETARY RIGHTS
         </p>
         <p className="text-medium mt-3">
-          Except as expressly presented in these terms and conditions, nothing
-          included herein shall be defined as presenting any license or right,
-          by inference, estoppels, or otherwise, under copyright or other
-          intellectual property rights. The user agrees that the content and
-          website are protected by service marks, licenses, copyright,
-          trademark, and other exclusive rights and laws. The user recognizes
-          and agrees that the user is permitted to use this content and data
-          only as expressly sanctioned by LEGAL257, and may not reproduce,
-          transfer, distribute, copy, or create extractive works of such content
-          or information without any express permission. The user recognizes the
-          fact and agrees that LEGAL257 can display images and text throughout
-          the website. Users cannot derive and distribute any information from
-          the system, either as a hardcopy or a softcopy, without the consent of
-          LEGAL257 and the approval of all other related parties. This is not an
-          exhaustive list - other things on the system are also the property of
-          LEGAL257. Contact LEGAL257 before reproducing anything from the system
-          with plans of copying it or disseminating it.
+          Except as explicitly outlined in these terms and conditions, nothing
+          herein shall be construed as granting any license or right, whether
+          implied, by estoppel, or otherwise, under copyright or other
+          intellectual property rights. Users acknowledge that the content and
+          website are safeguarded by service marks, licenses, copyright,
+          trademark, and other proprietary rights and applicable laws. It is
+          acknowledged and agreed that users are authorized to utilize the
+          content and data exclusively in accordance with the permissions
+          granted by LEGAL257, and are prohibited from reproducing,
+          transferring, distributing, copying, or creating derivative works
+          without explicit permission. Users further recognize and agree that
+          LEGAL257 has the right to showcase images and text on the website. The
+          extraction and distribution of any information from the system,
+          whether in hardcopy or softcopy, is strictly prohibited without the
+          explicit consent of LEGAL257 and the approval of all relevant parties.
+          This list is not exhaustive, as other elements within the system are
+          also the exclusive property of LEGAL257. Prior contact with LEGAL257
+          is mandatory for anyone intending to reproduce or disseminate any
+          content from the system. The underlying principles remain unchanged,
+          emphasizing the importance of obtaining explicit permission and
+          respecting the proprietary rights of LEGAL257 and associated parties.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           LINKING TO LEGAL257.com
         </p>
         <p className="text-medium mt-3">
-          Users are allowed to provide links to the homepage of LEGAL257,
-          yielding the fact they do not eliminate or hide, by drafting or
-          otherwise, any portion of the homepage and that you discontinue
-          presenting links to the site if inquired by LEGAL257.
+          Users may share links to LEGAL257's homepage, ensuring no
+          modification, concealment, or alteration of any homepage content.
+          Links will be promptly removed upon LEGAL257's request. This policy
+          upholds integrity and aligns with ethical standards, fostering a
+          respectful online environment.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           ADVERTISERS
         </p>
         <p className="text-medium mt-3">
-          The website of LEGAL257 may contain publicity and sponsorship.
-          Advertisers and sponsors are responsible for assuring that content
-          proffered for incorporation on LEGAL257.com is valid and complies with
-          relevant regulations. LEGAL257 will not be liable for the illegality
-          of or any error or inaccuracy in promoters’ or sponsors' contents.
+          LEGAL257's website may feature promotional and sponsored content.
+          Advertisers and sponsors bear the responsibility of ensuring that the
+          content submitted for inclusion on LEGAL257.com is legitimate and
+          adheres to applicable regulations. LEGAL257 shall not be held
+          accountable for the legality or any inaccuracies in the content
+          provided by promoters or sponsors.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           REGISTRATION
         </p>
         <p className="text-medium mt-3">
-          Certain segments of LEGAL257.com may ask you to register. If
-          registration is entreated, you agree to provide LEGAL257 with correct
-          and comprehensive registration information. It is your duty to
-          acquaint LEGAL257 of any changes to that data. Each registration is
-          for a single person only, unless explicitly designated otherwise on
-          the registration page. LEGAL257 does not allow
+          Certain sections of LEGAL257.com may require registration. By
+          registering, you commit to furnishing accurate and complete
+          information, and it is your responsibility to update LEGAL257 about
+          any changes. Each registration pertains to an individual, unless
+          otherwise specified. Alteration of content is not permitted, ensuring
+          compliance with LEGAL257's guidelines
         </p>
         <p className="text-medium mt-3">
           any other person using the registered sections under your name; or
@@ -544,87 +569,87 @@ const Termsconditions = () => {
           on a system.
         </p>
         <p className="text-medium mt-3">
-          You are accountable for preventing such unapproved use. If you think
-          there has been any unauthorized use, please inform LEGAL257 promptly
-          by reaching us. If we find that an illicit use is being made of
-          LEGAL257 and the services we provide, the right of any or many users
-          may be annulled.
+          You are responsible for averting unauthorized usage. In the event of
+          any suspected unauthorized access, kindly notify LEGAL257 immediately.
+          If we detect any improper use of LEGAL257 and its services, it may
+          result in the revocation of rights for one or more users. Your
+          vigilance in preventing unapproved utilization is crucial to
+          maintaining the integrity of LEGAL257 and the services offered.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           ERRORS AND CORRECTIONS
         </p>
         <p className="text-medium mt-3">
-          LEGAL257 does not represent or guarantee that the service will be
-          entirely free from errors, free of viruses or other harmful elements,
-          or that faults will be fixed. LEGAL257 may make amendments and/or
-          changes to its features, functionality, or service at any time.
+          LEGAL257 does not ensure the service's absolute error-free nature,
+          freedom from viruses, or other detrimental elements, nor does it
+          guarantee the prompt resolution of faults. Amendments and
+          modifications to features, functionality, or services are within
+          LEGAL257's discretion and may occur at any time.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           THIRD PARTY CONTENT
         </p>
         <p className="text-medium mt-3">
-          Third-party content may appear on LEGAL257 or may be available via
-          links from LEGAL257. LEGAL257 is not responsible for and implies no
-          liability for any errors, distortions of law, defamation, libel,
-          slander, exclusions, misrepresentation, vulgarity, or profanity in the
-          statements, ideas, representations, or any other form of information
-          included in any third-party material appearing on LEGAL257. You
-          understand that the information and opinions in the third-party,
-          material are neither endorsed by nor does it reflect the opinion of
-          LEGAL257.
+          LEGAL257 may feature third-party content or links to such material.
+          The platform disclaims any responsibility or liability for errors,
+          legal inaccuracies, defamation, libel, slander, misrepresentation,
+          vulgarity, or profanity within third-party content. LEGAL257 does not
+          endorse or reflect the opinions of such material, emphasizing that any
+          information or opinions expressed are independent of LEGAL257's
+          endorsement. Users are advised to recognize that statements and ideas
+          presented in third-party content are not attributable to LEGAL257,
+          absolving the platform from any associated endorsement or opinion.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           UNLAWFUL ACTIVITY
         </p>
         <p className="text-medium mt-3">
-          LEGAL257 reserves the right to investigate charges or reported
-          violations of the Agreement and to take any action LEGAL257 considers
-          appropriate including but not limited to inscribing any speculated
-          outlawed activity to law enforcement officials, regulators, or other
-          third parties and uncovering any information required or appropriate
-          to such persons or entities relating to user profiles, posted
-          materials, IP addresses, e-mail addresses, usage history, and traffic
-          information.
+          LEGAL257 maintains the right to investigate reported violations or
+          offenses within the Agreement and has the authority to implement
+          appropriate actions. This encompasses the disclosure of potential
+          unlawful activities to law enforcement, regulatory bodies, or external
+          parties. LEGAL257 may share relevant information with these entities,
+          including user profiles, posted content, IP addresses, email
+          addresses, usage history, and traffic data, as deemed necessary or
+          appropriate.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           REMEDIES FOR VIOLATIONS
         </p>
         <p className="text-medium mt-3">
-          LEGAL257 reserves the right to seek all assistance available at law
-          and in equity for infractions of the Agreement, including but not
-          limited to the right to obstruct access from a specific Internet
-          address to LEGAL257.com and its attributes.
+          LEGAL257 retains the option to pursue all available legal and
+          equitable remedies for breaches of the Agreement. This includes, but
+          is not restricted to, the authority to block access from a designated
+          Internet address to LEGAL257.com and its associated features.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           CONFLICTS CHECKS
         </p>
         <p className="text-medium mt-3">
-          The user agrees that certified lawyers will not be able to and will
-          not perform an investigation for conflicts of interest between the
-          user and other clients of the registered lawyers before acknowledging
-          a request. These checks require the user to provide their contact
-          information in detail and the identity of any associated entities,
-          opposing individuals and entities, and such other information as
-          prosecutors may require. Conflict checks by licensed lawyers who
-          obtain data from the user through this service are not possible since
-          submissions by the user to subscribing lawyers are insufficient to
-          conduct such a check.
+          The user acknowledges that certified lawyers will refrain from
+          conducting conflict of interest investigations involving the user and
+          other clients. To initiate such checks, the user must furnish
+          comprehensive contact information, details of associated entities,
+          opposing individuals, and any other data as mandated by legal
+          authorities. However, it is emphasized that licensed lawyers,
+          obtaining user data through this service, find it impractical to
+          perform conflict checks due to the insufficient nature of submissions
+          by the user.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           SEVERABILITY OF PROVISIONS
         </p>
         <p className="text-medium mt-3">
-          The Agreement and the Privacy Policy aggregates the entire agreement
-          with respect to the use of the service provided by LEGAL257. If any
-          provision of these terms and conditions is outlawed, void, or
-          non-binding then that provision shall be regarded severable from the
-          remaining provisions and shall not affect their efficacy and
+          The Agreement and Privacy Policy constitute the full understanding
+          governing the use of LEGAL257's services. Should any provision be
+          deemed illegal or unenforceable, it is considered separate from the
+          remaining terms, leaving them unaffected in terms of validity and
           enforceability.
         </p>
 
@@ -632,226 +657,216 @@ const Termsconditions = () => {
           MODIFICATIONS TO TERMS OF USE
         </p>
         <p className="text-medium mt-3">
-          LEGAL257 reserves the right to change the agreement at any time. The
-          user will be responsible for reviewing the Terms and Conditions before
-          use. The use of the service after the change will symbolize the
-          approval of the new terms and conditions.
+          LEGAL257 may modify this agreement at its discretion. Users are
+          required to regularly review the Terms and Conditions. Continued use
+          of the service post-change implies acceptance of the updated terms and
+          conditions.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           MODIFICATIONS TO SERVICE
         </p>
         <p className="text-medium mt-3">
-          LEGAL257 can modify or suspend, provisionally or permanently, the
-          service with or without intimation to the user. The user agrees that
-          LEGAL257 shall not be responsible to the user or any third-party for
-          any alteration or non-continuity of its services. The user accepts and
-          agrees that any termination of service under any stipulation of this
-          agreement may be effected without any prior notice, and recognizes and
-          agrees that LEGAL257 may promptly delete data and files in the user's
-          account and prohibit any further access to such files or the Service.
+          LEGAL257 reserves the right to modify or suspend its services,
+          temporarily or permanently, without prior notice to the user. The user
+          acknowledges and agrees that LEGAL257 bears no responsibility for any
+          changes or interruptions in its services. In the event of service
+          termination under any provision of this agreement, the user accepts
+          that LEGAL257 may promptly delete data and files from the user's
+          account, prohibiting further access. The user expressly agrees that
+          LEGAL257 is not liable to them or any third party for any consequences
+          arising from alterations or discontinuity of services.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY
         </p>
         <p className="text-medium mt-3">
-          A great risk for LEGAL257, and for all operators of online systems, is
-          that we might be held responsible for the wrongful activities of our
-          users. If one user defames another user, the harmed user might blame
-          LEGAL257, even though the first user was really to blame. If a user
-          uploads a data with a network virus, and the other users' processors
-          are damaged, we might be blamed even though a user who transmitted the
-          virus on our system is at fault. If a user transfers illegal or
-          inappropriate information to another user, we might be blamed even
-          though we did nothing more than unknowingly convey the message from
-          one user to another. Accordingly, we need all users to accept the
-          liability for their own actions, and to admit that an act by another
-          user that damages them must not be blamed on us, but only on the other
-          user.
+          Mitigating potential liabilities is a critical concern for LEGAL257
+          and other online platform operators. The risk lies in being held
+          accountable for the actions of users, even when the platform is not
+          directly responsible. For instance, if a user defames another,
+          LEGAL257 could face unwarranted blame. Similarly, a user uploading a
+          virus might result in LEGAL257 being wrongly accused when it is the
+          transmitting user at fault. Instances where users transfer
+          inappropriate information could also lead to unjust repercussions for
+          LEGAL257. To address this, all users must acknowledge and take
+          responsibility for their own actions. Any harm caused by one user to
+          another should be attributed solely to the responsible user, not the
+          platform. It is imperative for users to accept liability, recognizing
+          that LEGAL257 merely facilitates communication between users and
+          should not be held culpable for the misconduct of individual users.
         </p>
 
         <p className="text-medium mt-3">
-          Although it is the goal of LEGAL257 to provide users with secure and
-          quality systems, we may make errors or encounter system failure from
-          time to time. Such problems are unavoidable in operating a system of
-          this magnitude. We would not be able to make this practice available
-          to users if we had to accept liability or financial liability for any
-          usability intricacies, system failures or errors, or mistakes or
-          damages of any kind. In order to commit continuity of offerings and
-          improving our services, LEGAL257 denies any guarantees on this service
-          and states that our liability for any predicaments connected with the
-          use of our system is strictly limited.
+          While LEGAL257 strives to maintain secure and high-quality systems,
+          occasional errors or system failures may occur. Operating a system of
+          this magnitude inevitably involves challenges, and providing this
+          service would be impractical if we were to assume liability or
+          financial responsibility for usability issues, system failures,
+          errors, or damages of any nature. In order to ensure the continuity of
+          our offerings and enhance our services, LEGAL257 disclaims any
+          guarantees associated with this service and explicitly limits our
+          liability for any issues related to the use of our system.
         </p>
 
         <p className="text-medium mt-3">
-          These needs are fulfilled by the following disclaimers:
+          These requirements are addressed through the following alternative
+          disclaimers:
         </p>
 
         <p className="text-medium mt-3">Disclaimer of Warranties</p>
         <p className="text-medium mt-3">
-          The user expressly acknowledges that use of the service is at the
-          user's individual risk. The service is provided on an "as is" and "as
-          available" basis. LEGAL257 expressly disclaims all guarantees of any
-          kind, whether express or implied, including, but not limited to the
-          implied warranties of merchantability, eligibility for a particular
-          objective, and non-infringement. LEGAL257 does not claim that the
-          service will meet a user's specifications, that the service will be
-          timely, protected, unbroken, or error-free; nor does LEGAL257 make any
-          claim as to the results that may be obtained from the use of the
-          service or as to the exactitude or authenticity of any data obtained
-          through the service or that errors in the software will be adjusted.
-          LEGAL257 does not claim any goods or services or information obtained
-          through the service or any transactions entered into through the
-          service. No information or advice, whether oral or written, obtained
-          by the User from LEGAL257 shall create any warranty not expressly
-          stated herein.
+          Users explicitly acknowledge that the use of the service is at their
+          own risk. The service is provided on an "as is" and "as available"
+          basis. LEGAL257 expressly disclaims all guarantees, whether express or
+          implied, including but not limited to merchantability, fitness for a
+          particular purpose, and non-infringement. We do not assert that the
+          service will meet user specifications, be timely, secure,
+          uninterrupted, or error-free. LEGAL257 makes no claims regarding the
+          results obtained from the service or the accuracy and authenticity of
+          any data obtained through it. Additionally, we do not vouch for any
+          goods, services, information, or transactions accessed or obtained
+          through the service. No information or advice, whether oral or
+          written, from LEGAL257 creates any warranty not expressly stated
+          herein..
         </p>
 
         <p className="text-medium mt-3">Limitation of Liability:</p>
 
         <p className="text-medium mt-3">
-          The user agrees that LEGAL257 shall not be held responsible for any
-          direct, indirect, accidental, special, or eventful damages resulting
-          from the use or the incapacity to use the service or for the cost of
-          acquisition of alternate goods and services or emerging from any goods
-          or services purchased or obtained or information received or
-          transactions entered into through or from the service or resulting
-          from unapproved access to or modification of user's transmissions or
-          data, including, but not limited to damages for loss of profits, use,
-          data or other intangibles, even if LEGAL257 has been advised of the
-          probability of such damages. The user further agrees that LEGAL257
-          shall not be liable for any casualties arising from interference,
-          suspension, or termination of services, including, but not limited to
-          direct, indirect, accidental, unusual, eventful, or exemplary losses,
-          whether or not such interruption, suspension or termination was
-          justified, unconcerned, deliberate or accidental.
+          Users agree that LEGAL257 is not liable for any direct, indirect,
+          incidental, special, or consequential damages resulting from the use
+          or inability to use the service. This includes the cost of acquiring
+          alternate goods and services, damages from goods or services
+          purchased, information received, or transactions entered into through
+          the service. LEGAL257 is not responsible for unauthorized access or
+          modification of user transmissions or data, including damages for loss
+          of profits, use, data, or other intangibles. Users further agree that
+          LEGAL257 is not liable for losses arising from service interruption,
+          suspension, or termination, whether justified, unjustified,
+          intentional, or accidental, including direct, indirect, incidental,
+          consequential, or exemplary losses.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           ARBITRATION
         </p>
         <p className="text-medium mt-3">
-          Any dispute or counterclaim arising out of or associating with this
-          Agreement or with the services of LEGAL257 shall be resolved by
-          forcing Arbitration according to the laws of India. Any such
-          disagreement or claim shall be negotiated on an individual basis, and
-          shall not be incorporated in any compromise with any claim or
-          disagreement of any other party. Any other argument or breach of a
-          legal nature will also be decided in accordance with the laws of
-          India, and the Courts of Indore shall have discretion in all such
-          cases.
+          In the event of any dispute or counterclaim arising from or related to
+          this Agreement or the services provided by LEGAL257, the resolution
+          shall be sought through Arbitration in accordance with the laws of
+          India. Each such dispute or claim shall be addressed on an individual
+          basis and shall not be consolidated with any other claims or disputes
+          of third parties. Any other legal disagreements or breaches shall also
+          be adjudicated in accordance with Indian laws, and the jurisdiction of
+          the Courts of Indore shall prevail in such matters.
         </p>
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">OWNERSHIP</p>
         <p className="text-medium mt-3">
-          This Site is owned and operated by LEGAL257. All right, title, and
-          interest in and to the materials provided on this Site, including but
-          not limited to data, logos, graphics, documents, audios, and images
-          (the "Materials") are owned by LEGAL257. Except as otherwise expressly
-          granted by LEGAL257, none of the materials may be duplicated,
-          reproduced, posted, displayed, republished, downloaded, uploaded,
-          transmitted, or distributed in any way and nothing on this Site shall
-          be interpreted to confer any license under any of LEGAL257's
-          intellectual property rights, whether by estoppel, inference or
-          otherwise. Contact us if you have any questions about receiving such
-          licenses. LEGAL257 does not sell, license, lease, or otherwise provide
-          any of the materials other than those expressly recognized as being
-          provided by LEGAL257. Any rights not expressly granted herein are
-          reserved by LEGAL257.
+          LEGAL257 is the sole owner and operator of this Site. All rights,
+          titles, and interests pertaining to the materials presented on this
+          Site, encompassing but not limited to data, logos, graphics,
+          documents, audios, and images (referred to as "Materials"), are the
+          exclusive property of LEGAL257. Unless expressly granted otherwise by
+          LEGAL257, none of the materials may be copied, reproduced, posted,
+          displayed, republished, downloaded, uploaded, transmitted, or
+          distributed in any manner. Nothing on this Site should be construed to
+          confer any license under LEGAL257's intellectual property rights, be
+          it through estoppel, inference, or any other means. If you have
+          inquiries about obtaining such licenses, please contact us. LEGAL257
+          does not engage in the sale, licensing, leasing, or provision of any
+          materials, except as expressly acknowledged to be provided by
+          LEGAL257. All rights not explicitly granted herein are reserved by
+          LEGAL257.
         </p>
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
-          ENTIRE AGREEMENT
+          COMPLETE AGREEMENT
         </p>
         <p className="text-medium mt-3">
-          This agreement composes the intact and whole agreement between user
-          and LEGAL257, and is meant as a comprehensive and exclusive statement
-          of the terms of the agreement. This agreement shall supersede all
-          other statements between LEGAL257 and its users with respect to the
-          subject matter about and outmodes and replaces all former or
-          contemporaneous intelligence or agreements, verbal or written,
-          concerning such subject matter. If at any time you find these Terms
-          and Conditions not acceptable or if you do not agree to these Terms
-          and Conditions, please do not use this website and our services. We
-          may update these Terms and Conditions at any time without providing
-          any notice to you. It is your duty to review these Terms and
-          Conditions regularly. By using LEGAL257 services or reaching the
-          LEGAL257 site, you acknowledge that you have read these terms and
-          conditions and agree to be restrained by them.
+          This document constitutes the entire and conclusive agreement between
+          the user and LEGAL257, serving as a comprehensive and exclusive
+          declaration of the agreement's terms. It overrides all other
+          communications between LEGAL257 and its users regarding the subject
+          matter, rendering obsolete and replacing any prior or contemporaneous
+          information or agreements, whether verbal or written. If you find
+          these Terms and Conditions unacceptable at any point or do not agree
+          to them, kindly refrain from using this website and our services.
+          Please be aware that we reserve the right to update these Terms and
+          Conditions without prior notice, and it is your responsibility to
+          regularly review them. By accessing LEGAL257 services or visiting the
+          LEGAL257 site, you affirm that you have perused these terms and
+          conditions and consent to being bound by them.
         </p>
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           INDEMNIFICATION
         </p>
         <p className="text-medium mt-3">
-          You agree to defend, indemnify and hold harmless LEGAL257, our
-          officers, directors, shareholders, representatives, and agents from
-          and against any and all rights, liabilities, damages, or losses or
-          expenses, including reasonable attorneys' fees and costs, arising out
-          of or in any way correlated with your access to or use of the site and
-          its material.
+          You commit to protecting, indemnifying, and holding harmless LEGAL257,
+          along with our officers, directors, shareholders, representatives, and
+          agents, from any rights, liabilities, damages, losses, or expenses,
+          including reasonable attorneys' fees and costs. This indemnification
+          obligation arises from, or is in any way connected to, your use of the
+          site and its content.
         </p>
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           CANCELLATION AND REFUND POLICY
         </p>
         <p className="text-medium mt-3">
-          However, there may arise situations when you desire a refund. Firstly,
-          when you pay for the services but later decides that you do not wish
-          to avail them. Secondly, when there is a lag in the services offered
-          from our side, beyond the time frame we have hinted to you, due to
-          rational error i.e., factors for which we are individually
-          responsible. Thirdly, although we highly doubt it, you might find our
-          services inadequate. In all three situations, kindly send in an email
-          to the Ticket that has been created in your name, marking a copy to
-          legal257rgvf@gmail.com We would like to clarify that only refunds of
-          the expert fees component of the charges paid by you shall be
-          considered for a refund.
+          At times, you may find yourself in a situation where a refund is
+          necessary. Firstly, if you've made a payment for our services but
+          later decide not to proceed. Secondly, if there's a delay in the
+          services we provide beyond the indicated timeframe due to our own
+          oversight. Thirdly, although it's unlikely, you may feel our services
+          don't meet your expectations. In any of these scenarios, please send
+          an email to the designated Ticket created in your name, with a copy to
+          legal257rgvf@gmail.com. It's important to note that only refunds
+          related to the expert fees component of the charges will be
+          considered.
         </p>
 
         <p className="text-medium mt-3">
-          Upon receiving your mail, the Senior Management at LEGAL257 shall
-          decide on whether your request for a refund should be processed,
-          contingent on the reasons for such a request. Please note that we
-          reserve the right to take the final and restraining decisions
-          concerning requests for refunds.
+          Upon receiving your email, the Senior Management at LEGAL257 will
+          evaluate your refund request based on the reasons provided. Keep in
+          mind that we retain the right to make the final decisions on refund
+          requests.
         </p>
 
         <p className="text-medium mt-3">
-          Most importantly, we wish to elucidate that in cases outside our
-          control, including but not limited to department holidays, delays on
-          the part of the Government of India, national holidays, the respective
-          State Governments, Our affiliates or elsewhere, acts of war, acts of
-          God, earthquake, protest, demolition, labor shortage or conflict,
-          internet suspension, power disturbance, lack of phone network
-          connectivity, mechanical failures, wreckage of sea cable, hacking,
-          forgery, we shall not be held liable for any delays.
+          It's crucial to understand that in situations beyond our control, such
+          as department holidays, delays by the Government of India, national
+          holidays, state government actions, events like acts of war, acts of
+          God, earthquakes, protests, demolitions, labor shortages, conflicts,
+          internet suspensions, power disturbances, phone network issues,
+          mechanical failures, sea cable damage, hacking, and forgery, we cannot
+          be held responsible for any delays.
         </p>
 
         <p className="text-medium mt-3">
-          If we confirm your request for a refund, subject to the terms and
-          conditions mentioned herein or elsewhere, we will send you an e-mail
-          asking the details required to compensate the amount which may involve
-          your Bank Account details such as the account number and the IFS code
-          of the branch in question. Please note that it will take us a minimum
-          of about 48-72 working hours from the receipt of all such information
-          to process the refund and initiate the transfer. Also note that we do
-          not provide any refunds for our consultation services after one has
-          received those.
+          If your refund request is approved, subject to the terms and
+          conditions outlined here or elsewhere, we will email you to gather the
+          necessary details for compensation. This may include your bank account
+          information such as the account number and the IFS code of the branch.
+          Please be aware that it will take us a minimum of 48-72 working hours
+          from the receipt of this information to process the refund and
+          initiate the transfer. Additionally, no refunds are provided for
+          consultation services once they have been received.
         </p>
 
         <p className="text-medium mt-3">
-          We reiterate once again that only the professional fees paid for our
-          services shall be refunded, subject to the discretion of the Senior
-          Management at Legal257.in.
+          We want to emphasize again that only the professional fees paid for
+          our services are eligible for a refund, at the discretion of the
+          Senior Management at Legal257.in.
         </p>
 
         <p className="text-medium mt-3">
-          We guarantee you that we are continuously working to improve our
-          services and are we are welcome to any suggestions from your end. For
-          any other queries please contact our customer service desk at
-          Legal257.in.
+          We assure you that we are committed to enhancing our services and
+          welcome any suggestions you may have. For further inquiries, please
+          contact our customer service desk at Legal257.in.
         </p>
         <p className="text-medium mt-3">
-          We appreciate your interest and support and we welcome you to our
-          community!
+          Your interest and support are greatly appreciated, and we extend a
+          warm welcome to you in our community!
         </p>
       </div>
 

@@ -8,57 +8,55 @@ const Refundpolicy = () => {
       </h1>
 
       <p className="mt-4 mx-10 md:mx-16 lg:mx-20 text-medium font-normal">
-        We thank you and value your service or product purchase with us on our
-        Website www.LEGAL257.com (hereinafter referred to as “LEGAL257”). Please
-        read this policy and the LEGAL257 terms and conditions thoroughly as
-        they will give you relevant information and guidelines about your
-        virtues and responsibilities as our customer, concerning any product or
-        service we provide to you.
+        We appreciate your trust in choosing our services or products through
+        our website, www.LEGAL257.com (referred to as "LEGAL257"). Please
+        carefully review this policy along with the terms and conditions of
+        LEGAL257, as they outline important information and guidelines regarding
+        your rights and responsibilities as our valued customer in relation to
+        any product or service you acquire from us.
       </p>
       <p className="mt-4 mx-10 md:mx-16 lg:mx-20 text-medium font-normal">
-        We make every endeavor to provide the assistance to you as per the
-        stipulations and timelines specified against each service or product
-        received by you from LEGAL257, nevertheless, if, due to any cause, we
-        are incapable to offer to you the service or product you purchased from
-        us, then you shall be entitled to a refund which shall be subjected on
-        the following situations:
+        We strive to deliver our services and products in accordance with the
+        specified terms and timelines associated with each transaction. However,
+        if, for any reason, we are unable to fulfill the service or provide the
+        product you purchased, you may be eligible for a refund, subject to the
+        following conditions:
       </p>
       <p className="mt-4 mx-10 md:mx-16 lg:mx-20 text-medium font-normal">
-        The Refund shall be only reflected in the case there is a clear,
-        indisputable insufficiency with the service or product purchased from
-        LEGAL257.
+        A refund will only be processed in cases where there is a clear and
+        undisputed deficiency in the service or product received from LEGAL257.
       </p>
       <p className="mt-4 mx-10 md:mx-16 lg:mx-20 text-medium font-normal">
-        In the event a client has paid for a service and then requests for a
-        refund only because there was a change in mind, the refund shall not be
-        considered as there is no wrongdoing, or lack, from the side of
-        LEGAL257.
+        Refunds will not be considered if a customer has paid for a service and
+        later requests a refund solely due to a change of mind, as there is no
+        fault or inadequacy on the part of LEGAL257.
       </p>
       <p className="mt-4 mx-10 md:mx-16 lg:mx-20 text-medium font-normal">
-        However, we do not provide a refund for our consultation services.
+        Please note that we do not offer refunds for our consultation services.
+        Your understanding and cooperation in these matters are greatly
+        appreciated. If you have any questions or concerns, feel free to reach
+        out to our customer support team.
       </p>
       <p className="mt-4 mx-10 md:mx-16 lg:mx-20 text-medium font-normal">
-        Refund requests shall not be considered after the work has been
-        completed and shared with you in the event of a change of mind. However,
-        we shall provide you an option of managing the amount paid for by you,
-        for a different service in LEGAL257 amounting to the same amount and the
-        said amount could be utilized in parts or as a whole towards the said
-        new service; and
+        Refund requests will not be entertained once the work has been finalized
+        and shared with you, should there be a change of mind. Nevertheless, we
+        offer you the flexibility to allocate the amount paid for an alternative
+        service within LEGAL257 that equals the initial payment. This sum can be
+        utilized in full or in part towards the new service; and
       </p>
       <p className="mt-4 mx-10 md:mx-16 lg:mx-20 text-medium font-normal">
-        If the request for a refund has been raised 20 (twenty) days after the
-        procurement of a service or product has been completed and the same has
-        been mentioned and intimated via email or through any form of
-        communication asserting that the work has been completed, then, such
-        refund request shall be considered invalid and shall not be held.
+        If a refund request is submitted after 20 days from the completion of
+        the service or product procurement, and the completion has been
+        communicated via email or any other form, the request will be deemed
+        invalid and will not be considered.
       </p>
       <p className="mt-4 mx-10 md:mx-16 lg:mx-20 text-medium font-normal">
-        If the request for the refund has been accepted by LEGAL257, the same
-        shall be processed and notified to you via email. This process of refund
-        could take a minimum of 7 (seven) business days to process and shall be
-        credited to your bank account accordingly. We at LEGAL257 administer the
-        refund process with diligence and assure that the money spent by you is
-        returned to you at the quickest.
+        n the event that LEGAL257 approves a refund request, you will be
+        notified via email. The refund process may take a minimum of 7 business
+        days, and the refunded amount will be credited to your bank account as
+        per the original payment method. We, at LEGAL257, handle the refund
+        process diligently, ensuring that your funds are returned to you
+        promptly..
       </p>
     </>
   );

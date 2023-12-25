@@ -46,7 +46,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./home.css";
 
-
 // bank service
 
 import zero from "../assests/images/Bankservices/zero.png";
@@ -76,7 +75,6 @@ import QR from "../assests/images/Bankservices/QR CODE.png";
 import bhim from "../assests/images/Bankservices/bhim.png";
 import TRANSFER from "../assests/images/Bankservices/TRANSFER.png";
 import DROP from "../assests/images/Bankservices/DROP.png";
-
 
 const Home = () => {
   const settings1 = {
@@ -163,9 +161,9 @@ const Home = () => {
             <Typewriter
               options={{
                 strings: [
-                  "One-Stop Solution to All  Your  Legal Problems",
-                  "Get Your Personal Legal Advisor ",
-                  "Now Legal is Always On  Your Phone",
+                  "Comprehensive Legal Assistance for Your Every Need",
+                  "Navigate Legal Matters with Confidence ",
+                  "Mobile Legal Assistance: Anytime, Anywhere Access",
                 ],
                 autoStart: true,
                 loop: true,
@@ -274,7 +272,7 @@ const Home = () => {
             <div className="absolute top-0 left-0 w-full flex  justify-center mt-28 ">
               <div className="bg-white shadow-lg rounded-2xl p-5">
                 <h1 className="font-semibold text-2xl flex justify-center text-[#01355D] ">
-                  Get your queries solved by
+                  Navigate Inquiries: Unlock Solutions Now
                 </h1>
                 <div className="mt-4 text-center text-xl font-semibold text-[#954535]">
                   <Typewriter
@@ -369,7 +367,7 @@ const Home = () => {
       {/* second part */}
       <div className="mt-44 md:mt-32 text-center font-bold text-2xl md:text-4xl mx-5 sm:mx-0">
         <h1>
-          <span> Discover</span>257+ legal services over one platform
+          <span> Unified Platform:</span> Access 257+ Legal Solutions
         </h1>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-5 mx-5 md:mx-20 lg:mx-28 mt-10 md:mt-16">
@@ -438,13 +436,12 @@ const Home = () => {
           <div className="flex justify-center">
             <img src={Service7} className="w-[50px] h-auto"></img>
           </div>
-         
+
           <p className="text-md font-semibold text-center mt-3">
             GST
             <br />
             Registration
           </p>
-        
         </div>
 
         <div className="bg-white shadow-2xl rounded-[40px] p-5">
@@ -573,36 +570,36 @@ const Home = () => {
             <div>
               <h1 className="text-xl font-semibold text-[#8A4117]">Deepak</h1>
               <p className="text-justify mt-4 text-[#1E1E1E]">
-                Another noteworthy aspect of Legal257's service was the
-                transparency regarding fees and costs. I received a detailed
-                breakdown of the expected expenses upfront, allowing me to make
-                informed decisions. The pricing was fair and competitive,
-                especially considering the high-quality legal representation I
-                received.
+                Legal257's commitment to transparency extended to their fee
+                structure, providing me with a comprehensive overview of
+                anticipated expenses from the outset. This upfront disclosure
+                empowered me to make well-informed choices. The pricing proved
+                to be not only fair and competitive but also justified by the
+                exceptional standard of legal representation I obtained
               </p>
             </div>
 
             <div>
               <h1 className="text-xl font-semibold text-[#8A4117]">Amisha</h1>
               <p className="text-justify mt-4 text-[#1E1E1E]">
-                I recently had the opportunity to utilize the online legal
-                services provided by Legal257, and I must say that I am
-                thoroughly impressed. As someone who needed legal assistance but
-                couldn't spare the time for in-person consultations, their
-                online platform proved to be a convenient and efficient
-                solution.
+                Engaging with Legal257's online legal services was a
+                game-changer for me. Balancing a hectic schedule, I found their
+                platform to be a remarkably convenient and efficient alternative
+                to traditional, in-person consultations. The experience left me
+                thoroughly impressed and satisfied with their professional
+                assistance.
               </p>
             </div>
 
             <div>
               <h1 className="text-xl font-semibold text-[#8A4117]">Anjali</h1>
               <p className="text-justify mt-4 text-[#1E1E1E]">
-                Right from the start, the website was user-friendly and
-                intuitive, making it easy to navigate and find the information I
-                needed. The process of submitting my legal request was
-                straightforward, and I appreciated the option to provide
-                relevant documents electronically, saving me the hassle of
-                scanning or mailing physical copies.
+                From the outset, the website displayed a commendable
+                user-friendly interface, ensuring seamless navigation and
+                efficient information retrieval. Submitting my legal request was
+                a straightforward process, and the electronic document
+                submission feature proved convenient, eliminating the need for
+                physical copies through scanning or mailing.
               </p>
             </div>
           </Slider>
@@ -713,7 +710,6 @@ const Home = () => {
         <div className="md:col-span-8">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div>
-           
               <h1 className="text-[#01355D] text-xl md:text-2xl font-semibold">
                 GST Registration
               </h1>
@@ -732,15 +728,15 @@ const Home = () => {
           </div>
 
           <p className="mt-5 text-md font-medium">
-            Register yourself as a trusted business of this country with GST
-            online in minutes. Ask our experts to guide you for an easy GST
-            Registration.
+            Streamline your business with swift online GST registration. Our
+            experts ensure a seamless process for your convenience. Get started
+            today!
           </p>
           <div className="mt-5">
-          <Link to="/GstRegistration"> 
-            <button className="bg-[#8A4117] text-white px-4 py-3 rounded-[4px]">
-              GET STARTED
-            </button>
+            <Link to="/GstRegistration">
+              <button className="bg-[#8A4117] text-white px-4 py-3 rounded-[4px]">
+                GET STARTED
+              </button>
             </Link>
           </div>
         </div>
@@ -750,11 +746,11 @@ const Home = () => {
 
       <div className="mt-20 text-center">
         <h1 className="font-bold text-2xl md:text-4xl">
-          What We Can{" "}
+          How may we
           <span className="bg-gradient-to-r from-purple-600 via-red-500 to-yellow-300">
-            Help You
+            assist
           </span>{" "}
-          With?
+          you today?
         </h1>
       </div>
       <div className="mx-5 md:mx-20 lg:mx-28 mt-10 md:mt-20">
@@ -1035,8 +1031,10 @@ const Home = () => {
 
       {/* bank service */}
       <div className="mt-24 md:mt-32">
-    <h1 className='text-center text-2xl text-3xl font-bold text-[#B70505]'>BANKING SERVICES</h1>
-    </div>
+        <h1 className="text-center text-2xl text-3xl font-bold text-[#B70505]">
+          BANKING SERVICES
+        </h1>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 mx-5 md:mx-20 mt-10">
         <div className="bg-white p-4 rounded shadow mb-3">
           <img src={zero} alt="image" className="w-20 h-25 mx-auto" />
@@ -1182,8 +1180,6 @@ const Home = () => {
         </div>
       </div>
 
-
-
       {/* sevent part */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20 mx-5 md:mx-20 lg:mx-32 mt-10 md:mt-20">
         <div className="">
@@ -1191,14 +1187,13 @@ const Home = () => {
             Why Choose <span className="text-[#954535]">Legal257?</span>
           </h1>
           <p class="mt-4 text-md font-medium text-justify">
-            Legal257 is the perfect choice for anyone looking to prepare legal
-            documents , registrations and compliance with ease and confidence.
-            Our team of experienced experts provide filing services that are
-            always on-time and accurate. Plus, we have a mobile app and
-            dashboard for managing your service &amp; documents, so you can stay
-            on top of your filing and other works from anywhere. With over 10
-            years of experience in the industry, you can trust us to get the job
-            done right!
+            Legal257 is your ideal partner for seamless legal document
+            preparation, registrations, and compliance. Our seasoned experts
+            ensure timely and precise filing services, backed by a decade of
+            industry experience. Stay in control with our user-friendly mobile
+            app and dashboard, enabling you to manage services and documents
+            effortlessly from any location. Trust Legal257 for reliable
+            solutions, delivering confidence and ease to your legal processes
           </p>
         </div>
 
@@ -1310,19 +1305,19 @@ const Home = () => {
       </div>
 
       {/* eight part */}
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-20 mx-5 md:mx-20 lg:mx-32 mt-5 md:mt-20">
+      {/* <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-20 mx-5 md:mx-20 lg:mx-32 mt-5 md:mt-20">
         <div className="md:col-span-7">
           <p className="text-2xl md:text-3xl lg:text-5xl font-bold">
-            BOOK A <span className=" text-[#954535]">FREE</span>
+          Schedule Your <span className=" text-[#954535]">Complimentary</span>
           </p>
           <p className="text-2xl md:text-3xl lg:text-5xl font-bold mt-3">
-            <span className="text-[#01355D]">CONSULTATION </span>NOW!
+            <span className="text-[#01355D]"> Session   </span>Today!
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 mt-5 md:mt-10">
             <div className="">
               <p className="text-2xl md:text-2xl lg:text-4xl font-medium">
-                Ready to take first step ? Let's chat about how we can help.
+              Ready to start? Let's discuss how we can assist.
               </p>
             </div>
 
@@ -1347,7 +1342,7 @@ const Home = () => {
             className=""
           />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

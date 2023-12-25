@@ -22,20 +22,22 @@ const Cookiepolicy = () => {
         </p>
 
         <p className="text-medium mt-3">
-          As is common practice with almost all professional websites this site
-          uses cookies, which are tiny files that are downloaded to your
-          computer, to improve your experience. This page describes what
-          information they gather, how we use it and why we sometimes need to
-          store these cookies. We will also share how you can prevent these
-          cookies from being stored however this may downgrade or 'break'
-          certain elements of the sites functionality.
+          Cookies are a standard feature employed by nearly all professional
+          websites to enhance user experiences. These are minute files that get
+          saved on your computer, contributing to overall website functionality.
+          This section outlines the nature of the information cookies collect,
+          how we apply it, and the necessity of storing these files.
+          Additionally, we'll provide insights into preventing cookie storage,
+          although this action may result in the partial or complete disruption
+          of certain elements on the site.
         </p>
 
         <p className="text-medium mt-3">
-          An HTTP cookie is a small piece of data stored on the user's computer
-          by the web browser while browsing a website. Cookies were designed to
-          be a reliable mechanism for websites to remember stateful information
-          or to record the user's browsing activity.
+          HTTP cookies, often referred to as simply "cookies," serve as small
+          data pieces that web browsers store on a user's device during website
+          visits. Their primary purpose is to offer a reliable method for
+          websites to retain specific information or track the user's online
+          interactions.
         </p>
       </div>
 
@@ -43,98 +45,95 @@ const Cookiepolicy = () => {
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           How We Use Cookies
         </p>
-
         <p className="text-medium mt-3">
-          We use cookies for a variety of reasons detailed below. Unfortunately
-          in most cases there are no industry standard options for disabling
-          cookies without completely disabling the functionality and features
-          they add to this site. It is recommended that you leave on all cookies
-          if you are not sure whether you need them or not in case they are used
-          to provide a service that you use.
+          Our website utilizes cookies for various purposes, as outlined below.
+          Unfortunately, there are typically no universally recognized options
+          for deactivating cookies without compromising the full functionality
+          and features they contribute to this site. We suggest keeping all
+          cookies enabled unless you are certain that their deactivation won't
+          impact services you regularly use
         </p>
-
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           Disabling Cookies
         </p>
-
         <p className="text-medium mt-3">
-          You can prevent the setting of cookies by adjusting the settings on
-          your browser (see your browser Help for how to do this). Be aware that
-          disabling cookies will affect the functionality of this and many other
-          websites that you visit. Disabling cookies will usually result in also
-          disabling certain functionality and features of the this site.
-          Therefore it is recommended that you do not disable cookies
+          If you wish to prevent cookies from being set, you can adjust your
+          browser settings (refer to your browser's Help section for guidance).
+          However, please be aware that disabling cookies may affect the overall
+          functionality of not only our site but also many other websites you
+          frequent. The deactivation of cookies is likely to result in the loss
+          of specific features and functionality on this site. Consequently, we
+          advise against disabling cookies to ensure you can fully enjoy the
+          services and features we offer.
         </p>
-
+        <p className="text-medium mt-3">
+          By adjusting your cookie settings judiciously, you can strike a
+          balance between privacy concerns and the seamless experience our
+          website aims to provide. We appreciate your understanding and
+          cooperation in this matter.
+        </p>
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           Disabling Cookies
         </p>
-
         <p className="font-semibold mt-3">Account related cookies</p>
         <p className="text-medium mt-3">
-          If you create an account with us then we will use cookies for the
-          management of the signup process and general administration. These
-          cookies will usually be deleted when you log out however in some cases
-          they may remain afterwards to remember your site preferences when
-          logged out.
+          Upon registering an account with us, we may utilize cookies to
+          facilitate the signup process and handle administrative tasks. While
+          these cookies are typically deleted upon logout, in certain instances,
+          they may persist to retain your site preferences even when you're not
+          logged in.
         </p>
         <p className="font-semibold mt-3">Login related cookies</p>
         <p className="text-medium mt-3">
-          We use cookies when you are logged in so that we can remember this
-          fact. This prevents you from having to log in every single time you
-          visit a new page. These cookies are typically removed or cleared when
-          you log out to ensure that you can only access restricted features and
-          areas when logged in.
+          We employ cookies during your logged-in sessions to save you the
+          hassle of logging in on every new page. For security purposes, these
+          cookies are usually cleared upon logout, ensuring access to restricted
+          features only when actively logged in.
         </p>
         <p className="font-semibold mt-3">Email newsletters related cookies</p>
         <p className="text-medium mt-3">
-          This site offers newsletter or email subscription services and cookies
-          may be used to remember if you are already registered and whether to
-          show certain notifications which might only be valid to
-          subscribed/unsubscribed users.
+          For users interested in our newsletter or email subscription services,
+          cookies might be employed to identify if you are already registered.
+          This assists in displaying relevant notifications tailored to your
+          subscription status.
         </p>
         <p className="font-semibold mt-3">Orders processing related cookies</p>
         <p className="text-medium mt-3">
-          This site offers e-commerce or payment facilities and some cookies are
-          essential to ensure that your order is remembered between pages so
-          that we can process it properly.
+          For seamless e-commerce and payment experiences, essential cookies are
+          used to remember your order details between pages. This ensures smooth
+          processing and tracking throughout your transaction.
         </p>
         <p className="font-semibold mt-3">Forms related cookies</p>
         <p className="text-medium mt-3">
-          When you submit data to through a form such as those found on contact
-          pages or comment forms cookies may be set to remember your user
-          details for future correspondence.
+          When submitting data through forms, such as those on contact pages or
+          comment forms, cookies may be set to recall your user details. This
+          enhances user convenience for future correspondence.
         </p>
-
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
           Third Party Cookies
         </p>
-
         <p className="text-medium mt-3">
-          In some special cases we also use cookies provided by trusted third
-          parties.
+          In certain unique instances, we employ cookies supplied by reputable
+          third-party sources.
         </p>
-
         <p className="text-medium mt-3">
-          Third party analytics are used to track and measure usage of this site
-          so that we can continue to produce engaging content. These cookies may
-          track things such as how long you spend on the site or pages you visit
-          which helps us to understand how we can improve the site for you.
+          External analytics tools are utilized to monitor and assess the
+          utilization of this platform, enabling us to consistently generate
+          compelling content. These cookies might record details such as the
+          duration of your site visit or the specific pages you navigate,
+          offering valuable insights to enhance the overall user experience.
         </p>
-
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">Contact</p>
-
         <p className="text-medium mt-3">
-          Hopefully that has clarified things for you and as was previously
-          mentioned if there is something that you aren't sure whether you need
-          or not it's usually safer to leave cookies enabled in case it does
-          interact with one of the features you use on our site. 
+          We hope the information provided has addressed your inquiries. If
+          there are any uncertainties about whether you require certain
+          features, we recommend keeping cookies enabled to ensure seamless
+          interaction with our site.
         </p>
-
         <p className="text-medium mt-3">
-        However if you are still looking for more information then you can contact us through one of our preferred contact methods:
+          For further assistance or additional information, please feel free to
+          reach out to us using the following contact details:
         </p>
-
         <p className="font-semibold mt-3">Email: legal257rgvf@gmail.com</p>
       </div>
     </>

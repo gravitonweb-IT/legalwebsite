@@ -95,26 +95,26 @@ const Section8CompanyRegistration = () => {
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
     myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
-    
+
     var raw = JSON.stringify({
-      "firstName": formData.firstName,
-      "email": formData.email,
-      "contactNo": formData.phone,
-      "city": formData.city,
-      "type": "Section And Company Registration"
+      firstName: formData.firstName,
+      email: formData.email,
+      contactNo: formData.phone,
+      city: formData.city,
+      type: "Section And Company Registration",
     });
-    
+
     var requestOptions = {
-      method: 'POST',
+      method: "POST",
       headers: myHeaders,
       body: raw,
-      redirect: 'follow'
+      redirect: "follow",
     };
-    
+
     fetch(servieUrl.url + "api/all-pages-api/", requestOptions)
-      .then(response => response.text())
-      .then(result => console.log(result))
-      .catch(error => console.log('error', error));
+      .then((response) => response.text())
+      .then((result) => console.log(result))
+      .catch((error) => console.log("error", error));
     // You can perform additional actions here, such as sending data to a server
 
     // Reset the form
@@ -142,13 +142,13 @@ const Section8CompanyRegistration = () => {
             Section 8 Company Registration
           </h1>
           <p className="text-lg font-medium mt-5 text-justify">
-            A Section 8 Company is a non-profit organisation that aims to
-            promote sports, education, research, social welfare, art, science,
-            and protection of the environment, etc. The concept of such
-            companies is introduced under section 8 of the Companies Act, 2013.
-            The restriction on these companies is that these companies are
-            permitted to use the profits only for the purpose for which the
-            company was promoted.
+            A Section 8 Company, governed by Section 8 of the Companies Act,
+            2013, operates as a non-profit organization dedicated to advancing
+            sports, education, research, social welfare, art, science, and
+            environmental protection. These entities are restricted in utilizing
+            profits solely for their specified objectives. This legal framework
+            ensures that the company's financial gains are exclusively directed
+            towards the intended purposes for which it was established.
           </p>
 
           <div className="border-2 rounded-2xl mt-5 lg:mt-8">
@@ -389,114 +389,115 @@ const Section8CompanyRegistration = () => {
       </div>
 
       <div className="overflow-x-auto ">
-      <div className="mx-0 md:mx-14">
-        <table className="min-w-full bg-white rounded-xl shadow-md mt-5 md:mt-10 ">
-          <thead>
-            <tr className="bg-gray-200 text-gray-700 text-left">
-              <th className="py-3 px-4 font-semibold">Aspect</th>
-              <th className="py-3 px-4 font-semibold">Proprietorship</th>
-              <th className="py-3 px-4 font-semibold">Partnership</th>
-              <th className="py-3 px-4 font-semibold">LLP</th>
-              <th className="py-3 px-4 font-semibold">Company</th>
-            </tr>
-          </thead>
-          <tbody className="text-gray-700">
-            <tr className="">
-              <td className="py-2 px-4 font-semibold">Definition</td>
-              <td className="py-2 px-4">
-                A business owned and operated by a single individual.
-              </td>
-              <td className="py-2 px-4">
-                A legal arrangement where two or more individuals or entities
-                share ownership and responsibilities of a business.
-              </td>
-              <td className="py-2 px-4">
-                A hybrid business structure combining elements of partnerships
-                and companies, offering limited liability to partners.
-              </td>
-              <td className="py-2 px-4">
-                A legal entity separate from its shareholders, with the board of
-                directors managing operations.
-              </td>
-            </tr>
-            <tr className="">
-              <td className="py-2 px-4 font-semibold">Ownership</td>
-              <td className="py-2 px-4">
-                Single individual owns and manages the business.
-              </td>
-              <td className="py-2 px-4">
-                Two or more individuals (partners) sharing ownership and
-                management responsibilities.
-              </td>
-              <td className="py-2 px-4">
-                Partners have limited liability, protecting personal assets from
-                business debts.
-              </td>
-              <td className="py-2 px-4">
-                Shareholders own the company; their liability is limited to
-                their investment.
-              </td>
-            </tr>
-            <tr>
-              <td className="py-2 px-4 font-semibold">Registration Time</td>
-              <td className="py-2 px-4">7-15 working days</td>
-              <td className="py-2 px-4">-</td>
-              <td className="py-2 px-4">-</td>
-              <td className="py-2 px-4">-</td>
-            </tr>
-            <tr>
-              <td className="py-2 px-4 font-semibold">Promotor Liability</td>
-              <td className="py-2 px-4">-</td>
-              <td className="py-2 px-4">Unlimited Liability</td>
-              <td className="py-2 px-4">Limited Liability</td>
-              <td className="py-2 px-4">-</td>
-            </tr>
-            <tr>
-              <td className="py-2 px-4 font-semibold">Governance</td>
-              <td className="py-2 px-4">Governed by Local Laws</td>
-              <td className="py-2 px-4">Under Partnership Act, 1932</td>
-              <td className="py-2 px-4">LLP Act, 2008</td>
-              <td className="py-2 px-4">Under Companies Act, 2013</td>
-            </tr>
-            <tr>
-              <td className="py-2 px-4 font-semibold">
-                Compliance Requirements
-              </td>
-              <td className="py-2 px-4">
-                Compliance with Income Tax Laws and other Local Laws
-              </td>
-              <td className="py-2 px-4">
-                Compliance with Income Tax Laws and other Local Laws
-              </td>
-              <td className="py-2 px-4">
-                Compliance with Income Tax Laws, Local Laws, Companies Act, and
-                others as applicable
-              </td>
-              <td className="py-2 px-4">
-                Compliance with Income Tax Laws, Local Laws, Companies Act, and
-                others as applicable
-              </td>
-            </tr>
-            <tr>
-              <td className="py-2 px-4 font-semibold">Taxation</td>
-              <td className="py-2 px-4">
-                Income taxed at individual's income tax rates.
-              </td>
-              <td className="py-2 px-4">
-                Income generally taxed at individual partners' income tax rates.
-              </td>
-              <td className="py-2 px-4">
-                Taxed as a partnership, partners individually taxed on their
-                share of profits.
-              </td>
-              <td className="py-2 px-4">
-                Subject to corporate tax rates, shareholders taxed on dividends
-                received.
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+        <div className="mx-0 md:mx-14">
+          <table className="min-w-full bg-white rounded-xl shadow-md mt-5 md:mt-10 ">
+            <thead>
+              <tr className="bg-gray-200 text-gray-700 text-left">
+                <th className="py-3 px-4 font-semibold">Aspect</th>
+                <th className="py-3 px-4 font-semibold">Proprietorship</th>
+                <th className="py-3 px-4 font-semibold">Partnership</th>
+                <th className="py-3 px-4 font-semibold">LLP</th>
+                <th className="py-3 px-4 font-semibold">Company</th>
+              </tr>
+            </thead>
+            <tbody className="text-gray-700">
+              <tr className="">
+                <td className="py-2 px-4 font-semibold">Definition</td>
+                <td className="py-2 px-4">
+                  A business owned and operated by a single individual.
+                </td>
+                <td className="py-2 px-4">
+                  A legal arrangement where two or more individuals or entities
+                  share ownership and responsibilities of a business.
+                </td>
+                <td className="py-2 px-4">
+                  A hybrid business structure combining elements of partnerships
+                  and companies, offering limited liability to partners.
+                </td>
+                <td className="py-2 px-4">
+                  A legal entity separate from its shareholders, with the board
+                  of directors managing operations.
+                </td>
+              </tr>
+              <tr className="">
+                <td className="py-2 px-4 font-semibold">Ownership</td>
+                <td className="py-2 px-4">
+                  Single individual owns and manages the business.
+                </td>
+                <td className="py-2 px-4">
+                  Two or more individuals (partners) sharing ownership and
+                  management responsibilities.
+                </td>
+                <td className="py-2 px-4">
+                  Partners have limited liability, protecting personal assets
+                  from business debts.
+                </td>
+                <td className="py-2 px-4">
+                  Shareholders own the company; their liability is limited to
+                  their investment.
+                </td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 font-semibold">Registration Time</td>
+                <td className="py-2 px-4">7-15 working days</td>
+                <td className="py-2 px-4">-</td>
+                <td className="py-2 px-4">-</td>
+                <td className="py-2 px-4">-</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 font-semibold">Promotor Liability</td>
+                <td className="py-2 px-4">-</td>
+                <td className="py-2 px-4">Unlimited Liability</td>
+                <td className="py-2 px-4">Limited Liability</td>
+                <td className="py-2 px-4">-</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 font-semibold">Governance</td>
+                <td className="py-2 px-4">Governed by Local Laws</td>
+                <td className="py-2 px-4">Under Partnership Act, 1932</td>
+                <td className="py-2 px-4">LLP Act, 2008</td>
+                <td className="py-2 px-4">Under Companies Act, 2013</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 font-semibold">
+                  Compliance Requirements
+                </td>
+                <td className="py-2 px-4">
+                  Compliance with Income Tax Laws and other Local Laws
+                </td>
+                <td className="py-2 px-4">
+                  Compliance with Income Tax Laws and other Local Laws
+                </td>
+                <td className="py-2 px-4">
+                  Compliance with Income Tax Laws, Local Laws, Companies Act,
+                  and others as applicable
+                </td>
+                <td className="py-2 px-4">
+                  Compliance with Income Tax Laws, Local Laws, Companies Act,
+                  and others as applicable
+                </td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 font-semibold">Taxation</td>
+                <td className="py-2 px-4">
+                  Income taxed at individual's income tax rates.
+                </td>
+                <td className="py-2 px-4">
+                  Income generally taxed at individual partners' income tax
+                  rates.
+                </td>
+                <td className="py-2 px-4">
+                  Taxed as a partnership, partners individually taxed on their
+                  share of profits.
+                </td>
+                <td className="py-2 px-4">
+                  Subject to corporate tax rates, shareholders taxed on
+                  dividends received.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
 
       {/* fourth section */}
@@ -538,7 +539,7 @@ const Section8CompanyRegistration = () => {
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-            Shareholders are not personally liable for the company's debts and
+            Shareholders enjoy limited liability, exempt from company debts and
             liabilities.
           </p>
         </div>
@@ -553,8 +554,8 @@ const Section8CompanyRegistration = () => {
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-            Official acknowledgment of legal existence, rights, and
-            responsibilities for entities.
+            Formal recognition ensures legal status, rights, and obligations for
+            entities.
           </p>
         </div>
 
@@ -568,7 +569,7 @@ const Section8CompanyRegistration = () => {
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-            The company continues to exist even if the shareholders change.
+            Company endures despite shifts in shareholder composition.
           </p>
         </div>
 
@@ -582,8 +583,8 @@ const Section8CompanyRegistration = () => {
           </h3>
 
           <p className="text-gray-600 mt-3 text-center">
-            Tax exemptions reduce taxable income, providing financial relief to
-            eligible entities.
+            Tax exemptions ease financial burden by reducing eligible entities'
+            taxable income.
           </p>
         </div>
 
@@ -752,7 +753,8 @@ const Section8CompanyRegistration = () => {
           <div className="col-span-2 flex items-center justify-center">
             <div className="bg-white border-4 border-[#01355D] rounded-full w-52 h-52 flex items-center justify-center p-8">
               <p className="text-center text-xs font-medium">
-              Our best experts are here to deal with document necessities & to fulfil your registration needs.
+                Our best experts are here to deal with document necessities & to
+                fulfil your registration needs.
               </p>
             </div>
           </div>
@@ -781,7 +783,8 @@ const Section8CompanyRegistration = () => {
           <div className="col-span-2 flex items-center justify-center">
             <div className="bg-white border-4 border-[#01355D] rounded-full w-52 h-52 flex items-center justify-center p-8">
               <p className="text-center text-xs font-medium">
-              After our team completes DSC, DIN, and formalities, patiently wait for ROC to issue your COI.
+                After our team completes DSC, DIN, and formalities, patiently
+                wait for ROC to issue your COI.
               </p>
             </div>
           </div>
@@ -795,7 +798,8 @@ const Section8CompanyRegistration = () => {
           <div className="col-span-2 flex items-center justify-center">
             <div className="bg-white border-4 border-[#01355D] rounded-full w-52 h-52 flex items-center justify-center p-8">
               <p className="text-center text-xs font-medium">
-              We'll share the COI and unique CIN from ROC, officially establishing the Section 8 Company Registration's existence.
+                We'll share the COI and unique CIN from ROC, officially
+                establishing the Section 8 Company Registration's existence.
               </p>
             </div>
           </div>

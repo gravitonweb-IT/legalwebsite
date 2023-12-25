@@ -86,26 +86,26 @@ const ParternerShip = () => {
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
     myHeaders.append("Cookie", "csrftoken=Z9nseXk0218jRsyMVwAhHRYLPsrUDGZf");
-    
+
     var raw = JSON.stringify({
-      "firstName": formData.firstName,
-      "email": formData.email,
-      "contactNo": formData.phone,
-      "city": formData.city,
-      "type": "PartnerShip"
+      firstName: formData.firstName,
+      email: formData.email,
+      contactNo: formData.phone,
+      city: formData.city,
+      type: "PartnerShip",
     });
-    
+
     var requestOptions = {
-      method: 'POST',
+      method: "POST",
       headers: myHeaders,
       body: raw,
-      redirect: 'follow'
+      redirect: "follow",
     };
-    
+
     fetch(servieUrl.url + "api/all-pages-api/", requestOptions)
-      .then(response => response.text())
-      .then(result => console.log(result))
-      .catch(error => console.log('error', error));
+      .then((response) => response.text())
+      .then((result) => console.log(result))
+      .catch((error) => console.log("error", error));
 
     // You can perform additional actions here, such as sending data to a server
 
@@ -133,10 +133,11 @@ const ParternerShip = () => {
             Partnership Deed
           </h1>
           <p className="text-md xl:text-lg font-medium mt-5 text-justify">
-            A Partnership Deed (PDR) is a written legal document containing an
-            agreement between the partners of a firm which summarises the terms
-            and conditions of their partnership under the “Indian Partnership
-            Act 1932”. Get help from the experts of Legal257 for making PDR.
+            A Partnership Deed (PDR) is a crucial legal document that outlines
+            the terms and conditions of a partnership under the "Indian
+            Partnership Act 1932." Legal257 experts specialize in crafting
+            precise and comprehensive PDRs, ensuring clarity and compliance for
+            your business collaboration.
           </p>
           <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             A Partnership Deed is a written legal document that outlines the
