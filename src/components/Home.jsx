@@ -46,6 +46,22 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./home.css";
 
+// hhtps iamges
+import client1 from "../assests/images/HomepageImages/clent1.png";
+import client2 from "../assests/images/HomepageImages/client2.png";
+import client3 from "../assests/images/HomepageImages/client3.png";
+import client4 from "../assests/images/HomepageImages/client4.png";
+import client5 from "../assests/images/HomepageImages/client5.png";
+import client6 from "../assests/images/HomepageImages/client6.png";
+import client7 from "../assests/images/HomepageImages/client7.png";
+import client8 from "../assests/images/HomepageImages/8 (1).jpg";
+import client9 from "../assests/images/HomepageImages/client9.png";
+import client10 from "../assests/images/HomepageImages/client10.jpeg";
+import client11 from "../assests/images/HomepageImages/11.png";
+import client12 from "../assests/images/HomepageImages/12.png";
+import client13 from "../assests/images/HomepageImages/13.png";
+import client15 from "../assests/images/HomepageImages/15.svg";
+
 // bank service
 
 import zero from "../assests/images/Bankservices/zero.png";
@@ -75,6 +91,7 @@ import QR from "../assests/images/Bankservices/QR CODE.png";
 import bhim from "../assests/images/Bankservices/bhim.png";
 import TRANSFER from "../assests/images/Bankservices/TRANSFER.png";
 import DROP from "../assests/images/Bankservices/DROP.png";
+import { servieUrl } from "../env/env";
 
 const Home = () => {
   const settings1 = {
@@ -139,10 +156,30 @@ const Home = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form Data:", formData);
+    // console.log("Form Data:", formData);
 
     // You can perform additional actions here, such as sending data to a server
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
 
+    var raw = JSON.stringify({
+      name: formData.name,
+      email: formData.email,
+      contact_no: formData.phone,
+      related_to: formData.select,
+    });
+
+    var requestOptions = {
+      method: "POST",
+      headers: myHeaders,
+      body: raw,
+      redirect: "follow",
+    };
+
+    fetch(servieUrl.url + "api/user-forms/", requestOptions)
+      .then((response) => response.text())
+      .then((result) => console.log(result))
+      .catch((error) => console.log("error", error));
     // Reset the form
     setFormData({
       name: "",
@@ -272,7 +309,7 @@ const Home = () => {
             <div className="absolute top-0 left-0 w-full flex  justify-center mt-28 ">
               <div className="bg-white shadow-lg rounded-2xl p-5">
                 <h1 className="font-semibold text-2xl flex justify-center text-[#01355D] ">
-                  Navigate Inquiries: Unlock Solutions Now
+                  Unlock Solutions Now
                 </h1>
                 <div className="mt-4 text-center text-xl font-semibold text-[#954535]">
                   <Typewriter
@@ -838,44 +875,28 @@ const Home = () => {
           <div class="hexagonrow1">
             <div class="hexagoncol">
               <div class="hexagon">
-                <img
-                  class="hexalogo"
-                  src="https://legal251.com/images/clients/1.png"
-                  loading="lazy"
-                />
+                <img class="hexalogo" src={client1} loading="lazy" />
                 <div class="hexTop"></div>
                 <div class="hexBottom"></div>
               </div>
             </div>
             <div class="hexagoncol">
               <div class="hexagon">
-                <img
-                  class="hexalogo"
-                  src="https://legal251.com/images/clients/2.png"
-                  loading="lazy"
-                />
+                <img class="hexalogo" src={client2} loading="lazy" />
                 <div class="hexTop"></div>
                 <div class="hexBottom"></div>
               </div>
             </div>
             <div class="hexagoncol">
               <div class="hexagon">
-                <img
-                  class="hexalogo"
-                  src="https://legal251.com/images/clients/3.png"
-                  loading="lazy"
-                />
+                <img class="hexalogo" src={client3} loading="lazy" />
                 <div class="hexTop"></div>
                 <div class="hexBottom"></div>
               </div>
             </div>
             <div class="hexagoncol">
               <div class="hexagon">
-                <img
-                  class="hexalogo"
-                  src="https://legal251.com/images/clients/4.png"
-                  loading="lazy"
-                />
+                <img class="hexalogo" src={client4} loading="lazy" />
                 <div class="hexTop"></div>
                 <div class="hexBottom"></div>
               </div>
@@ -885,55 +906,35 @@ const Home = () => {
           <div class="hexagonrow2">
             <div class="hexagoncol">
               <div class="hexagon">
-                <img
-                  class="hexalogo"
-                  src="https://legal251.com/images/clients/5.png"
-                  loading="lazy"
-                />
+                <img class="hexalogo" src={client5} loading="lazy" />
                 <div class="hexTop"></div>
                 <div class="hexBottom"></div>
               </div>
             </div>
             <div class="hexagoncol">
               <div class="hexagon">
-                <img
-                  class="hexalogo"
-                  src="https://legal251.com/images/clients/6.png"
-                  loading="lazy"
-                />
+                <img class="hexalogo" src={client6} loading="lazy" />
                 <div class="hexTop"></div>
                 <div class="hexBottom"></div>
               </div>
             </div>
             <div class="hexagoncol">
               <div class="hexagon">
-                <img
-                  class="hexalogo"
-                  src="https://legal251.com/images/clients/7.png"
-                  loading="lazy"
-                />
+                <img class="hexalogo" src={client7} loading="lazy" />
                 <div class="hexTop"></div>
                 <div class="hexBottom"></div>
               </div>
             </div>
             <div class="hexagoncol">
               <div class="hexagon">
-                <img
-                  class="hexalogo"
-                  src="https://legal251.com/images/clients/8.png"
-                  loading="lazy"
-                />
+                <img class="hexalogo" src={client8} loading="lazy" />
                 <div class="hexTop"></div>
                 <div class="hexBottom"></div>
               </div>
             </div>
             <div class="hexagoncol">
               <div class="hexagon">
-                <img
-                  class="hexalogo"
-                  src="https://legal251.com/images/clients/9.png"
-                  loading="lazy"
-                />
+                <img class="hexalogo" src={client9} loading="lazy" />
                 <div class="hexTop"></div>
                 <div class="hexBottom"></div>
               </div>
@@ -943,44 +944,28 @@ const Home = () => {
           <div class="hexagonrow3">
             <div class="hexagoncol">
               <div class="hexagon">
-                <img
-                  class="hexalogo"
-                  src="https://legal251.com/images/clients/10.png"
-                  loading="lazy"
-                />
+                <img class="hexalogo" src={client10} loading="lazy" />
                 <div class="hexTop"></div>
                 <div class="hexBottom"></div>
               </div>
             </div>
             <div class="hexagoncol">
               <div class="hexagon">
-                <img
-                  class="hexalogo"
-                  src="https://legal251.com/images/clients/11.png"
-                  loading="lazy"
-                />
+                <img class="hexalogo" src={client11} loading="lazy" />
                 <div class="hexTop"></div>
                 <div class="hexBottom"></div>
               </div>
             </div>
             <div class="xagoncol">
               <div class="hexagon">
-                <img
-                  class="hexalogo"
-                  src="https://legal251.com/images/clients/12.png"
-                  loading="lazy"
-                />
+                <img class="hexalogo" src={client12} loading="lazy" />
                 <div class="hexTop"></div>
                 <div class="hexBottom"></div>
               </div>
             </div>
             <div class="hexagoncol">
               <div class="hexagon">
-                <img
-                  class="hexalogo"
-                  src="https://legal251.com/images/clients/13.png"
-                  loading="lazy"
-                />
+                <img class="hexalogo" src={client13} loading="lazy" />
                 <div class="hexTop"></div>
                 <div class="hexBottom"></div>
               </div>
@@ -1322,10 +1307,7 @@ const Home = () => {
             </div>
 
             <div className="">
-              <img
-                src="https://legal251.com/images/bookdemo/Group_9801.svg"
-                className="w-[50%] h-auto"
-              />
+              <img src={client15} className="w-[50%] h-auto" />
             </div>
           </div>
 

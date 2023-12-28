@@ -255,9 +255,7 @@ const ParternerShip = () => {
               className="w-10 h-10 text-yellow-500"
             />
           </div>
-          <h1 className="mt-3 text-center">
-            Power to Sue Firm/ Partner/Third Party
-          </h1>
+          <h1 className="mt-3 text-center">Legal Action Options Overview</h1>
         </div>
 
         <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
@@ -267,7 +265,7 @@ const ParternerShip = () => {
               className="w-10 h-10 text-yellow-500"
             />
           </div>
-          <h1 className="mt-3 text-center">Claim Set-Off</h1>
+          <h1 className="mt-3 text-center">Offsetting Debts Title</h1>
         </div>
 
         <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
@@ -277,7 +275,7 @@ const ParternerShip = () => {
               className="w-10 h-10 text-yellow-500"
             />
           </div>
-          <h1 className="mt-3 text-center">Conversion of Entity</h1>
+          <h1 className="mt-3 text-center">Entity Header Transformation</h1>
         </div>
 
         <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
@@ -287,7 +285,7 @@ const ParternerShip = () => {
               className="w-10 h-10 text-yellow-500"
             />
           </div>
-          <h1 className="mt-3 text-center">Higher Credibility</h1>
+          <h1 className="mt-3 text-center">Elevated Trustworthiness</h1>
         </div>
 
         <div className="bg-white shadow-2xl  p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
@@ -317,7 +315,9 @@ const ParternerShip = () => {
               className="w-10 h-10 text-yellow-500"
             />
           </div>
-          <h1 className="mt-3 text-center">Open Bank Account in Firm's Name</h1>
+          <h1 className="mt-3 text-center">
+            Establish Corporate Banking Relationship
+          </h1>
         </div>
 
         <div className="bg-white shadow-lg p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
@@ -328,7 +328,7 @@ const ParternerShip = () => {
             />
           </div>
           <h1 className="mt-3 text-center">
-            Get GST/IEC Registration/ FSSAI Licence
+            Secure Your Business with Essential Registrations
           </h1>
         </div>
 
@@ -339,7 +339,7 @@ const ParternerShip = () => {
               className="w-10 h-10 text-yellow-500"
             />
           </div>
-          <h1 className="mt-3 text-center">Sharing Profits & Losses</h1>
+          <h1 className="mt-3 text-center">Sharing Profit & Loss</h1>
         </div>
 
         <div className="bg-white shadow-2xl p-5 rounded-[12px] cursor-pointer hover:border-[#F89327] border-2 border-transparent transition duration-300">
@@ -381,9 +381,9 @@ const ParternerShip = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 mx-5 md:mx-20 lg:mx-24 xl:mx-28 mt-5 md:mt-14">
           <div className="col-span-2 bg-white border-4 border-[#01355D] rounded-full w-52 h-52 flex items-center justify-center p-8">
             <p className="text-center text-xs font-medium">
-              Our legal experts will review all the documents you submit to
-              lessen the chances of incorrect or misleading information to make
-              the process smooth.
+              Our team of legal professionals will carefully examine your
+              submitted documents, ensuring accuracy and clarity to facilitate a
+              seamless and error-free process.
             </p>
           </div>
 
@@ -394,8 +394,8 @@ const ParternerShip = () => {
 
           <div className="col-span-2 bg-white border-4 border-[#01355D] rounded-full  w-52 h-52 flex items-center justify-center p-8">
             <p className="text-center text-xs font-medium">
-              Our best Partnership Deed experts are here to help you with
-              document requirements and registration necessities.
+              Our adept Partnership Deed specialists are ready to assist you
+              with document requirements and registration essentials.
             </p>
           </div>
 
@@ -406,8 +406,9 @@ const ParternerShip = () => {
 
           <div className="col-span-2 bg-white border-4 border-[#01355D] rounded-full  w-52 h-52 flex items-center justify-center p-8">
             <p className="text-center text-xs font-medium ">
-              The respective professional will move further with your documents
-              to apply for your Partnership Deed Registration.
+              The designated professional will proceed to initiate the
+              Partnership Deed Registration process with your provided
+              documents.
             </p>
           </div>
         </div>
@@ -430,8 +431,8 @@ const ParternerShip = () => {
           <div class="col-span-3"> </div>
           <div className="col-span-2 bg-white border-4 border-[#01355D] rounded-full  w-52 h-52 flex items-center justify-center p-8">
             <p className="text-center text-xs font-medium">
-              After acceptance of your application by the Registrar of Firms,
-              your Partnership Deed certificate will be generated.
+              Upon approval by the Registrar of Firms, your Partnership Deed
+              certificate will be promptly issued.
             </p>
           </div>
           <div class="flex  justify-center items-center col-span-3">
@@ -440,8 +441,8 @@ const ParternerShip = () => {
           </div>
           <div className="col-span-2 bg-white border-4 border-[#01355D] rounded-full  w-52 h-52 flex items-center justify-center p-8">
             <p className="text-center text-xs font-medium">
-              You are supposed to wait until our expert reaches out to notify
-              you of the generation of your Partnership Deed Certificate.
+              Kindly await notification from our expert regarding the issuance
+              of your Partnership Deed Certificate.
             </p>
           </div>
         </div>
@@ -454,9 +455,9 @@ const ParternerShip = () => {
           <div className="col-span-2 flex items-center justify-center">
             <div className="bg-white border-4 border-[#01355D] rounded-full w-52 h-52 flex items-center justify-center p-8">
               <p className="text-center text-xs font-medium">
-                Our legal experts will review all the documents you submit to
-                lessen the chances of incorrect or misleading information to
-                make the process smooth.
+                Our team of legal professionals will carefully examine your
+                submitted documents, ensuring accuracy and clarity to facilitate
+                a seamless and error-free process.
               </p>
             </div>
           </div>
@@ -470,8 +471,8 @@ const ParternerShip = () => {
           <div className="col-span-2 flex items-center justify-center">
             <div className="bg-white border-4 border-[#01355D] rounded-full w-52 h-52 flex items-center justify-center p-8">
               <p className="text-center text-xs font-medium">
-                Our best Partnership Deed experts are here to help you with
-                document requirements and registration necessities.
+                Our adept Partnership Deed specialists are ready to assist you
+                with document requirements and registration essentials.
               </p>
             </div>
           </div>
@@ -485,8 +486,9 @@ const ParternerShip = () => {
           <div className="col-span-2 flex items-center justify-center">
             <div className="bg-white border-4 border-[#01355D] rounded-full w-52 h-52 flex items-center justify-center p-8">
               <p className="text-center text-xs font-medium">
-                The respective professional will move further with your
-                documents to apply for your Partnership Deed Registration.
+                The designated professional will proceed to initiate the
+                Partnership Deed Registration process with your provided
+                documents.
               </p>
             </div>
           </div>
@@ -500,8 +502,8 @@ const ParternerShip = () => {
           <div className="col-span-2 flex items-center justify-center">
             <div className="bg-white border-4 border-[#01355D] rounded-full w-52 h-52 flex items-center justify-center p-8">
               <p className="text-center text-xs font-medium">
-                After acceptance of your application by the Registrar of Firms,
-                your Partnership Deed certificate will be generated.
+                Upon approval by the Registrar of Firms, your Partnership Deed
+                certificate will be promptly issued.
               </p>
             </div>
           </div>
@@ -515,8 +517,8 @@ const ParternerShip = () => {
           <div className="col-span-2 flex items-center justify-center">
             <div className="bg-white border-4 border-[#01355D] rounded-full w-52 h-52 flex items-center justify-center p-8">
               <p className="text-center text-xs font-medium">
-                You are supposed to wait until our expert reaches out to notify
-                you of the generation of your Partnership Deed Certificate.
+                Kindly await notification from our expert regarding the issuance
+                of your Partnership Deed Certificate.
               </p>
             </div>
           </div>
