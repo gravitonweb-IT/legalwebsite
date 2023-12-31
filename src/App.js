@@ -78,6 +78,7 @@ import Cookiepolicy from "./components/Cookiepolicy";
 import BankServices from "./components/BankServices";
 import Login from "./components/Login";
 import UserDashboard from "./components/UserDashboard";
+import Check from "./components/StartBusiness/Check";
 
 
 
@@ -87,6 +88,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
+      <Route path="/check" element={<Check/>}/>
         <Route path="/" element={<Home />} />
         {/* Start Business */}
         <Route

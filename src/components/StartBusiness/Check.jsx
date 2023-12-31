@@ -38,7 +38,7 @@ const Check = () => {
             },
             body: JSON.stringify({
               ...formData,
-              type: 'PartnerShip',
+              type: "Check Registration",
             }),
           }
         );
@@ -46,17 +46,17 @@ const Check = () => {
         if (response.ok) {
           console.log('Data submitted successfully');
           setPdf(true);
-          // You can add further actions or redirect the user after successful submission.
+         
         } else {
           console.error('Error submitting data:', response.statusText);
-          // Handle error, show user a message, etc.
+        
         }
       } catch (error) {
         console.error('Error submitting data:', error.message);
-        // Handle error, show user a message, etc.
+      
       }
   
-      // Reset the form
+    
       setFormData({
         firstName: '',
         email: '',
@@ -173,11 +173,11 @@ const Check = () => {
       let timeoutId;
   
       if (showPaymentSuccess) {
-        // Set a timer to navigate after 3 seconds (adjust as needed)
+       
         timeoutId = setTimeout(() => {
           setShowPaymentSuccess(false);
           navigate('/');
-        }, 1000);
+        }, 2000);
       }
   
       return () => clearTimeout(timeoutId);
@@ -188,6 +188,7 @@ const Check = () => {
   return (
     <>
        <>
+     
       {qrcode ? (
          <div className="container mx-auto mt-10 rounded-sm">
           <img src={qr} alt="" className="mb-5 border border-sky-600" />
@@ -423,7 +424,9 @@ const Check = () => {
         </div>
     </div>
       )}
+       
     </>
+   
     {showPaymentSuccess && (
         <div className="fixed inset-0 flex items-center justify-center">
           <div className="bg-white p-8 rounded shadow-lg">
@@ -438,6 +441,7 @@ const Check = () => {
           </div>
         </div>
       )}
+      
     </>
   )
 }
