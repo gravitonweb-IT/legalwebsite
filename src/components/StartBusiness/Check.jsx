@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import qr from '../../assests/images/Qr/qrPayment.jpeg'
 
-const Check = () => {
+const Check = (props) => {
+    const {formType} =props;
     const [data, setData] = useState(true);
     const [pdf, setPdf] = useState(false);
     const [qrcode, setQrcode] = useState(false);
@@ -38,7 +39,7 @@ const Check = () => {
             },
             body: JSON.stringify({
               ...formData,
-              type: "Check Registration",
+              type: formType,
             }),
           }
         );

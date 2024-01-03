@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import { servieUrl } from "../../env/env";
+import Check from "../StartBusiness/Check";
 
 
 
@@ -268,7 +269,7 @@ const TDSReturnFiling = () => {
               ) : (
                 <div className="mt-4">
                   {/* This is where your form or content will be displayed */}
-                  <form onSubmit={handleSubmitStarter}>
+                  {/* <form onSubmit={handleSubmitStarter}>
                     <p>
                       <input
                         type="text"
@@ -325,7 +326,8 @@ const TDSReturnFiling = () => {
                         SUBMIT
                       </button>
                     </div>
-                  </form>
+                  </form> */}
+                  <Check formType={"TDS Return Fling(Starter)"}/>
                 </div>
               )}
             </div>
@@ -379,7 +381,7 @@ const TDSReturnFiling = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  <form onSubmit={handleSubmitBasic}>
+                  {/* <form onSubmit={handleSubmitBasic}>
                     <p>
                       <input
                         type="text"
@@ -436,7 +438,8 @@ const TDSReturnFiling = () => {
                         SUBMIT
                       </button>
                     </div>
-                  </form>
+                  </form> */}
+                  <Check formType={"TDS Return Filing(BAsic)"}/>
                 </div>
               )}
             </div>

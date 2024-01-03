@@ -32,6 +32,7 @@ import {
 import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
 import { faSquarespace } from "@fortawesome/free-brands-svg-icons";
 import { servieUrl } from "../../env/env";
+import Check from "../StartBusiness/Check";
 
 const faqs = [
   {
@@ -227,7 +228,7 @@ const AnnualComplianceLlp = () => {
             </div>
           </div>
 
-          <form onSubmit={handleSubmit}>
+       {/*      <form onSubmit={handleSubmit}>
             <label>Name</label>
             <p className="mt-2 mb-2">
               <input
@@ -282,9 +283,10 @@ const AnnualComplianceLlp = () => {
                 GET STARTED
               </button>
             </div>
-          </form>
+          </form>  */}
+          <Check formType="Annual Compliance LLP" />
         </div>
-      </div>
+      </div>  
 
       {/* second-section */}
 

@@ -10,6 +10,7 @@ import {
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import document from "../../assests/images/filing and more/doucment.svg";
 import { servieUrl } from "../../env/env";
+import Check from "../StartBusiness/Check";
 
 
 
@@ -258,7 +259,7 @@ const OnlineAccounting = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  <form onSubmit={handleSubmitBasic}>
+                  {/* <form onSubmit={handleSubmitBasic}>
                     <p>
                       <input
                         type="text"
@@ -315,7 +316,8 @@ const OnlineAccounting = () => {
                         SUBMIT
                       </button>
                     </div>
-                  </form>
+                  </form> */}
+                  <Check formType={"Online Accounting(Basic) "}/>
                 </div>
               )}
             </div>
@@ -367,7 +369,7 @@ const OnlineAccounting = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  <form onSubmit={handleSubmitPro}>
+                  {/* <form onSubmit={handleSubmitPro}>
                     <p>
                       <input
                         type="text"
@@ -424,7 +426,8 @@ const OnlineAccounting = () => {
                         SUBMIT
                       </button>
                     </div>
-                  </form>
+                  </form> */}
+                  <Check formType={"Online Accounting(Pro)"}/>
                 </div>
               )}
             </div>

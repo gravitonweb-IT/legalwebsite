@@ -14,6 +14,7 @@ import {
 import gstimage from "../../assests/images/filing and more/gstreturnimg.png";
 import patnership2 from "../../assests/images/Start BusinessImages/PatnerShipimages/patnershipregimg.png";
 import { servieUrl } from "../../env/env";
+import Check from "../StartBusiness/Check";
 
 const faqs = [
   {
@@ -340,7 +341,7 @@ const GstReturnFiling = () => {
               ) : (
                 <div className="mt-4">
                   {/* This is where your form or content will be displayed */}
-                  <form onSubmit={handleSubmitStarter}>
+                  {/* <form onSubmit={handleSubmitStarter}>
                     <p>
                       <input
                         type="text"
@@ -397,7 +398,8 @@ const GstReturnFiling = () => {
                         SUBMIT
                       </button>
                     </div>
-                  </form>
+                  </form> */}
+                  <Check formType={"Gst Return Filing (Starter)"}/>
                 </div>
               )}
             </div>
@@ -451,7 +453,7 @@ const GstReturnFiling = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  <form onSubmit={handleSubmitBasic}>
+                  {/* <form onSubmit={handleSubmitBasic}>
                     <p>
                       <input
                         type="text"
@@ -508,7 +510,8 @@ const GstReturnFiling = () => {
                         SUBMIT
                       </button>
                     </div>
-                  </form>
+                  </form> */}
+                  <Check formType={"Gst Return Filing (Basic)"}/>
                 </div>
               )}
             </div>
@@ -560,7 +563,7 @@ const GstReturnFiling = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  <form onSubmit={handleSubmitPro}>
+                  {/* <form onSubmit={handleSubmitPro}>
                     <p>
                       <input
                         type="text"
@@ -617,7 +620,8 @@ const GstReturnFiling = () => {
                         SUBMIT
                       </button>
                     </div>
-                  </form>
+                  </form> */}
+                  <Check formType={"Gst Return Filing(Pro) "}/>
                 </div>
               )}
             </div>
@@ -673,7 +677,7 @@ const GstReturnFiling = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  <form onSubmit={handleSubmitPremium}>
+                  {/* <form onSubmit={handleSubmitPremium}>
                     <p>
                       <input
                         type="text"
@@ -730,7 +734,8 @@ const GstReturnFiling = () => {
                         SUBMIT
                       </button>
                     </div>
-                  </form>
+                  </form> */}
+                  <Check formType={"Gst Return  Filing(Preminm"}/>
                 </div>
               )}
             </div>

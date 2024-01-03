@@ -14,6 +14,7 @@ import {
   faHandshake,
   faPenToSquare,
 } from "@fortawesome/free-regular-svg-icons";
+import Check from '../StartBusiness/Check';
 
 
 const faqs = [
@@ -142,7 +143,7 @@ const ImportExportLicense = () => {
 
         <div className="grid grid:cols-1 sm:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
           <div className="">
-            <form onSubmit={handleSubmit}>
+            {/* <form onSubmit={handleSubmit}>
               <p>
                 <input
                   type="text"
@@ -199,7 +200,8 @@ const ImportExportLicense = () => {
                   GET CONSULTANCY
                 </button>
               </div>
-            </form>
+            </form> */}
+            <Check formType={"Import Export License"}/>
           </div>
 
           <div className="">

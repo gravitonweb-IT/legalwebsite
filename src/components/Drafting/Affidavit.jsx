@@ -21,6 +21,7 @@ import whyChoose4 from "../../assests/images/Start BusinessImages/PatnerShipimag
 import whyChoose5 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose5.svg";
 import whyChoose6 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose6.svg";
 import { servieUrl } from "../../env/env";
+import Check from "../StartBusiness/Check";
 
 const faqs = [
   {
@@ -148,7 +149,7 @@ export const Affidavit = () => {
 
         <div className="grid grid:cols-1 sm:grid-cols-2 gap-5 border-4 mt-8 border-[#01355D] rounded-2xl p-5">
           <div className="">
-            <form onSubmit={handleSubmit}>
+            {/* <form onSubmit={handleSubmit}>
               <p>
                 <input
                   type="text"
@@ -205,7 +206,8 @@ export const Affidavit = () => {
                   GET CONSULTANCY
                 </button>
               </div>
-            </form>
+            </form> */}
+            <Check formType={"Affidavit"}/>
           </div>
 
           <div className="">

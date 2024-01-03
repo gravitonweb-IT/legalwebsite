@@ -21,6 +21,7 @@ import whyChoose4 from "../../assests/images/Start BusinessImages/PatnerShipimag
 import whyChoose5 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose5.svg";
 import whyChoose6 from "../../assests/images/Start BusinessImages/PatnerShipimages/why-choose6.svg";
 import { servieUrl } from "../../env/env";
+import Check from "../StartBusiness/Check";
 
 const faqs = [
   {
@@ -242,7 +243,7 @@ const LegalNoticeReply = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  <form onSubmit={handleSubmitBasic}>
+                  {/* <form onSubmit={handleSubmitBasic}>
                     <p>
                       <input
                         type="text"
@@ -299,7 +300,8 @@ const LegalNoticeReply = () => {
                         SUBMIT
                       </button>
                     </div>
-                  </form>
+                  </form> */}
+                  <Check formType={"Legal Notice Reply (Basic)"}/>
                 </div>
               )}
             </div>
@@ -331,7 +333,7 @@ const LegalNoticeReply = () => {
                 </div>
               ) : (
                 <div className="mt-4">
-                  <form onSubmit={handleSubmitPro}>
+                  {/* <form onSubmit={handleSubmitPro}>
                     <p>
                       <input
                         type="text"
@@ -388,7 +390,8 @@ const LegalNoticeReply = () => {
                         SUBMIT
                       </button>
                     </div>
-                  </form>
+                  </form> */}
+                  <Check formType={"Legal Notice Reply"}/>
                 </div>
               )}
             </div>
