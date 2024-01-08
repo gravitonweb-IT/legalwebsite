@@ -42,7 +42,7 @@ const faqs = [
     id: 3,
     question: "Q3. Who can send and draft a Legal Reply?",
     answer:
-      "A Legal Notice contains lawful credentials. Thus it is essential to draft the Legal Policies to draft properly. You can take help from an experienced advocate or legal personnel from Legal251.",
+      "A Legal Notice contains lawful credentials. Thus it is essential to draft the Legal Policies to draft properly. You can take help from an experienced advocate or legal personnel from legal257.",
   },
   {
     id: 4,

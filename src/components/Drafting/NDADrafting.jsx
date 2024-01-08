@@ -416,7 +416,7 @@ const NDADrafting = () => {
           <div className="col-span-2 bg-white border-4 border-[#01355D] rounded-full  w-52 h-52 flex items-center justify-center p-8">
             <p className="text-center text-xs font-medium">
               Our lawyers will prepare your NDA Agreement as soon as possible,
-              and you can download it online from Legal251's website or app.
+              and you can download it online from legal257's website or app.
             </p>
           </div>
           <div class="flex  justify-center items-center col-span-3">
@@ -486,7 +486,7 @@ const NDADrafting = () => {
             <div className="bg-white border-4 border-[#01355D] rounded-full w-52 h-52 flex items-center justify-center p-8">
               <p className="text-center text-xs font-medium">
                 Our lawyers will prepare your NDA Agreement as soon as possible,
-                and you can download it online from Legal251's website or app.
+                and you can download it online from legal257's website or app.
               </p>
             </div>
           </div>

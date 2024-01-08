@@ -1,8 +1,8 @@
 // App.js
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./components/Home";
 
 import Navbar from "./common/Navbar";
@@ -79,16 +79,70 @@ import BankServices from "./components/BankServices";
 import Login from "./components/Login";
 import UserDashboard from "./components/UserDashboard";
 import Check from "./components/StartBusiness/Check";
-
-
-
+import AddServices from "./components/User/AddServices";
+import Document from "./components/User/Document";
+import MyServices from "./components/User/MyServices";
+import Overview from "./components/User/Overview";
+import Support from "./components/User/Support";
+import Profile from "./components/User/Profile";
+import AdminDashboard from "./components/admin/AdminDashboard";
+import RegisterForm from "./components/User/Registration";
+import AgentDashboard from "./components/agent/AgentDashboard";
+import Forget from "./components/Forget";
+import PasswordReset from "./components/PasswordReset";
+import MobileApp from "./components/MobileApp";
+import AllServices from "./components/User/AllServices";
 
 function App() {
+
+  // const [showHeader, setShowHeader] = useState(true);
+  const location = useLocation();
+  const [showHeaderFooter, setShowHeaderFooter] = useState(true);
+ 
+  const hiddenPaths = [
+    '/userDashboard',
+    '/addservices',
+    '/myservices',
+    '/document',
+    '/overview',
+    '/adminDashboard',
+    '/profile',
+    '/staff',
+    '/support',
+    '/allservies',
+    
+   
+  ];
+
+  useEffect(() => {
+    // Check if the current path is in the list of hidden paths
+    if (hiddenPaths.includes(location.pathname)) {
+      setShowHeaderFooter(false);
+    } else {
+      setShowHeaderFooter(true);
+    }
+  }, [location]);
+
+  const isAndroidWebView = () => {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    return /wv/.test(userAgent);
+};
+
   return (
     <>
-      <Navbar />
+
+
+     
+      {showHeaderFooter && (
+          <>
+              <Navbar />
+          </>
+            )}
+     
+    
+    
       <Routes>
-      <Route path="/check" element={<Check/>}/>
+        <Route path="/check" element={<Check />} />
         <Route path="/" element={<Home />} />
         {/* Start Business */}
         <Route
@@ -143,7 +197,6 @@ function App() {
         />
 
         {/* Compliance */}
-        
 
         <Route
           path="/AnnualComplianceCompancy"
@@ -176,63 +229,116 @@ function App() {
         <Route path="/TradeLicense" element={<TradeLicense />} />
 
         {/* Filing & more */}
-        <Route path="/GstReturnFiling" element={<GstReturnFiling/>} /> 
-        <Route path="/ITSfiling" element={<ITSfiling/>} />
-        <Route path="/TDSReturnFiling" element={<TDSReturnFiling/>} />
-        <Route path="/OnlineAccounting" element={<OnlineAccounting/>} />
+        <Route path="/GstReturnFiling" element={<GstReturnFiling />} />
+        <Route path="/ITSfiling" element={<ITSfiling />} />
+        <Route path="/TDSReturnFiling" element={<TDSReturnFiling />} />
+        <Route path="/OnlineAccounting" element={<OnlineAccounting />} />
 
         {/* Drafting */}
-        <Route path="/LegalDrafting" element={<LegalDrafting/>} />
-        <Route path="/RentAgreement" element={<RentAgreement/>} />
-        <Route path="/NOC" element={<NOC/>} />
-        <Route path="/Affidavit" element={<Affidavit/>} />
-        <Route path="/PowerOfAttorney" element={<PowerOfAttorney/>} />
-        <Route path="/Will" element={<Will/>} />
-        <Route path="/ApplicationForm" element={<ApplicationForm/>} />
-        <Route path="/NDADrafting" element={<NDADrafting/>} />
-        <Route path="/PrivacyPolicyDrafting" element={<PrivacyPolicyDrafting/>} />
-        <Route path="/TermAndCondition" element={<TermAndCondition/>} />
+        <Route path="/LegalDrafting" element={<LegalDrafting />} />
+        <Route path="/RentAgreement" element={<RentAgreement />} />
+        <Route path="/NOC" element={<NOC />} />
+        <Route path="/Affidavit" element={<Affidavit />} />
+        <Route path="/PowerOfAttorney" element={<PowerOfAttorney />} />
+        <Route path="/Will" element={<Will />} />
+        <Route path="/ApplicationForm" element={<ApplicationForm />} />
+        <Route path="/NDADrafting" element={<NDADrafting />} />
+        <Route
+          path="/PrivacyPolicyDrafting"
+          element={<PrivacyPolicyDrafting />}
+        />
+        <Route path="/TermAndCondition" element={<TermAndCondition />} />
 
         {/* Legal Issue */}
-        <Route path="/LegalAdvice" element={<LegalAdvice/>} />
-        <Route path="/LegalNoticePreparation" element={<LegalNoticePreparation/>} />
-        <Route path="/LegalNoticeReply" element={<LegalNoticeReply/>} />
+        <Route path="/LegalAdvice" element={<LegalAdvice />} />
+        <Route
+          path="/LegalNoticePreparation"
+          element={<LegalNoticePreparation />}
+        />
+        <Route path="/LegalNoticeReply" element={<LegalNoticeReply />} />
 
         {/* OtherServices */}
-        <Route path="/BalanceSheetPraparationAndP" element={<BalanceSheetPraparationAndP/>} />
-        <Route path="/ProjectReportPreparation" element={<ProjectReportPreparation/>} />
+        <Route
+          path="/BalanceSheetPraparationAndP"
+          element={<BalanceSheetPraparationAndP />}
+        />
+        <Route
+          path="/ProjectReportPreparation"
+          element={<ProjectReportPreparation />}
+        />
 
         {/* utilities */}
 
-         <Route path="/GSTCalculator" element={<GSTCalculator/>} />
-         <Route path="/SIPCalculator" element={<SIPCalculator/>} />
-         <Route path="/EMICalculator" element={<EMICalculator/>} />
-         <Route path="/FDCalculator" element={<FDCalculator/>} />
-         <Route path="/UCalculator" element={<UCalculator/>} />
-         <Route path="/HRACalculator" element={<HRACalculator/>} />
-         <Route path="/SimpleInterestCalculator" element={<SimpleInterestCalculator/>} />
-         <Route path="/CapitalGainCalculator" element={<CapitalGainCalculator/>} />
-         <Route path="/TDSCalculator" element={<TDSCalculator/>} />
-         <Route path="/PPfCalculator" element={<PPfCalculator/>} />
-         <Route path="/GratuityCalculator" element={<GratuityCalculator/>} />
-         <Route path="/RDCalculator" element={<RDCalculator/>} />
-         <Route path="/RDCalculator" element={<RDCalculator/>} />
+        <Route path="/GSTCalculator" element={<GSTCalculator />} />
+        <Route path="/SIPCalculator" element={<SIPCalculator />} />
+        <Route path="/EMICalculator" element={<EMICalculator />} />
+        <Route path="/FDCalculator" element={<FDCalculator />} />
+        <Route path="/UCalculator" element={<UCalculator />} />
+        <Route path="/HRACalculator" element={<HRACalculator />} />
+        <Route
+          path="/SimpleInterestCalculator"
+          element={<SimpleInterestCalculator />}
+        />
+        <Route
+          path="/CapitalGainCalculator"
+          element={<CapitalGainCalculator />}
+        />
+        <Route path="/TDSCalculator" element={<TDSCalculator />} />
+        <Route path="/PPfCalculator" element={<PPfCalculator />} />
+        <Route path="/GratuityCalculator" element={<GratuityCalculator />} />
+        <Route path="/RDCalculator" element={<RDCalculator />} />
+        <Route path="/RDCalculator" element={<RDCalculator />} />
 
-         {/* Policy */}
-         <Route path="/Termsconditions" element={<Termsconditions/>} />
-         <Route path="/Privacypolicy" element={<Privacypolicy/>} />
-         <Route path="/Cookiepolicy" element={<Cookiepolicy/>} />
-         <Route path="/Refundpolicy" element={<Refundpolicy/>} />
-         <Route path="BankServices" element={<BankServices />} />
-         
-        
-    {/* panel Urls */}
-    <Route path="/login" element={<Login />} />
-    <Route path="/userDashboard" element={<UserDashboard/>}/>
+        {/* Policy */}
+        <Route path="/Termsconditions" element={<Termsconditions />} />
+        <Route path="/Privacypolicy" element={<Privacypolicy />} />
+        <Route path="/Cookiepolicy" element={<Cookiepolicy />} />
+        <Route path="/Refundpolicy" element={<Refundpolicy />} />
+        <Route path="BankServices" element={<BankServices />} />
 
+        {/* panel Urls */}
+        <Route path="/login" element={<Login />} />
+        <Route path="/userDashboard" element={<UserDashboard />} />
+       
+        {/* UserDashboard */}
+        <Route path="/addservices" element={<AddServices />} />
+        <Route path="/document" element={<Document />} />
+        <Route path="/myservices" element={<MyServices />} />
+        <Route path="/overview" element={<Overview />} />
+        <Route path="/support" element={<Support />} />
+        <Route path="/profile" element={<Profile />} />
+
+        {/* admindashboard */}
+
+        <Route path="/adminDashboard" element={<AdminDashboard />} />
+        <Route path="/register" element={<RegisterForm />} />
+
+        <Route path="/staff" element={<AgentDashboard />} />
+        <Route path="/forget" element={<Forget />} />
+        <Route
+          path="/reset/api/password-reset/:id/:token"
+          element={<PasswordReset />}
+        />
+        <Route path="/allservies" element={<AllServices/>}/>
       </Routes>
 
+
+      
+
+{showHeaderFooter && (
+        // Footer and other components you want to hide/show
+        <div>
+        
+        {!isAndroidWebView() &&
+          <>
+            <MobileApp/>
       <Footer />
+          </>
+          }
+        
+        {/* <Scrollup /> */}
+        </div>
+      )}
     </>
   );
 }

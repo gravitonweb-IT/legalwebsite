@@ -1944,6 +1944,14 @@ const Navbar = () => {
               BankServices
             </Link>
           </li>
+          <li>
+            <Link
+              to="/login"
+              className="hover:text-blue-500 text-sm xl:text-md font-semibold"
+            >
+              Login/Registration
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

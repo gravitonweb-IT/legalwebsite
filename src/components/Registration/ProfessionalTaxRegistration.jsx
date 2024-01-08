@@ -124,7 +124,7 @@ const ProfessionalTaxRegistration = () => {
           </h1>
           <p className="text-md xl:text-lg font-medium mt-5 text-justify">
             Professional Tax, imposed by states, is levied on employee income
-            for their services. Legal251 offers expert assistance for
+            for their services. legal257 offers expert assistance for
             hassle-free online Professional Tax Registration. Ensure compliance
             and ease in managing tax obligations for your workforce through
             reliable and efficient guidance.Legal257 provides expert assistance

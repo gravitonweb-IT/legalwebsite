@@ -7,7 +7,7 @@ const Termsconditions = () => {
         Terms and Conditions
       </h1>
       <p className=" text-xl md:text-2xl text-[#262566] mt-4 mx-10 md:mx-16 lg:mx-20 ">
-        Greetings from Legal257.com!
+        Greetings from legal257.in!
       </p>
       <p className="mt-4 mx-10 md:mx-16 lg:mx-20 text-medium font-normal">
         Prior to proceeding, it is imperative to establish certain terms and
@@ -23,7 +23,7 @@ const Termsconditions = () => {
 
       <div className="mx-10 md:mx-16 lg:mx-20 mt-5">
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
-          LEGAL257.com ONLY PROVIDES A PLATFORM FOR INTERACTION AND CONSULTATION
+          legal257.in ONLY PROVIDES A PLATFORM FOR INTERACTION AND CONSULTATION
         </p>
 
         <p className="text-medium mt-3">
@@ -370,13 +370,13 @@ const Termsconditions = () => {
         </p>
         <p className="text-medium mt-3">
           Users should exercise caution when assessing information from lawyers
-          and other parties. While LEGAL251 mandates adherence to relevant codes
+          and other parties. While legal257 mandates adherence to relevant codes
           of conduct, tracking a lawyer's integrity seems impractical. It is
           crucial for individuals to independently evaluate legal information
           and seek multiple perspectives for a comprehensive understanding.
         </p>
         <p className="text-medium mt-3">
-          LEGAL251 neither endorses nor verifies the accuracy or legitimacy of
+          legal257 neither endorses nor verifies the accuracy or legitimacy of
           statements, proposals, or commitments by lawyers or any other parties,
           whether on or off this site.
         </p>
@@ -405,7 +405,7 @@ const Termsconditions = () => {
         </p>
 
         <p className="text-medium mt-3">
-          The information presented on LEGAL257.com is exclusively intended for
+          The information presented on legal257.in is exclusively intended for
           personal use and is not to be exploited for commercial purposes.
           Prohibited actions include, but are not limited to, lending, selling,
           renting, leasing, sublicensing, decompiling, duplicating, dismantling,
@@ -528,7 +528,7 @@ const Termsconditions = () => {
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">
-          LINKING TO LEGAL257.com
+          LINKING TO legal257.in
         </p>
         <p className="text-medium mt-3">
           Users may share links to LEGAL257's homepage, ensuring no
@@ -544,7 +544,7 @@ const Termsconditions = () => {
         <p className="text-medium mt-3">
           LEGAL257's website may feature promotional and sponsored content.
           Advertisers and sponsors bear the responsibility of ensuring that the
-          content submitted for inclusion on LEGAL257.com is legitimate and
+          content submitted for inclusion on legal257.in is legitimate and
           adheres to applicable regulations. LEGAL257 shall not be held
           accountable for the legality or any inaccuracies in the content
           provided by promoters or sponsors.
@@ -554,7 +554,7 @@ const Termsconditions = () => {
           REGISTRATION
         </p>
         <p className="text-medium mt-3">
-          Certain sections of LEGAL257.com may require registration. By
+          Certain sections of legal257.in may require registration. By
           registering, you commit to furnishing accurate and complete
           information, and it is your responsibility to update LEGAL257 about
           any changes. Each registration pertains to an individual, unless
@@ -624,7 +624,7 @@ const Termsconditions = () => {
           LEGAL257 retains the option to pursue all available legal and
           equitable remedies for breaches of the Agreement. This includes, but
           is not restricted to, the authority to block access from a designated
-          Internet address to LEGAL257.com and its associated features.
+          Internet address to legal257.in and its associated features.
         </p>
 
         <p className=" text-xl md:text-2xl text-[#262566] mt-4  ">

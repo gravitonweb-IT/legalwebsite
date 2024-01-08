@@ -42,7 +42,7 @@ const faqs = [
     id: 3,
     question: "Q3. Where to get legal advice for preparing an Affidavit?",
     answer:
-      "You can take legal advice from an excellent legal consultancy like Legal257. Our experts at Legal251 are the best in knowledge. They will guide you through all the legalities regarding your affidavit.",
+      "You can take legal advice from an excellent legal consultancy like Legal257. Our experts at legal257 are the best in knowledge. They will guide you through all the legalities regarding your affidavit.",
   },
   {
     id: 4,

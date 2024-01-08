@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import qr from '../../assests/images/Qr/qrPayment.jpeg'
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Check = (props) => {
     const {formType} =props;
     const [data, setData] = useState(true);
@@ -104,7 +105,10 @@ const Check = (props) => {
           console.log('Data submitted successfully');
           alert('Data submitted successfully');
           setShowPaymentSuccess(true);
-    
+          toast.success('Form submitted successfully!', {
+            position: toast.POSITION.TOP_RIGHT,
+            autoClose: 5000, // Time in milliseconds the toast should be displayed
+          });
           resetForm();
           // You can add further actions or redirect the user after successful submission.
         } else {
@@ -196,7 +200,7 @@ const Check = (props) => {
          <form className="max-w-md mx-auto">
            <div className="mb-4">
              <label htmlFor="name" className="block text-gray-700 text-sm font-bold mb-2">
-               Name
+               Amount
              </label>
              <input
                type="text"
@@ -442,7 +446,7 @@ const Check = (props) => {
           </div>
         </div>
       )}
-      
+        <ToastContainer />
     </>
   )
 }

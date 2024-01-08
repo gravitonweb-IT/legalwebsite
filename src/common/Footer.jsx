@@ -109,7 +109,7 @@ const Footer = () => {
                 <p className="">User Login</p>
               </Link>
 
-              <Link to="#">
+              <Link to="/login">
                 <p className="mt-2">Partner Login</p>
               </Link>
             </div>

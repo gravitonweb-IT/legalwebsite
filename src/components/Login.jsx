@@ -65,12 +65,12 @@ export default function Login({ setUserType }) {
       window.location.reload();
     } else if (role === "2") {
       localStorage.setItem("login", "staff");
-      navigate("/staff");
+      navigate("/allservies");
       window.location.reload();
     } else if (role === "3") {
       localStorage.setItem("login", "user");
 
-      navigate("/userDashboard");
+      navigate("/allservies");
       window.location.reload();
     }
   }, [role, navigate]);
@@ -92,7 +92,7 @@ export default function Login({ setUserType }) {
 
               <input
                 type="email"
-                className="w-full p-2 border-2 mt-3"
+                className="w-full p-2 border rounded-md border-slate-600 mt-3"
                 placeholder="Email"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
@@ -105,17 +105,23 @@ export default function Login({ setUserType }) {
 
               <input
                 type="password"
-                className="w-full p-2 border-2 mt-3"
+                className="w-full p-2 border rounded-md border-slate-600  mt-3"
                 placeholder="Enter Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
               />
             </p>
+          
 
             {error && <div className="text-red-600 text-sm mb-4">{error}</div>}
+            <div className="mb-6">
+              <Link to="/forget" className="text-blue-400 hover:underline">
+                Forgot Password?
+              </Link>
+            </div>
 
-            <p className="mt-1">
+            <p className="mt-1 gap-4">
               <Link to="">
                 <button
                   onClick={() => {
@@ -126,7 +132,18 @@ export default function Login({ setUserType }) {
                   Login
                 </button>
               </Link>
+              <Link to="/register">
+                <button
+                 
+                  className="bg-[#B70505] ml-4 mt-5 px-10 py-3 text-white text-lg font-semibold rounded-lg hover:cursor-pointer"
+                >
+                 Registration
+                </button>
+              </Link>
             </p>
+           
+            
+          
           </form>
         </div>
 

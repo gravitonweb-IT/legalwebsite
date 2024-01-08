@@ -1,15 +1,17 @@
 import React from "react";
+import UserDashboard from "./UserDashboard";
 
 const Refundpolicy = () => {
   return (
     <>
+    <UserDashboard>
       <h1 className="text-2xl md:text-3xl lg:text-4xl mx-10 md:mx-16 lg:mx-20 font-bold  text-[#262566] mt-20 md:mt-24">
         Refund Policy
       </h1>
 
       <p className="mt-4 mx-10 md:mx-16 lg:mx-20 text-medium font-normal">
         We appreciate your trust in choosing our services or products through
-        our website, www.LEGAL257.com (referred to as "LEGAL257"). Please
+        our website, www.legal257.in (referred to as "LEGAL257"). Please
         carefully review this policy along with the terms and conditions of
         LEGAL257, as they outline important information and guidelines regarding
         your rights and responsibilities as our valued customer in relation to
@@ -58,6 +60,7 @@ const Refundpolicy = () => {
         process diligently, ensuring that your funds are returned to you
         promptly..
       </p>
+      </UserDashboard>
     </>
   );
 };

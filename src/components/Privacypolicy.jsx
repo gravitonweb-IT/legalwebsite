@@ -177,18 +177,18 @@ const Privacypolicy = () => {
           or other technologies, are utilized to enhance our Service. You have
           the option to manage cookie settings through your browser, but
           disabling cookies may impact the functionality of certain features on
-          Legal257.com's Service.
+          legal257.in's Service.
         </p>
 
         <p className="text-medium mt-3">
           In addition to cookies, we may use other technologies, often in
           conjunction with cookies, to improve our Service across various pages
-          on Legal257.com's website
+          on legal257.in's website
         </p>
 
         <p className="text-medium mt-3">
           We generate and record non-identifiable notices of a visitor's page
-          visits on Legal257.com's website. These notices may be processed by us
+          visits on legal257.in's website. These notices may be processed by us
           or our suppliers.
         </p>
 

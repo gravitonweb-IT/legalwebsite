@@ -42,7 +42,7 @@ const faqs = [
     id: 3,
     question: "Q3. Do I need a lawyer to prepare a Power of Attorney?",
     answer:
-      "No, you can prepare it on your own with the Legal251 App. However, you can always ask our experts for assistance, who will guide you through the process.",
+      "No, you can prepare it on your own with the legal257 App. However, you can always ask our experts for assistance, who will guide you through the process.",
   },
   {
     id: 4,

@@ -417,7 +417,7 @@ const ChangeInNameLlp = () => {
           </div>
           <div className="col-span-2 bg-white border-4 border-[#01355D] rounded-full  w-52 h-52 flex items-center justify-center p-8">
             <p className="text-center text-xs font-medium">
-              Obtain approvals and complete the process smoothly with Legal251's
+              Obtain approvals and complete the process smoothly with legal257's
               expert guidance, hassle-free, and compliant with regulations.
             </p>
           </div>
@@ -492,7 +492,7 @@ const ChangeInNameLlp = () => {
             <div className="bg-white border-4 border-[#01355D] rounded-full w-52 h-52 flex items-center justify-center p-8">
               <p className="text-center text-xs font-medium">
                 Obtain approvals and complete the process smoothly with
-                Legal251's expert guidance, hassle-free, and compliant with
+                legal257's expert guidance, hassle-free, and compliant with
                 regulations.
               </p>
             </div>

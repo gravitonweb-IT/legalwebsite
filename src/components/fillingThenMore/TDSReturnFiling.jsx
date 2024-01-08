@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     id: 5,
-    question: "Q5.  What is the role of Legal251 in TDS return filing?",
+    question: "Q5.  What is the role of legal257 in TDS return filing?",
     answer:
       "Legal257's expert team assists in accurate data compilation, form preparation, timely filing, and ensuring compliance throughout the TDS return filing process.",
   },
@@ -479,7 +479,7 @@ const TDSReturnFiling = () => {
               className="bg-[#FBB03B] hover:bg-[#B70505] text-white py-2 px-4 rounded-lg"
               onClick={() =>
                 handleButtonClick(
-                  "Form 24Q\n\nThis form is used to report TDS on salaries. It involves detailing the salaries paid, tax deductions made, and other relevant information. At Legal251, our adept team specializes in handling Form 24Q with accuracy, ensuring your TDS on salaries is managed seamlessly."
+                  "Form 24Q\n\nThis form is used to report TDS on salaries. It involves detailing the salaries paid, tax deductions made, and other relevant information. At legal257, our adept team specializes in handling Form 24Q with accuracy, ensuring your TDS on salaries is managed seamlessly."
                 )
               }
             >
@@ -499,7 +499,7 @@ const TDSReturnFiling = () => {
               className="bg-[#FBB03B] hover:bg-[#B70505] text-white py-2 px-4 rounded-lg"
               onClick={() =>
                 handleButtonClick(
-                  "When dealing with TDS on payments made to non-residents, Form 27Q is essential. This form captures the tax deductions on such payments. Count on Legal251's skilled team to expertly manage Form 27Q, simplifying the process of TDS deduction on non-resident payments."
+                  "When dealing with TDS on payments made to non-residents, Form 27Q is essential. This form captures the tax deductions on such payments. Count on legal257's skilled team to expertly manage Form 27Q, simplifying the process of TDS deduction on non-resident payments."
                 )
               }
             >
