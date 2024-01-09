@@ -92,6 +92,8 @@ import Forget from "./components/Forget";
 import PasswordReset from "./components/PasswordReset";
 import MobileApp from "./components/MobileApp";
 import AllServices from "./components/User/AllServices";
+import BankService from "./components/User/BankService";
+import MobileCalCulater from "./components/User/MobileCalCulater";
 
 function App() {
   // const [showHeader, setShowHeader] = useState(true);
@@ -109,6 +111,8 @@ function App() {
     "/staff",
     "/support",
     "/allservies",
+    '/bank',
+    '/calcul'
   ];
 
   useEffect(() => {
@@ -312,6 +316,10 @@ function App() {
           element={<PasswordReset />}
         />
         <Route path="/allservies" element={<AllServices />} />
+        <Route path="/bank" element={<BankService />} />
+        <Route path="/calcul" element={<MobileCalCulater />} />
+
+
       </Routes>
 
       {showHeaderFooter && (

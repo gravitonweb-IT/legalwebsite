@@ -8,12 +8,30 @@ import { GoSidebarCollapse } from "react-icons/go";
 import { GoSidebarExpand } from "react-icons/go";
 import React, { useEffect, useState } from "react";
 import { WhatsappShareButton } from "react-share";
+import {
+  MdOutlineAppRegistration,
+  MdLaptopChromebook,
+  MdOutlineAddHomeWork,
+  MdHolidayVillage,
+  MdOutlineMoneyOffCsred,
+  MdPublishedWithChanges,
+  MdOutlineFormatIndentIncrease,
+  MdOutlineDriveFileRenameOutline,
+  MdImportantDevices,
+  MdOutlineBugReport,
+  MdAccountBalanceWallet,
+  MdOutlineContactSupport
+  
+} from "react-icons/md";
+import { FaHome ,FaCalculator} from "react-icons/fa";
+import { SiLibreoffice } from "react-icons/si";
 
 import {
   AiOutlineDashboard,
   AiOutlineFundProjectionScreen,
   AiOutlineMoneyCollect,
   AiOutlineProfile,
+ 
   AiOutlineLock,
   AiOutlineLogout,
   AiOutlineCustomerService,
@@ -172,6 +190,7 @@ const UserDashboard = ({ children }) => {
       <div className="lg:grid lg:grid-cols-12 mt-7 lg:gap-4 ">
         {/* Mobile Toggle Button */}
         <div className="lg:hidden col-span-12 mb-10 ">
+          
           <button
             onClick={handleToggleSidebar}
             className="text-gray-700 p-2 focus:outline-none text-5xl fixed top-0 left-1  focus:bg-gray-200"
@@ -190,7 +209,7 @@ const UserDashboard = ({ children }) => {
             <div className="">
               <img src={icon} alt="icon" />
             </div>
-            <div className="mt-3 text-[#446C8A]">
+            <div className="mt-3 ml-3 text-[#446C8A]">
             {filteredData.map((user) => (
               <>
                 <h1>{user.first_name} </h1>
@@ -241,6 +260,19 @@ const UserDashboard = ({ children }) => {
               </li>
               <li
                 className={`flex items-center text-gray-700 hover:text-blue-500 py-2 px-2 border-l-[2px]  hover:border-blue-500 hover:bg-gray-100 rounded cursor-pointer ${
+                  selectedMenuItem === "Bank"
+                    ? " border-l-[2px] border-blue-500 bg-gray-100 font-bold"
+                    : ""
+                }`}
+                onClick={() => setSelectedMenuItem("Bank")}
+              >
+                <Link to="/bank" className="flex items-center">
+                  <MdImportantDevices className="mr-2" />
+                  Bank Services
+                </Link>
+              </li>
+              <li
+                className={`flex items-center text-gray-700 hover:text-blue-500 py-2 px-2 border-l-[2px]  hover:border-blue-500 hover:bg-gray-100 rounded cursor-pointer ${
                   selectedMenuItem === "Dashboard"
                     ? " border-l-[2px] border-blue-500 bg-gray-100 font-bold"
                     : ""
@@ -274,7 +306,7 @@ const UserDashboard = ({ children }) => {
                 onClick={() => setSelectedMenuItem("Fund")}
               >
                 <Link to="/document" className="flex items-center">
-                  <AiOutlineFundProjectionScreen className="mr-2" />
+                  <MdAccountBalanceWallet className="mr-2" />
                   Documents
                 </Link>
               </li>
@@ -333,8 +365,20 @@ const UserDashboard = ({ children }) => {
             </ul>
           </div>
         </div>
-        <div className="col-span-9 ">{children}</div>
+        <div className="col-span-9 ">
+          {/* <img src="https://static.vecteezy.com/system/resources/previews/000/664/771/original/banner-background-with-low-poly-design-vector.jpg" className="w-90%" alt="" /> */}
+          {children}</div>
       </div>
+      <nav className="bg-[#954535] shadow-2xl p-4 md:hidden fixed bottom-0 w-full z-50">
+      <div className="flex justify-between items-center">
+      <Link to='/allservies'>  <button className="text-white font-bold "><FaHome className="text-center ml-2 w-8 h-8" /> Home</button> </Link>
+      <Link to='/bank'>      <button className="text-white"> <SiLibreoffice className="text-center ml-1  w-8 h-8" />Bank</button></Link>
+      <Link to='/calcul'>     <button className="text-white"> <FaCalculator className="text-center ml-2  w-8 h-8" />Utilities</button></Link>
+      <Link to='/support'>     <button className="text-white"> <MdOutlineContactSupport className="text-center ml-2  w-8 h-8" />Support</button></Link>
+      
+       
+      </div>
+    </nav>
     </>
   );
 };

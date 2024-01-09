@@ -1016,7 +1016,7 @@ const Home = () => {
 
       {/* bank service */}
       <div className="mt-24 md:mt-32">
-        <h1 className="text-center text-2xl text-3xl font-bold text-[#B70505]">
+        <h1 className="text-center text-2xl  font-bold text-[#B70505]">
           BANKING SERVICES
         </h1>
       </div>
