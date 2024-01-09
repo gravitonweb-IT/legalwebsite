@@ -94,24 +94,21 @@ import MobileApp from "./components/MobileApp";
 import AllServices from "./components/User/AllServices";
 
 function App() {
-
   // const [showHeader, setShowHeader] = useState(true);
   const location = useLocation();
   const [showHeaderFooter, setShowHeaderFooter] = useState(true);
- 
+
   const hiddenPaths = [
-    '/userDashboard',
-    '/addservices',
-    '/myservices',
-    '/document',
-    '/overview',
-    '/adminDashboard',
-    '/profile',
-    '/staff',
-    '/support',
-    '/allservies',
-    
-   
+    "/userDashboard",
+    "/addservices",
+    "/myservices",
+    "/document",
+    "/overview",
+    "/adminDashboard",
+    "/profile",
+    "/staff",
+    "/support",
+    "/allservies",
   ];
 
   useEffect(() => {
@@ -126,21 +123,16 @@ function App() {
   const isAndroidWebView = () => {
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
     return /wv/.test(userAgent);
-};
+  };
 
   return (
     <>
-
-
-     
       {showHeaderFooter && (
-          <>
-              <Navbar />
-          </>
-            )}
-     
-    
-    
+        <>
+          <Navbar />
+        </>
+      )}
+
       <Routes>
         <Route path="/check" element={<Check />} />
         <Route path="/" element={<Home />} />
@@ -299,7 +291,7 @@ function App() {
         {/* panel Urls */}
         <Route path="/login" element={<Login />} />
         <Route path="/userDashboard" element={<UserDashboard />} />
-       
+
         {/* UserDashboard */}
         <Route path="/addservices" element={<AddServices />} />
         <Route path="/document" element={<Document />} />
@@ -319,24 +311,20 @@ function App() {
           path="/reset/api/password-reset/:id/:token"
           element={<PasswordReset />}
         />
-        <Route path="/allservies" element={<AllServices/>}/>
+        <Route path="/allservies" element={<AllServices />} />
       </Routes>
 
-
-      
-
-{showHeaderFooter && (
+      {showHeaderFooter && (
         // Footer and other components you want to hide/show
         <div>
-        
-        {!isAndroidWebView() &&
-          <>
-            <MobileApp/>
-      <Footer />
-          </>
-          }
-        
-        {/* <Scrollup /> */}
+          {!isAndroidWebView() && (
+            <>
+              <MobileApp />
+              <Footer />
+            </>
+          )}
+
+          {/* <Scrollup /> */}
         </div>
       )}
     </>

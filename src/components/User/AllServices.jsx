@@ -69,12 +69,12 @@ const AllServices = () => {
   return (
     <>
       <UserDashboard>
-        <div className="mt-24 md:mt-32 text-center font-bold text-2xl md:text-4xl mx-5 sm:mx-0">
+        <div className="mt-20 md:mt-8 text-center font-bold text-2xl md:text-4xl mx-5 sm:mx-0">
           <h1>
             <span> Unified Platform:</span> Access 257+ Legal Solutions
           </h1>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-5 mx-5 md:mx-20 lg:mx-28 mt-10 md:mt-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-5 mx-5 md:mx-20 lg:mx-28 mt-10 md:mt-8">
           <Link to="/addservices">
             <div className="bg-white shadow-2xl rounded-[40px] p-5">
               <div className="flex justify-center">
