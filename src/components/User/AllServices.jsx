@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import UserDashboard from "../UserDashboard";
 import Service1 from "../../assests/images/HomepageImages/accounting.svg";
 import Service2 from "../../assests/images/HomepageImages/affidavit.svg";
@@ -54,8 +54,14 @@ import { TbReceiptTax } from "react-icons/tb";
 import { RiGitRepositoryFill } from "react-icons/ri";
 import { PiTreeStructureBold, PiTrafficConeBold } from "react-icons/pi";
 
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const AllServices = () => {
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (localStorage.getItem("userData") == null) {
+      navigate("/login");
+    }
+  }, []);
   return (
     <>
       <UserDashboard>
@@ -66,11 +72,11 @@ const AllServices = () => {
         </div>
         <div className="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-5 mx-5 md:mx-20 lg:mx-28 mt-10 md:mt-8">
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                <img src={Service21} className="w-[50px] h-auto"></img>
+                <img src={Service21} className="w-[30px]  md:w-[50px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-xs   font-semibold text-center mt-3">
                 Partner
                 <br />
                 Ship
@@ -79,11 +85,11 @@ const AllServices = () => {
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                <img src={Service1} className="w-[50px] h-auto"></img>
+                <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 NDA <br />
                 Drafting
               </p>
@@ -92,22 +98,22 @@ const AllServices = () => {
 
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
                 <img src={Service2} className="w-[75px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-4">
+              <p className="text-xs md:text-md font-semibold text-center mt-4">
                 Affidavit
               </p>
             </div>
           </Link>
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
                 <img src={Service3} className="w-[55px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Application
                 <br />
                 Form
@@ -116,11 +122,11 @@ const AllServices = () => {
           </Link>
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
                 <img src={Service4} className="w-[55px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Dissolution
                 <br />
                 of Deeds
@@ -129,11 +135,11 @@ const AllServices = () => {
           </Link>
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                <img src={Service5} className="w-[50px] h-auto"></img>
+                <img src={Service5} className="w-[30px] md:w-[50px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Food
                 <br />
                 Licence
@@ -142,11 +148,11 @@ const AllServices = () => {
           </Link>
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
                 <img src={Service6} className="w-[40px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 GST Return
                 <br />
                 Filing
@@ -155,12 +161,12 @@ const AllServices = () => {
           </Link>
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                <img src={Service7} className="w-[50px] h-auto"></img>
+                <img src={Service7} className="w-[30px] md:w-[50px] h-auto"></img>
               </div>
 
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 GST
                 <br />
                 Registration
@@ -174,22 +180,22 @@ const AllServices = () => {
 
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
                 <img src={Service8} className="w-[80px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-4">
+              <p className="text-xs md:text-md font-semibold text-center mt-4">
                 ICEGATE <br /> Registration
               </p>
             </div>
           </Link>
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
                 <img src={Service9} className="w-[55px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Import Export
                 <br />
                 Licence
@@ -199,11 +205,11 @@ const AllServices = () => {
 
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
                 <img src={Service10} className="w-[55px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Income Tax
                 <br />
                 Return Filing
@@ -213,11 +219,11 @@ const AllServices = () => {
 
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                <img src={Service11} className="w-[50px] h-auto"></img>
+                <img src={Service11} className="w-[30px] md:w-[50px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Legal
                 <br />
                 Drafting
@@ -227,11 +233,11 @@ const AllServices = () => {
 
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
                 <img src={Service12} className="w-[40px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 MSME
                 <br />
                 Registration
@@ -241,11 +247,11 @@ const AllServices = () => {
 
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
                 <img src={Service13} className="w-[70px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">NOC</p>
+              <p className="text-xs md:text-md font-semibold text-center mt-3">NOC</p>
             </div>
           </Link>
 
@@ -253,11 +259,11 @@ const AllServices = () => {
 
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                <img src={Service14} className="w-[50px] h-auto"></img>
+                <img src={Service14} className="w-[30px] md:w-[50px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Partnership
                 <br />
                 Deed
@@ -267,11 +273,11 @@ const AllServices = () => {
 
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                <img src={Service15} className="w-[50px] h-auto"></img>
+                <img src={Service15} className="w-[30px] md:w-[50px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 PF
                 <br />
                 Registration
@@ -286,11 +292,11 @@ const AllServices = () => {
 
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                <img src={Service16} className="w-[50px] h-auto"></img>
+                <img src={Service16} className="w-[30px] md:w-[50px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Power of
                 <br />
                 Attorney
@@ -300,11 +306,11 @@ const AllServices = () => {
 
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                <img src={Service17} className="w-[50px] h-auto"></img>
+                <img src={Service17} className="w-[30px] md:w-[50px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Professional
                 <br />
                 Tax Registration
@@ -314,11 +320,11 @@ const AllServices = () => {
 
           <Link to="/addservices">
             {" "}
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                <img src={Service18} className="w-[50px] h-auto"></img>
+                <img src={Service18} className="w-[30px] md:w-[50px] h-auto"></img>
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Society
                 <br />
                 Registration
@@ -326,59 +332,59 @@ const AllServices = () => {
             </div>
           </Link>
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <MdOutlineAppRegistration className="w-16 h-16 text-gray-500" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <MdOutlineAppRegistration className="w-[40px] md:w-[50px] h-auto text-gray-700" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Private-limited-company-registration
               </p>
             </div>
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <MdLaptopChromebook className="w-16 h-16 text-red-500" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <MdLaptopChromebook className="w-[40px] md:w-[50px] h-auto text-red-500" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 opc-one-person-company-registration
               </p>
             </div>
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <BsFillSignIntersectionYFill className="w-16 h-16 text-blue-700" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <BsFillSignIntersectionYFill className="w-[40px] md:w-[50px] h-auto text-blue-700" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 section-8-company-registration
               </p>
             </div>
           </Link>
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <GrCompliance className="w-16 h-16 text-" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <GrCompliance className="w-[40px] md:w-[50px] h-auto text-" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 llp-company-registration
               </p>
             </div>
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <GiCalendarHalfYear className="w-16 h-16 text-yellow-700" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <GiCalendarHalfYear className="w-[40px] md:w-[50px] h-auto text-yellow-700" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 annual-compliance-llp
               </p>
             </div>
@@ -393,12 +399,12 @@ const AllServices = () => {
         
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <BsFillPersonVcardFill className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <BsFillPersonVcardFill className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 annual-compliance-company
               </p>
             </div>
@@ -406,12 +412,12 @@ const AllServices = () => {
 
           
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <GoReport className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <GoReport className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Private-limited-company-registration
               </p>
             </div>
@@ -420,70 +426,70 @@ const AllServices = () => {
           {/* new */}
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <MdRealEstateAgent className="w-16 h-16 text-green-700" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <MdRealEstateAgent className="w-[40px] md:w-[50px] h-auto text-green-700" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Address-amendment-within-state-LLP
               </p>
             </div>
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <MdOutlineAddHomeWork className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <MdOutlineAddHomeWork className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Address-amendment-within-state-company
               </p>
             </div>
           </Link>
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <SiBandsintown className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <SiBandsintown className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Address-amendment-out-state-llp
               </p>
             </div>
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <MdHolidayVillage className="w-16 h-16 text-yellow-700" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <MdHolidayVillage className="w-[40px] md:w-[50px] h-auto text-yellow-700" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Address-amendment-out-state-company
               </p>
             </div>
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <MdOutlineMoneyOffCsred className="w-16 h-16 text-violet-700" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <MdOutlineMoneyOffCsred className="w-[40px] md:w-[50px] h-auto text-violet-700" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 increase-capital-llp
               </p>
             </div>
           </Link>
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <MdPublishedWithChanges className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <MdPublishedWithChanges className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Change-in-name-llp
               </p>
             </div>
@@ -494,35 +500,35 @@ const AllServices = () => {
           <div className="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-5 mx-5 md:mx-20 lg:mx-28 mt-10 md:mt-16">
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <MdOutlineFormatIndentIncrease className="w-16 h-16 text-red-700" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <MdOutlineFormatIndentIncrease className="w-[40px] md:w-[50px] h-auto text-red-700" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Increase-capital-company
               </p>
             </div>
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <MdOutlineDriveFileRenameOutline className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <MdOutlineDriveFileRenameOutline className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Change-in-name-company
               </p>
             </div>
           </Link>
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <MdImportantDevices className="w-16 h-16 text-teal-700" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <MdImportantDevices className="w-[40px] md:w-[50px] h-auto text-teal-700" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Import-export-license
               </p>
             </div>
@@ -531,59 +537,59 @@ const AllServices = () => {
           {/* he;llo */}
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <TbReceiptTax className="w-16 h-16 text-yellow-700" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <TbReceiptTax className="w-[40px] md:w-[50px] h-auto text-yellow-700" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 professional-tax-registration
               </p>
             </div>
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <FaToriiGate className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <FaToriiGate className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Icegate-registration
               </p>
             </div>
           </Link>
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <FaCashRegister className="w-16 h-16 text-teal-800" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <FaCashRegister className="w-[40px] md:w-[50px] h-auto text-teal-800" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 msme-udhyam-registration
               </p>
             </div>
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <MdOutlineBugReport className="w-16 h-16 text-green-700" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <MdOutlineBugReport className="w-[40px] md:w-[50px] h-auto text-green-700" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 society-registration
               </p>
             </div>
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <MdAccountBalanceWallet className="w-16 h-16 text-zinc-800" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <MdAccountBalanceWallet className="w-[40px] md:w-[50px] h-auto text-zinc-800" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Gumasta-licence
               </p>
             </div>
@@ -594,36 +600,36 @@ const AllServices = () => {
           <div className="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-5 mx-5 md:mx-20 lg:mx-28 mt-10 md:mt-16">
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <GiTransportationRings className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <GiTransportationRings className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Project Report Preparation
               </p>
             </div>
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <GiCalendarHalfYear className="w-16 h-16 text-yellow-700" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <GiCalendarHalfYear className="w-[40px] md:w-[50px] h-auto text-yellow-700" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 trademark-registration
               </p>
             </div>
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <BsFillPersonVcardFill className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <BsFillPersonVcardFill className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Esic-registration
               </p>
             </div>
@@ -631,61 +637,25 @@ const AllServices = () => {
 
          
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <RiGitRepositoryFill className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <RiGitRepositoryFill className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Balance Sheet Preparation & P&L
               </p>
             </div>
           </Link>
 
           {/* again */}
-
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <SiTrakt className="w-16 h-16 text-yellow-700" />
+                <img src={Service2} className="w-[40px] md:w-[50px] h-auto"></img>
+                {/* <GiCalendarHalfYear className="w-[40px] md:w-[50px] h-auto text-yellow-700" /> */}
               </div>
-              <p className="text-md font-semibold text-center mt-3">
-                ITR Filing
-              </p>
-            </div>
-          </Link>
-
-          <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
-              <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <BsFillPersonVcardFill className="w-16 h-16" />
-              </div>
-              <p className="text-md font-semibold text-center mt-3">
-                TDS Return Filing
-              </p>
-            </div>
-          </Link>
-          <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
-              <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <PiTreeStructureBold className="w-16 h-16" />
-              </div>
-              <p className="text-md font-semibold text-center mt-3">
-                Online Accounting
-              </p>
-            </div>
-          </Link>
-
-          <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
-              <div className="flex justify-center">
-                <img src={Service2} className="w-[75px] h-auto"></img>
-                {/* <GiCalendarHalfYear className="w-16 h-16 text-yellow-700" /> */}
-              </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Legal Notice Preparation
               </p>
             </div>
@@ -694,23 +664,60 @@ const AllServices = () => {
          
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <GiTripleBeak className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <BsFillPersonVcardFill className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
+                TDS Return Filing
+              </p>
+            </div>
+          </Link>
+          <Link to="/addservices">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
+              <div className="flex justify-center">
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <PiTreeStructureBold className="w-[40px] md:w-[50px] h-auto" />
+              </div>
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
+                Online Accounting
+              </p>
+            </div>
+          </Link>
+
+          <Link to="/addservices">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
+              <div className="flex justify-center">
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <SiTrakt className="w-[40px] md:w-[50px] h-auto text-yellow-700" />
+              </div>
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
+                ITR Filing
+              </p>
+            </div>
+          </Link>
+
+         
+
+          <Link to="/addservices">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
+              <div className="flex justify-center">
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <GiTripleBeak className="w-[40px] md:w-[50px] h-auto" />
+              </div>
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Rent Agreement
               </p>
             </div>
           </Link>
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <GoReport className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <GoReport className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Legal Advice
               </p>
             </div>
@@ -719,35 +726,35 @@ const AllServices = () => {
           
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                <img src={Service11} className="w-[50px] h-auto"></img>
-                {/* <GiCalendarHalfYear className="w-16 h-16 text-yellow-700" /> */}
+                <img src={Service11} className="w-[30px] md:w-[50px] h-auto"></img>
+                {/* <GiCalendarHalfYear className="w-[40px] md:w-[50px] h-auto text-yellow-700" /> */}
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Terms and Conditions Drafting
               </p>
             </div>
           </Link>
 
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <PiTrafficConeBold className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <PiTrafficConeBold className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Legal Notice Reply
               </p>
             </div>
           </Link>
           <Link to="/addservices">
-            <div className="bg-white shadow-2xl rounded-[40px] p-5">
+            <div className="bg-white shadow-xl border border-gray-200 rounded-[20px] p-5">
               <div className="flex justify-center">
-                {/* <img src={Service1} className="w-[50px] h-auto"></img> */}
-                <SiGnuprivacyguard className="w-16 h-16" />
+                {/* <img src={Service1} className="w-[30px] md:w-[50px] h-auto"></img> */}
+                <SiGnuprivacyguard className="w-[40px] md:w-[50px] h-auto" />
               </div>
-              <p className="text-md font-semibold text-center mt-3">
+              <p className="text-xs md:text-md font-semibold text-center mt-3">
                 Privacy Policy Drafting
               </p>
             </div>

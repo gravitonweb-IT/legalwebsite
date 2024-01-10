@@ -48,7 +48,7 @@ import { GiTrade } from "react-icons/gi";
 // import "./user.css";
 const UserDashboard = ({ children }) => {
   const navigate = useNavigate();
-
+ 
   const [base64Image, setBase64Image] = useState(null);
 
   const [profile, setProfile] = useState([]);
@@ -95,72 +95,7 @@ const UserDashboard = ({ children }) => {
   }, [navigate]);
   const [dataValue, setDataValue] = useState([]);
 
-  useEffect(() => {
-    var formdata = new FormData();
-    formdata.append("userEmail", localStorage.getItem("userData"));
 
-    var requestOptions = {
-      method: "POST",
-      body: formdata,
-      redirect: "follow",
-    };
-
-    fetch("rolebased/UserAmountStatus/", requestOptions)
-      .then((response) => response.json())
-      .then((result) => {
-        let totalProfit = 0;
-        let totalLoss = 0;
-        let totalPrice = 0;
-
-        // Loop through the data array
-        result.forEach((item) => {
-          const { profit, loss, price } = item.fields;
-
-          // Add the profit, loss, and price values to the corresponding totals
-          totalProfit += Number(profit);
-          totalLoss += Number(loss);
-          totalPrice += Number(price);
-        });
-
-        // Create an object to store the total values
-        const result1 = {
-          profit: totalProfit,
-          loss: totalLoss,
-          price: totalPrice,
-        };
-
-        // debugger;
-
-        setDataValue(result1);
-      })
-      .catch((error) => console.log("error", error));
-  }, []);
-  useEffect(() => {
-    var formdata = new FormData();
-
-    formdata.append("userEmail", localStorage.getItem("userData"));
-
-    // debugger;
-
-    var requestOptions = {
-      method: "POST",
-
-      body: formdata,
-
-      redirect: "follow",
-    };
-
-    fetch("rolebased/uploadProfile/", requestOptions)
-      .then((response) => response.json())
-
-      .then((result) => {
-        setProfile(result);
-      })
-
-      .catch((error) => console.log("error", error));
-
-    console.log(profile);
-  }, []);
 
   const [users, setUsers] = useState([]);
   const userRole = localStorage.getItem("userData");
@@ -369,7 +304,7 @@ const UserDashboard = ({ children }) => {
           {/* <img src="https://static.vecteezy.com/system/resources/previews/000/664/771/original/banner-background-with-low-poly-design-vector.jpg" className="w-90%" alt="" /> */}
           {children}</div>
       </div>
-      <nav className="bg-[#954535] shadow-2xl p-4 md:hidden fixed bottom-0 w-full z-50">
+      <nav className="bg-[#954535] shadow-2xl p-2 md:hidden fixed bottom-0 w-full z-50">
       <div className="flex justify-between items-center">
       <Link to='/allservies'>  <button className="text-white font-bold "><FaHome className="text-center ml-2 w-8 h-8" /> Home</button> </Link>
       <Link to='/bank'>      <button className="text-white"> <SiLibreoffice className="text-center ml-1  w-8 h-8" />Bank</button></Link>

@@ -11,6 +11,7 @@ import {
 } from "@fortawesome/free-regular-svg-icons";
 import Chart from "chart.js/auto";
 import UserDashboard from "../UserDashboard";
+import { useNavigate } from "react-router-dom";
 
 const MobileCalCulater = () => {
 
@@ -133,6 +134,12 @@ const MobileCalCulater = () => {
     const toggleFAQ = (id) => {
       setOpenId((prevId) => (prevId === id ? null : id));
     };
+    const navigate = useNavigate();
+  useEffect(() => {
+    if (localStorage.getItem("userData") == null) {
+      navigate("/login");
+    }
+  }, []);
   return (
     <>
     <UserDashboard>

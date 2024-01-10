@@ -94,6 +94,9 @@ import MobileApp from "./components/MobileApp";
 import AllServices from "./components/User/AllServices";
 import BankService from "./components/User/BankService";
 import MobileCalCulater from "./components/User/MobileCalCulater";
+import LoanForm from "./components/User/LoanForm";
+import PersonalLoanForm from "./components/User/PersonalLoanForm";
+import BusinessLoan from "./components/User/BusinessLoan";
 
 function App() {
   // const [showHeader, setShowHeader] = useState(true);
@@ -112,7 +115,10 @@ function App() {
     "/support",
     "/allservies",
     '/bank',
-    '/calcul'
+    '/calcul',
+    '/loanForm',
+    '/BusinessLoan',
+    '/PersonalLoan'
   ];
 
   useEffect(() => {
@@ -318,6 +324,11 @@ function App() {
         <Route path="/allservies" element={<AllServices />} />
         <Route path="/bank" element={<BankService />} />
         <Route path="/calcul" element={<MobileCalCulater />} />
+        <Route path="/loanForm" element={<LoanForm/>}/>
+        <Route path="/PersonalLoan" element={<PersonalLoanForm/>}/>
+        <Route path="/BusinessLoan" element={<BusinessLoan/>}/>
+
+
 
 
       </Routes>

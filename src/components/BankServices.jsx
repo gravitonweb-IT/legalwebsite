@@ -31,8 +31,10 @@ function BankServices() {
   return (
     <>
     <div className="mt-24 md:mt-32">
-    <h1 className='text-center text-2xl text-3xl font-bold text-[#B70505]'>BANKING SERVICES</h1>
+    <h1 className='text-center text-2xl font-bold text-[#B70505]'>BANKING SERVICES</h1>
     </div>
+    
+
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 mx-5 md:mx-20 mt-10">
         <div className="bg-white p-4 rounded shadow mb-3">
           <img src={zero} alt="image" className="w-20 h-25 mx-auto" />
