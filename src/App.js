@@ -97,6 +97,15 @@ import MobileCalCulater from "./components/User/MobileCalCulater";
 import LoanForm from "./components/User/LoanForm";
 import PersonalLoanForm from "./components/User/PersonalLoanForm";
 import BusinessLoan from "./components/User/BusinessLoan";
+import CarLoan from "./components/User/CarLoan";
+import CreditCard from "./components/User/CreditCard";
+import GoldLoan from "./components/User/GoldLoan";
+import LoanAgainstProPerty from "./components/User/LoanAgainstProPerty";
+import StashFinCreditCard from "./components/User/StashFinCreditCard";
+import StatebankCreditCard from "./components/User/StatebankCreditCard";
+import AUBankCreditCard from "./components/User/AUBankCreditCard";
+import InduslndCreditCard from "./components/User/InduslndCreditCard";
+import AgentServices from "./components/agent/AgentServices";
 
 function App() {
   // const [showHeader, setShowHeader] = useState(true);
@@ -114,11 +123,19 @@ function App() {
     "/staff",
     "/support",
     "/allservies",
-    '/bank',
-    '/calcul',
-    '/loanForm',
-    '/BusinessLoan',
-    '/PersonalLoan'
+    "/bank",
+    "/calcul",
+    "/loanForm",
+    "/BusinessLoan",
+    "/PersonalLoan",
+    "/carloan",
+    "/creditCard",
+    "/goldLoan",
+    "/loanAgainstProperty",
+    "/stashfincreditcard",
+    "/statebankcreditcard",
+    "/aubankcreditcard",
+    "/induslndbankcreditcard",
   ];
 
   useEffect(() => {
@@ -324,13 +341,24 @@ function App() {
         <Route path="/allservies" element={<AllServices />} />
         <Route path="/bank" element={<BankService />} />
         <Route path="/calcul" element={<MobileCalCulater />} />
-        <Route path="/loanForm" element={<LoanForm/>}/>
-        <Route path="/PersonalLoan" element={<PersonalLoanForm/>}/>
-        <Route path="/BusinessLoan" element={<BusinessLoan/>}/>
+        <Route path="/loanForm" element={<LoanForm />} />
+        <Route path="/PersonalLoan" element={<PersonalLoanForm />} />
+        <Route path="/BusinessLoan" element={<BusinessLoan />} />
+        <Route path="/agentservices" element={<AgentServices/>}/>
 
+        {/* 12 jaun */}
 
-
-
+        <Route path="/carloan" element={<CarLoan />} />
+        <Route path="/creditCard" element={<CreditCard />} />
+        <Route path="/goldLoan" element={<GoldLoan />} />
+        <Route path="/loanAgainstProperty" element={<LoanAgainstProPerty />} />
+        <Route path="/stashfincreditcard" element={<StashFinCreditCard />} />
+        <Route path="/statebankcreditcard" element={<StatebankCreditCard />} />
+        <Route path="/aubankcreditcard" element={<AUBankCreditCard />} />
+        <Route
+          path="/induslndbankcreditcard"
+          element={<InduslndCreditCard />}
+        />
       </Routes>
 
       {showHeaderFooter && (

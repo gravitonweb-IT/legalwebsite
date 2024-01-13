@@ -55,7 +55,7 @@ const Support = () => {
       </div>
       <h1 className="text-3xl text-center font-bold mb-4 mt-10">Ask Your Inquiry </h1>
 
-      <form onSubmit={handleSubmit} className="max-w-md  mx-auto">
+      <form onSubmit={handleSubmit} className="max-w-md mb-20 mx-auto">
         <div className="mb-4">
           <label htmlFor="queryType" className="block text-sm font-medium text-gray-600">
             Choose your query type

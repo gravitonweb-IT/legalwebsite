@@ -76,6 +76,7 @@ function BankService() {
               </p>
             </div>
           </Link>
+          <Link to='/goldLoan' >
           <div className="bg-white p-4 rounded shadow mb-3">
             {/* <img src={zero} alt="image" className="w-10 h-10 md:w-25 md:h-25 mx-auto" /> */}
             <GiGoldMine className="w-10 h-10 md:w-25 md:h-25 mx-auto text-[#8A4117]" />
@@ -83,6 +84,7 @@ function BankService() {
               Gold Loan
             </p>
           </div>
+          </Link>
        <Link to='/BusinessLoan'> 
          <div className="bg-white p-4 rounded shadow mb-3">
             {/* <img src={zero} alt="image" className="w-10 h-10 md:w-25 md:h-25 mx-auto" /> */}
@@ -92,6 +94,7 @@ function BankService() {
             </p>
           </div>
           </Link>
+          <Link to='/loanAgainstProperty' >
           <div className="bg-white p-4 rounded shadow mb-3">
             {/* <img src={zero} alt="image" className="w-10 h-10 md:w-25 md:h-25 mx-auto" /> */}
             <MdHomeWork className="w-10 h-10 md:w-25 md:h-25 mx-auto text-[#8A4117]" />
@@ -99,6 +102,8 @@ function BankService() {
               Loan Against Property
             </p>
           </div>
+      </Link>
+          <Link to='/carloan' >
           <div className="bg-white p-4 rounded shadow mb-3">
             {/* <img src={zero} alt="image" className="w-10 h-10 md:w-25 md:h-25 mx-auto" /> */}
             <MdDirectionsCar className="w-10 h-10 md:w-25 md:h-25 mx-auto text-[#8A4117]" />
@@ -106,6 +111,7 @@ function BankService() {
               Car Loan
             </p>
           </div>
+          </Link>
         </div>
         <div className="border-b-2 border-[#8A4117] mx-5 md:mx-20 lg:mx-28 py-5 mb-5"></div>
 
@@ -115,13 +121,16 @@ function BankService() {
           Credit Card
         </h1>
         <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mx-5 md:mx-20 mt-5">
-          <div className="bg-white p-4 rounded shadow mb-3">
+        <Link to='/stashfincreditcard' > 
+         <div className="bg-white p-4 rounded shadow mb-3">
             {/* <img src={zero} alt="image" className="w-10 h-10 md:w-25 md:h-25 mx-auto" /> */}
             <FaCreditCard className="w-10 h-10 md:w-25 md:h-25 mx-auto text-sky-500" />
             <p className="mt-5 text-center text-xs md:text-md font-700">
               Stashfin Bank Credit Card
             </p>
           </div>
+          </Link>
+          <Link to='/statebankcreditcard'>
           <div className="bg-white p-4 rounded shadow mb-3">
             {/* <img src={zero} alt="image" className="w-10 h-10 md:w-25 md:h-25 mx-auto" /> */}
             <FaCreditCard className="w-10 h-10 md:w-25 md:h-25 mx-auto text-sky-500" />
@@ -130,6 +139,8 @@ function BankService() {
               State BAnk oF India Credit card
             </p>
           </div>
+          </Link>
+          <Link to='/aubankcreditcard'>
           <div className="bg-white p-4 rounded shadow mb-3">
             {/* <img src={zero} alt="image" className="w-10 h-10 md:w-25 md:h-25 mx-auto" /> */}
             <FaCreditCard className="w-10 h-10 md:w-25 md:h-25 mx-auto text-sky-500" />
@@ -138,6 +149,8 @@ function BankService() {
               AU Bank Credit Card
             </p>
           </div>
+          </Link>
+          <Link to='/induslndbankcreditcard' >
           <div className="bg-white p-4 rounded shadow mb-3">
             {/* <img src={zero} alt="image" className="w-10 h-10 md:w-25 md:h-25 mx-auto" /> */}
             <FaCreditCard className="w-10 h-10 md:w-25 md:h-25 mx-auto text-sky-500" />
@@ -146,6 +159,7 @@ function BankService() {
               Induslnd Bank Credit Card
             </p>
           </div>
+          </Link>
         </div>
 
         <div className="border-b-2 border-[#8A4117] mx-5 md:mx-20 lg:mx-28 py-5 mb-5"></div>

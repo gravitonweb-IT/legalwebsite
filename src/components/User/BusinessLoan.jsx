@@ -271,15 +271,23 @@ fetch(servieUrl.url + "api/business-loans/", requestOptions)
                 </div>
 
                 {/* Submit Button */}
-                <div className="flex items-center justify-between">
-                  <button
-                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                    type="submit"
-                  >
-                    Submit
-                  </button>
-                </div>
+                <div className="mt-6 text-center">
+          <button
+            type="submit"
+            className="px-4 py-2 bg-green-500 hover:text-white  text-white rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
+          >
+            Submit
+          </button>
+        </div>
               </form>
+              <div className="mt-8 text-center pb-20 text-gray-600">
+        <p className="text-lg font-semibold mb-2">Still Confused, Need Expert Help?</p>
+        <p className="text-lg">
+          Get Consultation For Free
+          <br />
+          Call Us: +91-9435266783 / +91-8133997722
+        </p>
+      </div>
             </div>
           </div>
         </div>

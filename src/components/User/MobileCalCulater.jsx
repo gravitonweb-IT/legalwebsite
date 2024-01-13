@@ -143,7 +143,7 @@ const MobileCalCulater = () => {
   return (
     <>
     <UserDashboard>
-     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 bg-gray-100 rounded-xl p-3 gap-10 mx-5 md:mx-20  lg:mx-28   mt-10 md:mt-14 shadow-xl">
+     <div className="grid grid-cols-1 mb-20 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 bg-gray-100 rounded-xl p-3 gap-10 mx-5 md:mx-20  lg:mx-28   mt-10 md:mt-14 shadow-xl">
           <div>
             <div className="p-4">
               <div className="mb-4">
