@@ -285,26 +285,31 @@ const AddServices = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch(
-        "https://legalwebsite.pythonanywhere.com/api/all-pages-api/",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            ...formData,
-            AgentIdOrUser:formData.AgentIdOrUser,
-          }),
-        }
-      );
-
-      if (response.ok) {
-        console.log("Data submitted successfully");
-        setPdf(true);
-      } else {
-        console.error("Error submitting data:", response.statusText);
-      }
+      var myHeaders = new Headers();
+      myHeaders.append("Content-Type", "application/json");
+      
+      var raw = JSON.stringify({
+        "firstName": formData.firstName,
+        "email":  formData.email,
+        "contactNo":  formData.contactNo,
+        "city":  formData.city,
+        "type":  formData.type,
+        "agentIdOrUser":  userRole
+      });
+      
+      var requestOptions = {
+        method: 'POST',
+        headers: myHeaders,
+        body: raw,
+        redirect: 'follow'
+      };
+      
+      fetch("https://legalwebsite.pythonanywhere.com/api/all-pages-api/", requestOptions)
+        .then(response => response.text())
+        .then(result => {console.log(result)
+          setPdf(true);
+         } )
+        .catch(error => console.log('error', error));
     } catch (error) {
       console.error("Error submitting data:", error.message);
     }
@@ -446,7 +451,7 @@ const AddServices = () => {
       <>
         <UserDashboard>
           {qrcode ? (
-            <div className="container mx-auto mt-10 rounded-sm max-w-2xl">
+            <div className="container mx-auto mt-10 rounded-sm mb-25 max-w-2xl">
               <h1 className="text-2xl text-center font-bold text-red-700 pb-4">
                 Pay {` ${selectedQuery.match(/\d+/)}`}
               </h1>

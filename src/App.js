@@ -106,6 +106,7 @@ import StatebankCreditCard from "./components/User/StatebankCreditCard";
 import AUBankCreditCard from "./components/User/AUBankCreditCard";
 import InduslndCreditCard from "./components/User/InduslndCreditCard";
 import AgentServices from "./components/agent/AgentServices";
+import CommonControl from "./components/User/CommonControl";
 
 function App() {
   // const [showHeader, setShowHeader] = useState(true);
@@ -136,6 +137,7 @@ function App() {
     "/statebankcreditcard",
     "/aubankcreditcard",
     "/induslndbankcreditcard",
+    '/addMore'
   ];
 
   useEffect(() => {
@@ -345,6 +347,8 @@ function App() {
         <Route path="/PersonalLoan" element={<PersonalLoanForm />} />
         <Route path="/BusinessLoan" element={<BusinessLoan />} />
         <Route path="/agentservices" element={<AgentServices/>}/>
+        <Route path="/addMore" element={<CommonControl/>}/>
+
 
         {/* 12 jaun */}
 
